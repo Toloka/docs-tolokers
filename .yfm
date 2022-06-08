@@ -1,0 +1,33 @@
+langs: [en,ru]
+allowHTML: true
+breaks: false
+
+docs-viewer:
+  metrika: 87706830
+  project-name: toloka
+  langs: [en,ru]
+  favicon-src: https://avatars.mds.yandex.net/get-lpc/1520633/6d7eb5a1-a693-4f8a-bb21-e6f5daabc3d3/orig
+  github-url-prefix: https://github.com/Toloka/docs-tolokers/blob/main/
+  no-index: true
+  feedback:
+    notifications:
+      interval: daily
+      receivers:
+        - axvnuchkov
+  crawler:
+    notifications:
+      interval: weekly
+      receivers:
+        - axvnuchkov
+
+  show-toc-header: true
+  logo-options:
+    title: Toloka
+    url: /docs
+    src: https://avatars.mds.yandex.net/get-lpc/1364677/8e11e5ce-d6c2-4779-aed2-0ebeb41002dd/orig
+    src-dark: https://raw.githubusercontent.com/Toloka/docs/main/_images/logo-dark.svg
+    src-mobile: https://avatars.mds.yandex.net/get-lpc/1364677/8e11e5ce-d6c2-4779-aed2-0ebeb41002dd/orig
+    src-mobile-dark: https://raw.githubusercontent.com/Toloka/docs/main/_images/logo-dark.svg
+    src-preview: https://storage.yandexcloud.net/docs-external/toloka/assets/orig.svg
+    img-has:
+      offset: true
