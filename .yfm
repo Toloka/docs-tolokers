@@ -3,10 +3,10 @@ allowHTML: true
 breaks: false
 
 docs-viewer:
-  metrika: 87706830
+  metrika: 32649185
   project-name: toloka
   langs: [en,ru]
-  favicon-src: https://avatars.mds.yandex.net/get-lpc/1520633/6d7eb5a1-a693-4f8a-bb21-e6f5daabc3d3/orig
+  favicon-src: https://avatars.mds.yandex.net/get-lpc/1674605/a26d3762-b519-4e39-ae7d-dc76692ec1b0/orig
   github-url-prefix: https://github.com/Toloka/docs-tolokers/blob/main/
   no-index: true
   feedback:
