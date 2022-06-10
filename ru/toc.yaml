@@ -2,14 +2,14 @@ title: Толока для исполнителей
 href: index.md
 items:
   - name: Только для Android
-    href: android/index.md
+    href: android.md
     when: product == 'android'
   - name: Только для iOS
-    href: ios/index.md
+    href: ios.md
     when: product == 'ios'
   - name: Только для веба
-    href: web/index.md
+    href: web.md
     when: product == 'web'
   - name: Для всех
-    href: common/index.md
+    href: common.md
 base: ru

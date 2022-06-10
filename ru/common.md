@@ -1,6 +1,6 @@
 # Общее
 
-common/index.md
+common.md
 
 {% if  product == 'ios' %}
 

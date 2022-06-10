@@ -1,3 +1,3 @@
 # Для iOS
 
-ios/index.md
+ios.md

@@ -1,3 +1,3 @@
 # Для Андроида
 
-android/index.md
+android.md

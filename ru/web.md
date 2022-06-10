@@ -1,3 +1,3 @@
 # Для веба
 
-web/index.md
+web.md
