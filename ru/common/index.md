@@ -1,0 +1,3 @@
+# Общее
+
+common/index.md
