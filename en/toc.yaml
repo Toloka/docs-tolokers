@@ -12,4 +12,7 @@ items:
     when: product == 'web'
   - name: Commmon
     href: common.md
+  - name: Mobile only
+    href: mobile.md
+    when: product == 'ios' or product == 'android'
 base: ru

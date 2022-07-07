@@ -15,3 +15,9 @@ common.md
 Текст только если product == 'web'
 
 {% endif %}
+
+{% if product == 'android' or product == 'ios' %}
+
+Текст только для мобилок product == 'android' or product == 'ios' 
+
+{% endif %}

@@ -15,3 +15,9 @@ Show this text if product == 'anroid'
 Show this text if product == 'web'
 
 {% endif %}
+
+{% if product == 'android' or product == 'ios' %}
+
+Show this text if product == 'android' or product == 'ios' 
+
+{% endif %}
