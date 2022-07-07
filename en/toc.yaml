@@ -3,13 +3,13 @@ href: index.md
 items:
   - name: Android only
     href: android.md
-    when: product == 'android'
+    when: android == 'android'
   - name: iOS only
     href: ios.md
-    when: product == 'ios'
+    when: ios == 'ios'
   - name: Web only
     href: web.md
-    when: product == 'web'
+    when: web == 'web'
   - name: Commmon
     href: common.md
 base: ru

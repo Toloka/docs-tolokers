@@ -3,13 +3,13 @@ href: index.md
 items:
   - name: Только для Android
     href: android.md
-    when: product == 'android'
+    when: android == 'android'
   - name: Только для iOS
     href: ios.md
-    when: product == 'ios'
+    when: ios == 'ios'
   - name: Только для веба
     href: web.md
-    when: product == 'web'
+    when: web == 'web'
   - name: Для всех
     href: common.md
 base: ru

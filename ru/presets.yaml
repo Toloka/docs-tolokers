@@ -1,8 +1,9 @@
 default:
-  product: web
-web:
-  product: web
+  web: web
 android:
-  product: android
+  android: android
 ios:
-  product: ios
+  ios: ios
+all:
+  android: android
+  ios: ios
