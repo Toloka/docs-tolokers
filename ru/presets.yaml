@@ -1,8 +1,2 @@
 default:
-  product: web
-web:
-  product: web
-android:
-  product: android
-ios:
-  product: ios
+  product: {{product}}
