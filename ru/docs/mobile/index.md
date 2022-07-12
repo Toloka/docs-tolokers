@@ -2,4 +2,4 @@
 
 Это текст из файла docs/mobile/index.md
 
-{% include notitle [Описание](../../_includes/start-page.md) %}
+{% include notitle [Описание](_includes/index.md) %}
