@@ -1,0 +1,8 @@
+title: Толока для мобильных
+href: index.md
+items:
+  - name: Для Android
+    href: https://toloka.ai/tolokers/docs/android/
+  - name: Для iOS
+    href: https://toloka.ai/tolokers/docs/ios/
+  - include: { mode: merge, path: ../common/toc_common.yaml }

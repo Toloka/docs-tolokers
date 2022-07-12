@@ -1,5 +1,3 @@
-title: Толока для исполнителей
-href: index.md
 items:
   - name: Только для Android
     href: android.md
@@ -12,4 +10,6 @@ items:
     when: product == 'web'
   - name: Для всех
     href: common.md
-base: ru
+  - name: Для всех мобилок
+    when: product == 'ios' or product == 'android'
+    href: common_mobile.md
