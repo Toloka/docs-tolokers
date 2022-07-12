@@ -1,4 +1,4 @@
 title: Толока для исполнителей
 href: index.md
 items:
-  - include: { mode: merge, path: ../core/toc_m.yaml }
+  - include: { mode: merge, path: ../common/toc_common.yaml }
