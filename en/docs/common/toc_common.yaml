@@ -1,0 +1,15 @@
+items:
+  - name: Android only
+    href: android.md
+    when: product == 'android'
+  - name: iOS only
+    href: ios.md
+    when: product == 'ios'
+  - name: Web only
+    href: web.md
+    when: product == 'web'
+  - name: Common
+    href: common.md
+  - name: Common mobile
+    when: product == 'ios' or product == 'android'
+    href: common_mobile.md
