@@ -1,5 +1,3 @@
-title: Toloka for tolokers
-href: index.md
 items:
   - name: Android only
     href: android.md
@@ -10,6 +8,8 @@ items:
   - name: Web only
     href: web.md
     when: product == 'web'
-  - name: Commmon
+  - name: Common
     href: common.md
-base: ru
+  - name: Common mobile
+    when: product == 'ios' or product == 'android'
+    href: common_mobile.md
