@@ -2,6 +2,8 @@
 
 common.md
 
+## Тест фильтрации по перменной
+
 {% if  product == 'ios' %}
 
 Текст только если product == 'ios'
@@ -21,3 +23,9 @@ common.md
 [Ссылка на web.md](web.md)
 
 {% endif %}
+
+## Тест переопределения переменной
+
+Значение переменной `{{ path-to-presets }}`:
+
+{{ path-to-presets }}
