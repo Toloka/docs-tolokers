@@ -26,6 +26,6 @@ common.md
 
 ## Тест переопределения переменной
 
-Значение переменной `{{ path-to-presets }}`:
+Значение переменной `not_var{{ path-to-presets }}`:
 
-{{ path-to-presets }}
+> {{ path-to-presets }}
