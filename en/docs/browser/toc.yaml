@@ -1,4 +1,4 @@
-title: Toloka for Android
+title: Toloka for tolokers
 href: ../common/index.yaml
 items:
   - include: { mode: merge, path: ../common/toc_common.yaml }
