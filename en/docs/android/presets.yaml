@@ -1,3 +1,7 @@
 default:
-  product: android
-  path-to-presets: en/docs/android
+  region: en
+  lang: en
+  platform: android
+  ya-maps: https://play.google.com/store/apps/details?id=ru.yandex.yandexmaps&hl=en
+
+  

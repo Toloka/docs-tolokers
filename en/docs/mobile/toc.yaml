@@ -1,8 +1,0 @@
-title: Toloka for mobile
-href: index.md
-items:
-  - name: Android
-    href: https://toloka.ai/tolokers/docs/android/
-  - name: iOS
-    href: https://toloka.ai/tolokers/docs/ios/
-  - include: { mode: merge, path: ../common/toc_common.yaml }

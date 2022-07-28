@@ -1,0 +1,23 @@
+<svg width="121" height="121" viewBox="0 0 121 121" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M96.009 24.041L96.009 96.041C96.009 98.241 94.2171 100.041 92.0144 100.041L9.99589 100.041C7.79322 100.041 6.00118 98.241 6.00118 96.041L6.00119 24.041C6.00119 21.841 7.79323 20.041 9.9959 20.041L92.0144 20.041C94.2171 20.041 96.009 21.841 96.009 24.041Z" fill="url(#paint0_linear)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M107.646 32.5344L72.0037 68.041V78.041H82.0037L117.502 42.4011" stroke="#D95D25" stroke-width="2" stroke-miterlimit="79.8403" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M107.504 52.041L98.0037 42.541" stroke="#D95D25" stroke-width="2" stroke-miterlimit="79.8403" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M117.004 42L108.004 33" stroke="#D95D25" stroke-width="2" stroke-miterlimit="79.8403" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26.0037 42.041H78.7422" stroke="#D95D25" stroke-width="2" stroke-miterlimit="79.8403" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26.0037 60.041H68.5449" stroke="#D95D25" stroke-width="2" stroke-miterlimit="79.8403" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26.0037 78.041H61.5409" stroke="#D95D25" stroke-width="2" stroke-miterlimit="79.8403" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<linearGradient id="paint0_linear" x1="51.0159" y1="9.04103" x2="51.0159" y2="121.541" gradientUnits="userSpaceOnUse">
+<stop offset="0.02" stop-color="#FF8C5E"/>
+<stop offset="0.06" stop-color="#FF8C5E" stop-opacity="0.86"/>
+<stop offset="0.11" stop-color="#FF8C5E" stop-opacity="0.72"/>
+<stop offset="0.17" stop-color="#FF8C5E" stop-opacity="0.59"/>
+<stop offset="0.23" stop-color="#FF8C5E" stop-opacity="0.48"/>
+<stop offset="0.3" stop-color="#FF8C5E" stop-opacity="0.4"/>
+<stop offset="0.38" stop-color="#FF8C5E" stop-opacity="0.33"/>
+<stop offset="0.48" stop-color="#FF8C5E" stop-opacity="0.28"/>
+<stop offset="0.61" stop-color="#FF8C5E" stop-opacity="0.26"/>
+<stop offset="1" stop-color="#FF8C5E" stop-opacity="0.25"/>
+</linearGradient>
+</defs>
+</svg>
