@@ -128,7 +128,8 @@ What rewards are available. Rules for calculating rewards.
 
 [![](../_assets/buttons/troubleshooting.svg)](troubleshooting/troubleshooting.md)
 
-Follow us in social media
+#### Follow us in social media
+
 [![](../_assets/vk.png)]({{ toloka-vk }}) [![](../_assets/youtube.png)]({{ toloka-youtube }}) [![](../_assets/fb.png)]({{ toloka-facebook }}) [![](../_assets/tm.png)]({{ toloka-telegram }})
    
 {% endif %}
