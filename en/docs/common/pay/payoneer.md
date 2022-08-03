@@ -13,7 +13,7 @@ It allows users to:
 
 #### Terms
 
-{% if platform == "browser" %}
+{% if platform == "web" %}
 
 #|
 || **Area of operation** | **Total fee** | **Minimum withdrawal amount from Toloka** | **Where to transfer money next** ||
@@ -125,7 +125,7 @@ To withdraw money from Toloka to Payoneer, you need to register in the system.
 
 {% endif %}
 
-{% if platform == "browser" or platform == "android" %}
+{% if platform == "web" or platform == "android" %}
 
 1. Open the [My money]({{ toloka-money }}) page.
 

@@ -6,13 +6,13 @@ Your real name must be on your profile. Otherwise, you won't be able to [withdra
 
 [Add a profile picture](#avatar)
 
-{% if platform == "browser" %}[Turn on notifications](#notifications){% endif %}
+{% if platform == "web" %}[Turn on notifications](#notifications){% endif %}
 
 [Delete account](#delete)
 
 ## Edit profile {#edit}
 
-{% if platform == "browser" %}Go to the **Profile** and click the **Edit** link on the left.{% endif %}
+{% if platform == "web" %}Go to the **Profile** and click the **Edit** link on the left.{% endif %}
 
 {% if platform == "ios" %}Open the **Profile** page and click **Edit**.{% endif %}
 
@@ -22,7 +22,7 @@ Your real name must be on your profile. Otherwise, you won't be able to [withdra
 
 Go to [Managing your Yandex ID]({{ passport-profile }}) and click **Add a photo**.
 
-{% if platform == "browser" %}
+{% if platform == "web" %}
 
 ## Turn on notifications {#notifications}
 
@@ -84,7 +84,7 @@ You will now receive notifications from the platform.
 
 ## Log out of your account {#log-out}
 
-{% if platform == "browser" %}Click your username in the upper-right corner. Then click **Log out**.{% endif %}
+{% if platform == "web" %}Click your username in the upper-right corner. Then click **Log out**.{% endif %}
 
 {% if platform == "android" %}Click ![](../_assets/menu.png) → **Settings**. At the bottom of the list, choose **Log out**.{% endif %}
 
@@ -110,7 +110,7 @@ You will now receive notifications from the platform.
 
 - How to delete your account
 
-    {% if platform == "browser" %}
+    {% if platform == "web" %}
 
     1. Open your Toloka [Profile]({{ toloka-profile }}) in the browser.
 

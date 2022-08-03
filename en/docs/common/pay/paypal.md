@@ -12,7 +12,7 @@ PayPal is one of the most popular payment systems that provides a fast and secur
 
 #### Terms
 
-{% if platform == "browser" %}
+{% if platform == "web" %}
 
 #|
 || **Area of operation** | **Fees** | **Minimum withdrawal amount** | **Withdrawal method** ||
@@ -212,7 +212,7 @@ To withdraw money, you need to link your wallet.
 
 {% endif %}
 
-{% if platform == "browser" or platform == "android" %}
+{% if platform == "web" or platform == "android" %}
 
 1. Open the [My money]({{ toloka-money }}) page.
 

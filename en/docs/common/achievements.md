@@ -2,7 +2,7 @@
 
 The Awards section tracks your achievements for completing tasks and inviting friends.
 
-{% if platform == "browser" %}Visit [this page]({{ toloka-achievements }}) to view the full list of awards. It's also a great way to discover new Toloka features.{% endif %}
+{% if platform == "web" %}Visit [this page]({{ toloka-achievements }}) to view the full list of awards. It's also a great way to discover new Toloka features.{% endif %}
 
 {% if platform == "android" %}
 

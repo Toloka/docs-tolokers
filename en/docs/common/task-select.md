@@ -291,7 +291,7 @@ To choose which task information to display in the label:
 
 {% endif %}
 
-{% if platform == "browser" %}
+{% if platform == "web" %}
 
 # Task list
 

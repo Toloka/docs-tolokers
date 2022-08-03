@@ -3,7 +3,7 @@ href: index.yaml
 items:
   - name: Registration and logging in
     href: register.md
-    when: platform == "browser"
+    when: platform == "web"
   - name: About
     href: about.md
     when: platform == "android" or platform == "ios"
@@ -57,11 +57,11 @@ items:
   - name: Restoring access
     href: troubleshooting/unblock.md
     hidden: true
-    when: platform == "browser"
+    when: platform == "web"
   - name: Restoring access
     href: troubleshooting/unblock-nodoc.md
     hidden: true
-    when: platform == "browser" 
+    when: platform == "web" 
   - name: Notes
     href: notes.md
     hidden: true

@@ -4,7 +4,7 @@ Invite friends to register as performers and get a reward that equals 5 to 20% o
 
 To invite a friend:
 
-{% if platform == "browser" %}
+{% if platform == "web" %}
 
 1. Open the [Referral program]({{ toloka-referral }}) page.
 

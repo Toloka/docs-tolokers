@@ -1,6 +1,6 @@
 # Skills
 
-The requester checks your responses and rates your _skill_ in performing this type of task. Skills are rated on a scale of 0 to 100 points. {% if platform == "browser" %}You can view your skill level on the [Profile]({{ toloka-profile }}) page.{% endif %}
+The requester checks your responses and rates your _skill_ in performing this type of task. Skills are rated on a scale of 0 to 100 points. {% if platform == "web" %}You can view your skill level on the [Profile]({{ toloka-profile }}) page.{% endif %}
 
 {% if platform == "android" %}To view your skill level, click ![](../_assets/menu.svg) → **Skills**.{% endif %}
 
@@ -16,7 +16,7 @@ If you don't do well on a certain type of task, you may receive a low skill leve
 
 If you have a question about an assigned skill, write to the requester who set it:
 
-{% if platform == "browser" %}
+{% if platform == "web" %}
 
 1. Go to the **Profile** page.
 
@@ -36,7 +36,7 @@ If you have a question about an assigned skill, write to the requester who set i
 
     Specify the name of the task for which the skill is assigned.
 
-{% if platform == "browser" %}
+{% if platform == "web" %}
 
 1. Go to the [**History**]({{ toloka-profile-history }}) tab. Choose a task in the **Completed tasks in the last 2 months** table.
 

@@ -12,7 +12,7 @@ According to the [User Agreement]({{ user-agreement }}), a user can have only on
 
 Recall the username you registered with, and use it to log in. If you can't recall the username, go to the [Restoring access]({{ passport-restore }}) page.
 
-Learn more about {% if platform == "browser" %}[logging in to Toloka](../register.md){% endif %}{% if platform == "ios" or platform == "android" %}[logging in to Toloka](../auth.md){% endif %}.
+Learn more about {% if platform == "web" %}[logging in to Toloka](../register.md){% endif %}{% if platform == "ios" or platform == "android" %}[logging in to Toloka](../auth.md){% endif %}.
 
 {% endcut %}
 
@@ -20,7 +20,7 @@ Learn more about {% if platform == "browser" %}[logging in to Toloka](../registe
 
 If you don't remember your username or password, go to the [Restore access]({{ passport-restore }}) page.
 
-Learn more about {% if platform == "browser" %}[logging in to Toloka](../register.md){% endif %}{% if platform == "ios" or platform == "android" %}[logging in to Toloka](../auth.md){% endif %}.
+Learn more about {% if platform == "web" %}[logging in to Toloka](../register.md){% endif %}{% if platform == "ios" or platform == "android" %}[logging in to Toloka](../auth.md){% endif %}.
 
 {% endcut %}
 

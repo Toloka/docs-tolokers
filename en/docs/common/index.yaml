@@ -7,10 +7,7 @@ description:
   - text:
     - >-
       If you are looking for Mobile Help: <a href="https://we.toloka.ai/docs/android/">Android</a>, <a href="https://we.toloka.ai/docs/ios/">iOS</a>.
-    when: platform == "browser"
-  - text: 
-    - >- 
-      <a href="/troubleshooting/troubleshooting">Troubleshooting and support</a>
+    when: platform == "web"
 
 links:
   - title: Register as a Toloker
@@ -43,5 +40,7 @@ links:
   - title: Invite your friends
     description: What rewards are available. Rules for calculating rewards.
     href: referal
+  - title: Troubleshooting and support
+    href: troubleshooting/troubleshooting
 
     

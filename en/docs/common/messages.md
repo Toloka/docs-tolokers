@@ -12,7 +12,7 @@ Write to the requester:
 
 To write to the requester:
 
-{% if platform == "browser" %}
+{% if platform == "web" %}
 
 1. Open the [Messages]({{ toloka-messages }}) page.
 1. Tap **Contact requester** and choose the recipient.

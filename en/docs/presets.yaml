@@ -1,7 +1,7 @@
 default:
   region: en
   lang: en
-  platform: browser
+  platform: web
   toloka: http://toloka.yandex.com/
   toloka-tasks: https://toloka.yandex.com/tasks
   toloka-achievements: https://toloka.yandex.com/achievements

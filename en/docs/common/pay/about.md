@@ -10,7 +10,7 @@ To withdraw money from your [Toloka]({{ toloka }}) account:
 
 {% endif %}
 
-{% if platform == "browser" or platform == "android" %}
+{% if platform == "web" or platform == "android" %}
 
 1. Open the [My money]({{ toloka-money }}) page.
 
@@ -34,7 +34,7 @@ You can withdraw money from Toloka using the following methods: PayPal and Payon
 
 You can add only one account of each type.
 
-{% if platform == "browser" %}
+{% if platform == "web" %}
 
 #|
 || **Withdrawal method** | **Area of operation** | **Total fee** | **Minimum withdrawal amount** | **Where to transfer money next** ||
