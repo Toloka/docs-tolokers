@@ -316,7 +316,7 @@ You can add a task to your favorites or hide it in the list.
 
 1. Hover over the task card and click ![](../_assets/dots_vertical.svg) on the right.
 1. Select **Add to favorites**.
-    Or click ![](../_assets/favourites.svg) next to the task name.
+    Or click ![](../_assets/favourites.png =10x) next to the task name.
 
 Click **favorites first** to display the selected tasks at the top of the list.
 

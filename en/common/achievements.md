@@ -17,8 +17,8 @@ To view the list of awards, go to  **Profile** → **Awards**.
 {% endif %}
 
 | The awards you earned are in color | The available awards are black and white |
-| ----------- | ----------- |
-| ![](../_assets/achievements/active.svg)| ![](../_assets/achievements/inactive.svg)|
+| :----: | :----: |
+| ![](../_assets/achievements/active.svg) | ![](../_assets/achievements/inactive.png =220x)|
 
 Click on the award icon to find out how to earn it.
 
