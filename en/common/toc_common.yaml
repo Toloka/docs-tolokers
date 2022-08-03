@@ -1,5 +1,5 @@
 title: Toloka
-href: index.yaml
+href: index.md
 items:
   - name: Registration and logging in
     href: register.md
