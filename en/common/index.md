@@ -1,3 +1,28 @@
+<style scoped>
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  column-gap: 50px;
+  row-gap: 20px;
+}
+.grid-item {
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  padding-top: 32px !important;
+  margin-top: 0 !important;
+}
+h3 {
+  padding-top: 8px !important;
+  margin-top: 0 !important;
+}
+</style>
+
+{% if platform == "web" %}
+# About Toloka
+{% endif %}
+
 {% if platform == "ios" %}
 # Toloka for iOS
 {% endif %}
@@ -6,33 +31,115 @@
 # Toloka for Android
 {% endif %}
 
+[Toloka]({{ toloka }}) is a platform where you [get paid](./priemka.md#pay) for [completing](./tasks.md) tasks.
+
 {% if platform == "web" %}
-# About Toloka
+
+If you are looking for Mobile Help: ![](../_assets/main/icon_android.png) [Android]({{ toloka-app-android }}), ![](../_assets/main/icon_apple.png) [iOS]({{ toloka-app-ios }}).
+
+<div class="grid-container">
+    <div class="grid-item">
+        <h3><a href="register">Register as a Toloker</a></h3>
+        <p>Registration. FAQ.</p>
+    </div>
+    <div class="grid-item">
+        <h3><a href="task-select">Choosing a task list</a></h3>
+        <p>How to sort tasks using filters.</p>
+    </div>
+    <div class="grid-item">
+        <h3><a href="tasks">How to be a successful Toloker</a></h3>
+        <p>How to earn honestly and what not to do.</p>
+    </div>
+    <div class="grid-item">
+        <h3><a href="priemka">How are my responses reviewed?</a></h3>
+        <p>Learn how long the review takes. How to find out the results.</p>
+    </div>
+    <div class="grid-item">
+        <h3><a href="profile">Profile</a></h3>
+        <p>Setting up a profile. Notifications.</p>
+    </div>
+    <div class="grid-item">
+        <h3><a href="messages">How to contact the requester</a></h3>
+        <p>Feedback for the requester.</p>
+    </div>
+    <div class="grid-item">
+        <h3><a href="skills">Skills</a></h3>
+        <p>What you need skills for and where you can see them.</p>
+    </div>
+    <div class="grid-item">
+        <h3><a href="achievements">Achievements</a></h3>
+        <p>Get awards for your achievements on the platform. Can you get them all?</p>
+    </div>
+    <div class="grid-item">
+        <h3><a href="pay/about">Withdrawing money</a></h3>
+        <p>Withdraw the money you earned.</p>
+    </div>
+    <div class="grid-item">
+        <h3><a href="referal">Invite your friends</a></h3>
+        <p>What rewards are available. Rules for calculating rewards.</p>
+    </div>
+    <div class="grid-item">
+        <h3><a href="troubleshooting/troubleshooting">Troubleshooting</a></h3>
+        <p>Find the solution in the list of frequently asked questions</p>
+    </div>
+</div>
+
 {% endif %}
 
 {% if platform == "ios" or platform == "android" %}
 
-[About](./about.md)
-
-[Registration and logging in](./auth.md)
-
-[Choosing a task list](./task-select.md)
-
-[How to be a successful Toloker](./tasks.md)
-
-[Tasks under review](./priemka.md)
-
-[Profile](./profile.md)
-
-[Messages](./messages.md)
-
-[Skills](./skills.md)
-
-[Withdrawal methods](./pay/about.md)
-
-[Troubleshooting and support](./troubleshooting/troubleshooting.md)
+<div class="grid-container">
+    <div class="grid-item">
+        <h3><a href="about">About</a></h3>
+        <p>About Toloka</p>
+    </div>
+    <div class="grid-item">
+        <h3><a href="auth">Register as a Toloker</a></h3>
+        <p>Registration. FAQ.</p>
+    </div>
+    <div class="grid-item">
+        <h3><a href="task-select">Choosing a task list</a></h3>
+        <p>How to sort tasks using filters.</p>
+    </div>
+    <div class="grid-item">
+        <h3><a href="tasks">How to be a successful Toloker</a></h3>
+        <p>How to earn honestly and what not to do.</p>
+    </div>
+    <div class="grid-item">
+        <h3><a href="priemka">Tasks under review</a></h3>
+        <p>How to earn honestly and what not to do.</p>
+    </div>
+    <div class="grid-item">
+        <h3><a href="profile">Profile</a></h3>
+        <p>Setting up a profile. Notifications.</p>
+    </div>
+    <div class="grid-item">
+        <h3><a href="messages">Messages</a></h3>
+        <p>Feedback for the requester.</p>
+    </div>
+    <div class="grid-item">
+        <h3><a href="messages">How to contact the requester</a></h3>
+        <p>Feedback for the requester.</p>
+    </div>
+    <div class="grid-item">
+        <h3><a href="skills">Skills</a></h3>
+        <p>What you need skills for and where you can see them.</p>
+    </div>
+    <div class="grid-item">
+        <h3><a href="pay/about">Withdrawal methods</a></h3>
+        <p>Withdraw the money you earned.</p>
+    </div>
+    <div class="grid-item">
+        <h3><a href="troubleshooting/troubleshooting">Troubleshooting</a></h3>
+        <p>Find the solution in the list of frequently asked questions</p>
+    </div>
+</div>
 
 {% endif %}
+
+## Follow us in social media
+
+[![](../_assets/vk.png)]({{ toloka-vk }}) [![](../_assets/youtube.png)]({{ toloka-youtube }}) [![](../_assets/fb.png)]({{ toloka-facebook }}) [![](../_assets/tm.png)]({{ toloka-telegram }})
 
 {% if platform == "ios" %}
 
@@ -46,90 +153,4 @@
 
 [![](../_assets/huawei-appgallery.png =135x)]({{ appgallery-toloka }})
 
-{% endif %}
-
-{% if platform == "web" %}
-
-[Toloka]({{ toloka }}) is a platform where you [get paid](./priemka.md#pay) for [completing](./tasks.md) tasks.
-
-If you are looking for Mobile Help: ![](../_assets/main/icon_android.png) [Android]({{ toloka-app-android }}), ![](../_assets/main/icon_apple.png) [iOS]({{ toloka-app-ios }}).
-
-#|
-||
-
-![](../_assets/main/registration.svg)
-[Register as a Toloker](./register.md)
-Registration. FAQ.
-
-|
-
-![](../_assets/main/withdrawal-money.svg)
-[Withdrawing money](./pay/about.md)
-Withdraw the money you earned.
-
-||
-
-||
-
-![](../_assets/main/check-responses.svg)
-[How are my responses reviewed?](./priemka.md)
-Learn how long the review takes. How to find out the results. 
-
-|
-
-![](../_assets/main/task-list.svg)
-[Choosing a task list](./task-select.md)
-How to sort tasks using filters. 
-
-||
-
-||
-
-![](../_assets/main/set-up-registration.svg)
-[Set up a profile](./profile.md)
-Setting up a profile. Notifications.
-
-|
-
-![](../_assets/main/skills.svg)
-[Skills](./skills.md)
-
-What you need skills for and where you can see them. 
-
-||
-
-||
-
-![](../_assets/main/good-annotator.svg)
-[How to be a successful Toloker](./tasks.md)
-How to earn honestly and what not to do.
-
-|
-
-![](../_assets/main/achievements.svg)
-[Achievements](./achievements.md)
-Get awards for your achievements on the platform. Can you get them all?
-
-||
-
-||
-
-![](../_assets/main/feedback.svg)
-[How to contact the requester](./messages.md)
-Feedback for the requester.
-
-|
-![](../_assets/main/bring-friends.svg)
-[Invite your friends](./referal.md)
-What rewards are available. Rules for calculating rewards.
-
-||
-|#
-
-[![](../_assets/buttons/troubleshooting.svg)](troubleshooting/troubleshooting.md)
-
-#### Follow us in social media
-
-[![](../_assets/vk.png)]({{ toloka-vk }}) [![](../_assets/youtube.png)]({{ toloka-youtube }}) [![](../_assets/fb.png)]({{ toloka-facebook }}) [![](../_assets/tm.png)]({{ toloka-telegram }})
-   
 {% endif %}
