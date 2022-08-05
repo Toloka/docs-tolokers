@@ -40,49 +40,49 @@ If you are looking for Mobile Help: ![](../_assets/main/icon_android.png) [Andro
 
 <div class="grid-container">
     <div class="grid-item">
-        <div class="gallery_img"><img src="../_assets/main/registration.svg"></div>
+        <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/src/toloka/ru/tolokers/main/registration.svg"></div>
         <div>
             <h3>{% if platform == "web" %}<a href="register">{% endif %}{% if platform == "ios" or platform == "android" %}<a href="auth">{% endif %}Register as a Toloker</a></h3>
             <p>Registration. FAQ.</p>
         </div>
     </div>
     <div class="grid-item">
-        <div class="gallery_img"><img src="../_assets/main/withdrawal-money.svg"></div>
+        <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/src/toloka/ru/tolokers/main/withdrawal-money.svg"></div>
         <div>
             <h3><a href="pay/about">Withdrawing money</a></h3>
             <p>Withdraw the money you earned.</p>
         </div>
     </div>
     <div class="grid-item">
-       <div class="gallery_img"><img src="../_assets/main/check-responses.svg"></div>
+       <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/src/toloka/ru/tolokers/main/check-responses.svg"></div>
         <div>
             <h3><a href="priemka">How are my responses reviewed?</a></h3>
             <p>Learn how long the review takes. How to find out the results.</p>
         </div>
     </div>
     <div class="grid-item">
-        <div class="gallery_img"><img src="../_assets/main/task-list.svg"></div>
+        <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/src/toloka/ru/tolokers/main/task-list.svg"></div>
         <div>
             <h3><a href="task-select">Choosing a task list</a></h3>
             <p>How to sort tasks using filters.</p>
         </div>
     </div>
     <div class="grid-item">
-        <div class="gallery_img"><img src="../_assets/main/set-up-registration.svg"></div>
+        <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/src/toloka/ru/tolokers/main/set-up-registration.svg"></div>
         <div>
             <h3><a href="profile">Set up a profile</a></h3>
             <p>Setting up a profile. Notifications.</p>
         </div>
     </div>
     <div class="grid-item">
-        <div class="gallery_img"><img src="../_assets/main/skills.svg"></div>
+        <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/src/toloka/ru/tolokers/main/skills.svg"></div>
         <div>
             <h3><a href="skills">Skills</a></h3>
             <p>What you need skills for and where you can see them.</p>
         </div>
     </div>
     <div class="grid-item">
-        <div class="gallery_img"><img src="../_assets/main/good-annotator.svg"></div>
+        <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/src/toloka/ru/tolokers/main/good-annotator.svg"></div>
         <div>
             <h3><a href="tasks">How to be a successful Toloker</a></h3>
             <p>How to earn honestly and what not to do.</p>
@@ -90,7 +90,7 @@ If you are looking for Mobile Help: ![](../_assets/main/icon_android.png) [Andro
     </div>
     {% if platform == "web" %}
     <div class="grid-item">
-        <div class="gallery_img"><img src="../_assets/main/achievements.svg"></div>
+        <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/src/toloka/ru/tolokers/main/achievements.svg"></div>
         <div>
             <h3><a href="achievements">Achievements</a></h3>
             <p>Get awards for your achievements on the platform. Can you get them all?</p>
@@ -98,7 +98,7 @@ If you are looking for Mobile Help: ![](../_assets/main/icon_android.png) [Andro
     </div>
     {% endif %}
     <div class="grid-item">
-        <div class="gallery_img"><img src="../_assets/main/feedback.svg"></div>
+        <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/src/toloka/ru/tolokers/main/feedback.svg"></div>
         <div>
             <h3><a href="messages">How to contact the requester</a></h3>
             <p>Feedback for the requester.</p>
@@ -106,7 +106,7 @@ If you are looking for Mobile Help: ![](../_assets/main/icon_android.png) [Andro
     </div>
     {% if platform == "web" %}
     <div class="grid-item">
-        <div class="gallery_img"><img src="../_assets/main/bring-friends.svg"></div>
+        <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/src/toloka/ru/tolokers/main/bring-friends.svg"></div>
         <div>
             <h3><a href="referal">Invite your friends</a></h3>
             <p>What rewards are available. Rules for calculating rewards.</p>
