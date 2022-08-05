@@ -1,23 +1,20 @@
 <style scoped>
     .grid-container {
         display: grid;
-        grid-template-columns: 0.4fr 1.6fr 0.4fr 1.6fr;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         row-gap: 20px;
-        align-items: center;
+        align-items: start;
     }
 
     .grid-item {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 
-    h3 {
-        padding: 0px !important;
-        margin: 0px !important;
-    }
-
-    .item-img {
+    .gallery_img {
         width: 70px;
+        flex: 0 0 auto;
+        margin-right: 10px;
     }
 </style>
 
@@ -42,86 +39,78 @@ If you are looking for Mobile Help: ![](../_assets/main/icon_android.png) [Andro
 {% endif %}
 
 <div class="grid-container">
-    {% if platform == "ios" or platform == "android" %}
     <div class="grid-item">
+        <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/src/toloka/ru/tolokers/main/registration.svg"></div>
+        <div>
+            <h3>{% if platform == "web" %}<a href="register">{% endif %}{% if platform == "ios" or platform == "android" %}<a href="auth">{% endif %}Register as a Toloker</a></h3>
+            <p>Registration. FAQ.</p>
+        </div>
     </div>
     <div class="grid-item">
-        <h3><a href="about">About</a></h3>
-        <p>About Toloka</p>
-    </div>
-    {% endif %}
-    <div class="grid-item">
-        <img src="../_assets/main/registration.svg" class="gallery_img">
-    </div>
-    <div class="grid-item">
-        <h3>{% if platform == "web" %}<a href="register">{% endif %}{% if platform == "ios" or platform == "android" %}<a href="auth">{% endif %}Register as a Toloker</a></h3>
-        <p>Registration. FAQ.</p>
+        <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/src/toloka/ru/tolokers/main/withdrawal-money.svg"></div>
+        <div>
+            <h3><a href="pay/about">Withdrawing money</a></h3>
+            <p>Withdraw the money you earned.</p>
+        </div>
     </div>
     <div class="grid-item">
-        <img src="../_assets/main/withdrawal-money.svg" class="gallery_img">
+       <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/src/toloka/ru/tolokers/main/check-responses.svg"></div>
+        <div>
+            <h3><a href="priemka">How are my responses reviewed?</a></h3>
+            <p>Learn how long the review takes. How to find out the results.</p>
+        </div>
     </div>
     <div class="grid-item">
-        <h3><a href="pay/about">Withdrawing money</a></h3>
-        <p>Withdraw the money you earned.</p>
+        <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/src/toloka/ru/tolokers/main/task-list.svg"></div>
+        <div>
+            <h3><a href="task-select">Choosing a task list</a></h3>
+            <p>How to sort tasks using filters.</p>
+        </div>
     </div>
     <div class="grid-item">
-        <img src="../_assets/main/check-responses.svg" class="gallery_img">
+        <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/src/toloka/ru/tolokers/main/set-up-registration.svg"></div>
+        <div>
+            <h3><a href="profile">Set up a profile</a></h3>
+            <p>Setting up a profile. Notifications.</p>
+        </div>
     </div>
     <div class="grid-item">
-        <h3><a href="priemka">How are my responses reviewed?</a></h3>
-        <p>Learn how long the review takes. How to find out the results.</p>
+        <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/src/toloka/ru/tolokers/main/skills.svg"></div>
+        <div>
+            <h3><a href="skills">Skills</a></h3>
+            <p>What you need skills for and where you can see them.</p>
+        </div>
     </div>
     <div class="grid-item">
-        <img src="../_assets/main/task-list.svg" class="gallery_img">
-    </div>
-    <div class="grid-item">
-        <h3><a href="task-select">Choosing a task list</a></h3>
-        <p>How to sort tasks using filters.</p>
-    </div>
-    <div class="grid-item">
-        <img src="../_assets/main/set-up-registration.svg" class="gallery_img">
-    </div>
-    <div class="grid-item">
-        <h3><a href="profile">Set up a profile</a></h3>
-        <p>Setting up a profile. Notifications.</p>
-    </div>
-    <div class="grid-item">
-        <img src="../_assets/main/skills.svg" class="gallery_img">
-    </div>
-    <div class="grid-item">
-        <h3><a href="skills">Skills</a></h3>
-        <p>What you need skills for and where you can see them.</p>
-    </div>
-    <div class="grid-item">
-        <img src="../_assets/main/good-annotator.svg" class="gallery_img">
-    </div>
-    <div class="grid-item">
-        <h3><a href="tasks">How to be a successful Toloker</a></h3>
-        <p>How to earn honestly and what not to do.</p>
+        <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/src/toloka/ru/tolokers/main/good-annotator.svg"></div>
+        <div>
+            <h3><a href="tasks">How to be a successful Toloker</a></h3>
+            <p>How to earn honestly and what not to do.</p>
+        </div>
     </div>
     {% if platform == "web" %}
     <div class="grid-item">
-        <img src="../_assets/main/achievements.svg" class="gallery_img">
-    </div>
-    <div class="grid-item">
-        <h3><a href="achievements">Achievements</a></h3>
-        <p>Get awards for your achievements on the platform. Can you get them all?</p>
+        <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/src/toloka/ru/tolokers/main/achievements.svg"></div>
+        <div>
+            <h3><a href="achievements">Achievements</a></h3>
+            <p>Get awards for your achievements on the platform. Can you get them all?</p>
+        </div>
     </div>
     {% endif %}
     <div class="grid-item">
-        <img src="../_assets/main/feedback.svg" class="gallery_img">
-    </div>
-    <div class="grid-item">
-        <h3><a href="messages">How to contact the requester</a></h3>
-        <p>Feedback for the requester.</p>
+        <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/src/toloka/ru/tolokers/main/feedback.svg"></div>
+        <div>
+            <h3><a href="messages">How to contact the requester</a></h3>
+            <p>Feedback for the requester.</p>
+        </div>
     </div>
     {% if platform == "web" %}
     <div class="grid-item">
-        <img src="../_assets/main/bring-friends.svg" class="gallery_img">
-    </div>
-    <div class="grid-item">
-        <h3><a href="referal">Invite your friends</a></h3>
-        <p>What rewards are available. Rules for calculating rewards.</p>
+        <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/src/toloka/ru/tolokers/main/bring-friends.svg"></div>
+        <div>
+            <h3><a href="referal">Invite your friends</a></h3>
+            <p>What rewards are available. Rules for calculating rewards.</p>
+        </div>
     </div>
     {% endif %}
 </div>
