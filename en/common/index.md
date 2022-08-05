@@ -39,14 +39,6 @@ If you are looking for Mobile Help: ![](../_assets/main/icon_android.png) [Andro
 {% endif %}
 
 <div class="grid-container">
-    {% if platform == "ios" or platform == "android" %}
-    <div class="grid-item">
-    </div>
-    <div class="grid-item">
-        <h3><a href="about">About</a></h3>
-        <p>About Toloka</p>
-    </div>
-    {% endif %}
     <div class="grid-item">
         <div class="gallery_img"><img src="../_assets/main/registration.svg"></div>
         <div>
