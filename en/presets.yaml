@@ -1,6 +1,6 @@
 default:
   region: en
-  lang: en
+  locale: en
   platform: web
   toloka: http://toloka.yandex.com/
   toloka-tasks: https://toloka.yandex.com/tasks
@@ -15,10 +15,9 @@ default:
   toloka-app-ios: https://we.toloka.ai/docs/ios/
   user-agreement: https://yandex.com/legal/toloka_useragreement/index.html
   toloka-t: https://t.me/TolokaOfficial_en_tr
-  toloka-vk:
-  toloka-youtube:
-  toloka-facebook:
-  toloka-telegram: 
+  toloka-vk: https://vk.com/ya.toloka
+  toloka-youtube: https://www.youtube.com/channel/UC3ECut-9h01eI1qsnx-GHKA/videos
+  toloka-facebook: https://www.facebook.com/tolokaworldwide
   passport: https://passport.yandex.com/
   passport-reg-toloka: https://passport.yandex.com/registration?mode=register&amp;retpath=https://toloka.yandex.com/en
   passport-auth-toloka: https://passport.yandex.com/passport?mode=auth&retpath=https://toloka.yandex.com
