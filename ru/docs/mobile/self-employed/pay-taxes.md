@@ -8,7 +8,11 @@
 
 {% include [self-employed-more-about-taxes](../_includes/self-employed/about/id-self-employed/more-about-taxes.md) %}
 
+{% if locale=="ru-com" %}
+
 {% include [Решение проблем](_include/self-employed_troubles.md) %}
+
+{% endif %}
 
 [![](../images/buttons/contact-support.svg)](../troubleshooting/troubleshooting.md#self-employed)
 

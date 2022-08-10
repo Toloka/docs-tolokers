@@ -41,7 +41,11 @@ _Самозанятые_ — это граждане, которые ведут 
 1. [Подтвердите статус самозанятого](accept-status.md) и укажите Толоку в качестве партнера в системе Мой Налог.
 
 
+{% if locale=="ru-com" %}
+
 {% include [Решение проблем](_include/self-employed_troubles.md) %}
+
+{% endif %}
 
 [![](../images/buttons/contact-support.svg)](../troubleshooting/troubleshooting.md#self-employed)
 

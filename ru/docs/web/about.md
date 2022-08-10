@@ -12,7 +12,7 @@
 Стоимость заданий определяется заказчиками. Вы можете [вывести средства](pay/about.md) различными способами в зависимости от вашей страны.
 
 {% if locale == "en-com" %} Чтобы быть в курсе последних новостей Толоки, подписывайтесь на [канал в Telegram]({{ toloka-t }}).
-{% else %}
+{% elsif locale=="ru-com" %}
 Чтобы быть в курсе последних новостей Толоки, подписывайтесь на:
 * [Группу во ВКонтакте]({{ toloka-vk }}).
 * [Страницу в Facebook]({{ toloka-facebook }}).
@@ -21,12 +21,14 @@
 
 {% endif %}
 
+{% if locale=="ru-com" %}
 {% if platform == "android" or platform == "ios" %}
 
 ## Как настроить устройство и выполнить полевое задание
 
 @[youtube](a1uqOTztw4o)
 
+{% endif %}
 {% endif %}
 
 [![](images/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)

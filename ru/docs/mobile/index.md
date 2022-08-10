@@ -39,7 +39,7 @@
 
 Для чего нужны навыки и где их посмотреть. ||
 || ![](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/c9e7f9f25bfc0e727a6625b66608255f739aa8df.svg)
-| [Как быть успешным толокером](tasks.md)
+| {% if locale=="ru-com" %}[Как быть успешным толокером](tasks.md){% elsif locale=="en-com" %}[How to be a successful Toloker](tasks.dita#tasks){% endif %}
 
 Как зарабатывать честно и что делать не стоит.	
 | ![](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/304e7e6f5301650b1ff38416d4327174a1fc9b3e.svg)	
@@ -106,6 +106,6 @@
 
 [![](images/huawei-appgallery.png "" =135x41)]({{ appgallery-toloka }})
 
-{% if locale == "en-com" %}[![](images/appstore.svg)](https://apps.apple.com/us/app/yandex-toloka/id1282350367){% else %}[![](images/appstore.svg)](https://apps.apple.com/ru/app/яндекс-толока-заработок/id1282350367){% endif %}
+{% if locale == "en-com" %}[![](images/appstore.svg)](https://apps.apple.com/us/app/yandex-toloka/id1282350367){% elseif locale=="ru-com" %}[![](images/appstore.svg)](https://apps.apple.com/ru/app/яндекс-толока-заработок/id1282350367){% endif %}
 
 {% endif %}

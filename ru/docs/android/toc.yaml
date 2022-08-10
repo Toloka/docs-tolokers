@@ -52,8 +52,10 @@ items:
       name: Payoneer
     - href: pay/yoomoney.md
       name: ЮMoney
+      when: locale=="ru-com"
     - href: pay/sbp.md
       name: Система быстрых платежей
+      when: locale=="ru-com"
     - href: pay/Qiwi-wallet.md
       name: QIWI
   - name: Стать самозанятым
@@ -79,6 +81,30 @@ items:
   - href: notes.md
     hidden: true
     name: Примечания
+  # - name: Ключи
+  #   href: keys/.md
+  # - name: Ключи
+  #   href: /.md
+  # - name: links
+  #   href: /.md
+  # - href: achievements/achievement_am.md
+  #   name: Правила активации
+  # - href: achievements/achievement_az.md
+  #   name: Правила активации
+  # - href: achievements/achievement_by.md
+  #   name: Правила активации
+  # - href: achievements/achievement_ge.md
+  #   name: Правила активации
+  # - href: achievements/achievement_il.md
+  #   name: Правила активации
+  # - href: achievements/achievement_kg.md
+  #   name: Правила активации
+  # - href: achievements/achievement_kz.md
+  #   name: Правила активации
+  # - href: achievements/achievement_md.md
+  #   name: Правила активации
+  # - href: achievements/achievement_uz.md
+  #   name: Правила активации
   - href: auth.md
     name: Регистрация и вход
     hidden: true

@@ -108,6 +108,7 @@
 
 {% endcut %}
 
+{% if locale=="ru-com" %}
 {% cut "Вопрос о выводе через {{ yoomoney-name }}" %}
 
 {% cut "Не могу вывести деньги на кошелек" %}
@@ -127,6 +128,8 @@
 {% endcut %}
 
 {% endcut %}
+
+{% endif %}
 
 {% cut "Другой вопрос" %}
 
@@ -362,11 +365,15 @@
 
 {% endcut %}
 
+{% if locale=="ru-com" %}
+
 {% cut "Вопросы для самозанятых" %}
 
 {% include notitle [Вопросы для самозанятых](../self-employed/_include/self-employed_troubles.md) %}
 
 {% endcut %}
+
+{% endif %}
 
 {% cut "На платформе что-то не работает" %}
 

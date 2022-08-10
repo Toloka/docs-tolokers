@@ -73,7 +73,7 @@
 1. Откройте меню, нажав кнопку ![](images/menu.png) слева.
 1. Выберите **{{ mobile_android.settings }}**.
 1. Включите опцию **{{ mobile_android.settings__download_maps__title }}**.
-1. Нажмите {% if locale=="ru-com" %}![](images/menu.png)→**Доступные**{% endif %}{% if locale=="en-com" %}![](images/menu.png)→**Available**{% endif %}.
+1. Нажмите {% if locale=="ru-com" %}![](images/menu.png) → **Доступные**{% endif %}{% if locale=="en-com" %}![](images/menu.png) → **Available**{% endif %}.
 1. Нажмите значок ![](images/map-android2.png), чтобы перейти к заданиям на карте.
 1. Нажмите на значок ![](images/map-download.png) в нижней части экрана и сохраните карту: 
 
