@@ -11,14 +11,13 @@ items:
     when: platform == "ios" or platform == "android"
   - href: settings.md
     name: Необходимые настройки
-    when: platform == "browser"
+    when: platform == "ios" or platform == "android"
     hidden: true
   - href: task-select.md
     name: Список заданий
     when: platform == "browser"
   - href: task-select.md
     name: Выбор задания
-    when: platform == "ios" or platform == "android"
   - href: tasks.md
     name: Как быть успешным толокером
   - href: priemka.md
