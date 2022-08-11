@@ -28,9 +28,9 @@
 {% if platform=="android" %}
 Чтобы написать заказчику:
 1. Откройте задание.
-1. Нажмите кнопку ![](images/dots_vertical.svg) вверху экрана и выберите **{{ mobile_android.message_create }}**.
+1. Нажмите кнопку ![](assets/dots_vertical.svg) вверху экрана и выберите **{{ mobile_android.message_create }}**.
 1. Напишите сообщение и нажмите кнопку **{{ mobile_android.message_submit_button }}**.
 {% endif %}
 
-[![](images/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
+[![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
 

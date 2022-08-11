@@ -49,5 +49,5 @@ _Самозанятые_ — это граждане, которые ведут 
 
 {% endif %}
 
-[![](../images/buttons/contact-support.svg)](../troubleshooting/troubleshooting.md#self-employed)
+[![](../assets/buttons/contact-support.svg)](../troubleshooting/troubleshooting.md#self-employed)
 

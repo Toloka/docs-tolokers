@@ -74,7 +74,7 @@
     
     {% cut "Пример" %}
 	
-	{% if locale=="ru-com" %}![](../images/Payoneer/Payoneer-registration_rus_1.png){% elsif locale=="en-com" %}![](../images/Payoneer/Payoneer-registration_en_1.png){% endif %}
+	{% if locale=="ru-com" %}![](../assets/Payoneer/Payoneer-registration_rus_1.png){% elsif locale=="en-com" %}![](../assets/Payoneer/Payoneer-registration_en_1.png){% endif %}
 	
 	{% endcut %}
     
@@ -134,5 +134,5 @@ Payoneer не выдает карты клиентам, имеющим почт�
 
 {% endcut %}
 
-[![](../images/buttons/contact-support.svg)](../troubleshooting/troubleshooting.md#money_withdrawal)
+[![](../assets/buttons/contact-support.svg)](../troubleshooting/troubleshooting.md#money_withdrawal)
 

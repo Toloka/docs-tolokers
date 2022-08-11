@@ -78,7 +78,7 @@
     
     Перейдите на страницу [идентификации]({{ yoomoney-identification }}) → нажмите кнопку **Пройти идентификацию**.
 	
-	{% if locale == 'ru-com' %}![](../images/YooMoney/yoomoney-start.png){% endif %}
+	{% if locale == 'ru-com' %}![](../assets/YooMoney/yoomoney-start.png){% endif %}
     
 1. Выберите [способ идентификации]({{ yoomoney-methods }}):
     - онлайн через СберID или МТС;
@@ -113,7 +113,7 @@
     
 1. Дождитесь уведомления об успешной идентификации.
 
-   {% if locale == 'ru-com' %}![](../images/YooMoney/yoomoney-id-done.png){% endif %}
+   {% if locale == 'ru-com' %}![](../assets/YooMoney/yoomoney-id-done.png){% endif %}
 1. Готово, ваш кошелек идентифицирован.
 
 ### Шаг 3. Привязать банковскую карту {#add-card}
@@ -180,5 +180,5 @@
 1. Готово, перевод отправлен.
 
 
-[![](../images/buttons/contact-support.svg)](../troubleshooting/troubleshooting.md#money_withdrawal)
+[![](../assets/buttons/contact-support.svg)](../troubleshooting/troubleshooting.md#money_withdrawal)
 

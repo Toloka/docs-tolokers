@@ -57,7 +57,7 @@
 |#	
 
 
-[![Решение проблем и поддержка](images/buttons/troubleshooting.svg)](troubleshooting/troubleshooting.md#not_working_properly)
+[![Решение проблем и поддержка](assets/buttons/troubleshooting.svg)](troubleshooting/troubleshooting.md#not_working_properly)
 
 
 ## Следите за нами в социальных сетях {#social-networks}
@@ -80,13 +80,13 @@
 {% endif %}
 
 {% if platform == "android" %}
-[![](images/googleplay.svg)]({{ googleplay-toloka }})
+[![](assets/googleplay.svg)]({{ googleplay-toloka }})
 
-[![](images/huawei-appgallery.png)]({{ appgallery-toloka }})
+[![](assets/huawei-appgallery.png)]({{ appgallery-toloka }})
 {% endif %}
 
 {% if platform=="ios" %}
-[![](images/appstore.svg)]({{ appstore-toloka }})
+[![](assets/appstore.svg)]({{ appstore-toloka }})
 {% endif %}
 
 {% if platform=="mobile" %}
@@ -102,10 +102,10 @@
 
 Скачайте приложение Толока из официальных магазинов:
 
-[![](images/googleplay.svg)](https://play.google.com/store/apps/details?id=com.yandex.toloka.androidapp)
+[![](assets/googleplay.svg)](https://play.google.com/store/apps/details?id=com.yandex.toloka.androidapp)
 
-[![](images/huawei-appgallery.png "" =135x41)]({{ appgallery-toloka }})
+[![](assets/huawei-appgallery.png "" =135x41)]({{ appgallery-toloka }})
 
-{% if locale == "en-com" %}[![](images/appstore.svg)](https://apps.apple.com/us/app/yandex-toloka/id1282350367){% elseif locale=="ru-com" %}[![](images/appstore.svg)](https://apps.apple.com/ru/app/яндекс-толока-заработок/id1282350367){% endif %}
+{% if locale == "en-com" %}[![](assets/appstore.svg)](https://apps.apple.com/us/app/yandex-toloka/id1282350367){% elseif locale=="ru-com" %}[![](assets/appstore.svg)](https://apps.apple.com/ru/app/яндекс-толока-заработок/id1282350367){% endif %}
 
 {% endif %}

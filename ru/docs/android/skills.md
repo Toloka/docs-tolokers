@@ -3,7 +3,7 @@
 Заказчик проверяет ваши ответы и оценивает _навык_ — умение выполнять задания данного типа. Навыки оцениваются по шкале от 0 до 100 баллов. {% if platform=="browser" %}Оценки по навыкам можно посмотреть на странице [Профиль]({{ toloka-profile }}).{% endif %}
 
 {% if platform=="android" %}
-Чтобы посмотреть оценки по навыкам, нажмите **![](images/menu.png) → Навыки**.
+Чтобы посмотреть оценки по навыкам, нажмите **![](assets/menu.png) → Навыки**.
 {% elsif platform=="ios" %}
 Чтобы посмотреть оценки по навыкам, перейдите в **{{ mobile_ios.profile.profile }}**.
 {% endif %}
@@ -19,13 +19,13 @@
 Если у вас есть вопрос о присвоенном навыке, напишите заказчику, который его назначил:
 
 1. {% if platform=="browser" %}Перейдите на страницу {{ ui_worker.prfl }}.
-   {% elsif platform=="android" %}Нажмите **![](images/menu.png) → Навыки**.
+   {% elsif platform=="android" %}Нажмите **![](assets/menu.png) → Навыки**.
    {% elsif platform=="ios" %}Перейдите в **{{ mobile_ios.profile.profile }}**.{% endif %}
     
 	Уточните название задания, за которое назначен навык.
     
 1. {% if platform=="browser" %}Перейдите на вкладку [{{ ui_worker.prfl-tab-history }}]({{ toloka-profile-history }}). Выберите нужное задание в таблице **{{ ui_worker.incm-head }}**.
-   {% elsif platform=="android" %}Нажмите **![](images/menu.png) → {{ mobile_android.tasks_done }}**.
+   {% elsif platform=="android" %}Нажмите **![](assets/menu.png) → {{ mobile_android.tasks_done }}**.
    {% elsif platform=="ios" %} 
     {% include [priemka-p_lsl_rnj_k3b](_includes/priemka/id-priemka/p_lsl_rnj_k3b.md) %}
    {% endif %}
@@ -44,5 +44,5 @@
 
 ### Если связаться с заказчиком не получается или что-то не работает {#support}
 
-[![](images/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
+[![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
 

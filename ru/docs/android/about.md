@@ -31,5 +31,5 @@
 {% endif %}
 {% endif %}
 
-[![](images/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
+[![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
 

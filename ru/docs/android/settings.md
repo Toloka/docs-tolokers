@@ -17,7 +17,7 @@
 ## Интернет {#internet}
 
 Выберите режим использования интернета в зависимости от того, какие задания вы собираетесь выполнять:
-1. {% if platform=="android" %}Откройте меню, нажав кнопку ![](images/menu.png) слева вверху экрана.{% elsif platform=="ios" %} Откройте страницу **{{ mobile_ios.more_title }} → {{ mobile_ios.settings.screen_title }}**.{% endif %}
+1. {% if platform=="android" %}Откройте меню, нажав кнопку ![](assets/menu.png) слева вверху экрана.{% elsif platform=="ios" %} Откройте страницу **{{ mobile_ios.more_title }} → {{ mobile_ios.settings.screen_title }}**.{% endif %}
 {% if platform=="android" %}
 1. Выберите **{{ mobile_android.settings }}**.
 {% endif %}
@@ -53,7 +53,7 @@
 
 Выберите, какие уведомления и каким способом вы хотите получать:
 
-1. Откройте меню, нажав слева вверху экрана кнопку ![](images/menu.png).
+1. Откройте меню, нажав слева вверху экрана кнопку ![](assets/menu.png).
 1. Выберите **{{ mobile_android.settings }}**.
 1. Перейдите в блок **{{ mobile_android.notifications_title }}**.
 1. Включите уведомление и нажмите кнопку **{{ mobile_android.action_save }}**.
@@ -70,14 +70,14 @@
 ## Карта региона {#map}
 
 Чтобы пользоваться картой без подключения к интернету, скачайте карту региона на устройство: 
-1. Откройте меню, нажав кнопку ![](images/menu.png) слева.
+1. Откройте меню, нажав кнопку ![](assets/menu.png) слева.
 1. Выберите **{{ mobile_android.settings }}**.
 1. Включите опцию **{{ mobile_android.settings__download_maps__title }}**.
-1. Нажмите {% if locale=="ru-com" %}![](images/menu.png) → **Доступные**{% endif %}{% if locale=="en-com" %}![](images/menu.png) → **Available**{% endif %}.
-1. Нажмите значок ![](images/map-android2.png), чтобы перейти к заданиям на карте.
-1. Нажмите на значок ![](images/map-download.png) в нижней части экрана и сохраните карту: 
+1. Нажмите {% if locale=="ru-com" %}![](assets/menu.png) → **Доступные**{% endif %}{% if locale=="en-com" %}![](assets/menu.png) → **Available**{% endif %}.
+1. Нажмите значок ![](assets/map-android2.png), чтобы перейти к заданиям на карте.
+1. Нажмите на значок ![](assets/map-download.png) в нижней части экрана и сохраните карту: 
 
-   ![](images/map_download.png)
+   ![](assets/map_download.png)
 
 Чтобы скачанная карта автоматически обновлялась:
 
@@ -93,7 +93,7 @@
 
 Часто в полевых заданиях требуется сфотографировать что-либо (например, вывеску магазина). Все фотографии должны содержать информацию о месте съемки, иначе задание будет отклонено заказчиком. Чтобы сохранять местоположение в фотографиях:
 1. Откройте приложение {% if locale=="ru-com" %}Камера{% elsif locale=="en-com" %}Camera{% endif %} на вашем устройстве.
-1. Перейдите в настройки, нажав кнопку ![](images/settings.svg).
+1. Перейдите в настройки, нажав кнопку ![](assets/settings.svg).
 1. Включите опцию {% if locale=="ru-com" %}**Геометки**/**Геотеги**{% elsif locale=="en-com" %}**GPS location info**{% endif %}.
 
     {% note info %}
@@ -118,5 +118,5 @@
 
 {% endif %}
 
-[![](images/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
+[![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
 

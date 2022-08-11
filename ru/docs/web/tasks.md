@@ -23,7 +23,7 @@
 Все персонажи являются вымышленными и любое совпадение с реально живущими или когда-либо жившими людьми случайно.
 
 #|
-|| ![](images/good_perfomer.svg)| ![](images/bad_performer.svg) ||
+|| ![](assets/good_perfomer.svg)| ![](assets/bad_performer.svg) ||
 || {% if locale=="ru-com" %}**Ваня**{% elsif locale=="en-com" %}**Tom**{% endif %} | {% if locale=="ru-com" %}**Олег**{% elsif locale=="en-com"%}**Greg**{% endif %} ||
 || Молодой инженер, который по вечерам сидит в интернете, а на выходных гуляет и общается с друзьями. Он уже давно и успешно пользуется Толокой. Мы расскажем, как ему это удается. | IT-специалист с неполным высшим образованием, основная его специализация — создание сайтов. Толока для него — дополнительный источник дохода. Он недавно зарегистрировался и уже столкнулся с проблемами. Давайте узнаем, что он сделал не так. ||
 || **Регистрация** | ||
@@ -79,4 +79,4 @@
 {% endif %}{% endif %}
 
 
-[![](images/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
+[![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)

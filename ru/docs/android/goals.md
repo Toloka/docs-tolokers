@@ -6,7 +6,7 @@
 
 ## Настройки целей {#section_qsd_fmr_r3b}
 
-| ![](./images/clock-pattern.svg)                          | ![](./images/money-pattern.svg)     |
+| ![](./assets/clock-pattern.svg)                          | ![](./assets/money-pattern.svg)     |
 |----------------------------------------------------------|-------------------------------------|
 | **Срок**                                                 | **Заработок**                       |
 | Поставьте срок достижения цели — на неделю или на месяц. | Укажите нужную сумму от 5 до 100 $. |
@@ -19,5 +19,5 @@
 Например, начните с цели заработать 15 $ за месяц и оплатить мобильную связь. А потом ставьте себе новые цели!
 
 
-[![](images/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
+[![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
 

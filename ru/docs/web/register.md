@@ -100,9 +100,9 @@
 
 - Android
 
-  Откройте меню, нажав ![](images/menu.svg) вверху экрана. Ваш логин указан вверху рядом с аватаркой.
+  Откройте меню, нажав ![](assets/menu.svg) вверху экрана. Ваш логин указан вверху рядом с аватаркой.
 
-  Нажмите ![](images/settings.png), ваш логин будет указан в разделе **{{ mobile_android.profile }}**.
+  Нажмите ![](assets/settings.png), ваш логин будет указан в разделе **{{ mobile_android.profile }}**.
 
 - iOS
 
@@ -110,5 +110,5 @@
 
 {% endlist %}
 
-[![](images/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#registration)
+[![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#registration)
 

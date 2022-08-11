@@ -575,5 +575,5 @@
 
 
 
-[![](../images/buttons/contact-support.svg)](../troubleshooting/troubleshooting.md#money_withdrawal)
+[![](../assets/buttons/contact-support.svg)](../troubleshooting/troubleshooting.md#money_withdrawal)
 

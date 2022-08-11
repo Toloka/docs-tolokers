@@ -8,7 +8,7 @@
 
 {% elsif platform == 'android' %}
 
-Слева вверху нажмите значок **![](images/menu.png) → {{ mobile_android.achievements_skills_title }} → {{ mobile_android.achievements_skills_title }}**
+Слева вверху нажмите значок **![](assets/menu.png) → {{ mobile_android.achievements_skills_title }} → {{ mobile_android.achievements_skills_title }}**
 
 {% elsif platform == 'ios' %}
 
@@ -19,7 +19,7 @@
 
 #|
 || Полученные награды — цветные         | Доступные награды — черно-белые        ||
-|| ![](images/achievements/active.svg "active" =320x320)  | ![](images/achievements/inactive.svg "inactive" =320x320)  ||
+|| ![](assets/achievements/active.svg "active" =320x320)  | ![](assets/achievements/inactive.svg "inactive" =320x320)  ||
 |#
 
 Нажмите на награду, чтобы узнать, как ее получить.
@@ -34,12 +34,12 @@
 	
     Награду «Знает дело» первого уровня вы получите за выполнение десяти обучающих заданий, второго уровня — за выполнение ста обучающих заданий и так далее. Самая высокая награда — пятого уровня.
 	
-	![](images/achievements/multilevel.png)
+	![](assets/achievements/multilevel.png)
 	
 	{% endcut %}
     
 - **Секретные** награды не видны в профиле и выдаются сюрпризом.
 
 
-[![](images/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
+[![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
 

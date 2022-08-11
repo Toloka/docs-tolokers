@@ -80,11 +80,11 @@
 1. Заполните персональные данные и нажмите **Подтвердить данные**.
 1. Проверьте ваш ИНН и нажмите **Подтвердить**.
 
-   {% if locale == 'ru-com' %}![](../images/Qiwi/ENN-QIWI.png){% endif %}
+   {% if locale == 'ru-com' %}![](../assets/Qiwi/ENN-QIWI.png){% endif %}
     
 1. Дождитесь уведомления об успешной идентификации.
 
-   {% if locale == 'ru-com' %}![](../images/Qiwi/itog.png){% endif %}
+   {% if locale == 'ru-com' %}![](../assets/Qiwi/itog.png){% endif %}
     
 1. Готово, ваш кошелек идентифицирован.
 
@@ -134,5 +134,5 @@
 1. Готово, перевод отправлен.
 
 
-[![](../images/buttons/contact-support.svg)](../troubleshooting/troubleshooting.md#money_withdrawal)
+[![](../assets/buttons/contact-support.svg)](../troubleshooting/troubleshooting.md#money_withdrawal)
 

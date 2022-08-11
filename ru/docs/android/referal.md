@@ -31,5 +31,5 @@
 - [Устаревшие правила начисления бонусов](referal-archive.md)
 
 
-[![](images/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
+[![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
 

@@ -22,7 +22,7 @@
 1. Если на экране регистрации появилось предупреждение:
     {% cut "Не привязан номер телефона" %}
     
-	{% if platform == 'ios' %}![](images/mail_warning_ios.png){% elseif platform == 'android' %}![](images/mail_warning_android.png){% endif %}
+	{% if platform == 'ios' %}![](images/mail_warning_ios.png){% elseif platform == 'android' %}![](assets/mail_warning_android.png){% endif %}
 	
     Нажмите {% if platform == 'ios' %}{{ mobile_ios.phone_error.edit_action }}{% elseif platform == 'android' %}{{ mobile_android.ok }}{% endif %} и привяжите номер телефона на открывшейся странице в [Яндекс ID]({{ passport }}). Ваш номер нужен для получения кода по SMS.
     
@@ -102,5 +102,5 @@
 
 
 
-[![](images/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#registration)
+[![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#registration)
 

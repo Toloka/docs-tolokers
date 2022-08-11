@@ -29,7 +29,7 @@
 
 - Яндекс Браузер
 
-  1. Нажмите ![](images/menu.svg) вверху справа и затем **Настройки**.
+  1. Нажмите ![](assets/menu.svg) вверху справа и затем **Настройки**.
   1. В левой части страницы **Настройки** нажмите кнопку **Сайты**.
   1. В блоке **Уведомления** нажмите кнопку **От прочих сайтов**.
   1. На вкладке **Разрешена** нажмите кнопку **Добавить** вверху справа.
@@ -38,7 +38,7 @@
 
 - Chrome
 
-  1. Нажмите ![](images/dots_vertical.svg) вверху справа и затем **Настройки**.
+  1. Нажмите ![](assets/dots_vertical.svg) вверху справа и затем **Настройки**.
   1. В нижней части страницы **Настройки** нажмите кнопку **Дополнительные**.
   1. В блоке **Конфиденциальность и безопасность** нажмите кнопку **Настройки контента**.
   1. Выберите **Уведомления**.
@@ -57,7 +57,7 @@
 
 - Firefox
 
-  1. Нажмите ![](images/menu.svg) вверху справа и затем **Настройки**.
+  1. Нажмите ![](assets/menu.svg) вверху справа и затем **Настройки**.
   1. Выберите **Приватность и защита** в списке слева.
   1. В блоке **Разрешения** нажмите кнопку **Параметры** напротив пункта **Уведомления**.
   1. Напротив адреса {% if locale=="ru-com" %}`toloka.yandex.ru`{% elsif locale=="en-com" %}`toloka.yandex.com`{% endif %} выберите статус **Разрешить**.
@@ -65,7 +65,7 @@
 
 - Edge
 
-  1. Нажмите ![](images/dots_horizontal.svg) вверху справа и затем **Параметры**.
+  1. Нажмите ![](assets/dots_horizontal.svg) вверху справа и затем **Параметры**.
   1. В нижней части страницы **Параметры** нажмите кнопку **Посмотреть доп. параметры**.
   1. В блоке **Уведомления / Разрешения для веб-сайта** нажмите кнопку **Управление**.
   1. Выберите Толоку {% if locale=="ru-com" %}`toloka.yandex.ru`{% elsif locale=="en-com" %}`toloka.yandex.com`{% endif %}.
@@ -81,7 +81,7 @@
 {% if platform=="browser" %}
 Нажмите на ваш логин в правом верхнем углу. Затем нажмите кнопку {{ ui_worker.8ef2d61ae629c63b155ae66c3d2fc9fa }}.
 {% elsif platform=="android" %}
-Нажмите **![](images/menu.png) → {{ mobile_android.settings }}**. Внизу списка выберите **{{ mobile_android.logout }}**.
+Нажмите **![](assets/menu.png) → {{ mobile_android.settings }}**. Внизу списка выберите **{{ mobile_android.logout }}**.
 {% elsif platform=="ios" %}
 Откройте страницу **{{ mobile_ios.more_title }} → {{ mobile_ios.settings.screen_title }}**. Внизу списка выберите **{{ mobile_ios.logout_button }}**. 
 {% endif %}
@@ -122,7 +122,7 @@
   1. В мобильном приложении откройте страницу **Еще → Настройки**.
   1. В конце списка выберите **Удалить аккаунт**.
   {% elsif platform=="android" %}
-  1. Нажмите ![](images/menu.png) → **{{ mobile_android.settings }}**.
+  1. Нажмите ![](assets/menu.png) → **{{ mobile_android.settings }}**.
   1. Нажмите кнопку **{{ ui_worker.2c5461dee3add8fe9c9e803e1de003c5 }}** в конце списка.
   {% endif %}
 
@@ -130,5 +130,5 @@
 
 
 
-[![](images/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
+[![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
 

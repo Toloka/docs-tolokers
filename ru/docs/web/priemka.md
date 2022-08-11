@@ -23,11 +23,11 @@
 ## Когда будут оплачены принятые задания {#pay}
 
 {% if platform=="browser" %}
-Сразу после проверки деньги за принятые задания зачисляются на ваш счет. Справа в верхнем меню [Толоки]({{ toloka }}) указаны суммы ![](images/balance.svg):
+Сразу после проверки деньги за принятые задания зачисляются на ваш счет. Справа в верхнем меню [Толоки]({{ toloka }}) указаны суммы ![](assets/balance.svg):
 {% endif %}
 
 {% if platform=="android" %}
-Сразу после проверки деньги за принятые задания зачисляются на ваш счет. В верхней части меню (значок ![](images/menu.svg)) указаны суммы ![](images/balance.svg):
+Сразу после проверки деньги за принятые задания зачисляются на ваш счет. В верхней части меню (значок ![](assets/menu.svg)) указаны суммы ![](assets/balance.svg):
 {% endif %}
 
 {% if platform=="android" or platform=="browser" %}
@@ -55,7 +55,7 @@
 1. Выберите **{{ ui_worker.assgn-type-rej }}** в выпадающем списке над таблицей **{{ ui_worker.incm-head }}**.
 1. Нажмите на проект.
 1. Откройте отклоненное задание, нажав на его номер.
-1. Нажмите кнопку **![](images/loudspeaker.svg) → {{ui_worker.messages_compose_to_requesters}}** вверху страницы.
+1. Нажмите кнопку **![](assets/loudspeaker.svg) → {{ui_worker.messages_compose_to_requesters}}** вверху страницы.
 1. Кратко опишите, почему вы считаете, что задание выполнено верно. Номер задания будет прикреплен к сообщению автоматически.
 1. Нажмите кнопку **Отправить**.
 {% elsif platform=="ios" %}
@@ -67,7 +67,7 @@
 {% elsif platform=="android" %}
 1. Перейдите на страницу **{{ mobile_android.tasks_done }}**.
 1. Откройте отклоненное задание.
-1. Нажмите ![](images/kebab-menu_1.jpg) в карточке задания и выберите **{{ ui_worker.messages_compose_to_requesters }}**.
+1. Нажмите ![](assets/kebab-menu_1.jpg) в карточке задания и выберите **{{ ui_worker.messages_compose_to_requesters }}**.
 1. Кратко опишите, почему вы считаете, что задание выполнено верно. Номер задания будет прикреплен к сообщению автоматически.
 1. Нажмите кнопку **Отправить**.
 {% endif %}
@@ -83,5 +83,5 @@
 
 ## Если связаться с заказчиком не получается или что-то не работает {#support}
 
-[![](images/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
+[![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
 

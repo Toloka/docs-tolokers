@@ -62,7 +62,7 @@
 
 Стоимость заданий может отличаться. Итоговая стоимость зависит от навыков исполнителя, региона и объема задания. Чтобы увидеть эту информацию, в карточке задания под стоимостью нажмите на знак вопроса.
 
-![](images/cost.png)
+![](assets/cost.png)
 
 {% endcut %}
 
@@ -74,5 +74,5 @@
 
 Если у вас остались вопросы, напишите нам:
 
-[![](images/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#no_tasks)
+[![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#no_tasks)
 

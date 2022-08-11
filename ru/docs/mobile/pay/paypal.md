@@ -86,21 +86,21 @@
 1. Введите код из СМС.
 1. Заполните адрес электронной почты и придумайте надежный пароль. Нажмите кнопку **Далее**.
 
-   {% if locale == 'ru-com' %}![](../images/PayPal/step-five.png){% endif %}
+   {% if locale == 'ru-com' %}![](../assets/PayPal/step-five.png){% endif %}
 1. Заполните персональные данные и подтвердите открытие счета.
-   {% if locale == 'ru-com' %}![](../images/PayPal/step-six.png){% endif %}
+   {% if locale == 'ru-com' %}![](../assets/PayPal/step-six.png){% endif %}
 1. Поздравляем. Вы успешно прошли регистрацию.
 
 #### Подтверждение электронной почты
 
 После успешной регистрации вам необходимо подтвердить адрес электронной почты.
 
-1. Войдите в личный кабинет и нажмите на ![](../images/settings.png). 
+1. Войдите в личный кабинет и нажмите на ![](../assets/settings.png). 
 
-   {% if locale == 'ru-com' %}![](../images/PayPal/settings.png){% endif %}
+   {% if locale == 'ru-com' %}![](../assets/PayPal/settings.png){% endif %}
 1. В настройках найдите ваш электронный адрес и нажмите кнопку **Подтвердить**.
 
-   {% if locale == 'ru-com' %}![](../images/PayPal/email.png){% endif %}
+   {% if locale == 'ru-com' %}![](../assets/PayPal/email.png){% endif %}
 1. На открывшейся странице подтвердите адрес электронной почты. На вашу почту придет письмо с ссылкой для подтверждения.
 
 {% note info %}
@@ -116,7 +116,7 @@
 1. Откройте официальный сайт [PayPal]({{ paypal }}).
 1. Зайдите в личный счет.
 
-   {% if locale=='ru-com' %} ![](../images/PayPal/verification/personal.png) {% endif %}
+   {% if locale=='ru-com' %} ![](../assets/PayPal/verification/personal.png) {% endif %}
 1. Нажмите **Добавить банковский счет или карту**.
     {% note info %}
     
@@ -128,7 +128,7 @@
 1. Заполните данные вашей карты и нажмите **Привязать карту**.
 1. С карты спишется сумма в 60 рублей. В банковском чеке вы найдете четырехзначный код подтверждения.
 
-    {% if locale=="ru-com" %}![](../images/PayPal/verification/verification-five.png){% endif %}
+    {% if locale=="ru-com" %}![](../assets/PayPal/verification/verification-five.png){% endif %}
 
     {% note info %}
     
@@ -138,7 +138,7 @@
     
 1. Введите код в поле и нажмите кнопку **Подтвердить карту**.
 
-    {% if locale=="ru-com" %}![](../images/PayPal/verification/verification-six.png){% endif %}
+    {% if locale=="ru-com" %}![](../assets/PayPal/verification/verification-six.png){% endif %}
     
 	{% cut "Если код не пришел" %}
     
@@ -146,7 +146,7 @@
     
     Для этого зайдите в личный кабинет. В разделе **Счет** выберите карту и нажмите **Введите код для подтверждения**. Введите код в поле и нажмите кнопку **Подтвердить карту**.
 	
-	{% if locale=="ru-com" %}![](../images/PayPal/verification/verification-seven.png){% endif %}
+	{% if locale=="ru-com" %}![](../assets/PayPal/verification/verification-seven.png){% endif %}
 	
 	{% endcut %}
     
@@ -164,7 +164,7 @@
 1. Заполните данные и нажмите кнопку **Согласиться и привязать**.
 1. На счет будут отправлены две небольшие суммы (менее 0,5 рублей) и осуществлен их возврат.
 
-   {% if locale=="ru-com" %}![](../images/PayPal/verification/verification-bank.png){% endif %}
+   {% if locale=="ru-com" %}![](../assets/PayPal/verification/verification-bank.png){% endif %}
    
     {% note info %}
     
@@ -180,7 +180,7 @@
     
     Для этого зайдите в личный кабинет. В разделе **Счет** выберите банковский счет и нажмите **Подтвердить банковский счет**. Введите суммы в поля и нажмите кнопку **Подтвердить**.
 	
-	{% if locale=="ru-com" %}![](../images/PayPal/verification/bank-where-to-find.png){% endif %}
+	{% if locale=="ru-com" %}![](../assets/PayPal/verification/bank-where-to-find.png){% endif %}
 	
 	{% endcut %}
     
@@ -213,7 +213,7 @@
     {% endnote %}
     
 1. В поле **{{ ui_worker.wthdrw-amnt }}** введите необходимую сумму и нажмите кнопку **{{ ui_worker.money__withdraw__submit }}**.
-1. На ваш номер телефона придет СМС с кодом. Введите его и нажмите кнопку **Подтвердить**. {% if locale=="ru-com" %}![](../images/PayPal/verification/withdraw.png){% endif %}
+1. На ваш номер телефона придет СМС с кодом. Введите его и нажмите кнопку **Подтвердить**. {% if locale=="ru-com" %}![](../assets/PayPal/verification/withdraw.png){% endif %}
 1. Денежные средства поступят на ваш кошелек. Обычно средства поступают за несколько часов или дней, но иногда дольше. Максимально - 30 дней. Проверяйте статус операции в блоке **{{ ui_worker.prfl-money-history }}**.
 
 {% include [check](../_includes/pay/about/check.md) %}
@@ -250,5 +250,5 @@
 
 {% endcut %}
 
-[![](../images/buttons/contact-support.svg)](../troubleshooting/troubleshooting.md#money_withdrawal)
+[![](../assets/buttons/contact-support.svg)](../troubleshooting/troubleshooting.md#money_withdrawal)
 
