@@ -25,7 +25,7 @@
 	Уточните название задания, за которое назначен навык.
     
 1. {% if platform=="browser" %}Перейдите на вкладку [{{ ui_worker.prfl-tab-history }}]({{ toloka-profile-history }}). Выберите нужное задание в таблице **{{ ui_worker.incm-head }}**.
-   {% elsif platform=="android" %}Нажмите **![](images/menu.png)→{{ mobile_android.tasks_done }}**.
+   {% elsif platform=="android" %}Нажмите **![](images/menu.png) → {{ mobile_android.tasks_done }}**.
    {% elsif platform=="ios" %} 
     {% include [priemka-p_lsl_rnj_k3b](_includes/priemka/id-priemka/p_lsl_rnj_k3b.md) %}
    {% endif %}

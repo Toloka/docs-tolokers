@@ -14,8 +14,10 @@
 #### Условия
 
 {% if platform=="browser" %}
+
 {% include [popup-info-sbp-conditions](../_includes/pay/popup-info/id-popup-info/sbp-conditions.md) %}
-{% elsif platform=="andriod" or platform=="ios" or platform=="mobile" %}
+
+{% elsif platform=="android" or platform=="ios" or platform=="mobile" %}
 
 #|
 || Где работает | РФ ||

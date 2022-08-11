@@ -8,7 +8,7 @@
 1. Откройте страницу [Реферальная программа]({{ toloka-referral }}).
 1. Скопируйте и отправьте ссылку друзьям или поделитесь ей в социальной сети.
 {% elsif platform=="ios" or platform=="android" %}
-1. Откройте страницу {% if platform=="android" %}**Ещё→{{ mobile_android.others_referral_bonuses_title }}**{% elsif platform=="ios" %}**{{ mobile_ios.more_title }}→{{ mobile_ios.referral.bonus_for_friends }}**{% endif %}.
+1. Откройте страницу {% if platform=="android" %}**Ещё → {{ mobile_android.others_referral_bonuses_title }}**{% elsif platform=="ios" %}**{{ mobile_ios.more_title }} → {{ mobile_ios.referral.bonus_for_friends }}**{% endif %}.
 1. Нажмите кнопку {% if platform=="android" %}**{{ mobile_android.invite_friends }}**{% elsif platform=="ios" %}**{{ mobile_ios.referral.invite_button }}**{% endif %}.
 1. Скопируйте и отправьте ссылку друзьям или поделитесь ей в социальной сети.
 {% endif %}

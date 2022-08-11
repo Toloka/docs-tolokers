@@ -122,7 +122,7 @@
   1. В мобильном приложении откройте страницу **Еще → Настройки**.
   1. В конце списка выберите **Удалить аккаунт**.
   {% elsif platform=="android" %}
-  1. Нажмите ![](images/menu.png)** → {{ mobile_android.settings }}**.
+  1. Нажмите ![](images/menu.png) → **{{ mobile_android.settings }}**.
   1. Нажмите кнопку **{{ ui_worker.2c5461dee3add8fe9c9e803e1de003c5 }}** в конце списка.
   {% endif %}
 

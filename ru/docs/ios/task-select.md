@@ -17,7 +17,7 @@
 
 Чтобы выполнить обычное задание:
 
-1. Откройте список заданий, нажав {% if platform == "android" %}**![](images/menu.png)→{{ mobile_android.tasks_available }}**{% elsif platform == "ios" %}кнопку **{{ mobile_ios.all_tasks }}**{% endif %}.
+1. Откройте список заданий, нажав {% if platform == "android" %}**![](images/menu.png) → {{ mobile_android.tasks_available }}**{% elsif platform == "ios" %}кнопку **{{ mobile_ios.all_tasks }}**{% endif %}.
 1. Прочитайте {% if locale=="ru-com" %}инструкцию{% elsif locale=="en-com" %}instructions{% endif %} и перейдите к заданию.
 1. Нажмите  {% if platform=="ios" %}**{{ mobile_ios.start_task }}**{% elsif platform=="android" %}**{{ mobile_android.start_now }}**{% endif %}.
 1. Ответьте на вопросы и нажмите кнопку {% if platform == 'ios' %}**{{ mobile_ios.submit_button}}**{% elsif platform == 'android' %}**{{ mobile_android.task_submit }}**{% endif %}.
@@ -32,10 +32,10 @@
 
 Вы можете сохранять задания, которые вы не выполнили до конца, в **{{ mobile_android.tasks_reserved }}**. Для этого:
 
-1. Нажмите ![](images/menu.png)→**{{ mobile_android.settings }}**.
+1. Нажмите ![](images/menu.png) → **{{ mobile_android.settings }}**.
 1. Выберите опцию **{{ mobile_android.settings_keep_tasks_title }}**.
 
-Чтобы продолжить выполнять задание, нажмите ![](images/menu.png)→**{{ mobile_android.tasks_reserved }}**, найдите нужно задание и нажмите кнопку **{{ ui_worker.tsk__resume }}**.
+Чтобы продолжить выполнять задание, нажмите ![](images/menu.png) → **{{ mobile_android.tasks_reserved }}**, найдите нужно задание и нажмите кнопку **{{ ui_worker.tsk__resume }}**.
 {% endif %}
 
 {% if platform == 'android' or platform == 'ios' %}
@@ -43,7 +43,7 @@
 
 Чтобы выполнить полевое здание:
 
-1. Откройте список заданий. {% if platform=="android" %}Для этого нажмите значок ![](images/menu.png)→**{{ mobile_android.tasks_available }}** {% elsif platform=="ios" %}Для этого нажмите **{{ mobile_ios.all_tasks_title }}**{% endif %}.
+1. Откройте список заданий. {% if platform=="android" %}Для этого нажмите значок ![](images/menu.png) → **{{ mobile_android.tasks_available }}** {% elsif platform=="ios" %}Для этого нажмите **{{ mobile_ios.all_tasks_title }}**{% endif %}.
 1. Откройте точки заданий одним из способов:
 
     * Выберите задание в списке заданий и нажмите кнопку {% if platform=="android" %}**{{ mobile_android.task_choose }}**{% elsif platform == "ios"%}**{{ mobile_ios.open_map }}**{% endif %}, чтобы увидеть расположение точек этого задания.
@@ -55,7 +55,7 @@
 	
     Для экономии мобильного интернета скачайте карту региона на устройство. Для этого нажмите значок ![](images/map-download.png)
                 
-    Чтобы удалить скачанные карты, откройте **{{ mobile_ios.more_title }}**→**{{ mobile_ios.settings.screen_title }}**→**{{ mobile_ios.settings.clear_maps_cache }}**
+    Чтобы удалить скачанные карты, откройте **{{ mobile_ios.more_title }}** → **{{ mobile_ios.settings.screen_title }}** → **{{ mobile_ios.settings.clear_maps_cache }}**
 	
     {% endnote %}
 	
@@ -74,7 +74,7 @@
 
    Чтобы установить минимальную цену за задание:
    
-   1. {% if platform=="android" %}Нажмите на значок ![](images/filter-android.png) внизу экрана.{% elsif platform=="ios" %}Нажмите кнопку **{{ mobile_ios.filters.title }}** вверху экрана{% endif %}.
+   1. {% if platform=="android" %}Нажмите на значок ![](images/filter-android.png) внизу экрана{% elsif platform=="ios" %}Нажмите кнопку **{{ mobile_ios.filters.title }}** вверху экрана{% endif %}.
    1. Передвиньте ползунок.
    1. Нажмите кнопку {% if platform=="android"%}**{{ mobile_android.apply_positive_button }}**{% elsif platform=='ios'%}**{{ mobile_ios.apply_button }}**{% endif %}.
 
@@ -84,9 +84,9 @@
 
    Вы можете зарезервировать несколько заданий.
 	  
-1. {% if platform=="android" %}Чтобы построить маршрут, нажмите ![](images/kebab-menu.png) **→ {{ mobile_android.task_build_route }}**.{% endif %}{% if platform=="ios" %}Постройте маршрут до точки, нажав кнопку **{{ mobile_ios.route_button }}**.{% endif %} Маршрут будет построен в приложении [Яндекс Карты]({{ ya-maps }}).
+1. {% if platform=="android" %}Чтобы построить маршрут, нажмите ![](images/kebab-menu.png) ** →  {{ mobile_android.task_build_route }}**.{% endif %}{% if platform=="ios" %}Постройте маршрут до точки, нажав кнопку **{{ mobile_ios.route_button }}**.{% endif %} Маршрут будет построен в приложении [Яндекс Карты]({{ ya-maps }}).
    
-1. Доберитесь до места, которое указано в задании. Затем выберите задание на странице {% if platform=="ios" %}**{{ mobile_ios.my_tasks }}→{{ mobile_ios.active_tasks }}** и нажмите кнопку **{{ mobile_ios.continue_button }}**. {% endif %}{% if platform=="android" %}**{{ mobile_android.tasks_reserved }}** и нажмите кнопку **{{ mobile_android.task_resume }}**{% endif %}
+1. Доберитесь до места, которое указано в задании. Затем выберите задание на странице {% if platform=="ios" %}**{{ mobile_ios.my_tasks }} → {{ mobile_ios.active_tasks }}** и нажмите кнопку **{{ mobile_ios.continue_button }}**. {% endif %}{% if platform=="android" %}**{{ mobile_android.tasks_reserved }}** и нажмите кнопку **{{ mobile_android.task_resume }}**{% endif %}
     
 1. Выполните задание:
    * Перечитайте инструкцию.
@@ -99,7 +99,7 @@
 
      {% endnote %}
       
-Задание с ответами сохраняется на странице {% if platform=="android" %}**{{ mobile_android.tasks_done }}**{% elsif platform=="ios" %}**{{ mobile_ios.my_tasks }} → {{ mobile_ios.done_tasks }}**{% endif %} до подключения к Wi-Fi, если в [настройках](settings.dita) выбрана опция {% if platform=="android"%}**{{ mobile_android.settings_wifi_title }}**{% elsif platform=="ios" %}**{{ mobile_ios.settings_wifi_title }}**{% endif %}. Вам нужно успеть отправить задание до того, как истечет время на его выполнение.
+Задание с ответами сохраняется на странице {% if platform=="android" %}**{{ mobile_android.tasks_done }}**{% elsif platform=="ios" %}**{{ mobile_ios.my_tasks }} → {{ mobile_ios.done_tasks }}**{% endif %} до подключения к Wi-Fi, если в [настройках](settings.dita) выбрана опция {% if platform=="android"%}**{{ mobile_android.settings_wifi_title }}}**{% elsif platform=="ios" %}**{{ mobile_ios.settings_wifi_title }}**{% endif %}. Вам нужно успеть отправить задание до того, как истечет время на его выполнение.
 {% endif %}
 
 {% if platform == "android" or platform=="ios" %}
@@ -107,9 +107,9 @@
         
 Если задание выполнено, но еще не отправлено, вы можете внести в него изменения:
 
-1. Откройте задание на странице {% if platform=="android" %}**{{ mobile_android.tasks_done }}**{% elsif platform=="ios" %}**{{ mobile_ios.my_tasks }}→{{ mobile_ios.done_tasks }}**{% endif %}.
+1. Откройте задание на странице {% if platform=="android" %}**{{ mobile_android.tasks_done }}**{% elsif platform=="ios" %}**{{ mobile_ios.my_tasks }} → {{ mobile_ios.done_tasks }}**{% endif %}.
 1. {% if platform=="android" %}Нажмите кнопку ![](images/dots_vertical.svg) вверху экрана и выберите **{{ mobile_android.task_back_to_reserved }}**.{% elsif platform=="ios" %}Нажмите кнопку **{{ mobile_ios.assignment.return_to_active }}**.{% endif %}
-1. Перейдите на страницу {% if platform=="android" %}**{{ mobile_android.tasks_reserved }}**{% elsif platform=="ios" %}**{{ mobile_ios.my_tasks }}→{{ mobile_ios.active_tasks }}**{% endif %} и {% if platform=="android" %}внесите изменения в задание{% endif %}{% if platform=="ios" %}нажмите кнопку **{{ mobile_ios.continue_button }}**{% endif %}.1. {% if platform=="android" %}Нажмите кнопку **{{ mobile_android.action_done }}**{% endif %}
+1. Перейдите на страницу {% if platform=="android" %}**{{ mobile_android.tasks_reserved }}**{% elsif platform=="ios" %}**{{ mobile_ios.my_tasks }} → {{ mobile_ios.active_tasks }}**{% endif %} и {% if platform=="android" %}внесите изменения в задание{% endif %}{% if platform=="ios" %}нажмите кнопку **{{ mobile_ios.continue_button }}**{% endif %}.1. {% if platform=="android" %}Нажмите кнопку **{{ mobile_android.action_done }}**{% endif %}
    {% if platform=="ios" %}Внесите изменения и нажмите кнопку **{{ mobile_ios.submit_button }}**{% endif %}.
 
 {% endif %}
@@ -120,7 +120,7 @@
 Ответы на задание будут отправлены заказчику, как только у вас появится доступ к интернету. Для отправки необходимо открыть мобильное приложение. Если в [настройках](settings.dita) выбрана опция {% if platform=="android" %}**{{ mobile_android.settings_wifi_title }}**{% elsif platform=="ios" %}**{{ mobile_ios.settings_wifi_title }**{% endif %}, задание будет отправлено после подключения к Wi-Fi. {% if platform=="android" or platform=="ios" %}Чтобы отправить задание по мобильному интернету:{% endif %}
 
 {% if platform=="android" or platform=="ios" %}
-1. Откройте задание на странице {% if platform=="android" %} **{{ mobile_android.tasks_done }}**{% elsif platform=="ios" %}**{{ mobile_ios.my_tasks }}→{{ mobile_ios.done_tasks }}**{% endif %}.
+1. Откройте задание на странице {% if platform=="android" %} **{{ mobile_android.tasks_done }}**{% elsif platform=="ios" %}**{{ mobile_ios.my_tasks }} → {{ mobile_ios.done_tasks }}**{% endif %}.
 1. Нажмите кнопку {% if platform=="android" %}![](images/dots_vertical.svg) вверху экрана и выберите **{{ mobile_android.task_force_submit }}**{% elsif platform=="ios" %}**{{ mobile_ios.assignment.submit_now }}**{% endif %}.
 
 {% endif %}
@@ -129,7 +129,7 @@
 ## Советы и рекомендации {#tips}
       
 В списке заданий отображаются все задания — обычные и полевые. Чтобы открыть список заданий, нажмите
-{% if platform=="android" %}![](images/menu.png)**→{{ mobile_android.tasks_available }}**{% endif %}
+{% if platform=="android" %}![](images/menu.png)** → {{ mobile_android.tasks_available }}**{% endif %}
 {% if platform=="ios" %}кнопку **{{ mobile_ios.all_tasks_title }}**{% endif %}.
 
 {% if platform=="android" %}Чтобы управлять списком заданий, примените фильтры и настройте сортировку:
@@ -193,7 +193,7 @@
 Чтобы выбрать, какая информация о задании будет изображена на метке:
 
 1. {% if platform=="ios" %}Нажмите **{{ mobile_ios.more_title }} → {{ mobile_ios.settings.screen_title }}** {% endif %}
-   {% if platform=="android" %}Нажмите ![](images/menu.png)**→{{ mobile_android.settings }}**{% endif %}
+   {% if platform=="android" %}Нажмите ![](images/menu.png)** → {{ mobile_android.settings }}**{% endif %}
 1. Откройте {% if platform=="android" %}**{{ mobile_android.settings_pin_view_type_title}}**{% elsif platform=="ios" %}**{{ mobile_ios.settings.map_pin_format.setting_title }}**{% endif %} и выберите нужную опцию.
 {% if platform=="android" %}
 1. Нажмите кнопку **{{ mobile_android.action_save }}**.

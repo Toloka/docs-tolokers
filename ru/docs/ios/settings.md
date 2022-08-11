@@ -17,7 +17,7 @@
 ## Интернет {#internet}
 
 Выберите режим использования интернета в зависимости от того, какие задания вы собираетесь выполнять:
-1. {% if platform=="android" %}Откройте меню, нажав кнопку ![](images/menu.png) слева вверху экрана.{% elsif platform=="ios" %} Откройте страницу **{{ mobile_ios.more_title }}→{{ mobile_ios.settings.screen_title }}**.{% endif %}
+1. {% if platform=="android" %}Откройте меню, нажав кнопку ![](images/menu.png) слева вверху экрана.{% elsif platform=="ios" %} Откройте страницу **{{ mobile_ios.more_title }} → {{ mobile_ios.settings.screen_title }}**.{% endif %}
 {% if platform=="android" %}
 1. Выберите **{{ mobile_android.settings }}**.
 {% endif %}
@@ -62,7 +62,7 @@
 ## Уведомления {#notifications-ios}
 
 Выберите, какие уведомления и каким способом вы хотите получать:
-1. Нажмите **{{ mobile_ios.more_title }}→{{ mobile_ios.notifications_preferences.title }}**.
+1. Нажмите **{{ mobile_ios.more_title }} → {{ mobile_ios.notifications_preferences.title }}**.
 1. Выберите уведомление и включите нужную опцию.
 {% endif%}
 
