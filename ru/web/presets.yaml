@@ -1,78 +1,98 @@
 default:
   locale: 'ru-com'
+  platform: 'browser'
   toloka: 'http://toloka.yandex.ru/'
-  yoomoney-ref: https://yoomoney.ru
-  yoomoney-name: ЮMoney
+  yoomoney-ref: 'https://yoomoney.ru'
+  yoomoney-name: 'ЮMoney'
   toloka-tasks: 'https://toloka.yandex.ru/tasks'
   toloka-achievements: 'https://toloka.yandex.ru/achievements'
   toloka-profile: 'http://toloka.yandex.ru/profile'
   toloka-profile-history: 'https://toloka.yandex.ru/profile/history'
   toloka-profile-money: 'https://toloka.yandex.ru/profile/money'
   toloka-messages: 'http://toloka.yandex.ru/messages'
-  toloka-referral: 'https://toloka.yandex.com/profile/referral'
-  toloka-money: 'https://toloka.yandex.com/profile/money'
-  user-agreement: 'https://yandex.com/legal/toloka_useragreement/index.html'
+  toloka-referral: 'https://toloka.yandex.ru/profile/referral'
+  toloka-money: 'https://toloka.yandex.ru/profile/money'
+  toloka-app-android: 'https://toloka.ai/tolokers/docs/android/?lang=ru'
+  toloka-app-ios: 'https://toloka.ai/tolokers/docs/ios/?lang=ru'
+  user-agreement: 'https://yandex.ru/legal/toloka_useragreement/index.html'
   toloka-facebook: 'https://www.facebook.com/yandex.toloka.ru/'
   toloka-vk: 'https://vk.com/ya.toloka'
   toloka-youtube: 'https://www.youtube.com/channel/UCf-vd-Nf_igCYJpohQ8BPUQ'
   toloka-telegram: 'https://t.me/TolokaOfficial'
-  passport: 'https://passport.yandex.com/'
+  passport: 'https://passport.yandex.ru/'
   passport-reg-toloka: >-
-    https://passport.yandex.ru/registration?mode=register&retpath=https://toloka.yandex.ru
+    https://passport.yandex.ru/registration?mode=register&amp;retpath=https://toloka.yandex.ru
   passport-auth-toloka: >-
-    https://passport.yandex.com/passport?mode=auth&retpath=https://toloka.yandex.com
-  passport-profile: 'https://passport.yandex.com/profile'
-  passport-restore: 'https://passport.yandex.com/passport?mode=restore'
-  passport-phones: 'https://passport.yandex.com/profile/phones'
+    https://passport.yandex.ru/passport?mode=auth&amp;retpath=https://toloka.yandex.ru
+  passport-profile: 'https://passport.yandex.ru/profile'
+  passport-restore: 'https://passport.yandex.ru/passport?mode=restore'
+  passport-phones: 'https://passport.yandex.ru/profile/phones'
   support-passport-phone: >-
-    https://yandex.com/support/passport/authorization/phone.html
-  support-passport-phone-change: 'https://yandex.com/support/passport/authorization/phone.html#change'
+    https://yandex.ru/support/passport/authorization/phone.html
+  support-passport-phone-change: 'https://yandex.ru/support/passport/authorization/phone.html#change'
   support-passport-nocode: >-
-    https://yandex.com/support/passport/troubleshooting/phone-problems.html#phone-problems__no-code
-  support-passport-nosms-form: 'https://yandex.com/support/passport/troubleshooting/nosms-form.html'
+    https://yandex.ru/support/passport/troubleshooting/phone-problems.html#phone-problems__no-code
+  support-passport-nosms-form: 'https://yandex.ru/support/passport/troubleshooting/nosms-form.html'
   support-browser-microphone: >-
-    https://yandex.com/support/browser/personal-data-protection/do-not-follow.html#microphone
-  support-browser-cache: 'https://yandex.com/support/common/browsers-settings/cache.html'
+    https://yandex.ru/support/browser/personal-data-protection/do-not-follow.html?lang=ru#microphone
+  support-browser-cache: 'https://yandex.ru/support/common/browsers-settings/cache.html'
   support-toloka-yoomoney: 'https://toloka.ai/tolokers/docs/web/pay/yoomoney.html'
   google-chrome-camera: >-
-    https://support.google.com/chrome/answer/2693767?co=GENIE.Platform%3DDesktop&hl=en
+    https://support.google.com/chrome/answer/2693767?co=GENIE.Platform%3DDesktop&amp;hl=ru
   mozilla-firefox-camera: >-
-    https://support.mozilla.org/en-US/kb/how-manage-your-camera-and-microphone-permissions
-  opera-camera: 'https://help.opera.com/en/latest/web-preferences/'
-  safari-camera: 'https://support.apple.com/en-euro/guide/safari/ibrw7f78f7fe/mac'
-  mac-os-camera: 'https://support.apple.com/en-gb/guide/mac-help/mchlf6d108da/mac'
+    https://support.mozilla.org/ru/kb/upravlenie-razresheniyami-dlya-kamery-i-mikrofona-
+  opera-camera: 'https://help.opera.com/ru/latest/web-preferences/'
+  safari-camera: 'https://support.apple.com/ru-ru/guide/safari/ibrw7f78f7fe/mac'
+  mac-os-camera: 'https://support.apple.com/ru-ru/guide/mac-help/mchlf6d108da/10.15/mac/10.15'
   mac-os-microphone: >-
-    https://support.apple.com/en-euro/guide/mac-help/mchla1b1e1fe/10.15/mac/10.15
-  paypal: 'https://www.paypal.com/uk/home'
+    https://support.apple.com/ru-ru/guide/mac-help/mchla1b1e1fe/10.15/mac/10.15
+  paypal: 'https://www.paypal.com/ru/home'
   paypal-verify-account: >-
-    https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444
+    https://www.paypal.com/ru/smarthelp/article/как-стать-проверенным-пользователем-faq444
   paypal-confirm-email: >-
-    https://www.paypal.com/uk/smarthelp/article/how-do-i-confirm-my-email-address-faq3273
+    https://www.paypal.com/ru/smarthelp/article/как-подтвердить-свой-электронный-адрес-faq1485
   paypal-transfer-money: 'https://www.paypal.com/ru/smarthelp/article/faq1189'
-  paypal-help: 'https://www.paypal.com/uk/selfhelp/home'
-  paypal-countries: 'https://www.paypal.com/uk/webapps/mpp/country-worldwide'
+  paypal-help: 'https://www.paypal.com/ru/selfhelp/home'
+  paypal-countries: 'https://www.paypal.com/ru/webapps/mpp/country-worldwide'
   paypal-verification: >-
-    https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444
+    https://www.paypalobjects.com/digitalassets/c/EMEA/RU_KYC_guide.pdf
   paypal-commission: >-
     https://www.paypal.com/ru/webapps/mpp/paypal-fees#statement-6
-  skrill: 'https://www.skrill.com/en/'
-  skrill-verify-account: 'https://clck.ru/Cc383'
+  skrill: 'https://www.skrill.com/ru/'
+  skrill-verify-account: 'https://clck.ru/BWLe8'
   skrill-fees: 'https://www.skrill.com/ru/siteinformation/fees/'
-  skrill-support: 'https://www.skrill.com/en/support/'
-  skrill-countries: 'https://www.skrill.com/en/footer/terms-conditions/non-serviced-countries/'
-  skrill-account-terms-use: 'https://www.skrill.com/en/footer/terms-conditions/skrillaccounttermsofuse/'
+  skrill-support: 'https://www.skrill.com/ru/support/'
+  skrill-countries: 'https://www.skrill.com/ru/footer/uslovija-i-polozhenija/neobsluzhivaemyestrany/'
+  skrill-account-terms-use: 'https://www.skrill.com/ru/footer/uslovija-i-polozhenija/skrillaccounttermsofuse/'
   skrill-address-verification-documents: >-
-    https://www.skrill.com/en/support#/path/ACCOUNT/Verifications/1416726312/What-address-verification-documents-do-you-accept.htm
-  payoneer: 'https://www.payoneer.com/'
+    https://www.skrill.com/ru/support#/path/%D0%A1%D0%A7%D0%95%D0%A2/%D0%92%D0%B5%D1%80%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F/1433496482/%D0%9A%D0%B0%D0%BA%D0%B8%D0%B5-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B-%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%8E%D1%82%D1%81%D1%8F-%D0%B4%D0%BB%D1%8F-%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B8-%D0%B0%D0%B4%D1%80%D0%B5%D1%81%D0%B0.htm
+  payoneer: 'https://www.payoneer.com/ru/'
   payoneer-support: 'https://payoneer-ru.custhelp.com/app/home'
   payoneer-card: >-
-    https://payoneer-ru.custhelp.com/app/answers/topics/c/3698/session/L3RpbWUvMTYxMTIxMjU3Ny9nZW4vMTYxMTIxMjU3Ny9zaWQvZlVLbEl1ZE5UWlhYUlZLNmdmMCU3RUhwUFkxZEJFTUZjUG5FeTlSMlpoMUhNdTF4SlE4djBRRGIzQlhfWnhCWjFabEduWXZCVURwTlVPT3pzVEFTbjNoY005UmV4MFhzX1d6Vk54ZzZZMHhjSW5NejV5M3NiTXByMkElMjElMjE%3D
+    https://payoneer-ru.custhelp.com/app/answers/topics/c/3698
   payoneer-conversion: >-
-    https://blog.payoneer.com/how-to/general/everything-you-need-to-know-about-conversion-rates/
+    https://blog.payoneer.com/ru/how-to-ru/general-ru/everything-you-need-to-know-about-conversion-rates/
   payoneer-fees: 'https://www.payoneer.com/ru/about/fees/'
-  yoomoney-methods: 'https://yoomoney.ru/id/methods?lang=en'
-  yoomoney-identification: 'https://yoomoney.ru/id?lang=en'
-  yoomoney: 'https://yoomoney.ru/?lang=en'
+  payoneer-card: 'https://payoneer-ru.custhelp.com/app/answers/topics/c/3698/session/L3RpbWUvMTYxMTIxMjU3Ny9nZW4vMTYxMTIxMjU3Ny9zaWQvZlVLbEl1ZE5UWlhYUlZLNmdmMCU3RUhwUFkxZEJFTUZjUG5FeTlSMlpoMUhNdTF4SlE4djBRRGIzQlhfWnhCWjFabEduWXZCVURwTlVPT3pzVEFTbjNoY005UmV4MFhzX1d6Vk54ZzZZMHhjSW5NejV5M3NiTXByMkElMjElMjE%3D'
+  yoomoney-methods: 'https://yoomoney.ru/id/methods?lang=ru'
+  yoomoney-identification: 'https://yoomoney.ru/id?lang=ru'
+  yoomoney: 'https://yoomoney.ru/?lang=ru'
+  yoomoney-fees: 'https://yoomoney.ru/page?id=523738'
+  yoomoney-id-office: 'https://clck.ru/Sxwdp'
+  yoomoney-id-megafon: 'https://clck.ru/Sxwg7'
+  yoomoney-id-svyaznoy: 'https://clck.ru/SxwhG'
+  yoomoney-id-unistream: 'https://clck.ru/SxwiX'
+  yoomoney-id-agents: 'https://clck.ru/SxwkD'
+  yoomoney-id-post: 'https://clck.ru/SxwnD'
+  appstore-toloka: 'https://itunes.apple.com/ru/app/yandex-toloka/id1282350367'
+  googleplay-skrill: 'https://play.google.com/store/apps/details?id=com.moneybookers.skrillpayments'
+  appstore-skrill: 'https://apps.apple.com/ru/app/skrill/id718248239'
+  quotes-dollar: 'https://news.yandex.ru/quotes/1.html'
+  utc: 'https://www.yandex.ru/search/?text=utc'
+  anonymizer: 'https://ru.wikipedia.org/wiki/Анонимайзер'
+  vpn: 'https://ru.wikipedia.org/wiki/VPN'
+  proxy-server: 'https://ru.wikipedia.org/wiki/Прокси-сервер'
+  internetometer: 'https://yandex.ru/internet/'
   yoomoney-transfer: 'https://yoomoney.ru/page?id=536224'
   yoomoney-transfer-card: 'https://yoomoney.ru/page?id=536232'
   yoomoney-transfer-account: 'https://yoomoney.ru/page?id=536236'
@@ -87,17 +107,11 @@ default:
   yoomoney-send-request: 'https://yoomoney.ru/page?id=536164'
   yoomoney-help: 'https://yoomoney.ru/help'
   yoomoney-feedback: 'https://yoomoney.ru/feedback/'
-  yoomoney-fees: 'https://yoomoney.ru/page?id=523738'
-  yoomoney-id-office: 'https://clck.ru/Sxweq'
-  yoomoney-id-megafon: 'https://clck.ru/Sxwgs'
-  yoomoney-id-svyaznoy: 'https://clck.ru/Sxwi7'
-  yoomoney-id-unistream: 'https://clck.ru/Sxwjc'
-  yoomoney-id-agents: 'https://clck.ru/SxwmG'
-  yoomoney-id-post: 'https://clck.ru/SxwsL'
   papara: 'http://www.papara.com/'
   papara-support: 'https://www.papara.com/#!/support'
   privatbank: 'https://privatbank.ua/ru/'
-  bps-sberbank-offices: 'https://www.bps-sberbank.by/page/offices?categoriesMenu=individuals'
+  bps-sberbank-offices: >-
+    https://www.bps-sberbank.by/page/offices?categoriesMenu=individuals
   usa-treasury-sanctions: >-
     https://www.treasury.gov/resource-center/sanctions/Programs/Pages/Programs.aspx
   sbp-participants: 'https://sbp.nspk.ru/participants/'
@@ -5156,17 +5170,3 @@ default:
     c0b38d49fd002ca56dcd74706efa61b9: 'службу поддержки'
   toloka-app-ios: 'https://toloka.ai/tolokers/docs/ios/'
   toloka-app-android: 'https://toloka.ai/tolokers/docs/android/'
-internal:
-  audience: 'internal'
-external:
-  audience: 'external'
-ios:
-  platform: 'ios'
-android:
-  platform: 'android'
-browser:
-  platform: 'browser'
-ru-com:
-  locale: 'ru-com'
-en-com:
-  locale: 'en-com'

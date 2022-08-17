@@ -1,2 +1,2 @@
 default:
-  path-to-presets: ru/docs/
+  locale: 'ru-com'
