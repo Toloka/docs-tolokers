@@ -1,5 +1,6 @@
 default:
   locale: 'ru-com'
+  platform: ios
   toloka: 'http://toloka.yandex.ru/'
   yoomoney-ref: https://yoomoney.ru
   yoomoney-name: ЮMoney
@@ -5156,17 +5157,3 @@ default:
     c0b38d49fd002ca56dcd74706efa61b9: 'службу поддержки'
   toloka-app-ios: 'https://toloka.ai/tolokers/docs/ios/'
   toloka-app-android: 'https://toloka.ai/tolokers/docs/android/'
-internal:
-  audience: 'internal'
-external:
-  audience: 'external'
-ios:
-  platform: 'ios'
-android:
-  platform: 'android'
-browser:
-  platform: 'browser'
-ru-com:
-  locale: 'ru-com'
-en-com:
-  locale: 'en-com'
