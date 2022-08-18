@@ -1,3 +1,2 @@
 default:
-  locale: 'ru-com'
-  platform: 'web'
+  path-to-presets: ru/docs/
