@@ -129,19 +129,12 @@ default:
   pfrf: 'http://www.pfrf.ru/knopki/zhizn/'
   googleplay-toloka: 'https://play.google.com/store/apps/details?id=com.yandex.toloka.androidapp'
   appgallery-toloka: 'https://appgallery.huawei.com/#/app/C101068701'
-  appstore-toloka: 'https://itunes.apple.com/us/app/yandex-toloka/id1282350367'
-  ya-maps: 'https://play.google.com/store/apps/details?id=ru.yandex.yandexmaps&hl=en'
   googleplay-moy-nalog: 'https://play.google.com/store/apps/details?id=com.gnivts.selfemployed&hl=ru'
   appstore-moy-nalog: >-
     https://apps.apple.com/ru/app/%D0%BC%D0%BE%D0%B9-%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3/id1437518854?l=ru
   googleplay-android-photos: 'https://play.google.com/store/apps/details?id=com.google.android.apps.photos'
-  googleplay-skrill: >-
-    https://play.google.com/store/apps/details?id=com.moneybookers.skrillpayments&hl=en
-  appstore-skrill: 'https://apps.apple.com/us/app/skrill/id718248239'
-  quotes-dollar: 'https://news.yandex.com/quotes/1.html'
   qiwi-phone-codes: >-
     https://contactpay.notion.site/Phone-numbers-codes-supported-by-QIWI-wallet-c13bca9f5ce44f20a00289e0275ce63d
-  utc: 'https://www.yandex.com/search/?text=utc'
   cities-obl: >-
     https://ru.wikipedia.org/wiki/Категории_городов_(Россия)#Города_областного_значения_(подчинения)
   cities-resp: >-
@@ -152,10 +145,6 @@ default:
     https://ru.wikipedia.org/wiki/Категории_городов_(Россия)#Города_окружного_значения_(подчинения)
   ya-post-index: 'https://yandex.ru/search/?lr=213&text=индекс%20по%20адресу'
   pochta-post-index: 'https://www.pochta.ru/post-index'
-  anonymizer: 'https://en.wikipedia.org/wiki/Anonymizer'
-  vpn: 'https://en.wikipedia.org/wiki/Virtual_private_network'
-  proxy-server: 'https://en.wikipedia.org/wiki/Proxy_server'
-  internetometer: 'https://yandex.com/internet/'
   self-employed-state: 'https://journal.tinkoff.ru/news/samozanyatye-vychet-2019/'
   ui_core:
     BROWSER: 'Браузер'
@@ -163,7 +152,7 @@ default:
     CANCELLED_BY_USER: 'Отменена пользователем'
     MOBILE_VIA_BALALAYKA_ACCOUNT_ID_NOT_FOUND: 'Номер не существует. Укажите действительный номер телефона и запросите вывод средств ещё раз.'
     MOBILE_VIA_BALALAYKA_TECHNICAL_ISSUES_IN_PAYMENT_SYSTEM: 'Оператор отклонил зачисление на указанный вами абонентский номер. За более подробной информацией обратитесь к оператору.'
-    PAYPAL: PayPal
+    PAYPAL: 'PayPal'
     PAYPAL_VIA_BALALAYKA_ACCOUNT_RESTRICTED: 'Учетная запись отправителя платежа ограничена платёжной системой. Для осуществления выплат необходимо снять ограничения.'
     PAYPAL_VIA_BALALAYKA_ACCOUNT_UNCONFIRMED_EMAIL: 'К сожалению, в настоящее время ваша заявка не может быть выполнена. Закажите вывод средств позже, пожалуйста. (UE)'
     PAYPAL_VIA_BALALAYKA_CLOSED_MARKET: 'Ваш счёт зарегистрирован в регионе, куда PayPal не позволяет переводить средства. Со списком стран, в которых невозможен PayPal-перевод вы можете ознакомиться в справке Толоки или на &lt;a href="https://www.treasury.gov/resource-center/sanctions/Programs/Pages/Programs.aspx" target="_blank"&gt;сайте Министерства финансов США&lt;/a&gt;.'
@@ -1260,7 +1249,7 @@ default:
     req-str: 'Улица'
     req-sur: 'Отчество'
     req-type-leg: 'Юридическое лицо'
-    req-type-notif: 'От типа профиля зависят доступные вам способы пополнения счёта. 
+    req-type-notif: 'От типа профиля зависят доступные вам способы пополнения счёта.
 В дальнейшем этот выбор нельзя изменить.'
     req-type-ph: 'Физическое лицо'
     req-type-ttl: 'Тип профиля'
@@ -1455,7 +1444,7 @@ default:
     units-second: 'сек'
     units-year: 'г'
     unknown__error__resend: 'Отправить ещё раз'
-    unknown_error_msg: 'Пожалуйста, подождите несколько минут и обновите страницу. 
+    unknown_error_msg: 'Пожалуйста, подождите несколько минут и обновите страницу.
 Если ошибка сохраняется, скопируйте код ошибки и отправьте его нам через &lt;a href="https://toloka.ai/tolokers/docs/web/troubleshooting/troubleshooting.html" target="_blank"&gt;форму обратной связи&lt;/a&gt;'
     unknown_error_ok: 'Обновить страницу'
     unknown_error_ttl: 'Что-то пошло не так'
@@ -2680,8 +2669,8 @@ default:
     tasks_unsupported_region_title: 'Нет доступных заданий'
     taxes_fill_profile_text: 'Предоставить данные'
     taxes_money_alert_title: 'Вывод денег недоступен'
-    taxes_waiting_docs_content: 'Пожалуйста, заполните данные в профиле на сайте toloka.yandex.ru и отправьте нам. 
-Мы их проверим в течение нескольких дней, после чего можно будет выводить деньги. 
+    taxes_waiting_docs_content: 'Пожалуйста, заполните данные в профиле на сайте toloka.yandex.ru и отправьте нам.
+Мы их проверим в течение нескольких дней, после чего можно будет выводить деньги.
 Если есть вопросы — обратитесь в службу поддержки.'
     taxes_waiting_verification_content: 'Мы проверяем ваши персональные данные. Сейчас вы не можете отредактировать профиль и вывести вознаграждение. Проверка займет несколько дней. О результате сообщим письмом.
 Если есть вопросы — обратитесь в службу поддержки.'
@@ -3213,7 +3202,7 @@ default:
         aaa: 'С обучением'
         description: 'Для доступа к заданиям нужно пройти обучение'
       user_preference_ignored_tasks:
-        aaa:  'Скрытые'
+        aaa: 'Скрытые'
         description: 'Задания, которые вы исключили из общего списка'
     first_last_name_error: 'Введите имя и фамилию на латинице или кириллице.'
     first_name: 'Имя'
@@ -4088,8 +4077,8 @@ default:
     mixed_content_instructions__yabrowser__step_three: 'В появившемся окне нажмите «Разблокировать»'
     mixed_content_instructions__yabrowser__step_two: 'В появившемся окне нажмите "Подробнее"'
     money_PAYONEER__button-link-account: 'Привязать мой аккаунт'
-    money__unavailable__notification_description: 'Пожалуйста, заполните данные в профиле и отправьте нам. 
-Мы их проверим в течение нескольких дней, после чего можно будет выводить деньги. 
+    money__unavailable__notification_description: 'Пожалуйста, заполните данные в профиле и отправьте нам.
+Мы их проверим в течение нескольких дней, после чего можно будет выводить деньги.
 Если есть вопросы — обратитесь в службу поддержки.'
     money__unavailable__notification_extra_btn: 'Написать в службу поддержки'
     money__unavailable__notification_primary_btn: 'Предоставить данные'
@@ -4551,7 +4540,7 @@ default:
 &lt;p&gt;&lt;b&gt;Что, если не принять Дополнительные условия оказания услуг?&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;У Вас больше не будет доступа к заданиям. Однако Вы сможете получить всё начисленное вознаграждение.&lt;/p&gt;
 &lt;br&gt;
-Пожалуйста, ознакомьтесь с дополнительной информацией в разделе &lt;a href="https://toloka.ai/tolokers/docs/web/pay/tax.html" target="_blank"&gt;Справка&lt;/a&gt;. 
+Пожалуйста, ознакомьтесь с дополнительной информацией в разделе &lt;a href="https://toloka.ai/tolokers/docs/web/pay/tax.html" target="_blank"&gt;Справка&lt;/a&gt;.
 Если у Вас возникли вопросы — обратитесь в &lt;a href="https://toloka.ai/tolokers/docs/web/troubleshooting/troubleshooting.html" target="_blank"&gt;службу поддержки&lt;/a&gt;.'
     ru_tax_eula__title: 'Дополнительные условия оказания услуг на платформе Толока'
     scroll_to_top: 'Вверх'
@@ -4972,10 +4961,10 @@ default:
     wallet-skrill-err-skrillEmail: 'Некорректно указан e-mail.'
     wallet-ya-acc-prefix: '41001'
     wallet-ya-err-acc: 'Номер кошелька указан некорректно.&lt;br&gt;Он должен быть длиной 9-16 цифр и начинаться на 41001.'
-    welcome_descr: '&lt;p&gt;Толока позволяет зарабатывать, выполняя несложные задания. Перед началом работы прочитайте краткое описание заданий и инструкции к ним. Это поможет вам выбрать наиболее подходящие задания и хорошо с ними справиться.&lt;/p&gt; 
+    welcome_descr: '&lt;p&gt;Толока позволяет зарабатывать, выполняя несложные задания. Перед началом работы прочитайте краткое описание заданий и инструкции к ним. Это поможет вам выбрать наиболее подходящие задания и хорошо с ними справиться.&lt;/p&gt;
 &lt;p&gt;Обратите внимание, что пользоваться скриптами, плагинами и другими средствами автоматизации при выполнении заданий запрещено. Пожалуйста, остерегайтесь покупать и применять такие средства, иначе вы будете заблокированы.&lt;/p&gt;
-&lt;p&gt;Чтобы получить доступ к некоторым заданиям, нужно сначала потренироваться. За тренировочные задания вознаграждение не начисляется.&lt;/p&gt;             
-&lt;p&gt;Встречаются задания с отложенной приемкой. Это значит, что они будут оплачены после проверки заказчиком.&lt;/p&gt;            
+&lt;p&gt;Чтобы получить доступ к некоторым заданиям, нужно сначала потренироваться. За тренировочные задания вознаграждение не начисляется.&lt;/p&gt;
+&lt;p&gt;Встречаются задания с отложенной приемкой. Это значит, что они будут оплачены после проверки заказчиком.&lt;/p&gt;
 &lt;p&gt;Следите за своим рейтингом в профиле. Он отражает качество вашей работы. Чем лучше вы будете выполнять задания, тем больше заданий вам будет доступно — а значит, ваш доход будет расти.&lt;/p&gt;
 &lt;p&gt;Вы можете зарегистрировать только один аккаунт за все время работы с платформой.&lt;/p&gt;'
     welcome_goto_tasks: 'Перейти к заданиям'
@@ -5001,7 +4990,7 @@ default:
     worker__become__self_employed__heading: 'Подтвердить статус самозанятого'
     worker_footer_appstore_tooltip: 'Толока в Apple App Store'
     worker_footer_playstore_tooltip: 'Толока в Google Play'
-    worker_referral_promo_title: 'Толока — заработок в интернете&lt;br&gt; 
+    worker_referral_promo_title: 'Толока — заработок в интернете&lt;br&gt;
 Регистрация по приглашению'
     wthdrw-amnt: 'Сумма'
     wthdrw-amnt-t: '0.00'
@@ -5014,8 +5003,7 @@ default:
     wthdrw-info-SKRILL: 'Обратите внимание, что платёжная система Skrill взимает комиссию за перевод денежных средств в размере &lt;b&gt;1%&lt;/b&gt; от суммы перевода.&lt;/b&gt;'
     wthdrw-info-YAMONEY: 'Комиссия за вывод средств со счета в Толоке — 0,1% от суммы.'
     wthdrw-info-YAMONEY_RU: 'Комиссия за вывод средств со счета в Толоке 0,1% от суммы.'
-    wthdrw-info-common: 'Обработка вашей заявки может занять 
-до 30 календарных дней.'
+    wthdrw-info-common: 'Обработка вашей заявки может занять до 30 календарных дней.'
     wthdrw-insufficiently: 'На счёте недостаточно средств.'
     wthdrw-min: 'Минимальная сумма для вывода — %s $'
     wthdrw-pmnt: 'Способ вывода'
@@ -5169,4 +5157,3 @@ default:
     775242c743fef14c00ef24e46a8b49a6: 'завершить регистрацию'
     c0b38d49fd002ca56dcd74706efa61b9: 'службу поддержки'
   toloka-app-ios: 'https://toloka.ai/tolokers/docs/ios/'
-  toloka-app-android: 'https://toloka.ai/tolokers/docs/android/'
