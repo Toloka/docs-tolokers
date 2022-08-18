@@ -19,7 +19,7 @@
 
 #|
 || Полученные награды — цветные         | Доступные награды — черно-белые        ||
-|| ![](assets/achievements/active.svg "active" =320x320)  | ![](assets/achievements/inactive.svg "inactive" =320x320)  ||
+|| ![](assets/achievements/active.svg "active" =320x320)  | ![](assets/achievements/inactive.png "inactive" =220x)  ||
 |#
 
 Нажмите на награду, чтобы узнать, как ее получить.

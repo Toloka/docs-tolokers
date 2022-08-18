@@ -1,78 +1,97 @@
 default:
   locale: 'ru-com'
+  platform: 'mobile'
   toloka: 'http://toloka.yandex.ru/'
-  yoomoney-ref: https://yoomoney.ru
-  yoomoney-name: ЮMoney
+  yoomoney-ref: 'https://yoomoney.ru'
+  yoomoney-name: 'ЮMoney'
   toloka-tasks: 'https://toloka.yandex.ru/tasks'
   toloka-achievements: 'https://toloka.yandex.ru/achievements'
   toloka-profile: 'http://toloka.yandex.ru/profile'
   toloka-profile-history: 'https://toloka.yandex.ru/profile/history'
   toloka-profile-money: 'https://toloka.yandex.ru/profile/money'
   toloka-messages: 'http://toloka.yandex.ru/messages'
-  toloka-referral: 'https://toloka.yandex.com/profile/referral'
-  toloka-money: 'https://toloka.yandex.com/profile/money'
-  user-agreement: 'https://yandex.com/legal/toloka_useragreement/index.html'
+  toloka-referral: 'https://toloka.yandex.ru/profile/referral'
+  toloka-money: 'https://toloka.yandex.ru/profile/money'
+  toloka-app-android: 'https://toloka.ai/tolokers/docs/android/?lang=ru'
+  toloka-app-ios: 'https://toloka.ai/tolokers/docs/ios/?lang=ru'
+  user-agreement: 'https://yandex.ru/legal/toloka_useragreement/index.html'
   toloka-facebook: 'https://www.facebook.com/yandex.toloka.ru/'
   toloka-vk: 'https://vk.com/ya.toloka'
   toloka-youtube: 'https://www.youtube.com/channel/UCf-vd-Nf_igCYJpohQ8BPUQ'
   toloka-telegram: 'https://t.me/TolokaOfficial'
-  passport: 'https://passport.yandex.com/'
+  passport: 'https://passport.yandex.ru/'
   passport-reg-toloka: >-
-    https://passport.yandex.ru/registration?mode=register&retpath=https://toloka.yandex.ru
+    https://passport.yandex.ru/registration?mode=register&amp;retpath=https://toloka.yandex.ru
   passport-auth-toloka: >-
-    https://passport.yandex.com/passport?mode=auth&retpath=https://toloka.yandex.com
-  passport-profile: 'https://passport.yandex.com/profile'
-  passport-restore: 'https://passport.yandex.com/passport?mode=restore'
-  passport-phones: 'https://passport.yandex.com/profile/phones'
+    https://passport.yandex.ru/passport?mode=auth&amp;retpath=https://toloka.yandex.ru
+  passport-profile: 'https://passport.yandex.ru/profile'
+  passport-restore: 'https://passport.yandex.ru/passport?mode=restore'
+  passport-phones: 'https://passport.yandex.ru/profile/phones'
   support-passport-phone: >-
-    https://yandex.com/support/passport/authorization/phone.html
-  support-passport-phone-change: 'https://yandex.com/support/passport/authorization/phone.html#change'
+    https://yandex.ru/support/passport/authorization/phone.html
+  support-passport-phone-change: 'https://yandex.ru/support/passport/authorization/phone.html#change'
   support-passport-nocode: >-
-    https://yandex.com/support/passport/troubleshooting/phone-problems.html#phone-problems__no-code
-  support-passport-nosms-form: 'https://yandex.com/support/passport/troubleshooting/nosms-form.html'
+    https://yandex.ru/support/passport/troubleshooting/phone-problems.html#phone-problems__no-code
+  support-passport-nosms-form: 'https://yandex.ru/support/passport/troubleshooting/nosms-form.html'
   support-browser-microphone: >-
-    https://yandex.com/support/browser/personal-data-protection/do-not-follow.html#microphone
-  support-browser-cache: 'https://yandex.com/support/common/browsers-settings/cache.html'
+    https://yandex.ru/support/browser/personal-data-protection/do-not-follow.html?lang=ru#microphone
+  support-browser-cache: 'https://yandex.ru/support/common/browsers-settings/cache.html'
   support-toloka-yoomoney: 'https://toloka.ai/tolokers/docs/web/pay/yoomoney.html'
   google-chrome-camera: >-
-    https://support.google.com/chrome/answer/2693767?co=GENIE.Platform%3DDesktop&hl=en
+    https://support.google.com/chrome/answer/2693767?co=GENIE.Platform%3DDesktop&amp;hl=ru
   mozilla-firefox-camera: >-
-    https://support.mozilla.org/en-US/kb/how-manage-your-camera-and-microphone-permissions
-  opera-camera: 'https://help.opera.com/en/latest/web-preferences/'
-  safari-camera: 'https://support.apple.com/en-euro/guide/safari/ibrw7f78f7fe/mac'
-  mac-os-camera: 'https://support.apple.com/en-gb/guide/mac-help/mchlf6d108da/mac'
+    https://support.mozilla.org/ru/kb/upravlenie-razresheniyami-dlya-kamery-i-mikrofona-
+  opera-camera: 'https://help.opera.com/ru/latest/web-preferences/'
+  safari-camera: 'https://support.apple.com/ru-ru/guide/safari/ibrw7f78f7fe/mac'
+  mac-os-camera: 'https://support.apple.com/ru-ru/guide/mac-help/mchlf6d108da/10.15/mac/10.15'
   mac-os-microphone: >-
-    https://support.apple.com/en-euro/guide/mac-help/mchla1b1e1fe/10.15/mac/10.15
-  paypal: 'https://www.paypal.com/uk/home'
+    https://support.apple.com/ru-ru/guide/mac-help/mchla1b1e1fe/10.15/mac/10.15
+  paypal: 'https://www.paypal.com/ru/home'
   paypal-verify-account: >-
-    https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444
+    https://www.paypal.com/ru/smarthelp/article/как-стать-проверенным-пользователем-faq444
   paypal-confirm-email: >-
-    https://www.paypal.com/uk/smarthelp/article/how-do-i-confirm-my-email-address-faq3273
+    https://www.paypal.com/ru/smarthelp/article/как-подтвердить-свой-электронный-адрес-faq1485
   paypal-transfer-money: 'https://www.paypal.com/ru/smarthelp/article/faq1189'
-  paypal-help: 'https://www.paypal.com/uk/selfhelp/home'
-  paypal-countries: 'https://www.paypal.com/uk/webapps/mpp/country-worldwide'
+  paypal-help: 'https://www.paypal.com/ru/selfhelp/home'
+  paypal-countries: 'https://www.paypal.com/ru/webapps/mpp/country-worldwide'
   paypal-verification: >-
-    https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444
+    https://www.paypalobjects.com/digitalassets/c/EMEA/RU_KYC_guide.pdf
   paypal-commission: >-
     https://www.paypal.com/ru/webapps/mpp/paypal-fees#statement-6
-  skrill: 'https://www.skrill.com/en/'
-  skrill-verify-account: 'https://clck.ru/Cc383'
+  skrill: 'https://www.skrill.com/ru/'
+  skrill-verify-account: 'https://clck.ru/BWLe8'
   skrill-fees: 'https://www.skrill.com/ru/siteinformation/fees/'
-  skrill-support: 'https://www.skrill.com/en/support/'
-  skrill-countries: 'https://www.skrill.com/en/footer/terms-conditions/non-serviced-countries/'
-  skrill-account-terms-use: 'https://www.skrill.com/en/footer/terms-conditions/skrillaccounttermsofuse/'
+  skrill-support: 'https://www.skrill.com/ru/support/'
+  skrill-countries: 'https://www.skrill.com/ru/footer/uslovija-i-polozhenija/neobsluzhivaemyestrany/'
+  skrill-account-terms-use: 'https://www.skrill.com/ru/footer/uslovija-i-polozhenija/skrillaccounttermsofuse/'
   skrill-address-verification-documents: >-
-    https://www.skrill.com/en/support#/path/ACCOUNT/Verifications/1416726312/What-address-verification-documents-do-you-accept.htm
-  payoneer: 'https://www.payoneer.com/'
+    https://www.skrill.com/ru/support#/path/%D0%A1%D0%A7%D0%95%D0%A2/%D0%92%D0%B5%D1%80%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F/1433496482/%D0%9A%D0%B0%D0%BA%D0%B8%D0%B5-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B-%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%8E%D1%82%D1%81%D1%8F-%D0%B4%D0%BB%D1%8F-%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B8-%D0%B0%D0%B4%D1%80%D0%B5%D1%81%D0%B0.htm
+  payoneer: 'https://www.payoneer.com/ru/'
   payoneer-support: 'https://payoneer-ru.custhelp.com/app/home'
   payoneer-card: >-
-    https://payoneer-ru.custhelp.com/app/answers/topics/c/3698/session/L3RpbWUvMTYxMTIxMjU3Ny9nZW4vMTYxMTIxMjU3Ny9zaWQvZlVLbEl1ZE5UWlhYUlZLNmdmMCU3RUhwUFkxZEJFTUZjUG5FeTlSMlpoMUhNdTF4SlE4djBRRGIzQlhfWnhCWjFabEduWXZCVURwTlVPT3pzVEFTbjNoY005UmV4MFhzX1d6Vk54ZzZZMHhjSW5NejV5M3NiTXByMkElMjElMjE%3D
+    https://payoneer-ru.custhelp.com/app/answers/topics/c/3698
   payoneer-conversion: >-
-    https://blog.payoneer.com/how-to/general/everything-you-need-to-know-about-conversion-rates/
+    https://blog.payoneer.com/ru/how-to-ru/general-ru/everything-you-need-to-know-about-conversion-rates/
   payoneer-fees: 'https://www.payoneer.com/ru/about/fees/'
-  yoomoney-methods: 'https://yoomoney.ru/id/methods?lang=en'
-  yoomoney-identification: 'https://yoomoney.ru/id?lang=en'
-  yoomoney: 'https://yoomoney.ru/?lang=en'
+  yoomoney-methods: 'https://yoomoney.ru/id/methods?lang=ru'
+  yoomoney-identification: 'https://yoomoney.ru/id?lang=ru'
+  yoomoney: 'https://yoomoney.ru/?lang=ru'
+  yoomoney-fees: 'https://yoomoney.ru/page?id=523738'
+  yoomoney-id-office: 'https://clck.ru/Sxwdp'
+  yoomoney-id-megafon: 'https://clck.ru/Sxwg7'
+  yoomoney-id-svyaznoy: 'https://clck.ru/SxwhG'
+  yoomoney-id-unistream: 'https://clck.ru/SxwiX'
+  yoomoney-id-agents: 'https://clck.ru/SxwkD'
+  yoomoney-id-post: 'https://clck.ru/SxwnD'
+  appstore-toloka: 'https://itunes.apple.com/ru/app/yandex-toloka/id1282350367'
+  googleplay-skrill: 'https://play.google.com/store/apps/details?id=com.moneybookers.skrillpayments'
+  appstore-skrill: 'https://apps.apple.com/ru/app/skrill/id718248239'
+  quotes-dollar: 'https://news.yandex.ru/quotes/1.html'
+  utc: 'https://www.yandex.ru/search/?text=utc'
+  anonymizer: 'https://ru.wikipedia.org/wiki/Анонимайзер'
+  vpn: 'https://ru.wikipedia.org/wiki/VPN'
+  proxy-server: 'https://ru.wikipedia.org/wiki/Прокси-сервер'
+  internetometer: 'https://yandex.ru/internet/'
   yoomoney-transfer: 'https://yoomoney.ru/page?id=536224'
   yoomoney-transfer-card: 'https://yoomoney.ru/page?id=536232'
   yoomoney-transfer-account: 'https://yoomoney.ru/page?id=536236'
@@ -87,17 +106,11 @@ default:
   yoomoney-send-request: 'https://yoomoney.ru/page?id=536164'
   yoomoney-help: 'https://yoomoney.ru/help'
   yoomoney-feedback: 'https://yoomoney.ru/feedback/'
-  yoomoney-fees: 'https://yoomoney.ru/page?id=523738'
-  yoomoney-id-office: 'https://clck.ru/Sxweq'
-  yoomoney-id-megafon: 'https://clck.ru/Sxwgs'
-  yoomoney-id-svyaznoy: 'https://clck.ru/Sxwi7'
-  yoomoney-id-unistream: 'https://clck.ru/Sxwjc'
-  yoomoney-id-agents: 'https://clck.ru/SxwmG'
-  yoomoney-id-post: 'https://clck.ru/SxwsL'
   papara: 'http://www.papara.com/'
   papara-support: 'https://www.papara.com/#!/support'
   privatbank: 'https://privatbank.ua/ru/'
-  bps-sberbank-offices: 'https://www.bps-sberbank.by/page/offices?categoriesMenu=individuals'
+  bps-sberbank-offices: >-
+    https://www.bps-sberbank.by/page/offices?categoriesMenu=individuals
   usa-treasury-sanctions: >-
     https://www.treasury.gov/resource-center/sanctions/Programs/Pages/Programs.aspx
   sbp-participants: 'https://sbp.nspk.ru/participants/'
@@ -115,19 +128,13 @@ default:
   pfrf: 'http://www.pfrf.ru/knopki/zhizn/'
   googleplay-toloka: 'https://play.google.com/store/apps/details?id=com.yandex.toloka.androidapp'
   appgallery-toloka: 'https://appgallery.huawei.com/#/app/C101068701'
-  appstore-toloka: 'https://itunes.apple.com/us/app/yandex-toloka/id1282350367'
   ya-maps: 'https://play.google.com/store/apps/details?id=ru.yandex.yandexmaps&hl=en'
   googleplay-moy-nalog: 'https://play.google.com/store/apps/details?id=com.gnivts.selfemployed&hl=ru'
   appstore-moy-nalog: >-
     https://apps.apple.com/ru/app/%D0%BC%D0%BE%D0%B9-%D0%BD%D0%B0%D0%BB%D0%BE%D0%B3/id1437518854?l=ru
   googleplay-android-photos: 'https://play.google.com/store/apps/details?id=com.google.android.apps.photos'
-  googleplay-skrill: >-
-    https://play.google.com/store/apps/details?id=com.moneybookers.skrillpayments&hl=en
-  appstore-skrill: 'https://apps.apple.com/us/app/skrill/id718248239'
-  quotes-dollar: 'https://news.yandex.com/quotes/1.html'
   qiwi-phone-codes: >-
     https://contactpay.notion.site/Phone-numbers-codes-supported-by-QIWI-wallet-c13bca9f5ce44f20a00289e0275ce63d
-  utc: 'https://www.yandex.com/search/?text=utc'
   cities-obl: >-
     https://ru.wikipedia.org/wiki/Категории_городов_(Россия)#Города_областного_значения_(подчинения)
   cities-resp: >-
@@ -138,10 +145,6 @@ default:
     https://ru.wikipedia.org/wiki/Категории_городов_(Россия)#Города_окружного_значения_(подчинения)
   ya-post-index: 'https://yandex.ru/search/?lr=213&text=индекс%20по%20адресу'
   pochta-post-index: 'https://www.pochta.ru/post-index'
-  anonymizer: 'https://en.wikipedia.org/wiki/Anonymizer'
-  vpn: 'https://en.wikipedia.org/wiki/Virtual_private_network'
-  proxy-server: 'https://en.wikipedia.org/wiki/Proxy_server'
-  internetometer: 'https://yandex.com/internet/'
   self-employed-state: 'https://journal.tinkoff.ru/news/samozanyatye-vychet-2019/'
   ui_core:
     BROWSER: 'Браузер'
@@ -149,7 +152,7 @@ default:
     CANCELLED_BY_USER: 'Отменена пользователем'
     MOBILE_VIA_BALALAYKA_ACCOUNT_ID_NOT_FOUND: 'Номер не существует. Укажите действительный номер телефона и запросите вывод средств ещё раз.'
     MOBILE_VIA_BALALAYKA_TECHNICAL_ISSUES_IN_PAYMENT_SYSTEM: 'Оператор отклонил зачисление на указанный вами абонентский номер. За более подробной информацией обратитесь к оператору.'
-    PAYPAL: PayPal
+    PAYPAL: 'PayPal'
     PAYPAL_VIA_BALALAYKA_ACCOUNT_RESTRICTED: 'Учетная запись отправителя платежа ограничена платёжной системой. Для осуществления выплат необходимо снять ограничения.'
     PAYPAL_VIA_BALALAYKA_ACCOUNT_UNCONFIRMED_EMAIL: 'К сожалению, в настоящее время ваша заявка не может быть выполнена. Закажите вывод средств позже, пожалуйста. (UE)'
     PAYPAL_VIA_BALALAYKA_CLOSED_MARKET: 'Ваш счёт зарегистрирован в регионе, куда PayPal не позволяет переводить средства. Со списком стран, в которых невозможен PayPal-перевод вы можете ознакомиться в справке Толоки или на &lt;a href="https://www.treasury.gov/resource-center/sanctions/Programs/Pages/Programs.aspx" target="_blank"&gt;сайте Министерства финансов США&lt;/a&gt;.'
@@ -1246,8 +1249,7 @@ default:
     req-str: 'Улица'
     req-sur: 'Отчество'
     req-type-leg: 'Юридическое лицо'
-    req-type-notif: 'От типа профиля зависят доступные вам способы пополнения счёта. 
-В дальнейшем этот выбор нельзя изменить.'
+    req-type-notif: 'От типа профиля зависят доступные вам способы пополнения счёта. В дальнейшем этот выбор нельзя изменить.'
     req-type-ph: 'Физическое лицо'
     req-type-ttl: 'Тип профиля'
     req-unp: 'ИНН'
@@ -1441,7 +1443,7 @@ default:
     units-second: 'сек'
     units-year: 'г'
     unknown__error__resend: 'Отправить ещё раз'
-    unknown_error_msg: 'Пожалуйста, подождите несколько минут и обновите страницу. 
+    unknown_error_msg: 'Пожалуйста, подождите несколько минут и обновите страницу.
 Если ошибка сохраняется, скопируйте код ошибки и отправьте его нам через &lt;a href="https://toloka.ai/tolokers/docs/web/troubleshooting/troubleshooting.html" target="_blank"&gt;форму обратной связи&lt;/a&gt;'
     unknown_error_ok: 'Обновить страницу'
     unknown_error_ttl: 'Что-то пошло не так'
@@ -2666,8 +2668,8 @@ default:
     tasks_unsupported_region_title: 'Нет доступных заданий'
     taxes_fill_profile_text: 'Предоставить данные'
     taxes_money_alert_title: 'Вывод денег недоступен'
-    taxes_waiting_docs_content: 'Пожалуйста, заполните данные в профиле на сайте toloka.yandex.ru и отправьте нам. 
-Мы их проверим в течение нескольких дней, после чего можно будет выводить деньги. 
+    taxes_waiting_docs_content: 'Пожалуйста, заполните данные в профиле на сайте toloka.yandex.ru и отправьте нам.
+Мы их проверим в течение нескольких дней, после чего можно будет выводить деньги.
 Если есть вопросы — обратитесь в службу поддержки.'
     taxes_waiting_verification_content: 'Мы проверяем ваши персональные данные. Сейчас вы не можете отредактировать профиль и вывести вознаграждение. Проверка займет несколько дней. О результате сообщим письмом.
 Если есть вопросы — обратитесь в службу поддержки.'
@@ -3199,7 +3201,7 @@ default:
         aaa: 'С обучением'
         description: 'Для доступа к заданиям нужно пройти обучение'
       user_preference_ignored_tasks:
-        aaa:  'Скрытые'
+        aaa: 'Скрытые'
         description: 'Задания, которые вы исключили из общего списка'
     first_last_name_error: 'Введите имя и фамилию на латинице или кириллице.'
     first_name: 'Имя'
@@ -4074,8 +4076,8 @@ default:
     mixed_content_instructions__yabrowser__step_three: 'В появившемся окне нажмите «Разблокировать»'
     mixed_content_instructions__yabrowser__step_two: 'В появившемся окне нажмите "Подробнее"'
     money_PAYONEER__button-link-account: 'Привязать мой аккаунт'
-    money__unavailable__notification_description: 'Пожалуйста, заполните данные в профиле и отправьте нам. 
-Мы их проверим в течение нескольких дней, после чего можно будет выводить деньги. 
+    money__unavailable__notification_description: 'Пожалуйста, заполните данные в профиле и отправьте нам.
+Мы их проверим в течение нескольких дней, после чего можно будет выводить деньги.
 Если есть вопросы — обратитесь в службу поддержки.'
     money__unavailable__notification_extra_btn: 'Написать в службу поддержки'
     money__unavailable__notification_primary_btn: 'Предоставить данные'
@@ -4537,7 +4539,7 @@ default:
 &lt;p&gt;&lt;b&gt;Что, если не принять Дополнительные условия оказания услуг?&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;У Вас больше не будет доступа к заданиям. Однако Вы сможете получить всё начисленное вознаграждение.&lt;/p&gt;
 &lt;br&gt;
-Пожалуйста, ознакомьтесь с дополнительной информацией в разделе &lt;a href="https://toloka.ai/tolokers/docs/web/pay/tax.html" target="_blank"&gt;Справка&lt;/a&gt;. 
+Пожалуйста, ознакомьтесь с дополнительной информацией в разделе &lt;a href="https://toloka.ai/tolokers/docs/web/pay/tax.html" target="_blank"&gt;Справка&lt;/a&gt;.
 Если у Вас возникли вопросы — обратитесь в &lt;a href="https://toloka.ai/tolokers/docs/web/troubleshooting/troubleshooting.html" target="_blank"&gt;службу поддержки&lt;/a&gt;.'
     ru_tax_eula__title: 'Дополнительные условия оказания услуг на платформе Толока'
     scroll_to_top: 'Вверх'
@@ -4958,10 +4960,10 @@ default:
     wallet-skrill-err-skrillEmail: 'Некорректно указан e-mail.'
     wallet-ya-acc-prefix: '41001'
     wallet-ya-err-acc: 'Номер кошелька указан некорректно.&lt;br&gt;Он должен быть длиной 9-16 цифр и начинаться на 41001.'
-    welcome_descr: '&lt;p&gt;Толока позволяет зарабатывать, выполняя несложные задания. Перед началом работы прочитайте краткое описание заданий и инструкции к ним. Это поможет вам выбрать наиболее подходящие задания и хорошо с ними справиться.&lt;/p&gt; 
+    welcome_descr: '&lt;p&gt;Толока позволяет зарабатывать, выполняя несложные задания. Перед началом работы прочитайте краткое описание заданий и инструкции к ним. Это поможет вам выбрать наиболее подходящие задания и хорошо с ними справиться.&lt;/p&gt;
 &lt;p&gt;Обратите внимание, что пользоваться скриптами, плагинами и другими средствами автоматизации при выполнении заданий запрещено. Пожалуйста, остерегайтесь покупать и применять такие средства, иначе вы будете заблокированы.&lt;/p&gt;
-&lt;p&gt;Чтобы получить доступ к некоторым заданиям, нужно сначала потренироваться. За тренировочные задания вознаграждение не начисляется.&lt;/p&gt;             
-&lt;p&gt;Встречаются задания с отложенной приемкой. Это значит, что они будут оплачены после проверки заказчиком.&lt;/p&gt;            
+&lt;p&gt;Чтобы получить доступ к некоторым заданиям, нужно сначала потренироваться. За тренировочные задания вознаграждение не начисляется.&lt;/p&gt;
+&lt;p&gt;Встречаются задания с отложенной приемкой. Это значит, что они будут оплачены после проверки заказчиком.&lt;/p&gt;
 &lt;p&gt;Следите за своим рейтингом в профиле. Он отражает качество вашей работы. Чем лучше вы будете выполнять задания, тем больше заданий вам будет доступно — а значит, ваш доход будет расти.&lt;/p&gt;
 &lt;p&gt;Вы можете зарегистрировать только один аккаунт за все время работы с платформой.&lt;/p&gt;'
     welcome_goto_tasks: 'Перейти к заданиям'
@@ -4987,7 +4989,7 @@ default:
     worker__become__self_employed__heading: 'Подтвердить статус самозанятого'
     worker_footer_appstore_tooltip: 'Толока в Apple App Store'
     worker_footer_playstore_tooltip: 'Толока в Google Play'
-    worker_referral_promo_title: 'Толока — заработок в интернете&lt;br&gt; 
+    worker_referral_promo_title: 'Толока — заработок в интернете&lt;br&gt;
 Регистрация по приглашению'
     wthdrw-amnt: 'Сумма'
     wthdrw-amnt-t: '0.00'
@@ -5000,8 +5002,7 @@ default:
     wthdrw-info-SKRILL: 'Обратите внимание, что платёжная система Skrill взимает комиссию за перевод денежных средств в размере &lt;b&gt;1%&lt;/b&gt; от суммы перевода.&lt;/b&gt;'
     wthdrw-info-YAMONEY: 'Комиссия за вывод средств со счета в Толоке — 0,1% от суммы.'
     wthdrw-info-YAMONEY_RU: 'Комиссия за вывод средств со счета в Толоке 0,1% от суммы.'
-    wthdrw-info-common: 'Обработка вашей заявки может занять 
-до 30 календарных дней.'
+    wthdrw-info-common: 'Обработка вашей заявки может занять до 30 календарных дней.'
     wthdrw-insufficiently: 'На счёте недостаточно средств.'
     wthdrw-min: 'Минимальная сумма для вывода — %s $'
     wthdrw-pmnt: 'Способ вывода'
@@ -5154,19 +5155,3 @@ default:
     082bd9fce144ff335837dd4cc9fbf935: 'ЮMoney'
     775242c743fef14c00ef24e46a8b49a6: 'завершить регистрацию'
     c0b38d49fd002ca56dcd74706efa61b9: 'службу поддержки'
-  toloka-app-ios: 'https://toloka.ai/tolokers/docs/ios/'
-  toloka-app-android: 'https://toloka.ai/tolokers/docs/android/'
-internal:
-  audience: 'internal'
-external:
-  audience: 'external'
-ios:
-  platform: 'ios'
-android:
-  platform: 'android'
-browser:
-  platform: 'browser'
-ru-com:
-  locale: 'ru-com'
-en-com:
-  locale: 'en-com'
