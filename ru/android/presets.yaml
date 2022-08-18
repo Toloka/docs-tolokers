@@ -74,7 +74,6 @@ default:
   payoneer-conversion: >-
     https://blog.payoneer.com/ru/how-to-ru/general-ru/everything-you-need-to-know-about-conversion-rates/
   payoneer-fees: 'https://www.payoneer.com/ru/about/fees/'
-  payoneer-card: 'https://payoneer-ru.custhelp.com/app/answers/topics/c/3698/session/L3RpbWUvMTYxMTIxMjU3Ny9nZW4vMTYxMTIxMjU3Ny9zaWQvZlVLbEl1ZE5UWlhYUlZLNmdmMCU3RUhwUFkxZEJFTUZjUG5FeTlSMlpoMUhNdTF4SlE4djBRRGIzQlhfWnhCWjFabEduWXZCVURwTlVPT3pzVEFTbjNoY005UmV4MFhzX1d6Vk54ZzZZMHhjSW5NejV5M3NiTXByMkElMjElMjE%3D'
   yoomoney-methods: 'https://yoomoney.ru/id/methods?lang=ru'
   yoomoney-identification: 'https://yoomoney.ru/id?lang=ru'
   yoomoney: 'https://yoomoney.ru/?lang=ru'
