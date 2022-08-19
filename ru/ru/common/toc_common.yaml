@@ -1,0 +1,109 @@
+title: Toloka
+href: index.md
+items:
+  - href: about.md
+    name: O приложении
+    when: platform == "ios" or platform == "android"
+  - href: register.md
+    name: Регистрация и вход
+  - href: settings.md
+    name: Необходимые настройки
+    when: platform == "ios" or platform == "android"
+  - href: settings.md
+    name: Необходимые настройки
+    when: platform == "ios" or platform == "android"
+    hidden: true
+  - href: task-select.md
+    name: Список заданий
+    when: platform == "browser"
+  - href: task-select.md
+    name: Выбор задания
+  - href: tasks.md
+    name: Как быть успешным толокером
+  - href: priemka.md
+    name: Задания на проверке
+  - href: profile.md
+    name: Профиль
+  - href: messages.md
+    name: Сообщения
+  - href: skills.md
+    name: Навыки
+  - href: achievements.md
+    name: Награды
+  - href: goals.md
+    name: Цели
+    when: platform == "ios" or platform == "android"
+  - name: Бонусы за друзей
+    items: 
+    - href: referal.md
+      name: Как пригласить
+    - href: referal-rules.md
+      name: Действующие правила начисления бонусов
+    - href: referal-archive.md
+      name: Устаревшие правила начисления бонусов
+  - name: Вывод средств
+    items:
+    - href: pay/about.md
+      name: Способы вывода средств
+    - href: pay/paypal.md
+      name: PayPal
+    - href: pay/payoneer.md
+      name: Payoneer
+    - href: pay/yoomoney.md
+      name: ЮMoney
+      when: locale=="ru-com"
+    - href: pay/sbp.md
+      name: Система быстрых платежей
+      when: locale=="ru-com"
+    - href: pay/Qiwi-wallet.md
+      name: QIWI
+  - name: Стать самозанятым
+    items:
+    - href: self-employed/about.md
+      name: Как и зачем
+    - href: self-employed/send-request.md
+      name: Подача анкеты
+    - href: self-employed/accept-status.md
+      name: После обработки анкеты
+    - href: self-employed/pay-taxes.md
+      name: Оплата налогов
+  - href: troubleshooting/troubleshooting.md
+    name: Решение проблем и поддержка
+  - href: uhrs-faq.md
+    name: Вопросы и ответы по UHRS
+  - href: troubleshooting/unblock.md
+    hidden: true
+    name: Восстановление доступа
+  - href: troubleshooting/unblock-nodoc.md
+    hidden: true
+    name: Восстановление доступа
+  - href: notes.md
+    hidden: true
+    name: Примечания
+  # - name: Ключи
+  #   href: keys/.md
+  # - name: Ключи
+  #   href: /.md
+  # - name: links
+  #   href: /.md
+  # - href: achievements/achievement_am.md
+  #   name: Правила активации
+  # - href: achievements/achievement_az.md
+  #   name: Правила активации
+  # - href: achievements/achievement_by.md
+  #   name: Правила активации
+  # - href: achievements/achievement_ge.md
+  #   name: Правила активации
+  # - href: achievements/achievement_il.md
+  #   name: Правила активации
+  # - href: achievements/achievement_kg.md
+  #   name: Правила активации
+  # - href: achievements/achievement_kz.md
+  #   name: Правила активации
+  # - href: achievements/achievement_md.md
+  #   name: Правила активации
+  # - href: achievements/achievement_uz.md
+  #   name: Правила активации
+  - href: auth.md
+    name: Регистрация и вход
+    hidden: true
