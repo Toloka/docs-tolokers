@@ -1,0 +1,7 @@
+default:
+  region: ru
+  locale: ru-com
+  platform: android
+  ya-maps: https://play.google.com/store/apps/details?id=ru.yandex.yandexmaps&h
+
+  
