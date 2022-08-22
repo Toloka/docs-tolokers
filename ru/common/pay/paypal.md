@@ -87,8 +87,11 @@
 1. Заполните адрес электронной почты и придумайте надежный пароль. Нажмите кнопку **Далее**.
 
    {% if locale == 'ru-com' %}![](../assets/PayPal/step-five.png){% endif %}
+   
 1. Заполните персональные данные и подтвердите открытие счета.
+
    {% if locale == 'ru-com' %}![](../assets/PayPal/step-six.png){% endif %}
+   
 1. Поздравляем. Вы успешно прошли регистрацию.
 
 #### Подтверждение электронной почты
@@ -98,9 +101,11 @@
 1. Войдите в личный кабинет и нажмите на ![](../assets/settings.png). 
 
    {% if locale == 'ru-com' %}![](../assets/PayPal/settings.png){% endif %}
+   
 1. В настройках найдите ваш электронный адрес и нажмите кнопку **Подтвердить**.
 
    {% if locale == 'ru-com' %}![](../assets/PayPal/email.png){% endif %}
+   
 1. На открывшейся странице подтвердите адрес электронной почты. На вашу почту придет письмо с ссылкой для подтверждения.
 
 {% note info %}
@@ -117,6 +122,7 @@
 1. Зайдите в личный счет.
 
    {% if locale=='ru-com' %} ![](../assets/PayPal/verification/personal.png) {% endif %}
+   
 1. Нажмите **Добавить банковский счет или карту**.
 
     {% note info %}
@@ -204,7 +210,7 @@
 {% elsif platform=="android" or platform=="web" %}
 1. Откройте страницу [Мои деньги]({{ toloka-money }}).
 {% endif %}
-1. Найдите платежную систему PayPal и нажмите кнопку .
+1. Найдите платежную систему PayPal и нажмите кнопку **{{ ui_worker.money__withdraw__submit }}**.
 1. Привяжите ваш кошелек PayPal. Кошелек должен быть верифицирован. Привязанный кошелек будет отображаться в разделе {% if platform=="web" %}**{{ ui_worker.prfl-tab-money }}**{% elsif platform=="android" %}**{{ mobile_android.money_main_title }}**{% elsif platform=="ios" %}**{{ mobile_ios.profile.my_money_section_header }}**{% endif %}.
 
     {% note info %}
@@ -214,7 +220,10 @@
     {% endnote %}
     
 1. В поле **{{ ui_worker.wthdrw-amnt }}** введите необходимую сумму и нажмите кнопку **{{ ui_worker.money__withdraw__submit }}**.
-1. На ваш номер телефона придет СМС с кодом. Введите его и нажмите кнопку **Подтвердить**. {% if locale=="ru-com" %}![](../assets/PayPal/verification/withdraw.png){% endif %}
+1. На ваш номер телефона придет СМС с кодом. Введите его и нажмите кнопку **Подтвердить**. 
+
+   {% if locale=="ru-com" %}![](../assets/PayPal/verification/withdraw.png){% endif %}
+
 1. Денежные средства поступят на ваш кошелек. Обычно средства поступают за несколько часов или дней, но иногда дольше. Максимально - 30 дней. Проверяйте статус операции в блоке **{{ ui_worker.prfl-money-history }}**.
 
 {% include [check](../_includes/pay/about/check.md) %}

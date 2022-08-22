@@ -4,8 +4,12 @@ items:
   - href: about.md
     name: O приложении
     when: platform == "ios" or platform == "android"
+  - href: auth.md
+    name: Регистрация и вход
+    when: platform == "ios" or platform == "android"
   - href: register.md
     name: Регистрация и вход
+    when: platform == "web"
   - href: settings.md
     name: Необходимые настройки
     when: platform == "ios" or platform == "android"
@@ -105,6 +109,3 @@ items:
   #   name: Правила активации
   # - href: achievements/achievement_uz.md
   #   name: Правила активации
-  - href: auth.md
-    name: Регистрация и вход
-    hidden: true

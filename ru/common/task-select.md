@@ -84,7 +84,7 @@
 
    Вы можете зарезервировать несколько заданий.
 	  
-1. {% if platform=="android" %}Чтобы построить маршрут, нажмите ![](assets/kebab-menu.png) ** →  {{ mobile_android.task_build_route }}**.{% endif %}{% if platform=="ios" %}Постройте маршрут до точки, нажав кнопку **{{ mobile_ios.route_button }}**.{% endif %} Маршрут будет построен в приложении [Яндекс Карты]({{ ya-maps }}).
+1. {% if platform=="android" %}Чтобы построить маршрут, нажмите ![](assets/kebab-menu.png) → **{{ mobile_android.task_build_route }}**.{% endif %}{% if platform=="ios" %}Постройте маршрут до точки, нажав кнопку **{{ mobile_ios.route_button }}**.{% endif %} Маршрут будет построен в приложении [Яндекс Карты]({{ ya-maps }}).
    
 1. Доберитесь до места, которое указано в задании. Затем выберите задание на странице {% if platform=="ios" %}**{{ mobile_ios.my_tasks }} → {{ mobile_ios.active_tasks }}** и нажмите кнопку **{{ mobile_ios.continue_button }}**. {% endif %}{% if platform=="android" %}**{{ mobile_android.tasks_reserved }}** и нажмите кнопку **{{ mobile_android.task_resume }}**{% endif %}
     
@@ -129,7 +129,7 @@
 ## Советы и рекомендации {#tips}
       
 В списке заданий отображаются все задания — обычные и полевые. Чтобы открыть список заданий, нажмите
-{% if platform=="android" %}![](assets/menu.png)** → {{ mobile_android.tasks_available }}**{% endif %}
+{% if platform=="android" %}![](assets/menu.png) → **{{ mobile_android.tasks_available }}**{% endif %}
 {% if platform=="ios" %}кнопку **{{ mobile_ios.all_tasks_title }}**{% endif %}.
 
 {% if platform=="android" %}Чтобы управлять списком заданий, примените фильтры и настройте сортировку:
@@ -193,7 +193,7 @@
 Чтобы выбрать, какая информация о задании будет изображена на метке:
 
 1. {% if platform=="ios" %}Нажмите **{{ mobile_ios.more_title }} → {{ mobile_ios.settings.screen_title }}** {% endif %}
-   {% if platform=="android" %}Нажмите ![](assets/menu.png)** → {{ mobile_android.settings }}**{% endif %}
+   {% if platform=="android" %}Нажмите ![](assets/menu.png) → **{{ mobile_android.settings }}**{% endif %}
 1. Откройте {% if platform=="android" %}**{{ mobile_android.settings_pin_view_type_title}}**{% elsif platform=="ios" %}**{{ mobile_ios.settings.map_pin_format.setting_title }}**{% endif %} и выберите нужную опцию.
 {% if platform=="android" %}
 1. Нажмите кнопку **{{ mobile_android.action_save }}**.

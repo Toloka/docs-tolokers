@@ -3,8 +3,8 @@
 ## Я зарегистрирован в Толоке {#registered}
 
 1. Откройте [Толоку]({{ toloka }}).
-1. Нажмите кнопку {% if platform == 'android' %} {{ mobile_android.login }} {% elseif platform == 'ios' %} {{ mobile_ios.onboarding.join_button }} {% endif %}.
-1. Выберите аккаунт и нажмите {{ mobile_ios.continue_button }} или введите логин и пароль.
+1. Нажмите кнопку {% if platform == 'android' %} **{{ mobile_android.login }}** {% elsif platform == 'ios' %} **{{ mobile_ios.onboarding.join_button }}** {% endif %}.
+1. Выберите аккаунт и нажмите **{{ mobile_ios.continue_button }}** или введите логин и пароль.
 
 Если вы не помните ваш логин или пароль, перейдите на страницу [Восстановление доступа]({{ passport-restore }}).
 
@@ -17,20 +17,21 @@
 ## Я зарегистрирован на Яндексе, но не в Толоке {#no-toloka}
 
 1. Откройте Толоку.
-1. Нажмите кнопку {% if platform == 'android' %} {{ mobile_android.login }} {% elseif platform == 'ios' %} {{ mobile_ios.onboarding.join_button }} {% endif %}.
+1. Нажмите кнопку {% if platform == 'android' %} **{{ mobile_android.login }}** {% elsif platform == 'ios' %} **{{ mobile_ios.onboarding.join_button }}** {% endif %}.
 1. Выберите аккаунт или введите логин и пароль.
 1. Если на экране регистрации появилось предупреждение:
+
     {% cut "Не привязан номер телефона" %}
     
-	{% if platform == 'ios' %}![](assets/mail_warning_ios.png){% elseif platform == 'android' %}![](assets/mail_warning_android.png){% endif %}
+	{% if platform == 'ios' %}![](assets/mail_warning_ios.png){% elsif platform == 'android' %}![](assets/mail_warning_android.png){% endif %}
 	
-    Нажмите {% if platform == 'ios' %}{{ mobile_ios.phone_error.edit_action }}{% elseif platform == 'android' %}{{ mobile_android.ok }}{% endif %} и привяжите номер телефона на открывшейся странице в [Яндекс ID]({{ passport }}). Ваш номер нужен для получения кода по SMS.
+    Нажмите {% if platform == 'ios' %}{{ mobile_ios.phone_error.edit_action }}{% elsif platform == 'android' %}{{ mobile_android.ok }}{% endif %} и привяжите номер телефона на открывшейся странице в [Яндекс ID]({{ passport }}). Ваш номер нужен для получения кода по SMS.
     
 	{% endcut %}
 	
 	{% cut "Номер телефона привязан к другому аккаунту" %}
 	
-	
+	{% if platform == ios %}![](assets/phone_warning_ios.png){% elsif platform == "android" %}![](assets/phone_warning_android.png){% endif %}
     
     Пользователь с номером телефона, указанным в вашем аккаунте, уже зарегистрирован в Толоке. Проверьте номер в [Яндекс ID]({{ passport-phones }}).
     
@@ -64,6 +65,12 @@
 
 ## Частые вопросы {#faq}
 
+[Не приходит SMS с кодом подтверждения](#no-sms)  
+[У меня был аккаунт в Толоке. Теперь не могу зарегистрироваться, потому что номер «принадлежит другому пользователю»](#phone-warning)  
+[Как поменять номер телефона в моем аккаунте](#change-phone)  
+[Где посмотреть свой логин в веб-версии Толоки](#login-web)  
+[Где посмотреть свой логин в мобильном приложении](#login-mobile)
+
 ### Не приходит SMS с кодом подтверждения {#no-sms}
 
 Воспользуйтесь рекомендациями Справки [Яндекс ID]({{ support-passport-nocode }}). Если они не помогли решить проблему, напишите в [службу поддержки]({{ support-passport-nosms-form }}).
@@ -95,12 +102,15 @@
 
 ### Где посмотреть свой логин в мобильном приложении {#login-mobile}
 
+{% if platform == "android" %}
+
 {% include [faq-login-android](_includes/register/id-faq/login-android.md) %}
 
+{% elsif platform=="ios" %}
 
 {% include [faq-login-ios](_includes/register/id-faq/login-ios.md) %}
 
-
+{% endif %}
 
 [![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#registration)
 
