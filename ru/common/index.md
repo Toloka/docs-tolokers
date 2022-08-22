@@ -31,7 +31,7 @@
 {% if platform=="web" %}
 [Толока](http://toloka.yandex.ru/) — это платформа, где можно [выполнять](./tasks.md) задания и [получать](./priemka.md#pay) вознаграждение.
 
-Если вы ищете Справку для мобильных: ![](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/74b7231516e694ca7e0845a2acc01437096837d8.png)[Android](https://toloka.ai/tolokers/docs/android/?lang=ru), ![](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/954d1a32b3f72b26c733dfd826934e932860f599.png)[iOS](https://toloka.ai/tolokers/docs/ios/?lang=ru)
+Если вы ищете Справку для мобильных: ![](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/74b7231516e694ca7e0845a2acc01437096837d8.png)[Android](https://we.toloka.ai/tolokers/docs/android/?lang=ru), ![](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/954d1a32b3f72b26c733dfd826934e932860f599.png)[iOS](https://we.toloka.ai/tolokers/docs/ios/?lang=ru)
 
 {% endif %}
 
@@ -53,14 +53,14 @@
         </div>
     </div>
     <div class="grid-item">
-       <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/a87d83a654b1b264f34bb85c891bb18796b9fa7d.svg)></div>
+       <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/a87d83a654b1b264f34bb85c891bb18796b9fa7d.svg"></div>
         <div>
-            <h3><a href="priemka">Как проверяются мои ответы</a></h3>
+            <h3><a href="priemka">Как проверяются мои ответы?</a></h3>
 			<p>Узнайте, сколько времени занимает проверка. Как узнать результат.</p>
         </div>
     </div>
     <div class="grid-item">
-        <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/9facae90e4a837da815abddcbf9d339b0b878b78.svg)"></div>
+        <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/9facae90e4a837da815abddcbf9d339b0b878b78.svg"></div>
         <div>
             <h3><a href="task-select">Список заданий</a></h3>
 			<p>Как сортировать задания с помощью фильтров.</p>
