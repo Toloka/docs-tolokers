@@ -1,4 +1,0 @@
-title: Толока для iOS
-href: index.md
-items:
-  - include: { mode: merge, path: ../common/toc_common.yaml }
