@@ -1,0 +1,67 @@
+title: Toloka
+href: index.md
+items:
+  - name: Registration and logging in
+    href: register.md
+    when: platform == "web"
+  - name: About
+    href: about.md
+    when: platform == "android" or platform == "ios"
+  - name: Registration and logging in
+    href: auth.md
+    when: platform == "android" or platform == "ios"
+  - name: Required settings
+    href: settings.md
+    when: platform == "android" or platform == "ios"
+  - name: Choosing a task
+    href: task-select.md
+  - name: How to be a successful Toloker
+    href: tasks.md
+  - name: Tasks under review
+    href: priemka.md  
+  - name: Profile
+    href: profile.md
+  - name: Messages
+    href: messages.md
+  - name: Skills
+    href: skills.md
+  - name: Awards
+    href: achievements.md 
+  - name: Goals
+    href: goals.md
+    when: platform == "android" or platform == "ios"
+  - name: Rewards for friends
+    items:
+    - name: How to invite people
+      href: referal.md
+    - name: Current reward rules
+      href: referal-rules.md
+    - name: Previous reward rules
+      href: referal-archive.md
+  - name: Withdrawing money
+    items:
+    - name: Withdrawal methods
+      href: pay/about.md
+    - name: PayPal
+      href: pay/paypal.md
+#   - name: Skrill
+#     href: pay/skrill.md
+    - name: Payoneer
+      href: pay/payoneer.md
+    - name: QIWI
+      href: pay/Qiwi-wallet.md
+  - name: Troubleshooting and support
+    href: troubleshooting/troubleshooting.md
+  - name: UHRS - Public FAQ
+    href: uhrs-faq.md
+  - name: Restoring access
+    href: troubleshooting/unblock.md
+    hidden: true
+    when: platform == "web"
+  - name: Restoring access
+    href: troubleshooting/unblock-nodoc.md
+    hidden: true
+    when: platform == "web" 
+  - name: Notes
+    href: notes.md
+    hidden: true
