@@ -1,6 +1,0 @@
-default:
-  region: ru
-  locale: ru-com
-  platform: ios
-  ya-maps: https://itunes.apple.com/us/app/yandex-maps/id313877526
-  
