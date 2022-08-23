@@ -31,7 +31,7 @@
 {% if platform=="web" %}
 [Толока](http://toloka.yandex.ru/) — это платформа, где можно [выполнять](./tasks.md) задания и [получать](./priemka.md#pay) вознаграждение.
 
-Если вы ищете Справку для мобильных: ![](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/74b7231516e694ca7e0845a2acc01437096837d8.png)[Android](https://we.toloka.ai/tolokers/docs/android/?lang=ru), ![](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/954d1a32b3f72b26c733dfd826934e932860f599.png)[iOS](https://we.toloka.ai/tolokers/docs/ios/?lang=ru)
+Если вы ищете Справку для мобильных: ![](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/74b7231516e694ca7e0845a2acc01437096837d8.png)[Android](../android/index.md ), ![](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/954d1a32b3f72b26c733dfd826934e932860f599.png)[iOS](../ios/index.md)
 
 {% endif %}
 
@@ -137,7 +137,7 @@
 {% if platform == "android" %}
 [![](assets/googleplay.svg)]({{ googleplay-toloka }})
 
-[![](assets/huawei-appgallery.png)]({{ appgallery-toloka }})
+[![](assets/huawei-appgallery.png =135x)]({{ appgallery-toloka }})
 {% endif %}
 
 {% if platform=="ios" %}
