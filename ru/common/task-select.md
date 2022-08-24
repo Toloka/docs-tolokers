@@ -109,7 +109,8 @@
 
 1. Откройте задание на странице {% if platform=="android" %}**{{ mobile_android.tasks_done }}**{% elsif platform=="ios" %}**{{ mobile_ios.my_tasks }} → {{ mobile_ios.done_tasks }}**{% endif %}.
 1. {% if platform=="android" %}Нажмите кнопку ![](assets/dots_vertical.svg) вверху экрана и выберите **{{ mobile_android.task_back_to_reserved }}**.{% elsif platform=="ios" %}Нажмите кнопку **{{ mobile_ios.assignment.return_to_active }}**.{% endif %}
-1. Перейдите на страницу {% if platform=="android" %}**{{ mobile_android.tasks_reserved }}**{% elsif platform=="ios" %}**{{ mobile_ios.my_tasks }} → {{ mobile_ios.active_tasks }}**{% endif %} и {% if platform=="android" %}внесите изменения в задание{% endif %}{% if platform=="ios" %}нажмите кнопку **{{ mobile_ios.continue_button }}**{% endif %}.1. {% if platform=="android" %}Нажмите кнопку **{{ mobile_android.action_done }}**{% endif %}
+1. Перейдите на страницу {% if platform=="android" %}**{{ mobile_android.tasks_reserved }}**{% elsif platform=="ios" %}**{{ mobile_ios.my_tasks }} → {{ mobile_ios.active_tasks }}**{% endif %} и {% if platform=="android" %}внесите изменения в задание{% endif %}{% if platform=="ios" %}нажмите кнопку **{{ mobile_ios.continue_button }}**{% endif %}.
+1. {% if platform=="android" %}Нажмите кнопку **{{ mobile_android.action_done }}**{% endif %}
    {% if platform=="ios" %}Внесите изменения и нажмите кнопку **{{ mobile_ios.submit_button }}**{% endif %}.
 
 {% endif %}
