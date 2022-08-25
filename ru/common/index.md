@@ -36,7 +36,8 @@
 {% endif %}
 
 {% if platform=="web" %}
-
+<br/>
+<br/>
 <div class="grid-container">
     <div class="grid-item">
         <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/d848d82d8310ae62fa1b62d80442550f85fc6f4d.svg"></div>
