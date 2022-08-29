@@ -35,7 +35,9 @@
 
 {% cut "Другой вопрос" %}
 
-Заполните форму: <feedback form-id="8719" collapsed="yes" id="registration"/>
+Заполните форму: 
+
+<iframe width="100%" frameborder="0" src="https://forms.yandex.com/surveys/8719/?lang=ru&iframe=1&service=toloka-ai" id="registration"></iframe>
 
 {% note info %}
 
@@ -102,7 +104,7 @@
 
 {% endnote %}
 
-<feedback form-id="8710" collapsed="yes" id="withdrawal_request"/>
+<iframe width="100%" frameborder="0" src="https://forms.yandex.com/surveys/8710/?lang=ru&iframe=1&service=toloka-ai" id="withdrawal_request"></iframe>
 
 {% endcut %}
 
@@ -141,7 +143,7 @@
 
 {% endnote %}
 
-<feedback form-id="8710" collapsed="yes" id="money_withdrawal"/>
+<iframe width="100%" frameborder="0" src="https://forms.yandex.com/surveys/8710/?lang=ru&iframe=1&service=toloka-ai" id="money_withdrawal"></iframe>
 
 {% endcut %}
 
@@ -343,7 +345,9 @@
 
 {% cut "Другой вопрос" %}
 
-Заполните форму: <feedback form-id="2398" collapsed="yes" id="no_tasks_other"/>
+Заполните форму: 
+
+<iframe width="100%" frameborder="0" src="https://forms.yandex.com/surveys/2398/?lang=ru&iframe=1&service=toloka-ai" id="no_tasks_other"></iframe>
 
 {% note info %}
 
@@ -397,7 +401,9 @@
 
 {% cut "Другое" %}
 
-Заполните форму: <feedback form-id="10022435.bdf111f75b18149ea36aa3b3b642198ca3d3738d" collapsed="yes" id="not_working_properly"/>
+Заполните форму: 
+
+<iframe width="100%" frameborder="0" src="https://forms.yandex.com/surveys/10022435.bdf111f75b18149ea36aa3b3b642198ca3d3738d/?lang=ru&iframe=1&service=toloka-ai" id="not_working_properly"></iframe>
 
 {% note info %}
 
