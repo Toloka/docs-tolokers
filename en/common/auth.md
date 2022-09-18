@@ -3,20 +3,18 @@
 ## I am registered in Toloka {#registered}
 
 1. Open [Toloka]({{ toloka }}).
-
-1. Click {% if platform == "android" %}**Log in**{% endif %}{% if platform == "ios" %}**Join**{% endif %}.
-
+  
+1. Click {% if platform == 'android' %}**Log in** {% elsif platform == 'ios' %} **Join** {% endif %}.
+  
 1. Choose an account and tap **Continue** or enter your username and password.
 
 If you don't remember your username or password, go to the [Restore access]({{ passport-restore }}) page.
 
-{% if platform == "ios" %}
+{% if platform == 'ios' %}
 
 After logging in to the app, start [completing tasks](tasks.md).
 
-{% endif %}
-
-{% if platform == "android" %}
+{% elsif platform == 'android' %}
 
 After opening the app, [adjust settings](settings.md) and begin [completing tasks](tasks.md).
 
@@ -24,45 +22,25 @@ After opening the app, [adjust settings](settings.md) and begin [completing task
 
 ## I am registered in Yandex, but not in Toloka {#no-toloka}
 
-1. Open Toloka.
-
-1. Click {% if platform == "android" %}**Log in**{% endif %}{% if platform == "ios" %}**Join**{% endif %}.
-
+1. Open [Toloka]({{ toloka }}).
+  
+1. Click {% if platform == 'android' %}**Log in** {% elsif platform == 'ios' %} **Join** {% endif %}.
+  
 1. Choose an account or enter your username and password.
-
+  
 1. If a warning appears on the registration screen:
     
     {% cut "No phone number linked" %}
 
-    {% if platform == "android" %}
+    {% if platform == 'android' %} ![](../_assets/mail_warning_android.png) {% elsif platform == 'ios' %} ![](../_assets/mail_warning_ios.png) {% endif %}
 
-    ![](../_assets/mail_warning_android.png)
-
-    {% endif %}
-
-    {% if platform == "ios" %}
-
-    ![](../_assets/mail_warning_ios.png)
-
-    {% endif %}
-
-    Tap {% if platform == "android" %}**OK**{% endif %}{% if platform == "ios" %}**Go**{% endif %} and link the phone number on the page that opens in [Yandex ID]({{ passport }}). We need your number to send the SMS code.
+    Tap {% if platform == 'android' %} **OK** {% elsif platform == 'ios' %} **Go** {% endif %} and link the phone number on the page that opens in [Yandex ID]({{ passport }}). We need your number to send the SMS code.
 
     {% endcut %}
     
     {% cut "The phone number is linked to another account" %}
     
-    {% if platform == "android" %}
-
-    ![](../_assets/phone_warning_android.png)
-
-    {% endif %}
-
-    {% if platform == "ios" %}
-
-    ![](../_assets/phone_warning_ios.png)
-
-    {% endif %}
+    {% if platform == 'android' %} ![](../_assets/phone_warning_android.png) {% elsif platform == 'ios' %} ![](../_assets/phone_warning_ios.png) {% endif %}
 
     A user with the phone number specified in your account is already registered in Toloka. Check the number in [Yandex ID]({{ passport-phones }}).
     
@@ -80,15 +58,13 @@ After opening the app, [adjust settings](settings.md) and begin [completing task
     
 1. Fill in the profile information.
     
-1. Accept the User Agreement and click {% if platform == "android" %}**Register**{% endif %}{% if platform == "ios" %}**Done**{% endif %}.
+1. Accept the User Agreement and click {% if platform == 'android' %}**Register**{% elsif platform == 'ios' %}**Done**{% endif %}.
 
 {% if platform == "ios" %}
 
 After logging in to the app, start [completing tasks](tasks.md).
 
-{% endif %}
-
-{% if platform == "android" %}
+{% elsif platform == "android" %}
 
 After opening the app, [adjust settings](settings.md) and begin [completing tasks](tasks.md).
 
@@ -96,21 +72,31 @@ After opening the app, [adjust settings](settings.md) and begin [completing task
 
 ## I don't have a Yandex ID {#no-yandex}
 
-1. Open Toloka.
-
-1. Click {% if platform == "android" %}**Log in**{% endif %}{% if platform == "ios" %}**Join**{% endif %}.
-
-1. {% if platform == "android" %}Tap **Create a new account** to register in Yandex.{% endif %}{% if platform == "ios" %}Tap **Registration** to create a Yandex ID.{% endif %} Be sure to enter your mobile phone number. We need it for sending the SMS code.
-
+1. Open [Toloka]({{ toloka }}).  
+  
+1. Click {% if platform == 'android' %}**Log in**{% elsif platform == 'ios' %}**Join**{% endif %}.  
+  
+1. {% if platform == 'android' %}Tap **Create a new account** to register in Yandex.{% elsif platform == 'ios' %}Tap **Registration** to create a Yandex ID.{% endif %} Be sure to enter your mobile phone number. We need it for sending the SMS code.  
+  
 1. [Register](#no-toloka) in Toloka.
 
 ## Frequently asked questions {#faq}
 
+[I can't get an SMS with the confirmation code](#no-sms)
+
+[I had an account in Toloka. Now I can't register because the number "belongs to another user"](#phone-warning)
+
+[How do I change the phone number in my account?](#change-phone)
+
+[Where do I find my username in the web version of Toloka?](#login-web)
+
+[Where do I view my username in the mobile app?](#login-mobile)
+
 ### I can't get an SMS with the confirmation code {#no-sms}
 
-Follow the recommendations in Help for [Yandex ID]({{ support-passport-nocode }}). If this doesn't help, contact [support]({{ support-passport-nosms-form }}).
+Follow the recommendations in [Help for Yandex ID]({{ support-passport-nocode }}). If this doesn't help, contact [support]({{ support-passport-nosms-form }}).
 
-### I had an account in Toloka. Now I can't register because the number <q>belongs to another user</q> {#phone-warning}
+### I had an account in Toloka. Now I can't register because the number "belongs to another user" {#phone-warning}
 
 If you don't remember your credentials in Toloka, use [Restoring access]({{ passport-restore }}).
 
@@ -119,7 +105,6 @@ If you deleted your account in Toloka, you can't register again or restore the d
 According to the [User Agreement]({{ user-agreement }}):
 
 - The user may have only one account in Toloka.
-
 - The user must have a unique phone number.
 
 ### How do I change the phone number in my account? {#change-phone}
@@ -132,22 +117,19 @@ If you don't have access to the old number, it takes a month to change it. For m
 
 {% endnote %}
 
-
 ### Where do I find my username in the web version of Toloka? {#login-web}
 
 In the web version of Toloka, your username is shown in the upper-right corner, next to the avatar. If your name or nickname is displayed next to the avatar, click on the avatar. The username will be shown in the window that opens.
 
 ### Where do I view my username in the mobile app? {#login-mobile}
 
-{% if platform == "android" %}
+{% if platform == 'android' %}
 
 Open the menu by tapping ![](../_assets/menu.svg) at the top of the screen. Your username is at the top next to the avatar.
 
 Tap ![](../_assets/settings.png). You'll see your username in the **Profile** section.
 
-{% endif %}
-
-{% if platform == "ios" %}
+{% elsif platform == 'ios' %}
 
 Open your **Profile**. Your username is under your name.
 

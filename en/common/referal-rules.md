@@ -7,652 +7,682 @@ The updated version of the rules is published on this page. [Previous rule versi
 ## What are rewards given for? {#section_nj1_pft_klb}
 
 - For tasks performed by a friend. A task is considered completed if the requester accepts it.
-- For rewards that a friend received from requesters. The requester can award bonuses to reward performers.
+- For rewards that a friend received from requesters. The requester can grant rewards to stimulate Tolokers.
 
 {% note warning %}
 
-Friend bonuses are awarded only in the first month after your friend registers in Toloka.
+Friend rewards are granted only in the first month after your friend registers in Toloka.
 
 {% endnote %}
 
-## How are bonuses awarded? {#section_vkb_tft_klb}
+## How are rewards granted?{#section_vkb_tft_klb}
 
-Bonuses are awarded for tasks completed by friends on the previous day. The money is credited to your account in Toloka.
+Rewards are granted for tasks completed by friends on the previous day. The money is credited to your account in Toloka.
 
 ## How is the bonus amount calculated? {#section_lmj_zft_klb}
 
-There are several reward programs. The reward is given under the most profitable program:
+#### Features
+
+- Reward amounts are calculated under the most profitable program.
+- Rewards for all friends are combined. We do not provide details of the calculation.
+- Rewards are not given if you're banned for violating the [User Agreement]({{ user-agreement }}).
+
+#### Reward programs
 
 - 20% of the task price for field tasks performed in the cities from the list.
+
+{% cut "List of cities" %}
     
-    {% cut "List of cities" %}
-    
-    * Belarus:
-        
-        * Brest Region
+  {% cut "Belarus" %}
+   
+   {% cut "Brest Region" %}
+   
+   Brest
+   
+   {% endcut %}
+   
+   {% cut "Vitebsk Region" %}
+   
+   Vitebsk
+   
+   {% endcut %}
+   
+   {% cut "Gomel Region" %}
+   
+   Gomel
+   
+   {% endcut %}
+   
+   {% cut "Grodno Region" %}
+   
+   Grodno
+   
+   {% endcut %}
+   
+   {% cut "Mogilev Region" %}
+   
+   Mogilev
+   
+   {% endcut %}
+   
+  {% endcut %}
+  
+  {% cut "Russia" %}
+   
+   {% cut "Altai Territory" %}
+   
+   Barnaul  
+   Belokurikha  
+   Kamen-na-Obi  
+   Novoaltaysk
+   
+   {% endcut %}
+   
+   {% cut "Amur Region" %}
+   
+   Belogorsk  
+   Svobodny  
+   Tynda
+   
+   {% endcut %}
+   
+   {% cut "Arkhangelsk Region" %}
+   
+   Arkhangelsk  
+   Velsk
+   
+   {% endcut %}
+   
+   {% cut "Astrakhan Region" %}
+   
+   Astrakhan
+   
+   {% endcut %}
+   
+   {% cut "Belgorod Region" %}
+   
+   Alekseyevka  
+   Belgorod  
+   Valuyki
+   
+   {% endcut %}
+   
+   {% cut "Bryansk Region" %}
+   
+   Bryansk  
+   Klintsy  
+   Novozybkov
+   
+   {% endcut %}
+   
+   {% cut "Vladimir Region" %}
+   
+   Aleksandrov  
+   Vyazniki   
+   Gus-Khrustalny  
+   Suzdal
+   
+   {% endcut %}
+   
+   {% cut "Volgograd Region" %}
+   
+   Mikhaylovka  
+   Uryupinsk
+   
+   {% endcut %}
+   
+   {% cut "Voronezh Region" %}
+   
+   Borisoglebsk  
+   Liski
+   
+   {% endcut %}
+   
+   {% cut "Jewish Autonomous Region" %}
+   
+   Birobidzhan
+   
+   {% endcut %}
+   
+   {% cut "Irkutsk Region" %}
+   
+   Irkutsk  
+   Taishet  
+   Tulun  
+   Usolye-Sibirskoye  
+   Ust-Kut  
+   Cheremkhovo  
+   Shelekhov
+   
+   {% endcut %}
+   
+   {% cut "Kabardino-Balkarian Republic" %}
+   
+   Prokhladny
+   
+   {% endcut %}
+   
+   {% cut "Kaliningrad Region" %}
+   
+   Chernyakhovsk
+   
+   {% endcut %}
+   
+   {% cut "Kaluga Region" %}
+   
+   Maloyaroslavets
+   
+   {% endcut %}
+   
+   {% cut "Kamchatka Territory" %}
+   
+   Elizovo
+   
+   {% endcut %}
+   
+   {% cut "Kemerovo Region (Kuzbass)" %}
+   
+   Anzhero-Sudzhensk  
+   Novokuznetsk
+   
+   {% endcut %}
+   
+   {% cut "Kirov Region" %}
+   
+   Kirov
+   
+   {% endcut %}
+   
+   {% cut "Krasnodar Region" %}
+   
+   Abinsk  
+   Goryachy Klyuch  
+   Yeysk  
+   Korenovsk  
+   Kropotkin  
+   Krymsk  
+   Labinsk  
+   Novokubansk  
+   Novorossiysk  
+   Primorsko-Akhtarsk  
+   Slavyansk-on-Kuban  
+   Sochi  
+   Temryuk  
+   Tikhoretsk  
+   Tuapse
+   
+   {% endcut %}
+   
+   {% cut "Krasnoyarsk Region" %}
+   
+   Kansk  
+   Norilsk
+   
+   {% endcut %}
+   
+   {% cut "Kurgan Region" %}
+   
+   Shadrinsk
+   
+   {% endcut %}
+   
+   {% cut "Kursk Region" %}
+   
+   Kursk
+   
+   {% endcut %}
+   
+   {% cut "Magadan Region" %}
+   
+   Magadan
+   
+   {% endcut %}
+   
+   {% cut "Moscow and Moscow region" %}
+   
+   Aprelevka  
+   Bronnitsy  
+   Volokolamsk  
+   Voskresensk  
+   Dmitrov  
+   Dubna  
+   Yegoryevsk  
+   Zvenigorod  
+   Kashira  
+   Lukhovitsy  
+   Mozhaysk  
+   Naro-Fominsk  
+   Chekhov
+   
+   {% endcut %}
+   
+   {% cut "Murmansk Region" %}
+   
+   Apatity  
+   Kandalaksha  
+   Monchegorsk
+   
+   {% endcut %}
+   
+   {% cut "Nenetskiy Autonomous Okrug" %}
+   
+   Naryan-Mar
+   
+   {% endcut %}
+   
+   {% cut "Nizhny Novgorod Region" %}
+   
+   Bogorodsk  
+   Pavlovo
+   
+   {% endcut %}
+   
+   {% cut "Novgorod Region" %}
+   
+   Borovichi  
+   Pestovo  
+   Staraya Russa  
+   Iskitim
+   
+   {% endcut %}
+   
+   {% cut "Orenburg Region" %}
+   
+   Buguruslan  
+   Buzuluk  
+   Orenburg  
+   Sol-Iletsk
+   
+   {% endcut %}
+   
+   {% cut "Penza Region" %}
+   
+   Kuznetsk
+   
+   {% endcut %}
+   
+   {% cut "Perm region" %}
+   
+   Kudymkar  
+   Kungur  
+   Solikamsk  
+   Tchaikovsky  
+   Chernushka  
+   Chusovoy
+   
+   {% endcut %}
+   
+   {% cut "Primorsky Territory" %}
+   
+   Arsenyev  
+   Vladivostok  
+   Spassk-Dalniy
+   
+   {% endcut %}
+   
+   {% cut "Republic of Altai" %}
+   
+   Gorno-Altaysk
+   
+   {% endcut %}
+   
+   {% cut "Republic of Bashkortostan" %}
+   
+   Birsk  
+   Ishimbay  
+   Kumertau  
+   Sibay
+   
+   {% endcut %}
+   
+   {% cut "Republic of Buryatia" %}
+   
+   Ulan-Ude
+   
+   {% endcut %}
+   
+   {% cut "Republic of Dagestan" %}
+   
+   Buynaksk  
+   Dagestanskiye Ogni  
+   Izberbash  
+   Kizlyar  
+   Makhachkala
+   
+   {% endcut %}
+   
+   {% cut "Republic of Kalmykia" %}
+   
+   Elista
+   
+   {% endcut %}
+   
+   {% cut "Republic of Karelia" %}
+   
+   Sortavala
+   
+   {% endcut %}
+   
+   {% cut "Komi Republic" %}
+   
+   Pechora
+   
+   {% endcut %}
+   
+   {% cut "Republic of Crimea" %}
+   
+   Alushta  
+   Sevastopol  
+   Sudak  
+   Feodosia  
+   Yalta
+   
+   {% endcut %}
+   
+   {% cut "Republic of Mari El" %}
+   
+   Volzhsk
+   
+   {% endcut %}
+   
+   {% cut "Republic of Mordovia" %}
+   
+   Ruzayevka
+   
+   {% endcut %}
+   
+   {% cut "Republic of Sakha (Yakutia)" %}
+   
+   Aldan  
+   Neryungri
+   
+   {% endcut %}
+   
+   {% cut "Republic of Tatarstan" %}
+   
+   Aznakayevo  
+   Buinsk  
+   Naberezhnye Chelny  
+   Nurlat  
+   Chistopol
+   
+   {% endcut %}
+   
+   {% cut "Rostov Region" %}
+   
+   Azov  
+   Aksay  
+   Belaya Kalitva  
+   Gukovo  
+   Kamensk-Shakhtinsky  
+   Krasny Sulin  
+   Salsk
+   
+   {% endcut %}
+   
+   {% cut "Ryazan Region" %}
+   
+   Kasimov  
+   Ryazan
+   
+   {% endcut %}
+   
+   {% cut "Samara Region" %}
+   
+   Otradny
+   
+   {% endcut %}
+   
+   {% cut "Saint Petersburg and Leningrad Region" %}
+   
+   Kirishi  
+   Krasnoye Selo  
+   Lomonosov  
+   Luga  
+   Peterhof  
+   Sestroretsk  
+   Tikhvin
+   
+   {% endcut %}
+   
+   {% cut "Saratov Region" %}
+   
+   Balashov  
+   Volsk
+   
+   {% endcut %}
+   
+   {% cut "Sakhalin Region" %}
+   
+   Korsakov  
+   Kholmsk
+   
+   {% endcut %}
+   
+   {% cut "Sverdlovsk Region" %}
+   
+   Aramil  
+   Irbit  
+   Kamyshlov  
+   Krasnoufimsk  
+   Rezh  
+   Tavda
+   
+   {% endcut %}
+   
+   {% cut "Smolensk Region" %}
+   
+   Safonovo  
+   Smolensk
+   
+   {% endcut %}
+   
+   {% cut "Stavropol Territory" %}
+   
+   Budyonnovsk  
+   Georgiyevsk  
+   Izobilny  
+   Mineralnye Vody  
+   Mikhailovsk  
+   Pyatigorsk
+   
+   {% endcut %}
+   
+   {% cut "Tambov Region" %}
+   
+   Morshansk
+   
+   {% endcut %}
+   
+   {% cut "Tver Region" %}
+   
+   Vyshniy Volochyok  
+   Kimry  
+   Torzhok
+   
+   {% endcut %}
+   
+   {% cut "Tomsk Region" %}
+   
+   Tomsk
+   
+   {% endcut %}
+   
+   {% cut "Tula Region" %}
+   
+   Donskoy  
+   Kireyevsk  
+   Tula  
+   Shchekino
+   
+   {% endcut %}
+   
+   {% cut "Tyumen Region" %}
+   
+   Zavodoukovsk  
+   Ishim  
+   Tyumen
+   
+   {% endcut %}
+   
+   {% cut "Udmurt Republic" %}
+   
+   Izhevsk  
+   Mozhga
+   
+   {% endcut %}
+   
+   {% cut "Ulyanovsk Region" %}
+   
+   Ulyanovsk
+   
+   {% endcut %}
+   
+   {% cut "Khabarovsk Territory" %}
+   
+   Amursk
+   
+   {% endcut %}
+   
+   {% cut "Khanty-Mansi Autonomous Area — Yugra" %}
+   
+   Kogalym  
+   Megion  
+   Nyagan  
+   Pyt-Yakh  
+   Surgut
+   
+   {% endcut %}
+   
+   {% cut "Chelyabinsk Region" %}
+   
+   Kyshtym  
+   Magnitogorsk  
+   Satka
+   
+   {% endcut %}
+   
+   {% cut "Chechen Republic" %}
+   
+   Argun  
+   Gudermes  
+   Urus-Martan
+   
+   {% endcut %}
+   
+   {% cut "Chuvash Republic" %}
+   
+   Cheboksary
+   
+   {% endcut %}
+   
+   {% cut "Yamalo-Nenets Autonomous Area" %}
+   
+   Labytnangi  
+   Muravlenko  
+   Novy Urengoy  
+   Salekhard
+   
+   {% endcut %}
+   
+   {% cut "Yaroslavl Region" %}
+   
+   Pereslavl-Zalessky
+   Rostov
+   Uglich
+   
+   {% endcut %}
+   
+  {% endcut %}
+  
+  {% cut "Uzbekistan" %}
+   
+   {% cut "Andijan Region" %}
+   
+   Andijan
+   
+   {% endcut %}
+   
+   {% cut "Bukhara Region" %}
+   
+   Bukhara
+   
+   {% endcut %}
+   
+   {% cut "Jizzakh Region" %}
+   
+   Jizzakh
+   
+   {% endcut %}
+   
+   {% cut "Kashkadarya Region" %}
+   
+   Karshi  
+   Shakhrisabz
+   
+   {% endcut %}
+   
+   {% cut "Navoi Region" %}
+   
+   Navoi
+   
+   {% endcut %}
+   
+   {% cut "Namangan Region" %}
+   
+   Namangan
+   
+   {% endcut %}
+   
+   {% cut "Republic of Karakalpakstan" %}
+   
+   Nukus
+   
+   {% endcut %}
+   
+   {% cut "Samarkand Region" %}
+   
+   Samarkand
+   
+   {% endcut %}
+   
+   {% cut "Tashkent Region" %}
+   
+   Almalyk  
+   Angren  
+   Bekabad
+   
+   {% endcut %}
+   
+   {% cut "Fergana Region" %}
+   
+   Kokand
+   Margilan
+   Fergana
+   
+   {% endcut %}
+   
+   {% cut "Khorezm Region" %}
+   
+   Urgench
+   
+   {% endcut %}
+   
+  {% endcut %}
+  
+{% endcut %}
 
-            * Brest
-        
-        * Vitebsk Region
-
-            * Vitebsk
-        
-        * Gomel Region
-
-            * Gomel
-        
-        * Grodno Region
-
-            * Grodno
-        
-        * Mogilev Region
-
-            * Mogilev
-    
-    * Russia
-    
-        * Altai Territory
-
-            * Barnaul
-            
-            * Belokurikha
-            
-            * Kamen-na-Obi
-            
-            * Novoaltaysk
-    
-        * Amur Region
-
-            * Belogorsk
-            
-            * Svobodny
-            
-            * Tynda
-    
-        * Arkhangelsk Region
-
-            * Arkhangelsk
-            
-            * Velsk
-        
-        * Astrakhan Region
-
-            * Astrakhan
-        
-        * Belgorod Region
-
-            * Alekseyevka
-            
-            * Belgorod
-            
-            * Valuyki
-        
-        * Bryansk Region
-
-            * Bryansk
-
-            * Klintsy
-            
-            * Novozybkov
-        
-        * Vladimir Region
-
-            * Aleksandrov
-
-            * Vyazniki
-            
-            * Gus-Khrustalny
-            
-            * Suzdal
-        
-        * Volgograd Region
-
-            * Mikhaylovka
-            
-            * Uryupinsk
-        
-        * Voronezh Region
-
-            * Borisoglebsk
-            
-            * Liski
-            
-            * Rossosh
-        
-        * Jewish Autonomous Region
-
-            * Birobidzhan
-        
-        * Irkutsk Region
-
-            * Irkutsk
-            
-            * Taishet
-            
-            * Tulun
-            
-            * Usolye-Sibirskoye
-            
-            * Ust-Kut
-            
-            * Cheremkhovo
-            
-            * Shelekhov
-        
-        * Kabardino-Balkarian Republic
-
-            * Prokhladny
-        
-        * Kaliningrad Region
-
-            * Chernyakhovsk
-        
-        * Kaluga Region
-
-            * Maloyaroslavets
-        
-        * Kamchatka Territory
-
-            * Elizovo
-        
-        * Kemerovo Region (Kuzbass)
-
-            * Anzhero-Sudzhensk
-
-            * Novokuznetsk
-        
-        * Kirov Region
-
-            * Kirov
-        
-        * Krasnodar Region
-
-            * Abinsk
-
-            * Goryachy Klyuch
-            
-            * Yeysk
-
-            * Korenovsk
-            
-            * Kropotkin
-            
-            * Krymsk
-        
-            * Labinsk
-            
-            * Novokubansk
-            
-            * Novorossiysk
-            
-            * Primorsko-Akhtarsk
-            
-            * Slavyansk-on-Kuban
-            
-            * Sochi
-            
-            * Temryuk
-            
-            * Tikhoretsk
-            
-            * Tuapse
-        
-        * Krasnoyarsk Region
-
-            * Kansk
-            
-            * Norilsk
-        
-        * Kurgan Region
-
-            * Shadrinsk
-        
-        * Kursk Region
-
-            * Kursk
-        
-        * Magadan Region
-
-            * Magadan
-        
-        * Moscow and Moscow region
-
-            * Aprelevka
-            
-            * Bronnitsy
-            
-            * Volokolamsk
-            
-            * Voskresensk
-            
-            * Dmitrov
-            
-            * Dubna
-            
-            * Yegoryevsk
-            
-            * Zvenigorod
-            
-            * Kashira
-            
-            * Lukhovitsy
-            
-            * Mozhaysk
-            
-            * Naro-Fominsk
-            
-            * Chekhov
-        
-        * Murmansk Region
-
-            * Apatity
-            
-            * Kandalaksha
-            
-            * Monchegorsk
-        
-        * Nenetskiy Autonomous Okrug
-
-            * Naryan-Mar
-        
-        * Nizhny Novgorod Region
-
-            * Bogorodsk
-
-            * Pavlovo
-        
-        * Novgorod Region
-
-            * Borovichi
-
-            * Pestovo
-
-            * Staraya Russa
-
-            * Iskitim
-        
-        * Orenburg Region
-
-            * Buguruslan
-            
-            * Buzuluk
-            
-            * Orenburg
-            
-            * Sol-Iletsk
-        
-        * Penza Region
-
-            * Kuznetsk
-        
-        * Perm region
-
-            * Kudymkar
-
-            * Kungur
-            
-            * Solikamsk
-            
-            * Tchaikovsky
-            
-            * Chernushka
-            
-            * Chusovoy
-        
-        * Primorsky Territory
-
-            * Arsenyev
-
-            * Vladivostok
-
-            * Spassk-Dalniy
-        
-        * Republic of Altai
-
-            * Gorno-Altaysk
-        
-        * Republic of Bashkortostan
-
-            * Birsk
-            
-            * Ishimbay
-            
-            * Kumertau
-            
-            * Sibay
-                    
-        * Republic of Buryatia
-
-            * Ulan-Ude
-        
-        * Republic of Dagestan
-
-            * Buynaksk
-
-            * Dagestanskiye Ogni
-
-            * Izberbash
-
-            * Kizlyar
-
-            * Makhachkala
-        
-        * Republic of Kalmykia
-
-            * Elista
-        
-        * Republic of Karelia
-
-            * Sortavala
-
-        * Komi Republic
-
-            * Pechora
-        
-        * Republic of Crimea
-
-            * Alushta
-            
-            * Sevastopol
-            
-            * Sudak
-            
-            * Feodosia
-            
-            * Yalta
-        
-        * Republic of Mari El
-
-            * Volzhsk
-        
-        * Republic of Mordovia
-
-            * Ruzayevka
-        
-        * Republic of Sakha (Yakutia)
-
-            * Aldan
-            
-            * Neryungri
-        
-        * Republic of Tatarstan
-
-            * Aznakayevo
-            
-            * Buinsk
-            
-            * Naberezhnye Chelny
-            
-            * Nurlat
-            
-            * Chistopol
-        
-        * Rostov Region
-
-            * Azov
-            
-            * Aksay
-            
-            * Belaya Kalitva
-            
-            * Gukovo
-            
-            * Kamensk-Shakhtinsky
-            
-            * Krasny Sulin
-            
-            * Salsk
-        
-        * Ryazan Region
-
-            * Kasimov
-            
-            * Ryazan
-        
-        * Samara Region
-
-            * Otradny
-        
-        * Saint Petersburg and Leningrad Region
-
-            * Kirishi
-            
-            * Krasnoye Selo
-            
-            * Lomonosov
-            
-            * Luga
-            
-            * Peterhof
-            
-            * Sestroretsk
-            
-            * Tikhvin
-        
-        * Saratov Region
-
-            * Balashov
-            
-            * Volsk
-        
-        * Sakhalin Region
-
-            * Korsakov
-
-            * Kholmsk
-        
-        * Sverdlovsk Region
-
-            * Aramil
-            
-            * Irbit
-            
-            * Kamyshlov
-            
-            * Krasnoufimsk
-            
-            * Rezh
-
-            * Tavda
-        
-        * Smolensk Region
-
-            * Safonovo
-            
-            * Smolensk
-        
-        * Stavropol Territory
-
-            * Budyonnovsk
-
-            * Georgiyevsk
-            
-            * Izobilny
-            
-            * Mineralnye Vody
-            
-            * Mikhailovsk
-            
-            * Pyatigorsk
-        
-        * Tambov Region
-
-            * Morshansk
-        
-        * Tver Region
-
-            * Vyshniy Volochyok
-
-            * Kimry
-
-            * Torzhok
-        
-        * Tomsk Region
-
-            * Tomsk
-        
-        * Tula Region
-
-            * Donskoy
-
-            * Kireyevsk
-
-            * Tula
-
-            * Shchekino
-        
-        * Tyumen Region
-
-            * Zavodoukovsk
-            
-            * Ishim
-            
-            * Tyumen
-        
-        * Udmurt Republic
-
-            * Izhevsk
-
-            * Mozhga
-        
-        * Ulyanovsk Region
-
-            * Ulyanovsk
-        
-        * Khabarovsk Territory
-
-            * Amursk
-        
-        * Khanty-Mansi Autonomous Area — Yugra
-
-            * Kogalym
-
-            * Megion
-
-            * Nyagan
-
-            * Pyt-Yakh
-
-            * Surgut
-        
-        * Chelyabinsk Region
-
-            * Kyshtym
-
-            * Magnitogorsk
-            
-            * Satka
-        
-        * Chechen Republic
-
-            * Argun
-
-            * Gudermes
-            
-            * Urus-Martan
-        
-        * Chuvash Republic
-
-            * Cheboksary
-        
-        * Yamalo-Nenets Autonomous Area
-
-            * Labytnangi
-
-            * Muravlenko
-
-            * Novy Urengoy
-
-            * Salekhard
-        
-        * Yaroslavl Region
-
-            * Pereslavl-Zalessky
-            
-            * Rostov
-            
-            * Uglich
-
-    * Uzbekistan
-    
-        * Andijan Region
-
-            * Andijan
-        
-        * Bukhara Region
-
-            * Bukhara
-        
-        * Jizzakh Region
-
-            * Jizzakh
-        
-        * Kashkadarya Region
-
-            * Karshi
-            
-            * Shakhrisabz
-        
-        * Navoi Region
-
-            * Navoi
-        
-        * Namangan Region
-
-            * Namangan
-        
-        * Republic of Karakalpakstan
-
-            * Nukus
-        
-        * Samarkand Region
-
-            * Samarkand
-        
-        * Tashkent Region
-            
-            * Almalyk
-            
-            * Angren
-            
-            * Bekabad
-        
-        * Fergana Region
-
-            * Kokand
-
-            * Margilan
-
-            * Fergana
-        
-        * Khorezm Region
-        
-            * Urgench
-
-    {% endcut %}
-    
 - For tasks in Vietnamese: $5 for a friend who completed tasks for a total of at least $5. The reward is paid once for each friend of this type.
-
+- If you and a friend you invited are from Saudi Arabia, in addition to the regular 5% reward, you'll receive 20% of the amount they've earned. Increased rewards are awarded within 30 days of your friend's registration in Toloka. Mandatory conditions for you and your friends: “Saudi Arabia” is specified in the **Residence** field of the profile, the provider IP address and the phone number linked to the account are registered in Saudi Arabia.
 - 5 to 10% of the amount earned for other tasks and rewards that your friend received from requesters.
     
     The percentage depends on the total amount of rewards you received under this program over the past year:
     - 5% if your reward amount for the year is less than $10.
-    - 7% if your reward amount for the year is less than $100.
+    - You will start receiving 7% as soon as your total rewards for the year exceed $100. This means that your friends' total annual earnings have gone over $200.
     - 10% if your reward amount for the year is more than $100.
     
-    Let's say today is April 20. If you received over $100 for your friends since April 21 of last year, you are given 10% of their income.
+    Here's how your rewards are counted. For example, today is April 20. If you've received over $100 for your friends since April 21 of the previous year, you get 10% of their income. If your reward amount for this period is less than $100 but more than $10, you receive 7%. If less than $10 — 5%.
     
-
-{% note info %}
-
-Bring new friends often and help them earn to get more rewards from their earnings.
-
-{% endnote %}
-
-
-Rewards for all friends are combined. We do not provide details of the reward calculation.
-
-If you are banned for violating the [User Agreement]({{ user-agreement }}), the reward is not given.
 
 
 [![](../_assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)

@@ -62,8 +62,10 @@ If your account is blocked, you will receive two messages: an automatic notifica
 
 If you're banned, it's not necessarily permanent. For example, if you often make mistakes when entering captchas, you may be blocked and asked to confirm that you are a real person and not a robot. You will most likely be unblocked the first time. But if you continue to make mistakes when entering captchas, you may lose access to tasks.
 
+{% if platform == 'web' %}
 ## Troubleshooting {#troubleshooting}
 
 {% include [captcha](./_includes/captcha.md) %} 
 
+{% endif %}
 [![](../_assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)

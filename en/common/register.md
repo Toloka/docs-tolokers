@@ -70,7 +70,7 @@ If you don't remember your username or password, go to the [Restore access]({{ p
 
 Follow the recommendations in Help for [Yandex ID]({{ support-passport-nocode }}). If this doesn't help, contact [support]({{ support-passport-nosms-form }}).
 
-### I had an account in Toloka. Now I can't register because the number <q>belongs to another user</q> {#phone-warning}
+### I had an account in Toloka. Now I can't register because the number "belongs to another user" {#phone-warning}
 
 If you don't remember your credentials in Toloka, use [Restoring access]({{ passport-restore }}).
 

@@ -2,15 +2,13 @@
 
 The Awards section tracks your achievements for completing tasks and inviting friends.
 
-{% if platform == "web" %}Visit [this page]({{ toloka-achievements }}) to view the full list of awards. It's also a great way to discover new Toloka features.{% endif %}
+{% if platform == "web" %}Visit [this page]({{ toloka-achievements }}) to view the full list of awards. It's also a great way to discover new Toloka features.
 
-{% if platform == "android" %}
+{% elsif platform == "android" %}
 
 Click the ![](../_assets/menu.svg) → **Achievements** → **Awards** icon at the top left.
 
-{% endif %}
-
-{% if platform == "ios" %}
+{% elsif platform == "ios" %}
 
 To view the list of awards, go to  **Profile** → **Awards**.
 
@@ -32,7 +30,7 @@ Click on the award icon to find out how to earn it.
 
     {% cut "Example" %}
 
-    You get the first level of the <q>In the know</q> award for completing ten training tasks; the second level is awarded for completing one hundred training tasks, and so on. The fifth level is the highest.
+    You get the first level of the "In the know" award for completing ten training tasks; the second level is awarded for completing one hundred training tasks, and so on. The fifth level is the highest.
 
     ![](../_assets/achievements/multilevel.png)
 

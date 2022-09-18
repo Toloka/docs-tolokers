@@ -7,29 +7,24 @@ In [Messages]({{ toloka-messages }}) you receive:
 
 Write to the requester:
 
-- If a task doesn't work correctly (it shows a blank screen, doesn't display images, the **Submit**/**Done** button doesn't work, and so on).
+- If a task doesn't work correctly (it shows a blank screen, doesn't display images, the {% if platform == 'web' or platform == 'ios' %}**Submit** {% elsif platform == 'android' %}**Done** {% endif %} button doesn't work, and so on).
 - To ask about the instructions, training or the skill level.
 
 To write to the requester:
 
 {% if platform == "web" %}
-
 1. Open the [Messages]({{ toloka-messages }}) page.
 1. Tap **Contact requester** and choose the recipient.
 1. Enter the task name in the subject.
 1. Write a message and click **Send**.
 
-{% endif %}
-
-{% if platform == "ios" %}
+{% elsif platform == "ios" %}
 
 1. Click **My tasks** → **Done**  at the bottom of the page.
 1. Open the task and tap the **Contact requester** button.
 1. Write a message and tap **Submit**.
 
-{% endif %}
-
-{% if platform == "android" %}
+{% elsif platform == "android" %}
 
 1. Open the task.
 1. Click the ![](../_assets/dots_vertical.svg) button at the top of the screen and choose .
