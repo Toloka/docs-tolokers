@@ -28,7 +28,7 @@ Regions where QIWI is available:
 * Tajikistan
 * Uzbekistan
 
-{% endcut %} | 
+{% endcut %} |
 {% cut "From 1% to 3%" %}
 
 Fees:
@@ -39,18 +39,18 @@ Fees:
 
 Learn more on the [QIWI]({{ qiwi-payment }}) website.
 
-{% endcut %} 
+{% endcut %}
 |
 {% cut "From $0.05 to $1" %}
 
 $0.05 for one withdrawal a week. Subsequent withdrawals within a week — $1.
 
-{% endcut %} | 
+{% endcut %} |
 - Cash from QIWI card.
-- To bank card. 
-- To an account in any bank. 
-- To any wallet. 
-- Cash in QIWI offices: Saint Petersburg and Kazan. 
+- To bank card.
+- To an account in any bank.
+- To any wallet.
+- Cash in QIWI offices: Saint Petersburg and Kazan.
 
 Learn more on the [QIWI]({{ qiwi }}) website.||
 |#
@@ -60,7 +60,7 @@ Learn more on the [QIWI]({{ qiwi }}) website.||
 {% if platform == "android" or platform == "ios" %}
 
 #|
-|| **Area of operation** | 
+|| **Area of operation** |
 
 {% cut "Only certain countries" %}
 
@@ -86,19 +86,19 @@ Learn more on the [QIWI]({{ qiwi-payment }}) website.
 
 {% endcut %}
 ||
-|| **Minimum withdrawal amount** | 
+|| **Minimum withdrawal amount** |
 {% cut "From $0.05 to $1" %}
 
 $0.05 for one withdrawal a week. Subsequent withdrawals within a week — $1.
 
 {% endcut %}
 ||
-|| **Where to transfer money next** | 
-- Cash from QIWI card. 
-- To bank card. 
-- To an account in any bank. 
-- To any wallet. 
-- Cash in QIWI offices: Saint Petersburg and Kazan. 
+|| **Where to transfer money next** |
+- Cash from QIWI card.
+- To bank card.
+- To an account in any bank.
+- To any wallet.
+- Cash in QIWI offices: Saint Petersburg and Kazan.
 
 Learn more on the [QIWI]({{ qiwi }}) website.||
 |#
@@ -134,9 +134,9 @@ To withdraw money from Toloka, you need to have an identified QIWI wallet.
 1. Fill in your personal data and click **Confirm data**.
 
 1. Check your INN and click **Confirm**.
-    
+
 1. Wait for the confirmation of successful identification.
-    
+
 1. Done! Your wallet is identified.
 
 ### Step 3. Link a bank card {#add-card-qiwi}
@@ -171,7 +171,7 @@ Link your bank card to withdraw money to it:
 
 1. Link your QIWI wallet:
     - Confirm that you entered your first and last name as shown in your passport.
-    - Enter your wallet number — the phone number you provided during registration. The phone number is entered in international format, with the [country code]({{ qiwi-phone-codes }}) but without the <q>+</q> sign.
+    - Enter your wallet number — the phone number you provided during registration. The phone number is entered in international format, with the [country code]({{ qiwi-phone-codes }}) but without the "+" sign.
     The wallet is linked once. After you do this, you'll be able to withdraw money in the **My money** tab.
 
 1. Enter the required amount and click **Withdraw**.
@@ -195,7 +195,7 @@ You won't be able to submit a request if you just registered or recently changed
     - To a bank account.
     - To other wallets or payment systems.
     - To an individual entrepreneur's or corporate account.
-    
+
 1. Fill in the data, enter the required amount, and click **Pay**.
 1. Enter the code from the SMS.
 1. Done! The payment is sent.
