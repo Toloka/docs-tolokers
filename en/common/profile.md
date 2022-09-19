@@ -12,18 +12,20 @@ Your real name must be on your profile. Otherwise, you won't be able to [withdra
 
 ## Edit profile {#edit}
 
-{% if platform == "web" %}Go to the **Profile** and click the **Edit** link on the left.{% endif %}
+{% if platform == "web" %}
+Go to the **Profile** and click the **Edit** link on the left.
 
-{% if platform == "ios" %}Open the **Profile** page and click **Edit**.{% endif %}
+{% elsif platform == "ios" %}
+Open the **Profile** page and click **Edit**.
 
-{% if platform == "android" %}Open **Settings**, go to the **Profile** section, and click **Edit**.{% endif %}
+{% elsif platform == "android" %}Open **Settings**, go to the **Profile** section, and click **Edit**.
+{% endif %}
 
 ## Add a profile picture {#avatar}
 
 Go to [Managing your Yandex ID]({{ passport-profile }}) and click **Add a photo**.
 
 {% if platform == "web" %}
-
 ## Turn on notifications {#notifications}
 
 Open the Notifications page and choose which notifications you want to receive and how you want to receive them.
@@ -79,16 +81,18 @@ If notifications are disabled in your browser, enable them for the `toloka.yande
 You will now receive notifications from the platform.
 
 {% endlist %}
-
 {% endif %}
 
 ## Log out of your account {#log-out}
 
-{% if platform == "web" %}Click your username in the upper-right corner. Then click **Log out**.{% endif %}
+{% if platform == "web" %}
+Click your username in the upper-right corner. Then click **Log out**.
 
-{% if platform == "android" %}Click ![](../_assets/menu.png) → **Settings**. At the bottom of the list, choose **Log out**.{% endif %}
+{% elsif platform == "android" %}
+Click ![](../_assets/menu.png) → **Settings**. At the bottom of the list, choose **Log out**.
 
-{% if platform == "ios" %}Open the **More** → **Settings** page. At the bottom of the list, choose **Log out**.{% endif %}
+{% elsif platform == "ios" %}Open the **More** → **Settings** page. At the bottom of the list, choose **Log out**.
+{% endif %}
 
 ## Delete account {#delete}
 
@@ -118,17 +122,13 @@ You will now receive notifications from the platform.
     
     1. Tap the **Delete profile** button at the bottom of the page.
 
-    {% endif %}
-
-    {% if platform == "ios" %}
+    {% elsif platform == "ios" %}
 
     1. In the mobile app, go to **More** → **Settings**.
     
     1. At the end of the list, select **Delete account**.
 
-    {% endif %}
-
-    {% if platform == "android" %}
+    {% elsif platform == "android" %}
     
     1. Click ![](../_assets/menu.png) → **Settings**.
     

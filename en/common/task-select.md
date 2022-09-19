@@ -2,6 +2,15 @@
 
 # Choosing a task
 
+Choose:
+
+* [Non-field tasks](#non-field)
+
+* [Field surveys](#field)
+
+* [Tips and recommendations](#tips)
+
+
 ## Non-field tasks {#non-field}
 
 To complete a non-field task:
@@ -14,7 +23,7 @@ To complete a non-field task:
 
 1. Answer the questions and click **Submit**.
 
-You will be redirected to a page with the next task. To exit the task, tap ![](../_assets/dots_vertical.svg) at the bottom of the screen and choose Finish.
+You will be redirected to a page with the next task. To exit the task, tap ![](../_assets/dots_vertical.svg) at the bottom of the screen and choose **Finish**.
 
 ## Field surveys {#field}
 
@@ -24,17 +33,18 @@ To complete a field task:
 
 1. Use one of these ways to open task locations:
     * Select a task in the task list and tap **Open map** to see the locations for this task.
+
     * Open the common map by tapping **Map** to view locations with available tasks.
 
-{% note tip %}
+    {% note tip %}
 
-To save mobile data, download the map of the region to your device. To do this, tap ![](../_assets/map-download.png).
+    To save mobile data, download the map of the region to your device. To do this, tap ![](../_assets/map-download.png).
 
-To delete the downloaded maps, open **More** → **Settings** → **Delete downloaded maps**.
+    To delete the downloaded maps, open **More** → **Settings** → **Delete downloaded maps**.
 
-{% endnote %}
+    {% endnote %}
 
-To return to the task list, tap the **List** button at the top of the screen.
+    To return to the task list, tap the **List** button at the top of the screen.
 
 1. Tap a placemark with a task.
 
@@ -81,7 +91,7 @@ If a task is completed but isn't sent yet, you can make changes to it:
 
 1. Go to the **My tasks**→ Active page and click **Continue**.
 
-Make the changes and click **Submit**.
+1. Make the changes and click **Submit**.
 
 ### How do I submit a task? {#submit}
 
@@ -100,17 +110,18 @@ To manage your task list:
 1. Tap **Filters** at the top of the screen.
 
 1. Use filters or sorting tools:
-    #### Task price
-    To set the minimum task price, move the slider.
 
-    #### Task categories
-    Enable or disable categories such as **Field task**, **with training**, and so on.
-    
-    #### Requesters
-    Click a requester to add their tasks to the list or exclude them from the list.
+Task price
+: To set the minimum task price, move the slider.
 
-    #### Sort by
-    Choose the sorting type: by price, date updated, or Favorites.
+Task categories
+: Enable or disable categories such as **Field task**, **with training**, and so on.
+
+Requesters
+: Click a requester to add their tasks to the list or exclude them from the list.
+
+Sort by
+: Choose the sorting type: by price, date updated, or Favorites.
 
 1. Click the **Apply** button at the top of the page.
 
@@ -142,11 +153,17 @@ To choose which task information to display in the label:
 
 1. Open **Change pin appearance** and choose the desired option.
 
-{% endif %}
-
-{% if platform == "android" %}
+{% elsif platform == "android" %}
 
 # Choosing a task
+
+Choose:
+
+* [Non-field tasks](#non-field)
+
+* [Field surveys](#field)
+
+* [Tips and recommendations](#tips)
 
 ## Non-field tasks {#non-field}
 
@@ -160,7 +177,7 @@ To complete a non-field task:
 
 1. Answer the questions and click **Done**.
 
-You will be redirected to a page with the next task. To exit the task, tap ![](../_assets/dots_vertical.svg) at the bottom of the screen and choose Finish.
+You will be redirected to a page with the next task. To exit the task, tap ![](../_assets/dots_vertical.svg) at the bottom of the screen and choose **Finish**.
 
 ### How to save uncompleted tasks {#save-uncompleted}
 
@@ -181,30 +198,30 @@ To complete a field task:
 1. Use one of these ways to open task locations:
 
     * Select a task in the task list and tap **Open map** to see the locations for this task.
+
     * Open the common map by tapping ![](../_assets/map-android2.png) at the bottom of the screen to view locations with available tasks.
+
         To return to the task list, tap ![](../_assets/list.svg) at the bottom of the screen.
 
 
 1. Tap a placemark with a task.
 
     If there are several tasks in one spot, use the search function. To find a task in the list:
+
     1. Pull the list up.
-
     1. Tap ![](../_assets/search.svg) at the top of the screen.
-
     1. Start entering the task name or description.
 
-   To set a minimum price per task:
+    To set a minimum price per task:
 
     1. Tap ![](../_assets/filter-android.png) at the top of the screen.
-    
     1. Move the slider.
-    
     1. Click **Apply**.
 
 1. Read the instructions.
 
 1. Reserve a task by tapping **Reserve**. The task is displayed on the **Reserved**. The time countdown starts from this moment. The timer is displayed in the task header next to the ![](../_assets/clock.svg) icon. Max duration is specified in the task card.
+
    You can reserve several tasks at once.
 
 1. To get directions to the location, tap ![](../_assets/dots_vertical.svg) → **Get directions**. The route is created in the [Yandex Maps]({{ ya-maps }}) app.
@@ -289,13 +306,11 @@ To choose which task information to display in the label:
 
 1. Click **Save**.
 
-{% endif %}
-
-{% if platform == "web" %}
+{% elsif platform == "web" %}
 
 # Task list
 
-Open the [Tasks]({{ toloka-tasks }}) page. By default, tasks are displayed according to the <q>recommended first</q> criteria. You can set a different sorting order in the row above:
+Open the [Tasks]({{ toloka-tasks }}) page. By default, tasks are displayed according to the "recommended first" criteria. You can set a different sorting order in the row above:
 
 * Newest first.
 * Price
@@ -306,7 +321,7 @@ Open the [Tasks]({{ toloka-tasks }}) page. By default, tasks are displayed accor
 
 You can also filter tasks by category (with training, with post acceptance, hidden, and so on) and by requester.
 
-Unavailable tasks are marked with the ![](../_assets/lock.svg) icon. The condition for accessing the task is indicated next to it (for example, <q>mobile application</q>).
+Unavailable tasks are marked with the ![](../_assets/lock.svg) icon. The condition for accessing the task is indicated next to it (for example, "mobile application").
 
 ## Favorites and hidden tasks {#fav-hid}
 
@@ -315,6 +330,7 @@ You can add a task to your favorites or hide it in the list.
 #### Add task to favorites
 
 1. Hover over the task card and click ![](../_assets/dots_vertical.svg) on the right.
+
 1. Select **Add to favorites**.
     Or click ![](../_assets/favourites.png =10x) next to the task name.
 
@@ -322,13 +338,17 @@ Click **favorites first** to display the selected tasks at the top of the list.
 
 #### Hide the task
 
-1. Hover over the task card and click ![](../_assets/dots_vertical.svg) on the right.
-1. Select **Hide this task**.
+1. Hover over the task card and click ![](../_assets/dots_vertical.svg) on the right.  
+
+1. Select **Hide this task**.  
+
 1. Turn off the **Hidden** filter.
 
 #### Unhide task
-1. Turn on the **Hidden** filter.
+1. Turn on the **Hidden** filter.  
+
 1. Hover over the task card and click ![](../_assets/dots_vertical.svg) on the right.
+
 1. Select **Show this task again**.
 
 {% endif %}

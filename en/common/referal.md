@@ -33,4 +33,9 @@ You can't distribute the link in the following ways:
 
 {% endnote %}
 
+### Related information {#learnmore}
+- [Current reward rules](referal-rules.md)
+- [Previous reward rules](referal-archive.md)
+
+
 [![](../_assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
