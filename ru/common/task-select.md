@@ -47,33 +47,33 @@
 1. Откройте точки заданий одним из способов:
 
     * Выберите задание в списке заданий и нажмите кнопку {% if platform=="android" %}**{{ mobile_android.task_choose }}**{% elsif platform == "ios"%}**{{ mobile_ios.open_map }}**{% endif %}, чтобы увидеть расположение точек этого задания.
-    * Откройте общую карту, нажав {% if platform=="android" %}значок ![](assets/map-android2.png) в нижней части экрана{% elsif platform=='ios'%}кнопку **{{ ui_worker.tsk__tab_map }}**{% endif %}, чтобы увидеть все точки с доступными заданиями. 
-     
+    * Откройте общую карту, нажав {% if platform=="android" %}значок ![](assets/map-android2.png) в нижней части экрана{% elsif platform=='ios'%}кнопку **{{ ui_worker.tsk__tab_map }}**{% endif %}, чтобы увидеть все точки с доступными заданиями.
+
     {% if platform=='ios' %}
-	
+
     {% note tip %}
-	
+
     Для экономии мобильного интернета скачайте карту региона на устройство. Для этого нажмите значок ![](assets/map-download.png)
-                
+
     Чтобы удалить скачанные карты, откройте **{{ mobile_ios.more_title }}** → **{{ mobile_ios.settings.screen_title }}** → **{{ mobile_ios.settings.clear_maps_cache }}**
-	
+
     {% endnote %}
-	
+
     {% endif %}
-	
+
     Чтобы вернуться к списку заданий, нажмите {% if platform=="android" %}значок ![](assets/list.png) внизу экрана {% elsif platform == 'ios' %} кнопку **{{ mobile_ios.tasks_list_button }}** вверху экрана{% endif %}.
 
 1. Нажмите точку с заданием.
 
    {% if platform=="android" %}Если в одной точке несколько заданий, воспользуйтесь поиском. Чтобы найти задание в списке:
-   
+
    1. Сдвиньте список вверх.
    1. Нажмите значок ![](assets/search.svg) справа вверху экрана.
    1. Начните вводить текст с названием или описанием задания.
    {% endif %}
 
    Чтобы установить минимальную цену за задание:
-   
+
    1. {% if platform=="android" %}Нажмите на значок ![](assets/filter-android.png) внизу экрана{% elsif platform=="ios" %}Нажмите кнопку **{{ mobile_ios.filters.title }}** вверху экрана{% endif %}.
    1. Передвиньте ползунок.
    1. Нажмите кнопку {% if platform=="android"%}**{{ mobile_android.apply_positive_button }}**{% elsif platform=='ios'%}**{{ mobile_ios.apply_button }}**{% endif %}.
@@ -83,11 +83,11 @@
 1. Зарезервируйте задание, нажав кнопку {% if platform=="ios" %}**{{ mobile_ios.start_task_later_button }}**{% endif %}{% if platform=="android" %}**{{ mobile_android.task_postpone }}**{% endif %}. Задание отобразится на странице {% if platform=="android" %}**{{ mobile_android.tasks_reserved }}**{% endif %}{% if platform=="ios" %}**{{ mobile_ios.my_tasks }}**{% endif %}. С этого момента начинается отсчет времени: таймер отображается в заголовке задания рядом со значком ![](assets/clock.svg). {% if locale=="ru-com" %}Время на выполнение{% endif %}{% if locale=="en-com" %}Max duration{% endif %} указано в карточке задания.
 
    Вы можете зарезервировать несколько заданий.
-	  
+
 1. {% if platform=="android" %}Чтобы построить маршрут, нажмите ![](assets/kebab-menu.png) → **{{ mobile_android.task_build_route }}**.{% endif %}{% if platform=="ios" %}Постройте маршрут до точки, нажав кнопку **{{ mobile_ios.route_button }}**.{% endif %} Маршрут будет построен в приложении [Яндекс Карты]({{ ya-maps }}).
-   
+
 1. Доберитесь до места, которое указано в задании. Затем выберите задание на странице {% if platform=="ios" %}**{{ mobile_ios.my_tasks }} → {{ mobile_ios.active_tasks }}** и нажмите кнопку **{{ mobile_ios.continue_button }}**. {% endif %}{% if platform=="android" %}**{{ mobile_android.tasks_reserved }}** и нажмите кнопку **{{ mobile_android.task_resume }}**{% endif %}
-    
+
 1. Выполните задание:
    * Перечитайте инструкцию.
    * Ответьте на вопросы и прикрепите фото (если требуется).
@@ -95,16 +95,16 @@
 
      {% note warning %}
 
-     Нажать кнопку {% if platform=="ios" %}**{{ mobile_ios.submit_button }}**{% elsif platform=="android" %} **{{ mobile_android.action_done }}**{% endif %} нужно находясь в том месте, которое указано в задании. Иначе ответ может быть отклонен. 
+     Нажать кнопку {% if platform=="ios" %}**{{ mobile_ios.submit_button }}**{% elsif platform=="android" %} **{{ mobile_android.action_done }}**{% endif %} нужно находясь в том месте, которое указано в задании. Иначе ответ может быть отклонен.
 
      {% endnote %}
-      
+
 Задание с ответами сохраняется на странице {% if platform=="android" %}**{{ mobile_android.tasks_done }}**{% elsif platform=="ios" %}**{{ mobile_ios.my_tasks }} → {{ mobile_ios.done_tasks }}**{% endif %} до подключения к Wi-Fi, если в [настройках](settings.dita) выбрана опция {% if platform=="android"%}**{{ mobile_android.settings_wifi_title }}}**{% elsif platform=="ios" %}**{{ mobile_ios.settings_wifi_title }}**{% endif %}. Вам нужно успеть отправить задание до того, как истечет время на его выполнение.
 {% endif %}
 
 {% if platform == "android" or platform=="ios" %}
 ### Как внести изменения в задание {#makechanges}
-        
+
 Если задание выполнено, но еще не отправлено, вы можете внести в него изменения:
 
 1. Откройте задание на странице {% if platform=="android" %}**{{ mobile_android.tasks_done }}**{% elsif platform=="ios" %}**{{ mobile_ios.my_tasks }} → {{ mobile_ios.done_tasks }}**{% endif %}.
@@ -117,7 +117,7 @@
 
 {% if platform == "android" or platform=="ios" %}
 ### Как отправить задание {#sendtask}
-        
+
 Ответы на задание будут отправлены заказчику, как только у вас появится доступ к интернету. Для отправки необходимо открыть мобильное приложение. Если в [настройках](settings.dita) выбрана опция {% if platform=="android" %}**{{ mobile_android.settings_wifi_title }}**{% elsif platform=="ios" %}**{{ mobile_ios.settings_wifi_title }**{% endif %}, задание будет отправлено после подключения к Wi-Fi. {% if platform=="android" or platform=="ios" %}Чтобы отправить задание по мобильному интернету:{% endif %}
 
 {% if platform=="android" or platform=="ios" %}
@@ -128,44 +128,44 @@
 
 {% if platform=="android" or platform=="ios" %}
 ## Советы и рекомендации {#tips}
-      
+
 В списке заданий отображаются все задания — обычные и полевые. Чтобы открыть список заданий, нажмите
 {% if platform=="android" %}![](assets/menu.png) → **{{ mobile_android.tasks_available }}**{% endif %}
 {% if platform=="ios" %}кнопку **{{ mobile_ios.all_tasks_title }}**{% endif %}.
 
 {% if platform=="android" %}Чтобы управлять списком заданий, примените фильтры и настройте сортировку:
-        
+
 1. Нажмите значок ![](assets/filter-android.png) вверху экрана.
 1. Выберите один или несколько фильтров. Выберите заказчиков, чьи задания хотите увидеть в списке. Укажите тип сортировки.
 1. Нажмите кнопку **{{ mobile_android.apply_positive_button }}**.
-       
+
 {% endif %}
-{% if platform=="ios" %}Чтобы управлять списком заданий: 
+{% if platform=="ios" %}Чтобы управлять списком заданий:
 1. Нажмите кнопку **{{ mobile_ios.filters.title }}** вверху экрана.
 1. Используйте фильтры или инструменты сортировки:
 
    Цена задания
-   
+
    : Чтобы установить минимальную цену за задание, передвиньте ползунок.
 
    Категории заданий
-   
+
    : Включите или отключите категории заданий — **{{ mobile_ios.tasks_on_field }}**, **{{ mobile_ios.tasks_with_training }}** и т.д.
 
    Заказчики
-   
+
    : Нажмите на заказчика, чтобы включить его задания в список или исключить из него.
 
    Сортировка
-   
+
    : Выберите тип сортировки — по цене, дате обновления или отметке Избранные.
 
 1. Нажмите кнопку **{{ mobile_ios.apply_button }}** вверху страницы.
 
 {% endif %}
-      
+
 Недоступные задания отмечены значком ![](assets/lock.svg). Рядом указано условие доступа к заданию, например наличие навыка. Некоторые задания можно выполнить только в браузере на сайте {% if locale=="en-com" %}[toloka.yandex.com]({{ toloka }}){% else %}[toloka.yandex.ru]({{ toloka }}){% endif %}.
-{% endif %}		
+{% endif %}
 
 {% if platform == "android" or platform=="ios" %}
 ### Как добавить задание в избранные {#favourites}
@@ -190,7 +190,7 @@
 
 {% if platform == "android" or platform=="ios" %}
 ### Как изменить внешний вид меток {#changelook}
-        
+
 Чтобы выбрать, какая информация о задании будет изображена на метке:
 
 1. {% if platform=="ios" %}Нажмите **{{ mobile_ios.more_title }} → {{ mobile_ios.settings.screen_title }}** {% endif %}
@@ -214,7 +214,7 @@
 
 Также вы можете фильтровать задания по категориям (с обучением, с отложенной приёмкой, скрытые и т.д.) и по заказчикам.
 
-Недоступные задания отмечены значком ![](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/ffff7f0618be7fe3d467ae1da45110b236860ecd.svg). Рядом указано условие доступа к заданию, например «мобильное приложение».
+Недоступные задания отмечены значком ![](https://yastatic.net/s3/doc-binary/src/support/toloka-tolokers/ru/lock.svg). Рядом указано условие доступа к заданию, например «мобильное приложение».
 {% endif %}
 
 {% if platform=="web" %}
@@ -226,7 +226,7 @@
 **Добавить задание в избранные**
 
 - Наведите курсор на карточку задания и нажмите кнопку ![](assets/dots_vertical.svg) справа.
-- Выберите {{ ui_worker.task_menu__bookmark_add }}.  
+- Выберите {{ ui_worker.task_menu__bookmark_add }}.
          Или нажмите кнопку ![](assets/favourites.png =15x) рядом с названием задания.
 
 Нажмите {{ ui_worker.tasks_page__sort_by_bookmarked_first }}, чтобы избранные задания выводились в начале списка.
