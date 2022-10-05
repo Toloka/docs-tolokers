@@ -8,12 +8,12 @@
 
 {% elsif platform == 'android' %}
 
-Слева вверху нажмите значок **![](assets/menu.png) → {{ mobile_android_achievements_skills_title }} → {{ mobile_ios_achievements.awards.title }}**
+Слева вверху нажмите значок **![](assets/menu.png) → {{ mobile_android_achievements_skills_title }} → {{ mobile_ios_achievements_awards_title }}**
 
 {% elsif platform == 'ios' %}
 
 
-Список наград смотрите в разделе **{{ mobile_ios.profile.profile }} → {{ mobile_ios.achievements.awards.title }}**
+Список наград смотрите в разделе **{{ mobile_ios_profile }} → {{ mobile_ios_achievements_awards_title }}**
 
 {% endif %}
 

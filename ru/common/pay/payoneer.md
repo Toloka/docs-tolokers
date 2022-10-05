@@ -21,7 +21,7 @@
 
 {% if platform=="android" or platform=="ios" or platform=="mobile" %}
 #|
-|| Где работает | 
+|| Где работает |
 
 {% cut "почти везде" %}
 
@@ -29,10 +29,10 @@
 
 Доступен в более чем 200 странах. За информацией обращайтесь в [Центр Поддержки Payoneer]({{ payoneer-support }})
 
-{% endcut %} 
+{% endcut %}
 
 ||
-|| Суммарная комиссия | 
+|| Суммарная комиссия |
 
 {% cut "2%" %}
 
@@ -44,20 +44,20 @@
 
 Подробнее на [Сайте Payoneer]({{ payoneer-fees }}).
 
-{% endcut %} 
+{% endcut %}
 
 ||
 || Минимальная сумма вывода из Толоки | 20 $ ||
 || Куда вывести дальше | - На свой банковский счет.
-    
+
 - На карту Payoneer Mastercard.
-    
+
     {% note alert %}
-    
+
     В настоящее время возможны сложности с выводом средств на карты Visa и Mastercard, выпущенные российскими банками.
-    
+
     {% endnote %}
-    
+
 
 Чтобы уточнить размер комиссии, перейдите в раздел **Тарифы** в вашем аккаунте Payoneer.
 
@@ -71,13 +71,13 @@
 
 1. На главной странице официального сайта [Payoneer]({{ payoneer }}) нажмите кнопку {% if locale=="ru-com" %}**Зарегистрироваться**{% elsif locale=="en-com" %}**Register**{% endif %}.
 1. Пройдите небольшой опрос, для каких целей вы планируете использовать систему **Payoneer**.
-    
+
     {% cut "Пример" %}
-	
+
 	{% if locale=="ru-com" %}![](../assets/Payoneer/Payoneer-registration_rus_1.png){% elsif locale=="en-com" %}![](../assets/Payoneer/Payoneer-registration_en_1.png){% endif %}
-	
+
 	{% endcut %}
-    
+
 1. На следующей странице нажмите кнопку {% if locale=="ru-com" %}**Регистрация**{% elsif locale=="en-com" %}**Register**{% endif %}.
 1. Заполните персональные данные. Нажмите кнопку {% if locale=="ru-com" %}**Продолжить**{% elsif locale=="en-com" %}**Next**{% endif %}.
 1. Укажите свои контактные данные. Чтобы подтвердить номер телефона нажмите кнопку **Отправить код** и введите код из SMS.
@@ -89,14 +89,14 @@
 ## Как вывести из Толоки {#withdraw-from-toloka}
 
 {% if platform=="ios" %}
-1. Откройте страницу **{{ mobile_ios.profile.profile }}**.
+1. Откройте страницу **{{ mobile_ios_profile }}**.
 {% elsif platform=="android" or platform=="web" %}
 1. Откройте страницу [Мои деньги]({{ toloka-money }}).{% endif %}
-1. Найдите платежную систему **Payoneer** и нажмите кнопку **{{ ui_worker.money_PAYONEER__button-link-account }}**.
-1. Кошелек привязывается один раз, после чего будет доступен вывод средств во вкладке {% if platform=="web" %}**{{ ui_worker.prfl-tab-money }}**{% elsif platform=="android" %}**{{ mobile_android.money_main_title }}**{% elsif platform=="ios" %}**{{ mobile_ios.profile.my_money_section_header }}**{% endif %}.
-1. Введите необходимую сумму и нажмите кнопку **{{ ui_worker.money__withdraw__submit }}**.
-1. На телефон придет SMS с кодом. Введите его и нажмите кнопку {% if platform=="web" %}**{{ ui_worker.sms_popup__submit }}**{% elsif platform=="ios" or platform=="android" %}**{{ mobile_android.button_confirm_sms }}**{% endif %}.
-1. Денежные средства поступят на ваш счет в Payoneer. Обычно средства поступают за несколько часов или дней, но иногда дольше. Максимально — 30 дней. Проверяйте статус в блоке **{{ ui_worker.prfl-money-history }}**.
+1. Найдите платежную систему **Payoneer** и нажмите кнопку **{{ ui_worker_money_PAYONEER__button-link-account }}**.
+1. Кошелек привязывается один раз, после чего будет доступен вывод средств во вкладке {% if platform=="web" %}**{{ ui_worker_prfl-tab-money }}**{% elsif platform=="android" %}**{{ mobile_android_money_main_title }}**{% elsif platform=="ios" %}**{{ mobile_ios_profile_my_money_section_header }}**{% endif %}.
+1. Введите необходимую сумму и нажмите кнопку **{{ ui_worker_money__withdraw__submit }}**.
+1. На телефон придет SMS с кодом. Введите его и нажмите кнопку {% if platform=="web" %}**{{ ui_worker_sms_popup__submit }}**{% elsif platform=="ios" or platform=="android" %}**{{ mobile_android_button_confirm_sms }}**{% endif %}.
+1. Денежные средства поступят на ваш счет в Payoneer. Обычно средства поступают за несколько часов или дней, но иногда дольше. Максимально — 30 дней. Проверяйте статус в блоке **{{ ui_worker_prfl-money-history }}**.
 
 {% include [check](../_includes/pay/about/check.md) %}
 

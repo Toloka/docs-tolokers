@@ -1,2 +1,2 @@
 
-Перейдите на страницу **{{ mobile_ios.my_tasks }} → {{ mobile_ios.done_tasks }}**.
+Перейдите на страницу **{{ mobile_ios_my_tasks }} → {{ mobile_ios_done_tasks }}**.

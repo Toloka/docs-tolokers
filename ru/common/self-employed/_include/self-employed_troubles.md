@@ -9,7 +9,7 @@
 Если вы все же хотите перестать сотрудничать с Толокой:
 
 
-  * Откройте вкладку {% if platform=="web" %}**{{ ui_worker.prfl }}**{% elsif platform=="android" %}**{{ mobile_android.profile }}**{% elsif platform=="ios" %}**{{ mobile_ios.profile.profile }}**{% endif %}.
+  * Откройте вкладку {% if platform=="web" %}**{{ ui_worker_prfl }}**{% elsif platform=="android" %}**{{ mobile_android_profile }}**{% elsif platform=="ios" %}**{{ mobile_ios_profile }}**{% endif %}.
 
   * Нажмите **Перестать сотрудничать с Толокой как самозанятый**.
 
