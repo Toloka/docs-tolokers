@@ -3,8 +3,7 @@
 ## Я зарегистрирован в Толоке {#registered}
 
 1. Откройте [Толоку]({{ toloka }}).
-1. Нажмите кнопку {% if platform == 'android' %} **{{ mobile_android_login }}** {% elsif platform == 'ios' %} **{{ mobile_ios_onboarding_join_button }}** {% endif %}.
-1. Выберите аккаунт и нажмите **{{ mobile_ios_continue_button }}** или введите логин и пароль.
+1. Выберите аккаунт{% if platform=='ios' %} и нажмите **{{ mobile_ios_continue_button }}**{% endif %} или введите логин и пароль.
 
 Если вы не помните ваш логин или пароль, перейдите на страницу [Восстановление доступа]({{ passport-restore }}).
 
@@ -16,8 +15,7 @@
 
 ## Я зарегистрирован на Яндексе, но не в Толоке {#no-toloka}
 
-1. Откройте Толоку.
-1. Нажмите кнопку {% if platform == 'android' %} **{{ mobile_android_login }}** {% elsif platform == 'ios' %} **{{ mobile_ios_onboarding_join_button }}** {% endif %}.
+1. Откройте [Толоку]({{ toloka }}).
 1. Выберите аккаунт или введите логин и пароль.
 1. Если на экране регистрации появилось предупреждение:
 
@@ -25,7 +23,7 @@
 
 	{% if platform == 'ios' %}![](assets/mail_warning_ios.png){% elsif platform == 'android' %}![](assets/mail_warning_android.png){% endif %}
 
-    Нажмите {% if platform == 'ios' %}{{ mobile_ios_phone_error_edit_action }}{% elsif platform == 'android' %}{{ mobile_android_ok }}{% endif %} и привяжите номер телефона на открывшейся странице в [Яндекс ID]({{ passport }}). Ваш номер нужен для получения кода по SMS.
+    Нажмите {% if platform == 'ios' %}{{ mobile_ios_phone_error_add_action }}{% elsif platform == 'android' %}{{ mobile_android_ok }}{% endif %} и привяжите номер телефона на открывшейся странице в [Яндекс ID]({{ passport }}). Ваш номер нужен для получения кода по SMS.
 
 	{% endcut %}
 
@@ -49,7 +47,7 @@
 
 1. Заполните данные профиля.
 
-1. Примите Пользовательское соглашение и нажмите кнопку {% if platform=="ios" %}**{{ mobile_ios_ready_button }}**{% elsif platform=="android" %}**{{ mobile_android_registration_complete_submit_button }}**{% endif %}.
+1. Примите Пользовательское соглашение и нажмите кнопку {% if platform=="ios" %}**{{ mobile_ios_ready_button }}**{% elsif platform=="android" %}**{{ mobile_android_registration_complete_button }}**{% endif %}.
 
 {% if platform=="ios" %}После входа в приложение приступайте к [выполнению заданий](tasks.md).{% endif %}
 
@@ -59,7 +57,7 @@
 
 1. Откройте Толоку.
 1. Нажмите кнопку {% if platform=="android" %}**{{ mobile_android_login }}**{% elsif platform=="ios" %}**{{ mobile_ios_onboarding_join_button }}**{% endif %}.
-1. {% if platform=="android" %}Нажмите **Создайте новый аккаунт**, чтобы зарегистрироваться на Яндексе. {% elsif platform=="ios" %}Нажмите **{{ mobile_ios_registration_title }}**, чтобы создать Яндекс ID.{% endif %} Обязательно укажите номер мобильного телефона. Он нужен для получения кода по SMS.
+1. {% if platform=="android" %}Нажмите **Создайте новый аккаунт**, чтобы зарегистрироваться на Яндексе. {% elsif platform=="ios" %}Нажмите **{{mobile_ios_registration_user_data_title }}**, чтобы создать Яндекс ID.{% endif %} Обязательно укажите номер мобильного телефона. Он нужен для получения кода по SMS.
 1. [Зарегистрируйтесь](#no-toloka) в Толоке.
 
 
