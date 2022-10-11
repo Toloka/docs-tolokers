@@ -173,7 +173,7 @@
 {% if platform=="android" or platform=="ios" %}Отметьте задания, которые вам понравились:
 
 1. Нажмите значок ![](assets/dots_horizontal.svg) в карточке задания.
-2. Выберите {% if platform=="web" %}**{{ ui_worker_task_menu__bookmark_add }}**{% elsif platform=="android" %}**{{ mobile_android_add_to_bookmarks }}**{% elsif platform=="ios" %}**mobile_ios_profileadd_as_bookmarked }}**{% endif %}.
+2. Выберите {% if platform=="web" %}**{{ ui_worker_task_menu__bookmark_add }}**{% elsif platform=="android" %}**{{ mobile_android_add_to_bookmarks }}**{% elsif platform=="ios" %}**{{ mobile_ios_profileadd_as_bookmarked }}**{% endif %}.
 {% endif %}
 
 {% if platform=="android" %} Чтобы поместить избранные задания в начало списка, выберите тип [сортировки](#android-list/list-settings-android) **{{ mobile_android_sort_by_bookmarks }}**.{% endif %}
@@ -184,7 +184,7 @@
 ### Как скрыть задание {#hide}
 {% if platform=="android" or platform=="ios" %} Скройте задание, чтобы оно не отображалось в списке.
 1. Нажмите значок ![](assets/dots_horizontal.svg) в карточке задания.
-1. Выберите **mobile_ios_profileadd_as_ignored }}**.
+1. Выберите **{{ mobile_ios_task_user_preference_choose_preference_add_as_ignored }}**.
 {% endif %}
 {% endif %}
 
@@ -203,18 +203,15 @@
 {% endif %}
 
 {% if platform=="web" %}
-Откройте страницу [Задания](https://toloka.yandex.ru/tasks). По умолчанию задания отображаются по критерию «сначала рекомендуемые». Вы можете установить другой порядок сортировки в строке сверху:
+Откройте страницу [Задания](https://toloka.yandex.ru/tasks). По умолчанию задания отображаются по критерию **{{ ui_worker_tasks_page__sort_by_bookmarked_first }}**. Вы можете установить другой порядок сортировки в строке сверху:
 
--    Сначала новые
--    По цене
--    По сроку на выполнение
--    Сначала избранные
--    По заработку в час
--    По максимальному заработку в день
+-    **{{ ui_worker_tasks_page__sort_by_new_to_old }}**
+-    **{{ ui_worker_tasks_page__sort_by_price }}**
+-    **{{ ui_worker_tasks_page__sort_by_bookmarked_first }}**
 
 Также вы можете фильтровать задания по категориям (с обучением, с отложенной приёмкой, скрытые и т.д.) и по заказчикам.
 
-Недоступные задания отмечены значком ![](https://yastatic.net/s3/doc-binary/src/support/toloka-tolokers/ru/lock.svg). Рядом указано условие доступа к заданию, например «мобильное приложение».
+Недоступные задания отмечены значком ![](https://yastatic.net/s3/doc-binary/src/support/toloka-tolokers/ru/lock.svg). Рядом указано условие доступа к заданию. Например, условие {% if locale=="ru-com" %}«мобильное приложение»{% elsif locale=="en-com" %}mobile application{% endif %} означает, что задание нельзя выполнить в десктопной версии Толоки, только в мобильном приложении.
 {% endif %}
 
 {% if platform=="web" %}
@@ -229,7 +226,13 @@
 - Выберите {{ ui_worker_task_menu__bookmark_add }}.
          Или нажмите кнопку ![](assets/favourites.png =15x) рядом с названием задания.
 
-Нажмите {{ ui_worker_tasks_page__sort_by_bookmarked_first }}, чтобы избранные задания выводились в начале списка.
+Нажмите {{ ui_worker_tasks_page__sort_by_bookmarked_first }}, чтобы избранные задания выводились в начале списка. Если задания в списке избранных неактивны, возможно, они закончились или вы допускали много ошибок и заказчик ограничил вам доступ к ним. Когда задания появятся, они снова будут активны.
+
+{% note tip %}
+
+В Толоке много заданий, и каждый день появляются новые. Поэтому регулярно проверяйте список заданий, чтобы подобрать себе что-нибудь интересное.
+
+{% endnote %}
 
 **Скрыть задание**
 

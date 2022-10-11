@@ -220,7 +220,6 @@ default:
   mobile_ios_ready_button: Готово
   mobile_ios_referral_bonus_for_friends: Реферальная программа
   mobile_ios_referral_invite_button: Пригласить друзей
-  mobile_ios_registration_user_data_title: Расскажите о себе
   mobile_ios_route_button: Маршрут
   mobile_ios_settings_clear_maps_cache: Удалить загруженные карты
   mobile_ios_settings_map_pin_format_setting_title: Изменить внешний вид меток
@@ -267,6 +266,8 @@ default:
   ui_worker_task_menu__ignore_remove: Показать задание
   ui_worker_tasks_filter__with_ignored: Скрытые
   ui_worker_tasks_page__sort_by_bookmarked_first: сначала избранные
+  ui_worker_tasks_page__sort_by_new_to_old: сначала новые
+  ui_worker_tasks_page__sort_by_price: по цене
   ui_worker_tsk__resume: Продолжить
   ui_worker_tsk__tab_map: На карте
   ui_worker_verification_info__button_provide: Заполнить анкету

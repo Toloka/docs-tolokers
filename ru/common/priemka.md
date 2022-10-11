@@ -51,11 +51,11 @@
 На каждое отклоненное задание нужно подавать отдельную апелляцию.
 
 {% if platform=="web" %}
-1. Перейдите на страницу **[{{ui_worker.prfl}} → {{ui_worker.prfl-tab-history}}]({{ toloka-profile-history }})**.
+1. Перейдите на страницу **[{{ui_worker_prfl}} → {{ui_worker_prfl-tab-history}}]({{ toloka-profile-history }})**.
 1. Выберите **{{ ui_worker_assgn-type-rej }}** в выпадающем списке над таблицей **{{ ui_worker_incm-head }}**.
 1. Нажмите на проект.
 1. Откройте отклоненное задание, нажав на его номер.
-1. Нажмите кнопку **![](assets/loudspeaker.svg) → {{ui_worker.messages_compose_to_requesters}}** вверху страницы.
+1. Нажмите кнопку **![](assets/loudspeaker.svg) → {{ui_worker_messages_compose_to_requesters}}** вверху страницы.
 1. Кратко опишите, почему вы считаете, что задание выполнено верно. Номер задания будет прикреплен к сообщению автоматически.
 1. Нажмите кнопку **Отправить**.
 {% elsif platform=="ios" %}
