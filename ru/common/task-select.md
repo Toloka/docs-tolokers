@@ -76,7 +76,7 @@
 
    1. {% if platform=="android" %}Нажмите на значок ![](assets/filter-android.png) внизу экрана{% elsif platform=="ios" %}Нажмите кнопку **{{ mobile_ios_filters_title }}** вверху экрана{% endif %}.
    1. Передвиньте ползунок.
-   1. Нажмите кнопку {% if platform=="android"%}**{{ mobile_android_apply_positive_button }}**{% elsif platform=='ios'%}**{{ mobile_ios_apply_button }}**{% endif %}.
+   1. Нажмите кнопку {% if platform=="android"%}**{{ mobile_android_apply_positive_button }}**{% elsif platform=='ios'%}**{{ mobile_ios_ready_button }}**{% endif %}.
 
 1. Прочитайте {% if locale=="ru-com" %}инструкцию{% elsif locale=='en-com' %}instructions{% endif %}.
 
@@ -160,7 +160,7 @@
 
    : Выберите тип сортировки — по цене, дате обновления или отметке Избранные.
 
-1. Нажмите кнопку **{{ mobile_ios_apply_button }}** вверху страницы.
+1. Нажмите кнопку **{{ mobile_ios_ready_button }}** вверху страницы.
 
 {% endif %}
 

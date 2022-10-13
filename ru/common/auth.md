@@ -23,7 +23,7 @@
 
 	{% if platform == 'ios' %}![](assets/mail_warning_ios.png){% elsif platform == 'android' %}![](assets/mail_warning_android.png){% endif %}
 
-    Нажмите {% if platform == 'ios' %}{{ mobile_ios_phone_error_add_action }}{% elsif platform == 'android' %}{{ mobile_android_ok }}{% endif %} и привяжите номер телефона на открывшейся странице в [Яндекс ID]({{ passport }}). Ваш номер нужен для получения кода по SMS.
+    Нажмите {% if platform == 'ios' %}**{{ mobile_ios_phone_error_add_action }}**{% elsif platform == 'android' %}**{{ mobile_android_ok }}**{% endif %} и привяжите номер телефона на открывшейся странице в [Яндекс ID]({{ passport }}). Ваш номер нужен для получения кода по SMS.
 
 	{% endcut %}
 
@@ -47,7 +47,7 @@
 
 1. Заполните данные профиля.
 
-1. Примите Пользовательское соглашение и нажмите кнопку {% if platform=="ios" %}**{{ mobile_ios_ready_button }}**{% elsif platform=="android" %}**{{ mobile_android_registration_complete_button }}**{% endif %}.
+1. Примите [Пользовательское соглашение]({{ user-agreement }}) и нажмите кнопку {% if platform=="ios" %}**{{ mobile_ios_ready_button }}**{% elsif platform=="android" %}**{{ mobile_android_registration_complete_button }}**{% endif %}.
 
 {% if platform=="ios" %}После входа в приложение приступайте к [выполнению заданий](tasks.md).{% endif %}
 
