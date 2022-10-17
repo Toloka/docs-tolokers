@@ -37,6 +37,8 @@
 {% endcut %}
 
 
+{% if platform == "android" or platform == "ios" %}
+
 {% cut "Где посмотреть свой логин в мобильном приложении" %}
 
 {% if platform == "android" %}
@@ -52,6 +54,8 @@
 {% endif %}
 
 {% endcut %}
+
+{% endif %}
 
 
 {% cut "Не помню логин или пароль" %}
