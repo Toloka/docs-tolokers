@@ -45,7 +45,7 @@
 
 Нажмите ![](../../../assets/settings.png), ваш логин будет указан в разделе **{{ mobile_android_profile }}**.
 
-{% elsif platform=="ios" %}
+{% elsif platform == "ios" %}
 
 Откройте {{ mobile_ios_profile }} — ваш логин указан под вашим именем.
 
@@ -53,13 +53,15 @@
 
 {% endcut %}
 
+
 {% cut "Не помню логин или пароль" %}
 
 Если вы не помните ваш логин или пароль, перейдите на страницу [Восстановление доступа]({{ passport-restore }}).
 
-Подробнее о {% if platform=="web" %}[входе в Толоку](../register.md){% elsif platform=="android" or platform=="ios" %}[входе в Толоку](../auth.md#registered){% endif %}.
+Подробнее о {% if platform == "web" %}[входе в Толоку](../../../register.md){% elsif platform == "android" or platform == "ios" %}[входе в Толоку](../../../auth.md#registered){% endif %}.
 
 {% endcut %}
+
 
 {% cut "Повторная регистрация в Толоке" %}
 
@@ -70,7 +72,8 @@
 
 {% endcut %}
 
-{% if platform=="web" %}
+
+{% if platform == "web" %}
 
 {% cut "Другой вопрос" %}
 
