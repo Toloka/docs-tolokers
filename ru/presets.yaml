@@ -152,19 +152,20 @@ default:
   mobile_android_action_done: Готово
   mobile_android_action_save: Сохранить
   mobile_android_add_to_bookmarks: Добавить в избранные
+  mobile_android_add_to_ignore: Скрыть задание
   mobile_android_apply_positive_button: Применить
   mobile_android_button_confirm_sms: Подтвердить
   mobile_android_button_next: Далее
   mobile_android_clear: Очистить
+  mobile_android_dialog_going_back_negative: Отказаться
   mobile_android_invite_friends: Пригласить друзей
-  mobile_android_login: Войти
   mobile_android_logout: Выйти
-  mobile_android_nav_title_achievements: Достижения
   mobile_android_message_create: Написать заказчику
   mobile_android_message_submit_button: Отправить
   mobile_android_money_do_withdraw: Вывести
   mobile_android_money_income_tab_title: Зачисления
   mobile_android_money_main_title: Мои деньги
+  mobile_android_nav_title_achievements: Достижения
   mobile_android_notifications_title: Настройка уведомлений
   mobile_android_ok: Хорошо
   mobile_android_others_referral_bonuses_title: Реферальная программа
@@ -174,8 +175,8 @@ default:
   mobile_android_settings: Настройки
   mobile_android_settings__download_maps__title: Загрузка офлайн-карт
   mobile_android_settings_keep_tasks_title: Всегда оставлять задания за мной
+  mobile_android_settings_map_title: Открывать задания на карте
   mobile_android_settings_offline_maps_auto_update__title: Автообновление
-  mobile_android_settings_pin_view_type_title: Изменить внешний вид меток
   mobile_android_settings_wifi_title: Отправлять только по Wi-Fi
   mobile_android_sort_by_bookmarks: Сначала избранные
   mobile_android_start_now: Приступить
@@ -204,7 +205,6 @@ default:
   mobile_ios_done_tasks: Выполненные
   mobile_ios_filters_sort_tasks_user_preference_bookmarked_first: Сначала избранные
   mobile_ios_filters_title: Фильтры
-  mobile_ios_general_skip_button: Пропустить
   mobile_ios_income_log_title: Зачисления
   mobile_ios_logout_button: Выйти
   mobile_ios_messages_write-to-requester: Написать заказчику
@@ -224,23 +224,20 @@ default:
   mobile_ios_settings_clear_maps_cache: Удалить загруженные карты
   mobile_ios_settings_map_pin_format_setting_title: Изменить внешний вид меток
   mobile_ios_settings_screen_title: Настройки
+  mobile_ios_settings_show_map_screen_first_setting_title: Открывать карту при входе
   mobile_ios_settings_wifi_title: Отправлять только по Wi-Fi
   mobile_ios_start_task: Приступить
   mobile_ios_start_task_later_button: Отложить
   mobile_ios_submit_button: Отправить
+  mobile_ios_task_action_refuse: Отказаться
   mobile_ios_task_actions_finish: Выйти
+  mobile_ios_task_user_preference_choose_preference_add_as_ignored: Скрыть задание
   mobile_ios_tasks_list_button: Списком
   mobile_ios_tasks_on_field: полевые
   mobile_ios_tasks_with_training: с обучением
-  ui_core_profile_editor__address__label__building: Корпус
-  ui_core_profile_editor__address__label__city: Город
-  ui_core_profile_editor__address__label__district: Район
-  ui_core_profile_editor__address__label__flat: Квартира
-  ui_core_profile_editor__address__label__house: Дом
-  ui_core_profile_editor__address__label__postcode: Индекс
-  ui_core_profile_editor__address__label__region: Регион
-  ui_core_profile_editor__address__label__settlement: Населённый пункт
-  ui_core_profile_editor__address__label__street: Улица
+  ui_core_btn-submit: Отправить
+  ui_core_profile_editor__label__allow_adult: Могу выполнять задания, содержащие контент
+    для взрослых
   ui_core_taxes_form__button_submit: Отправить данные
   ui_worker_1706282c5244c8e988f76c5eb939b754: Редактировать
   ui_worker_2c5461dee3add8fe9c9e803e1de003c5: Удалить профиль
