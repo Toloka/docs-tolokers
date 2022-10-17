@@ -8,12 +8,11 @@
 
 {% elsif platform == 'android' %}
 
-Слева вверху нажмите значок **![](assets/menu.png) → {{ mobile_android.achievements_skills_title }} → {{ mobile_android.achievements_skills_title }}**
+Слева вверху нажмите значок **![](assets/menu.png) → {{ mobile_android_nav_title_achievements }}**.
 
 {% elsif platform == 'ios' %}
 
-
-Список наград смотрите в разделе **{{ mobile_ios.profile.profile }} → {{ mobile_ios.achievements.awards.title }}**
+Список наград смотрите в разделе **{{ mobile_ios_profile }} → {{ mobile_ios_achievements_awards_title }}**.
 
 {% endif %}
 
@@ -30,16 +29,19 @@
 - **За активность.** Эти награды вы получите за разные действия на платформе. Например, если включите push-уведомления или пригласите друзей в Толоку.
 - **Многоуровневые награды** выдаются при достижении вами определенного уровня. С каждым новым уровнем вы получаете новую награду.
 
-    {% cut "Пример" %} 
-	
+    {% cut "Пример" %}
+
     Награду «Знает дело» первого уровня вы получите за выполнение десяти обучающих заданий, второго уровня — за выполнение ста обучающих заданий и так далее. Самая высокая награда — пятого уровня.
-	
+
 	![](assets/achievements/multilevel.png)
-	
+
 	{% endcut %}
-    
+
 - **Секретные** награды не видны в профиле и выдаются сюрпризом.
 
 
 [![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
 
+## Частые вопросы {#faq}
+
+{% include [faq-achievements-common](_includes/achievements/achievement-faq/achievements.md) %}

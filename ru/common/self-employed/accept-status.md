@@ -19,19 +19,19 @@
 
 ## После обработки анкеты {#after-form}
 
-1. Если анкета обработана, на вкладке {% if platform=="web" %}**{{ ui_worker.prfl }}**{% elsif platform=="android" %}**{{ mobile_android.profile }}**{% elsif platform=="ios" %}**{{ mobile_ios.profile.profile }}**{% endif %} в Толоке должна появиться кнопка **{{ ui_worker.worker__become__self_employed__heading }}**. Нажмите ее.
+1. Если анкета обработана, на вкладке {% if platform=="web" %}**{{ ui_worker_prfl }}**{% elsif platform=="android" %}**{{ mobile_android_profile }}**{% elsif platform=="ios" %}**{{ mobile_ios_profile }}**{% endif %} в Толоке должна появиться кнопка **{{ ui_worker_worker__become__self_employed__heading }}**. Нажмите ее.
 1. Следуйте инструкциям в появившемся окне:
     1. Примите оферту.
     1. Подтвердите, что вы зарегистрированы в системе **Мой налог** — с помощью номера телефона или ИНН.
 
        {% note info %}
-    
+
        Если вы выбрали способ подтверждение по номеру телефона, убедитесь, что вы указали один и тот же номер в Яндекс ID и системе Мой налог.
-	
+
        [Как поменять номер в Яндекс ID]({{ support-passport-phone-change }}).
-    
+
        {% endnote %}
-    
+
     1. На следующем шаге сделайте Толоку партнером.
 
 ## Как сделать Толоку партнером {#section_f3t_j4p_bmb}

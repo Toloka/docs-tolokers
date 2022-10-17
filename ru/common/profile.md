@@ -1,19 +1,29 @@
 # Профиль
 
-В вашем профиле должно быть указано ваше настоящее имя. Это требуется для [вывода денег](pay/about.md) из [Толоки]({{ toloka }}) в платежную систему. Если при регистрации вы указали другое имя, отредактируйте профиль.
+В вашем профиле должны быть указаны ваши настоящие имя и фамилия. Это требуется для [вывода денег](pay/about.md) из [Толоки]({{ toloka }}) в платежную систему. Если при регистрации вы указали другое имя, отредактируйте профиль.
 
-[Редактировать профиль](#edit)  
-[Добавить аватарку](#avatar)  
-[Удалить аккаунт](#delete)  
+[Редактировать профиль](#edit)
+[Добавить аватарку](#avatar)
+[Удалить аккаунт](#delete)
 {% if platform=="web" %}[Включить уведомления](#notifications){% endif %}
 
 
 ## Редактировать профиль {#edit}
 
-{% if platform == "web" %} Перейдите в **{{ ui_worker.prfl }}** и нажмите ссылку **{{ ui_worker.1706282c5244c8e988f76c5eb939b754 }}** слева.
-{% elsif platform == "ios" %} Откройте страницу **{{ mobile_ios.profile.profile }}** и нажмите **{{ mobile_ios.profile.edit_button }}**. 
-{% elsif platform == "android" %} Откройте **{{ mobile_android.settings }}** и в разделе **{{ mobile_android.profile }}** нажмите **mobile_android.edit**.
+{% if platform == "web" %} Перейдите в **{{ ui_worker_prfl }}** и нажмите ссылку **{{ ui_worker_1706282c5244c8e988f76c5eb939b754 }}** слева.
+{% elsif platform == "ios" %} Откройте страницу **{{ mobile_ios_profile }}** и нажмите **{{ mobile_ios_profile_edit_button }}**.
+{% elsif platform == "android" %} Откройте **{{ mobile_android_settings }}** и в разделе **{{ mobile_android_profile }}** нажмите **mobile_android.edit**.
 {% endif %}
+
+{% note info %}
+
+Если выбранный язык уже подтвержден тестом, то его нельзя заменить на другой или убрать.
+
+{% endnote %}
+
+## Изменить логин {#login}
+
+Толока использует учетную запись Яндекс ID, поэтому изменить логин не получится.
 
 ## Добавить аватарку {#avatar}
 
@@ -80,11 +90,11 @@
 ## Выйти из аккаунта {#log-out}
 
 {% if platform=="web" %}
-Нажмите на ваш логин в правом верхнем углу. Затем нажмите кнопку **{{ ui_worker.8ef2d61ae629c63b155ae66c3d2fc9fa }}**.
+Нажмите на ваш логин в правом верхнем углу. Затем нажмите кнопку **{{ ui_worker_8ef2d61ae629c63b155ae66c3d2fc9fa }}**.
 {% elsif platform=="android" %}
-Нажмите **![](assets/menu.png) → {{ mobile_android.settings }}**. Внизу списка выберите **{{ mobile_android.logout }}**.
+Нажмите **![](assets/menu.png) → {{ mobile_android_settings }}**. Внизу списка выберите **{{ mobile_android_logout }}**.
 {% elsif platform=="ios" %}
-Откройте страницу **{{ mobile_ios.more_title }} → {{ mobile_ios.settings.screen_title }}**. Внизу списка выберите **{{ mobile_ios.logout_button }}**. 
+Откройте страницу **{{ mobile_ios_more_title }} → {{ mobile_ios_settings_screen_title }}**. Внизу списка выберите **{{ mobile_ios_logout_button }}**.
 {% endif %}
 
 ## Удалить аккаунт {#delete}
@@ -109,14 +119,14 @@
 
   {% if platform=="web" %}
   1. Откройте [Профиль]({{ toloka-profile }}) Толоки в браузере.
-  1. Нажмите кнопку **{{ ui_worker.1706282c5244c8e988f76c5eb939b754 }}** слева.
-  1. Нажмите кнопку **{{ ui_worker.2c5461dee3add8fe9c9e803e1de003c5 }}** внизу страницы.
+  1. Нажмите кнопку **{{ ui_worker_1706282c5244c8e988f76c5eb939b754 }}** слева.
+  1. Нажмите кнопку **{{ ui_worker_2c5461dee3add8fe9c9e803e1de003c5 }}** внизу страницы.
   {% elsif platform=="ios" %}
   1. В мобильном приложении откройте страницу **Еще → Настройки**.
   1. В конце списка выберите **Удалить аккаунт**.
   {% elsif platform=="android" %}
-  1. Нажмите ![](assets/menu.png) → **{{ mobile_android.settings }}**.
-  1. Нажмите кнопку **{{ ui_worker.2c5461dee3add8fe9c9e803e1de003c5 }}** в конце списка.
+  1. Нажмите ![](assets/menu.png) → **{{ mobile_android_settings }}**.
+  1. Нажмите кнопку **{{ ui_worker_2c5461dee3add8fe9c9e803e1de003c5 }}** в конце списка.
   {% endif %}
 
 {% endlist %}
@@ -129,6 +139,9 @@
 
 {% endnote %}
 
+## Частые вопросы {#faq}
+
+{% include [faq-profile](_includes/profile/profile-faq/profile.md) %}
 
 [![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
 

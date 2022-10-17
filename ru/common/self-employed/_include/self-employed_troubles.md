@@ -9,7 +9,7 @@
 Если вы все же хотите перестать сотрудничать с Толокой:
 
 
-  * Откройте вкладку {% if platform=="web" %}**{{ ui_worker.prfl }}**{% elsif platform=="android" %}**{{ mobile_android.profile }}**{% elsif platform=="ios" %}**{{ mobile_ios.profile.profile }}**{% endif %}.
+  * Откройте вкладку {% if platform=="web" %}**{{ ui_worker_prfl }}**{% elsif platform=="android" %}**{{ mobile_android_profile }}**{% elsif platform=="ios" %}**{{ mobile_ios_profile }}**{% endif %}.
 
   * Нажмите **Перестать сотрудничать с Толокой как самозанятый**.
 
@@ -58,5 +58,19 @@ _Чек_ — это платежный документ, который соде
 По закону после вывода средств вы можете аннулировать чек, но дальнейший **вывод средств будет заблокирован** до выяснения обстоятельств. Если вы аннулировали чек по ошибке, обратитесь в службу поддержки.
 
 {% endnote %}
+
+{% cut "Другое" %}
+
+Заполните форму: 
+
+<iframe width="100%" frameborder="0" src="https://forms.yandex.com/surveys/10022435.bdf111f75b18149ea36aa3b3b642198ca3d3738d/?lang=ru&iframe=1&service=toloka-ai" id="not_working_properly"></iframe>
+
+{% note info %}
+
+Не отправляйте повторные запросы и просьбы ответить скорее. Служба поддержки рассматривает все поступающие обращения. Вам ответят в течение нескольких дней.
+
+{% endnote %}
+
+{% endcut %}
 
 {% endcut %}
