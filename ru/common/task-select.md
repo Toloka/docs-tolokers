@@ -76,7 +76,7 @@
 
    1. {% if platform=="android" %}Нажмите на значок ![](assets/filter-android.png) внизу экрана{% elsif platform=="ios" %}Нажмите кнопку **{{ mobile_ios_filters_title }}** вверху экрана{% endif %}.
    1. Передвиньте ползунок.
-   1. Нажмите кнопку {% if platform=="android"%}**{{ mobile_android_apply_positive_button }}**{% elsif platform=='ios'%}**{{ mobile_ios_apply_button }}**{% endif %}.
+   1. Нажмите кнопку {% if platform=="android"%}**{{ mobile_android_apply_positive_button }}**{% elsif platform=='ios'%}**{{ mobile_ios_ready_button }}**{% endif %}.
 
 1. Прочитайте {% if locale=="ru-com" %}инструкцию{% elsif locale=='en-com' %}instructions{% endif %}.
 
@@ -118,7 +118,7 @@
 {% if platform == "android" or platform=="ios" %}
 ### Как отправить задание {#sendtask}
 
-Ответы на задание будут отправлены заказчику, как только у вас появится доступ к интернету. Для отправки необходимо открыть мобильное приложение. Если в [настройках](settings.dita) выбрана опция {% if platform=="android" %}**{{ mobile_android_settings_wifi_title }}**{% elsif platform=="ios" %}**{{ mobile_ios_settings_wifi_title }**{% endif %}, задание будет отправлено после подключения к Wi-Fi. {% if platform=="android" or platform=="ios" %}Чтобы отправить задание по мобильному интернету:{% endif %}
+Ответы на задание будут отправлены заказчику, как только у вас появится доступ к интернету. Для отправки необходимо открыть мобильное приложение. Если в [настройках](settings.dita) выбрана опция {% if platform=="android" %}**{{ mobile_android_settings_wifi_title }}**{% elsif platform=="ios" %}**{{ mobile_ios_settings_wifi_title }}**{% endif %}, задание будет отправлено после подключения к Wi-Fi. {% if platform=="android" or platform=="ios" %}Чтобы отправить задание по мобильному интернету:{% endif %}
 
 {% if platform=="android" or platform=="ios" %}
 1. Откройте задание на странице {% if platform=="android" %} **{{ mobile_android_tasks_done }}**{% elsif platform=="ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_done_tasks }}**{% endif %}.
@@ -160,7 +160,7 @@
 
    : Выберите тип сортировки — по цене, дате обновления или отметке Избранные.
 
-1. Нажмите кнопку **{{ mobile_ios_apply_button }}** вверху страницы.
+1. Нажмите кнопку **{{ mobile_ios_ready_button }}** вверху страницы.
 
 {% endif %}
 
@@ -173,7 +173,7 @@
 {% if platform=="android" or platform=="ios" %}Отметьте задания, которые вам понравились:
 
 1. Нажмите значок ![](assets/dots_horizontal.svg) в карточке задания.
-2. Выберите {% if platform=="web" %}**{{ ui_worker_task_menu__bookmark_add }}**{% elsif platform=="android" %}**{{ mobile_android_add_to_bookmarks }}**{% elsif platform=="ios" %}**mobile_ios_profileadd_as_bookmarked }}**{% endif %}.
+2. Выберите {% if platform=="web" %}**{{ ui_worker_task_menu__bookmark_add }}**{% elsif platform=="android" %}**{{ mobile_android_add_to_bookmarks }}**{% elsif platform=="ios" %}**{{ mobile_ios_profileadd_as_bookmarked }}**{% endif %}.
 {% endif %}
 
 {% if platform=="android" %} Чтобы поместить избранные задания в начало списка, выберите тип [сортировки](#android-list/list-settings-android) **{{ mobile_android_sort_by_bookmarks }}**.{% endif %}
@@ -184,7 +184,7 @@
 ### Как скрыть задание {#hide}
 {% if platform=="android" or platform=="ios" %} Скройте задание, чтобы оно не отображалось в списке.
 1. Нажмите значок ![](assets/dots_horizontal.svg) в карточке задания.
-1. Выберите **mobile_ios_profileadd_as_ignored }}**.
+1. Выберите {% if platform=="android" %}**{{ mobile_android_add_to_ignore }}**{% elsif platform=="ios" %}**{{ mobile_ios_task_user_preference_choose_preference_add_as_ignored }}**{% endif %}.
 {% endif %}
 {% endif %}
 
@@ -203,18 +203,15 @@
 {% endif %}
 
 {% if platform=="web" %}
-Откройте страницу [Задания](https://toloka.yandex.ru/tasks). По умолчанию задания отображаются по критерию «сначала рекомендуемые». Вы можете установить другой порядок сортировки в строке сверху:
+Откройте страницу [Задания](https://toloka.yandex.ru/tasks). По умолчанию задания отображаются по критерию **{{ ui_worker_tasks_page__sort_by_bookmarked_first }}**. Вы можете установить другой порядок сортировки в строке сверху:
 
--    Сначала новые
--    По цене
--    По сроку на выполнение
--    Сначала избранные
--    По заработку в час
--    По максимальному заработку в день
+-    **{{ ui_worker_tasks_page__sort_by_new_to_old }}**
+-    **{{ ui_worker_tasks_page__sort_by_price }}**
+-    **{{ ui_worker_tasks_page__sort_by_bookmarked_first }}**
 
 Также вы можете фильтровать задания по категориям (с обучением, с отложенной приёмкой, скрытые и т.д.) и по заказчикам.
 
-Недоступные задания отмечены значком ![](https://yastatic.net/s3/doc-binary/src/support/toloka-tolokers/ru/lock.svg). Рядом указано условие доступа к заданию, например «мобильное приложение».
+Недоступные задания отмечены значком ![](https://yastatic.net/s3/doc-binary/src/support/toloka-tolokers/ru/lock.svg). Рядом указано условие доступа к заданию. Например, условие {% if locale=="ru-com" %}«мобильное приложение»{% elsif locale=="en-com" %}mobile application{% endif %} означает, что задание нельзя выполнить в десктопной версии Толоки, только в мобильном приложении.
 {% endif %}
 
 {% if platform=="web" %}
@@ -229,7 +226,13 @@
 - Выберите {{ ui_worker_task_menu__bookmark_add }}.
          Или нажмите кнопку ![](assets/favourites.png =15x) рядом с названием задания.
 
-Нажмите {{ ui_worker_tasks_page__sort_by_bookmarked_first }}, чтобы избранные задания выводились в начале списка.
+Нажмите {{ ui_worker_tasks_page__sort_by_bookmarked_first }}, чтобы избранные задания выводились в начале списка. Если задания в списке избранных неактивны, возможно, они закончились или вы допускали много ошибок и заказчик ограничил вам доступ к ним. Когда задания появятся, они снова будут активны.
+
+{% note tip %}
+
+В Толоке много заданий, и каждый день появляются новые. Поэтому регулярно проверяйте список заданий, чтобы подобрать себе что-нибудь интересное.
+
+{% endnote %}
 
 **Скрыть задание**
 

@@ -8,12 +8,11 @@
 
 {% elsif platform == 'android' %}
 
-Слева вверху нажмите значок **![](assets/menu.png) → {{ mobile_android_achievements_skills_title }} → {{ mobile_ios_achievements_awards_title }}**
+Слева вверху нажмите значок **![](assets/menu.png) → {{ mobile_android_nav_title_achievements }}**.
 
 {% elsif platform == 'ios' %}
 
-
-Список наград смотрите в разделе **{{ mobile_ios_profile }} → {{ mobile_ios_achievements_awards_title }}**
+Список наград смотрите в разделе **{{ mobile_ios_profile }} → {{ mobile_ios_achievements_awards_title }}**.
 
 {% endif %}
 
@@ -43,3 +42,6 @@
 
 [![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
 
+## Частые вопросы {#faq}
+
+{% include [faq-achievements-common](_includes/achievements/achievement-faq/achievements.md) %}

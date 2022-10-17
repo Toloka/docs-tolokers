@@ -42,7 +42,9 @@
 
 1. Нажмите кнопку **Отправить**.
 
-### Если связаться с заказчиком не получается или что-то не работает {#support}
+## Частые вопросы {#faq}
+
+{% include [faq-skills](_includes/skills/skills-faq/skills.md) %}
 
 [![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
 
