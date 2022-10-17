@@ -173,7 +173,7 @@
 {% if platform=="android" or platform=="ios" %}Отметьте задания, которые вам понравились:
 
 1. Нажмите значок ![](assets/dots_horizontal.svg) в карточке задания.
-2. Выберите {% if platform=="web" %}**{{ ui_worker_task_menu__bookmark_add }}**{% elsif platform=="android" %}**{{ mobile_android_add_to_bookmarks }}**{% elsif platform=="ios" %}**{{ mobile_ios_profileadd_as_bookmarked }}**{% endif %}.
+2. Выберите {% if platform=="web" %}**{{ ui_worker_task_menu__bookmark_add }}**{% elsif platform=="android" %}**{{ mobile_android_add_to_bookmarks }}**{% elsif platform=="ios" %}**{{ mobile_ios_task_user_preference_choose_preference_add_as_bookmarked }}**{% endif %}.
 {% endif %}
 
 {% if platform=="android" %} Чтобы поместить избранные задания в начало списка, выберите тип [сортировки](#android-list/list-settings-android) **{{ mobile_android_sort_by_bookmarks }}**.{% endif %}
@@ -195,7 +195,7 @@
 
 1. {% if platform=="ios" %}Нажмите **{{ mobile_ios_more_title }} → {{ mobile_ios_settings_screen_title }}** {% endif %}
    {% if platform=="android" %}Нажмите ![](assets/menu.png) → **{{ mobile_android_settings }}**{% endif %}
-1. Откройте {% if platform=="android" %}**{{ mobile_android_settings_pin_view_type_title}}**{% elsif platform=="ios" %}**{{ mobile_ios_settings_map_pin_format_setting_title }}**{% endif %} и выберите нужную опцию.
+1. Откройте {% if platform=="android" %}**{{ mobile_android_settings_pin_view_type_title }}**{% elsif platform=="ios" %}**{{ mobile_ios_settings_map_pin_format_setting_title }}**{% endif %} и выберите нужную опцию.
 {% if platform=="android" %}
 1. Нажмите кнопку **{{ mobile_android_action_save }}**.
 {% endif %}

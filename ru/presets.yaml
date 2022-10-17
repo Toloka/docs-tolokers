@@ -177,6 +177,7 @@ default:
   mobile_android_settings_keep_tasks_title: Всегда оставлять задания за мной
   mobile_android_settings_map_title: Открывать задания на карте
   mobile_android_settings_offline_maps_auto_update__title: Автообновление
+  mobile_android_settings_pin_view_type_title: Изменить внешний вид меток
   mobile_android_settings_wifi_title: Отправлять только по Wi-Fi
   mobile_android_sort_by_bookmarks: Сначала избранные
   mobile_android_start_now: Приступить
@@ -231,6 +232,8 @@ default:
   mobile_ios_submit_button: Отправить
   mobile_ios_task_action_refuse: Отказаться
   mobile_ios_task_actions_finish: Выйти
+  mobile_ios_task_user_preference_choose_preference_add_as_bookmarked: Добавить в
+    избранные
   mobile_ios_task_user_preference_choose_preference_add_as_ignored: Скрыть задание
   mobile_ios_tasks_list_button: Списком
   mobile_ios_tasks_on_field: полевые
