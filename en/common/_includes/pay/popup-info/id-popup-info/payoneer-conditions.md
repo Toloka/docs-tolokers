@@ -1,4 +1,4 @@
-# |
+#|
 || Area of operation | Total fee | Minimum amount to withdraw from Toloka | Where to transfer money next ||
 ||
 
@@ -10,7 +10,7 @@ Available in more than 200 countries. For more information, contact the [Payonee
 
 {% endcut %}
 
-|
+ | 
 
 {% cut "2%" %}
 
@@ -25,15 +25,15 @@ Learn more on the [ Payoneer website]({{ payoneer-fees }}).
 {% endcut %}
 
 | $20 | — To a bank account.
-
+    
 - To the Payoneer Mastercard.
-
+    
    {% note alert %}
-
+    
    There may be problems with money transfers to Visa and Mastercard cards issued by Russian banks right now.
-
+    
    {% endnote %}
-
+    
 
 To find out the exact fee amount, go to **Fees** in your Payoneer account.
 

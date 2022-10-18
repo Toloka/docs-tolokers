@@ -19,8 +19,8 @@ It allows users to:
 
 {% endif %}
 
-{% if platform == "android" or platform == "ios" or platform == "mobile" %}
-# |
+{% if platform=="android" or platform=="ios" or platform=="mobile" %}
+#|
 || Area of operation |
 
 {% cut "Almost everywhere" %}
@@ -52,11 +52,11 @@ Learn more on the [Payoneer website]({{ payoneer-fees }}).
 
 - To the Payoneer Mastercard.
 
-   {% note alert %}
+    {% note alert %}
 
-   There may be problems with money transfers to Visa and Mastercard cards issued by Russian banks right now.
+    There may be problems with money transfers to Visa and Mastercard cards issued by Russian banks right now.
 
-   {% endnote %}
+    {% endnote %}
 
 
 To find out the exact fee amount, go to **Fees** in your Payoneer account.
@@ -69,14 +69,14 @@ The minimum withdrawal amount may differ from the one when withdrawing from Tolo
 
 To withdraw money from Toloka to Payoneer, you need to register in the system.
 
-1. Go to the [Payoneer]({{ payoneer }}) official website and click {% if locale == "ru-com" %}**Register**{% elsif locale == "en-com" %}**Register**{% endif %}.
+1. Go to the [Payoneer]({{ payoneer }}) official website and click {% if locale=="ru-com" %}**Зарегистрироваться**{% elsif locale=="en-com" %}**Register**{% endif %}.
 1. Answer a short survey on how you intend to use **Payoneer**.
 
-   {% cut "Example" %}
+    {% cut "Example" %}
 
-   {% if locale == "ru-com" %}![](../assets/Payoneer/Payoneer-registration_rus_1.png){% elsif locale == "en-com" %}![](../assets/Payoneer/Payoneer-registration_en_1.png){% endif %}
+    {% if locale=="ru-com" %}![](../assets/Payoneer/Payoneer-registration_rus_1.png){% elsif locale=="en-com" %}![](../assets/Payoneer/Payoneer-registration_en_1.png){% endif %}
 
-   {% endcut %}
+    {% endcut %}
 
 1. On the next page, click {% if locale == "ru-com" %}**Register**{% elsif locale == "en-com" %}**Register**{% endif %}.
 1. Fill in your personal data. Click {% if locale == "ru-com" %}**Next**{% elsif locale == "en-com" %}**Next**{% endif %}.
