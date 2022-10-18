@@ -3,10 +3,9 @@
 The requester checks your responses and rates your _skill_ in performing this type of task. Skills are rated on a scale of 0 to 100 points. {% if platform == "web" %}You can view your skill level on the [Profile]({{ toloka-profile }}) page.{% endif %}
 
 {% if platform == "android" %}
-To view your skill level, click ![](../_assets/menu.svg) → **Skills**.
-
+To view your skill level, click **![](assets/menu.png) → Skills**.
 {% elsif platform == "ios" %}
-To view your skill scores, go to your **Profile**.
+To view your skill levels, go to your **{{ mobile_ios_profile }}**.
 {% endif %}
 
 Skill levels allow the requester to offer tasks to users who do a good job. The more skills you have and the higher your skill levels, the more tasks you will have to choose from.
@@ -19,49 +18,31 @@ If you don't do well on a certain type of task, you may receive a low skill leve
 
 If you have a question about an assigned skill, write to the requester who set it:
 
-{% if platform == "web" %}
-1. Go to the **Profile** page.
+1. {% if platform == "web" %}Go to the {{ ui_worker_prfl }} page.
+   {% elsif platform == "android" %}Click **![](assets/menu.png) → Skills**.
+   {% elsif platform == "ios" %}Go to **{{ mobile_ios_profile }}**.{% endif %}
 
-{% elsif platform == "android" %}
+   Specify the name of the task for which the skill is assigned.
 
-1. Click ![](../_assets/menu.svg) → **Skills**.
+1. {% if platform== "web" %}Go to the [{{ ui_worker_prfl-tab-history }}]({{ toloka-profile-history }}) tab. Choose a task in the **{{ ui_worker_incm-head }}** table.
+   {% elsif platform== "android" %}Click **![](assets/menu.png) → {{ mobile_android_tasks_done }}**.
+   {% elsif platform== "ios" %}
+   {% include [priemka-p_lsl_rnj_k3b](_includes/priemka/id-priemka/p_lsl_rnj_k3b.md) %}
+   {% endif %}
 
-{% elsif platform == "ios" %}
-
-1. Go to **Profile**.
-
-{% endif %}
-
-    Specify the name of the task for which the skill is assigned.
-
-{% if platform == "web" %}
-
-1. Go to the [**History**]({{ toloka-profile-history }}) tab. Choose a task in the **Completed tasks in the last 2 months** table.
-
-{% elsif platform == "android" %}
-
-1. Click ![](../_assets/menu.svg) → **Done**.
-
-{% elsif platform == "ios" %}
-
-1. Go to the **My tasks** → **Done** page.
-
-{% endif %}
-    
 1. Open the desired task.
-    
-{% if platform == "web" or platform == "ios"%}
-1. Click **Contact requester**.
 
-{% elsif platform == "android" %}
+{% if platform == "web" or platform == "ios" %}
+1. Click {% if platform== "web" %}**{{ ui_worker_messages_compose_to_requesters }}**{% elsif platform == "ios" %}**{{ mobile_ios_messages_write-to-requester }}**{% endif %}.{% elsif platform == "android" %}
 
-1. Click ![](../_assets/kebab-menu_1.jpg) in the task card and select **Contact requester**.
+   {% include [priemka-p_jln_y4j_k3b](_includes/priemka/id-priemka/p_jln_y4j_k3b.md) %}
+
 {% endif %}
-    
 1. Briefly state your question.
-    
+
 1. Tap **Submit**.
 
-#### If you can't contact the requester or something doesn't work {#support}
+### If you can't contact the requester or something doesn't work {#support}
 
-[![](../_assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
+[![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
+

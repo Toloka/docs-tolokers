@@ -15,56 +15,29 @@ It allows users to:
 
 {% if platform == "web" %}
 
-#|
-|| **Area of operation** | **Total fee** | **Minimum withdrawal amount from Toloka** | **Where to transfer money next** ||
-||
-{% cut "Almost everywhere" %}
-
-Works with restrictions in Russia.
-Available in more than 200 countries. For more information, contact the [Payoneer Support Center]({{ payoneer-support }})
-
-{% endcut %} |
-{% cut "2%" %}
-
-Fees:
-- From Toloka — 0%.
-- To your bank account — up to 2%.
-- To a bank account in the same currency. USD — $1.5, EUR — €1.5, GBP — £1.5.
-
-Learn more on the [Payoneer website]({{ payoneer-fees }}).
-
-{% endcut %}
-| $20 | 
-- To a bank account.
-- To a Payoneer Mastercard.
-
-{% note alert %}
-
-There may be problems with money transfers to Visa and Mastercard cards issued by Russian banks right now.
-
-{% endnote %}
-
-To find out the exact fee amount, go to **Fees** in your Payoneer account.
-The minimum withdrawal amount may differ from the one when withdrawing from Toloka. It might be higher (for example, $50). ||
-|#
+{% include [popup-info-payoneer-conditions](../_includes/pay/popup-info/id-popup-info/payoneer-conditions.md) %}
 
 {% endif %}
 
-{% if platform == "android" or platform == "ios" %}
+{% if platform == "android" or platform == "ios" or platform == "mobile" %}
+# |
+|| Area of operation |
 
-#|
-|| **Area of operation** | 
 {% cut "Almost everywhere" %}
 
 Works with restrictions in Russia.
-Available in more than 200 countries. For more information, contact the [Payoneer Support Center]({{ payoneer-support }})
+
+Available in more than 200 countries. For more information, contact the [Payoneer Support Center]({{ payoneer-support }}).
 
 {% endcut %}
+
 ||
-|| **Total fee** |
+|| Total fee |
+
 {% cut "2%" %}
 
-Fees:
+#### Fees
+
 - From Toloka — 0%.
 - To your bank account — up to 2%.
 - To a bank account in the same currency. USD — $1.5, EUR — €1.5, GBP — £1.5.
@@ -72,100 +45,78 @@ Fees:
 Learn more on the [Payoneer website]({{ payoneer-fees }}).
 
 {% endcut %}
+
 ||
-|| **Minimum withdrawal amount from Toloka** | $20 
-||
-|| **Where to transfer money next** | 
-- To a bank account.
-- To a Payoneer Mastercard.
+|| Minimum withdrawal amount from Toloka | $20 ||
+|| Where to transfer money next | - To a bank account.
 
-{% note alert %}
+- To the Payoneer Mastercard.
 
-There may be problems with money transfers to Visa and Mastercard cards issued by Russian banks right now.
+   {% note alert %}
 
-{% endnote %}
+   There may be problems with money transfers to Visa and Mastercard cards issued by Russian banks right now.
+
+   {% endnote %}
+
 
 To find out the exact fee amount, go to **Fees** in your Payoneer account.
+
 The minimum withdrawal amount may differ from the one when withdrawing from Toloka. It might be higher (for example, $50). ||
 |#
-
 {% endif %}
 
 ## How to connect Payoneer {#how-to-use}
 
 To withdraw money from Toloka to Payoneer, you need to register in the system.
 
-1. Go to the [Payoneer]({{ payoneer }}) official website and click **Register**.
-
+1. Go to the [Payoneer]({{ payoneer }}) official website and click {% if locale == "ru-com" %}**Register**{% elsif locale == "en-com" %}**Register**{% endif %}.
 1. Answer a short survey on how you intend to use **Payoneer**.
-    
-    {% cut "Example" %}
-    
-    ![](../../_assets/Payoneer/Payoneer-registration_en_1.png)
 
-    {% endcut %}
-    
-1. On the next page, click **Register**.
+   {% cut "Example" %}
 
-1. Fill in your personal data. Click **Next**.
+   {% if locale == "ru-com" %}![](../assets/Payoneer/Payoneer-registration_rus_1.png){% elsif locale == "en-com" %}![](../assets/Payoneer/Payoneer-registration_en_1.png){% endif %}
 
+   {% endcut %}
+
+1. On the next page, click {% if locale == "ru-com" %}**Register**{% elsif locale == "en-com" %}**Register**{% endif %}.
+1. Fill in your personal data. Click {% if locale == "ru-com" %}**Next**{% elsif locale == "en-com" %}**Next**{% endif %}.
 1. Enter your contact details. To confirm your phone number, click **Send code** and enter the code from the SMS.
-
 1. Come up with a password and fill in your personal data as shown in your passport.
-
 1. Enter your local bank account details.
-
 1. Done! You have registered in Payoneer. After registration is completed, you'll get a confirmation email.
+
 
 ## How to withdraw money from Toloka {#withdraw-from-toloka}
 
 {% if platform == "ios" %}
+1. Open the **{{ mobile_ios_profile }}** page.
+   {% elsif platform == "android" or platform == "web" %}
+1. Open the [My money]({{ toloka-money }}) page.{% endif %}
+1. Find the **Payoneer** payment system and click **{{ ui_worker_money_PAYONEER__button-link-account }}**.
+1. The wallet is linked once. After you do this, you'll be able to withdraw money in the {% if platform== "web" %}**{{ ui_worker_prfl-tab-money }}**{% elsif platform == "android" %}**{{ mobile_android_money_main_title }}**{% elsif platform == "ios" %}**{{ mobile_ios_profile_my_money_section_header }}**{% endif %} tab.
+1. Enter the required amount and click **{{ ui_worker_money__withdraw__submit }}**.
+1. An SMS with a code will be sent to your number. Enter it and click {% if platform == "web" %}**{{ ui_worker_sms_popup__submit }}**{% elsif platform == "ios" or platform == "android" %}**{{ mobile_android_button_confirm_sms }}**{% endif %}.
+1. The money will be transferred to your Payoneer account. It usually takes a few hours or days, but sometimes longer. The maximum transfer time is 30 days. Check the status in the **{{ ui_worker_prfl-money-history }}** block.
 
-1. Open the **Profile** page.
+{% include [check](../_includes/pay/about/check.md) %}
 
-{% endif %}
-
-{% if platform == "web" or platform == "android" %}
-
-1. Open the [My money]({{ toloka-money }}) page.
-
-{% endif %}
-
-1. Find the **Payoneer** payment system and click **Link my account**.
-
-1. The wallet is linked once. After you do this, you'll be able to withdraw money in the **My money** tab.
-
-1. Enter the required amount and click **Withdraw**.
-
-1. An SMS with a code will be sent to your number. Enter it and click **Confirm**.
-
-1. The money will be transferred to your Payoneer account. It usually takes a few hours or days, but sometimes longer. The maximum transfer time is 30 days. Check the status in the **Actions history** block.
-
-{% note alert %}
-
-You won't be able to submit a request if you just registered or recently changed your phone number. If this is the case, your account is undergoing verification. It takes 1 day if you just registered, and 7 days if you changed your phone number.
-
-{% endnote %}
 
 ## How to withdraw money from Payoneer {#withdraw-from-payoneer}
 
-### How to withdraw money to a bank account
+{% cut "How do I withdraw money to a bank account" %}
 
-1. Go to **Withdraw** → **To Bank Account**.
-
+1. Go to {% if locale == "ru-com" %}**Withdraw → To Bank Account**{% elsif locale == "en-com" %}**Withdraw → To Bank Account**{% endif %}.
 1. Select the relevant currency balance: dollars or euros.
-
 1. Enter your bank account details if you haven't done so already. If the account is already linked, select it from the list.
-
-1. Enter the amount and click **Review**.
-
+1. Enter the amount and click {% if locale == "ru-com" %}**Review**{% elsif locale == "en-com" %}**Review**{% endif %}.
 1. Check the details and click **Withdraw**.
-
 1. After the request is processed, you will receive a notification email specifying the amount of time the transfer will take.
 
-### How to withdraw money to a Payoneer Mastercard
+{% endcut %}
 
-You can withdraw money at ATMs all over the world. To do this, order a Payoneer Mastercard.
+{% cut "How to withdraw money to a Payoneer Mastercard" %}
+
+You can withdraw money at ATMs all over the world. To do this, request a Payoneer Mastercard under {% if locale == "ru-com" %}**Settings → Card management → Order now**{% endif %}.
 
 {% note warning %}
 
@@ -180,4 +131,7 @@ Payoneer does not issue cards to customers with a postal or residential address 
 
 Learn more about the card in the [Payoneer Support Center]({{ payoneer-card }}).
 
-[![](../../_assets/buttons/contact-support.svg)](../troubleshooting/troubleshooting.md#money_withdrawal)
+{% endcut %}
+
+[![](../assets/buttons/contact-support.svg)](../troubleshooting/troubleshooting.md#money_withdrawal)
+

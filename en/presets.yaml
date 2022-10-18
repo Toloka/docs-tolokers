@@ -142,6 +142,7 @@ default:
   mobile_android_ok: OK
   mobile_android_others_referral_bonuses_title: Referral program
   mobile_android_profile: Profile
+  mobile_android_edit: Edit
   mobile_android_profile_verification_status_action_fill: Fill out the form
   mobile_android_registration_complete_button: Start earning money
   mobile_android_settings: Settings

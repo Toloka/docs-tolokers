@@ -6,25 +6,25 @@ Choose the problem you have:
 
 {% cut ""The phone number is already linked to another account"" %}
 
-Your phone number can be linked only to one [Toloka]({{ toloka }}) account at a time. Most likely, you already registered in the system under a different username.
+A phone number can only be linked to one account in [Toloka]({{ toloka }}) as long as you use the platform. Most likely, you already registered in the system under a different username.
 
-According to the [User Agreement]({{ user-agreement }}), a user can have only one account in Toloka. Re-registration is not allowed.
+According to the [User Agreement]({{ user-agreement }}), a user can only have one account in Toloka. Re-registration is not allowed.
 
-Recall the username you registered with, and use it to log in. If you can't recall the username, go to the [Restoring access]({{ passport-restore }}) page.
+Recall the username you registered with, and use it to log in. If you can't recall your username, go to the [Restore access]({{ passport-restore }}) page.
 
-Learn more about {% if platform == "web" %}[logging in to Toloka](../register.md){% endif %}{% if platform == "ios" or platform == "android" %}[logging in to Toloka](../auth.md){% endif %}.
+Learn more about {% if platform == "web" %}[logging in to Toloka](../register.md){% elsif platform == "android" or platform == "ios" %}[logging in to Toloka](../auth.md){% endif %}.
 
 {% endcut %}
 
 {% cut "I don't remember my username or password" %}
 
-If you don't remember your username or password, go to the [Restore access]({{ passport-restore }}) page.
+{% include [register-restore](../_includes/register/id-register/restore.md) %}
 
-Learn more about {% if platform == "web" %}[logging in to Toloka](../register.md){% endif %}{% if platform == "ios" or platform == "android" %}[logging in to Toloka](../auth.md){% endif %}.
+Learn more about {% if platform == "web" %}[logging in to Toloka](../register.md){% elsif platform == "android" or platform == "ios" %}[logging in to Toloka](../auth.md){% endif %}.
 
 {% endcut %}
 
-{% cut "Repeat registration in Toloka" %}
+{% cut "Repeated registration in Toloka" %}
 
 According to the [User Agreement]({{ user-agreement }}):
 - You can only have one account.
@@ -35,9 +35,9 @@ According to the [User Agreement]({{ user-agreement }}):
 
 {% cut "Other questions" %}
 
-Fill in the [form](https://forms.yandex.com/surveys/8719/?lang=en&iframe=1&service=toloka-ai).
+Fill in the form:
 
-<!-- <iframe width="100%" frameborder="0" src="https://forms.yandex.com/surveys/8719/?lang=en&iframe=1&service=toloka-ai" id="registration"></iframe> -->
+<iframe width="100%" frameborder="0" src="https://forms.yandex.com/surveys/8719/?lang=en&iframe=1&service=toloka-ai" id="registration"></iframe>
 
 {% note info %}
 
@@ -61,7 +61,7 @@ If it is possible to unblock it, follow the steps in the email.
 
 {% endcut %}
 
-{% cut "Problems with the money withdrawal" %}
+{% cut "Problems with withdrawing money" %}
 
 {% cut ""The wallet is already in use"" %}
 
@@ -77,7 +77,7 @@ If the wallet is linked or was linked to another user's account, you won't be ab
 
 {% cut ""The phone number is already linked to another account"" %}
 
-Go to [Yandex ID]({{ passport-phones }}) and link another phone number.
+Go to [Yandex ID]({{ passport-phones }}) and link another phone number.
 
 You can't use the same phone number for different accounts in Toloka, even if one of them was deleted. Under the [User Agreement]({{ user-agreement }}), you can only register once in Toloka for as long as you use the platform.
 
@@ -87,30 +87,16 @@ You can't use the same phone number for different accounts in Toloka, even if on
 
 {% cut "Money was already withdrawn" %}
 
-If the request is successfully processed, and the money is credited to your account in the payment system, it is impossible to cancel the request and return the money to your [Toloka]({{ toloka }}) account.
+If the request is successfully processed and the money is credited to your account in the payment system, it is impossible to cancel the request and return the money back to your [Toloka]({{ toloka }}) account.
 
 {% endcut %}
 
 {% cut "The request is being processed" %}
 
-Fill in the [form](https://forms.yandex.com/surveys/8719/?lang=en&iframe=1&service=toloka-ai) and specify:
-* The payment system.
-* The date of the request.
-* The amount.
-
-{% note info %}
-
-Please don't send duplicate requests or ask for a faster response. The support service reviews all incoming requests. You will receive a reply within a few days.
-
-{% endnote %}
-
-{% endcut %}
-
-{% endcut %}
-
-{% cut "Other questions" %}
-
-Fill in the [form](https://forms.yandex.com/surveys/8719/?lang=en&iframe=1&service=toloka-ai).
+Fill in the form and specify:
+- The payment system.
+- The date of the request.
+- The amount.
 
 {% note info %}
 
@@ -118,9 +104,53 @@ Don't send repeated requests or ask for a faster response. The support service r
 
 {% endnote %}
 
+<iframe width="100%" frameborder="0" src="https://forms.yandex.com/surveys/8710/?lang=en&iframe=1&service=toloka-ai" id="withdrawal_request"></iframe>
+
 {% endcut %}
 
 {% endcut %}
+
+{% if locale == "ru-com" %}
+{% cut "Questions about withdrawal via {{ yoomoney-name }}" %}
+
+{% cut "I can't withdraw money to my wallet" %}
+
+If you're self-employed, your wallet's status is most likely anonymous or personal. You can withdraw money only to a  **reviewed** wallet.
+
+Learn more about [wallet identification]({{ yoomoney-methods }}).
+
+{% endcut %}
+
+{% cut "What exchange rate is used to convert money?" %}
+
+When you withdraw money from your Toloka account to the {{ yoomoney-name }} wallet, the amount is converted from US dollars to rubles at the {% if locale == "ru-com"%}[exchange rate current on the day of the withdrawal request](https://yastatic.net/s3/toloka/eula/usd_rate_ru.html){% elsif locale== "en-com" %}[exchange rate current on the day of the withdrawal request](https://yastatic.net/s3/toloka/eula/usd_rate_en.html){% endif %}.
+
+In Toloka, the start of a new day is according to [universal standard time (UTC)](../pay/popup-info.dita#popup-info/utc).
+
+{% endcut %}
+
+{% endcut %}
+
+{% endif %}
+
+{% cut "Other questions" %}
+
+Fill in the form:
+
+{% note info %}
+
+Don't send repeated requests or ask for a faster response. The support service reviews all incoming requests. You will receive a reply within a few days.
+
+{% endnote %}
+
+<iframe width="100%" frameborder="0" src="https://forms.yandex.com/surveys/8710/?lang=en&iframe=1&service=toloka-ai" id="money_withdrawal"></iframe>
+
+{% endcut %}
+
+{% endcut %}
+
+{% endcut %}
+
 
 {% cut "Questions about tasks" %}
 
@@ -130,7 +160,7 @@ The list of tasks shows the tasks available to you at the moment. Each of them h
 
 {% endcut %}
 
-{% cut "I want to take a certain type of task, but it is not in the list anymore" %}
+{% cut "I want to take a certain type of task, but it's not in the list anymore" %}
 
 While these tasks are absent, you can take other ones. The desired tasks may appear again later.
 
@@ -144,13 +174,13 @@ Yes, if you are fluent enough in it.
 
 {% cut "What should I do if I received a task that I do not want to complete?" %}
 
-If you don't want to complete a task from the list, don't start doing it. If you started a task, but you can't or don't want to complete the page that opens, go to the next one (use the  button). Only fully completed tasks are paid for.
+If you don't want to complete a task from the list, don't start doing it. If you started a task, but you can't or don't want to complete the page that opens, go to the next one (use the {% if platform == "web" %}**{{ ui_worker_new-task-page__skip-button }}**{% elsif platform == "android" %}**{{ mobile_android_task_skip }}**{% elsif platform == "ios" %}**Skip**{% endif %} button). Only fully completed tasks are paid for.
 
 If you no longer want to complete this task, use the **Exit** button.
 
 {% endcut %}
 
-{% cut "How do I stop task completion correctly if I decided to take a break?" %}
+{% cut "How do I stop task completion correctly if I've decided to take a break?" %}
 
 Click the **Exit** button.
 
@@ -159,30 +189,29 @@ If you answered all the questions on the page, click the **Send** button. When a
 {% endcut %}
 
 {% cut "There are no tasks in the list" %}
-Make sure that:
+Make sure:
 - You chose at least one requester and at least one task category in the [task list](../task-select.md).
-- You specified the correct language in the {% if platform=="web" %}[profile]({{ toloka-profile }}){% elsif platform=="android" or platform=="ios" %}profile{% endif %}.
+- You have Russian specified in your [profile]({{ toloka-profile }}).
 - You linked your phone number to your [Yandex ID]({{ passport-phones }}).
 - You are not connected via a server located in Switzerland (this may happen if you are using an [anonymizer]({{ anonymizer }}), [VPN]({{ vpn }}) or [proxy server]({{ proxy-server }})).
 
 {% note info %}
 
-If you are willing to complete tasks that are marked 18+, check that the **I can complete tasks containing "adult" content** option is turned on in your {% if platform=="web" %}[profile]({{ toloka-profile }}){% elsif platform=="android" or platform=="ios" %}profile{% endif %}.
+If you are willing to complete tasks that are marked 18+, check that the **I can complete tasks containing "adult" content** option is turned on in your {% if platform== "web" %}[profile]({{ toloka-profile }}){% elsif platform== "android" or platform== "ios" %}profile{% endif %}.
 
 {% endnote %}
 
+
 If the problem persists, contact the support service and attach:
-- A screenshot of your Toloka {% if platform=="web" %}[profile]({{ toloka-profile }}){% elsif platform=="android" or platform=="ios" %}profile{% endif %}.
+- A screenshot of your {% if platform == "android" or platform == "ios" %}profile{% elsif platform == "web" %}[profile]({{ toloka-profile }}){% endif %} in Toloka.
 - A screenshot of the [Phone numbers]({{ passport-phones }}) page.
 - Copied [technical information]({{ internetometer }}).
 
 {% note info %}
 
-Please don't send duplicate requests or ask for a faster response. The support service reviews all incoming requests. You will receive a reply within a few days.
+Don't send repeated requests or ask for a faster response. The support service reviews all incoming requests. You will receive a reply within a few days.
 
 {% endnote %}
-
-Fill in the [form](https://forms.yandex.com/surveys/8719/?lang=en&iframe=1&service=toloka-ai).
 
 {% endcut %}
 
@@ -192,85 +221,91 @@ Fill in the [form](https://forms.yandex.com/surveys/8719/?lang=en&iframe=1&servi
 
 - Web version
 
-  To complete certain tasks, you need to set up access to your device microphone and camera. You can allow the access in your browser settings. See the instructions for your browser to learn how to do it.
+   To complete certain tasks, you need to set up access to your device microphone and camera. You can allow access in your browser settings. For information about how to do this, see the instructions for your browser.
 
-  {% cut "Select your browser" %}
+   {% cut "Select a browser" %}
 
-  * [Yandex Browser]({{ support-browser-microphone }})
+   [Yandex Browser]({{ support-browser-microphone }})
 
-  * [Google Chrome]({{ google-chrome-camera }})
+   [Google Chrome]({{ google-chrome-camera }})
 
-  * [Mozilla Firefox]({{ mozilla-firefox-camera }})
+   [Mozilla Firefox]({{ mozilla-firefox-camera }})
 
-  * [Opera]({{ opera-camera }})
+   [Opera]({{ opera-camera }})
 
-  * [Safari]({{ safari-camera }})
+   [Safari]({{ safari-camera }})
 
-  {% endcut %}
+   {% endcut %}
 
-  Make sure that access to the camera and microphone is allowed in your device operating system settings:
+   Make sure that camera and microphone access is allowed in your device OS settings:
 
-  {% cut "Windows 10" %}
+   {% cut "Windows 10" %}
 
-  Access to camera:
-  1. Click ![](../../_assets/win1.png) → ![](../../_assets/win2.png) → **Privacy**.
-  1. In the left menu, select **Camera**.
-  1. Make sure that the option **Allow apps to access your camera** is enabled in the settings.
-  1. Make sure that **Camera** is enabled in the list of apps that can access the camera.
+   Access to camera:
 
-  Access to microphone:
-  1. Click ![](../../_assets/win1.png) → ![](../../_assets/win2.png) → **Privacy**.
-  1. In the left menu, select **Microphone**.
-  1. Make sure that the option **Allow apps to access your microphone** is enabled in the settings.
-  1. Make sure that **Voice Recorder** is enabled in the list of apps that can access the microphone.
+   1. Click ![](../assets/win1.png) → ![](../assets/win2.png) → **Privacy**.
+   1. Select **Camera** in the menu on the left.
+   1. Make sure **Allow access to the camera on this device** is turned on in the settings.
+   1. Check that the list of apps that are allowed to access the camera contains the **Camera** item.
 
-  {% endcut %}
+   Access to microphone:
 
-  {% cut "macOS" %}
+   1. Click ![](../assets/win1.png) → ![](../assets/win2.png) → **Privacy**.
+   1. Select **Microphone** in the menu on the left.
+   1. Make sure **Allow access to the microphone on this device** is turned on in the settings.
+   1. Check that the list of apps that are allowed to access the microphone contains the **Voice Recorder** item.
 
-  * [Access to camera]({{ mac-os-camera }}).
-  
-  * [Access to microphone]({{ mac-os-microphone }}).
+   {% endcut %}
 
-  {% endcut %}
+   {% cut "macOS" %}
+
+   - [Access to camera]({{ mac-os-camera }}).
+   - [Access to microphone]({{ mac-os-microphone }}).
+
+   {% endcut %}
 
 - Android
 
-  To complete certain tasks, you need to set up access to your device microphone and camera. You can allow access in your device settings.
+   To complete certain tasks, you need to set up access to your device microphone and camera. You can allow access in your device settings.
 
-  {% cut "Allow access in settings" %}
+   {% cut "Allow access in the settings" %}
 
-  {% note info %}
+   {% note info %}
 
-  Mobile device manufacturers can change the Android interface. Instructions below apply to the non-modified Android.
+   Mobile device manufacturers can change the Android interface. Below are the instructions for Android with no modification.
 
-  {% endnote %}
+   {% endnote %}
 
-  1. Open the device settings.
-  1. Tap **Apps & notifications** → **App permissions** → **Show all apps**.
-  1. In the list of apps, select **Toloka**.
-  1. Tap **Permissions**.
-  1. Enable the options **Camera** and **Microphone**.
+   1. Open your device settings.
+   1. Tap **Apps and notifications** → **App permissions** → **Show all apps**.
+   1. In the list of apps, select **Toloka**.
+   1. Tap **Permissions**.
+   1. Enable the **Camera** and **Microphone** options.
 
-  {% endcut %}
+   {% endcut %}
 
 - iOS
 
-  To complete certain tasks, you need to set up access to your device microphone and camera. You can allow access in your device settings.
+   To complete certain tasks, you need to set up access to your device microphone and camera. You can allow access in your device settings.
 
-  {% cut "Allow access in settings" %}
+   {% cut "Allow access in the settings" %}
 
-  1. Open the device settings.
-  1. In the list of apps, select **Toloka**.
-  1. Enable the options **Microphone** and **Camera**.
+   1. Open your device settings.
+   1. In the list of apps, select **Toloka**.
+   1. Enable the **Microphone** and **Camera** options.
 
-  {% endcut %}
+   {% endcut %}
+
 
 {% endlist %}
 
 {% endcut %}
 
-{% include [captcha](../_includes/captcha.md) %} 
+{% cut "Problems entering a captcha" %}
+
+{% include notitle [Проблемы с капчой](../_includes/captcha.md) %}
+
+{% endcut %}
 
 {% cut "Question about a particular task" %}
 
@@ -278,11 +313,11 @@ Fill in the [form](https://forms.yandex.com/surveys/8719/?lang=en&iframe=1&servi
 
 {% cut "Incorrect actions by the requester" %}
 
-If you receive spam, or if someone tries to obtain your contact information or suggests installing any programs, write to the support service: [form](https://forms.yandex.com/surveys/8719/?lang=en&iframe=1&service=toloka-ai).
+If you receive spam, or if someone tries to obtain your contact information or suggests installing any programs, write to the support service:
 
 {% note info %}
 
-Please don't send duplicate requests or ask for a faster response. The support service reviews all incoming requests. You will receive a reply within a few days.
+Don't send repeated requests or ask for a faster response. The support service reviews all incoming requests. You will receive a reply within a few days.
 
 {% endnote %}
 
@@ -290,19 +325,19 @@ Please don't send duplicate requests or ask for a faster response. The support s
 
 {% endcut %}
 
-{% cut "Tasks are not loading" %}
+{% cut "Can't load tasks" %}
 
 Try the following:
 
 - [Clear]({{ support-browser-cache }}) the browser cache.
 - Disable antivirus and browser plugins, especially ad blockers and similar extensions.
-- Check your browser settings and make sure that it doesn't restrict content loading (scripts, ads, and so on).;
+- Check your browser settings and make sure that it doesn't restrict content loading (scripts, ads, and so on).
 - Temporarily disable electronic signature software and extensions.
 - Try opening Toloka in a different browser.
 
 {% note info %}
 
-You can try opening [Toloka]({{ toloka }}) in Incognito mode. If you can open tasks in Incognito mode, it means that some extension is causing the error.
+You can try opening [Toloka]({{ toloka }}) in the browser's Incognito mode. If tasks open in Incognito mode, the issue is due to extensions.
 
 {% endnote %}
 
@@ -310,13 +345,17 @@ You can try opening [Toloka]({{ toloka }}) in Incognito mode. If you can open ta
 
 {% cut "Other questions" %}
 
-Fill in the [form](https://forms.yandex.com/surveys/8719/?lang=en&iframe=1&service=toloka-ai).
+Fill in the form:
+
+<iframe width="100%" frameborder="0" src="https://forms.yandex.com/surveys/2398/?lang=en&iframe=1&service=toloka-ai" id="no_tasks_other"></iframe>
 
 {% note info %}
 
 Don't send repeated requests or ask for a faster response. The support service reviews all incoming requests. You will receive a reply within a few days.
 
 {% endnote %}
+
+{% endcut %}
 
 {% endcut %}
 
@@ -330,21 +369,31 @@ Learn more about [skills](../skills.md).
 
 {% endcut %}
 
+{% if locale == "ru-com" %}
+
+{% cut "Questions for self-employed individuals" %}
+
+{% include notitle [Вопросы для самозанятых](../self-employed/_include/self-employed_troubles.md) %}
+
+{% endcut %}
+
+{% endif %}
+
 {% cut "Something doesn't work on the platform" %}
 
-{% cut "Tasks are not loading" %}
+{% cut "Can't load tasks" %}
 
 Try the following:
 
 - [Clear]({{ support-browser-cache }}) the browser cache.
 - Disable antivirus and browser plugins, especially ad blockers and similar extensions.
-- Check your browser settings and make sure that it doesn't restrict content loading (scripts, ads, and so on).;
+- Check your browser settings and make sure that it doesn't restrict content loading (scripts, ads, and so on).
 - Temporarily disable electronic signature software and extensions.
 - Try opening Toloka in a different browser.
 
 {% note info %}
 
-You can try opening [Toloka]({{ toloka }}) in the browser's Incognito mode. If you can open tasks in Incognito mode, it means that some extension is causing the error.
+You can try opening Toloka in the browser's Incognito mode. If tasks open in Incognito mode, the issue is due to extensions.
 
 {% endnote %}
 
@@ -352,7 +401,9 @@ You can try opening [Toloka]({{ toloka }}) in the browser's Incognito mode. If y
 
 {% cut "Other" %}
 
-Fill out the [form](https://forms.yandex.ru/surveys/10022435.bdf111f75b18149ea36aa3b3b642198ca3d3738d/).
+Fill in the form:
+
+<iframe width="100%" frameborder="0" src="https://forms.yandex.com/surveys/10022435.bdf111f75b18149ea36aa3b3b642198ca3d3738d/?lang=en&iframe=1&service=toloka-ai" id="not_working_properly"></iframe>
 
 {% note info %}
 
@@ -363,4 +414,3 @@ Don't send repeated requests or ask for a faster response. The support service r
 {% endcut %}
 
 {% endcut %}
-
