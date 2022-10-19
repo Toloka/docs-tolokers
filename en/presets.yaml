@@ -1,6 +1,6 @@
 default:
   region: en
-  locale: en
+  locale: en-com
   platform: web
   toloka: http://toloka.yandex.com/
   toloka-tasks: https://toloka.yandex.com/tasks

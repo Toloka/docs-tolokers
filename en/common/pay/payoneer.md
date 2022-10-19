@@ -19,7 +19,6 @@ It allows users to:
 
 {% endif %}
 
-{% if platform=="android" or platform=="ios" or platform=="mobile" %}
 #|
 || Area of operation |
 
@@ -63,7 +62,6 @@ To find out the exact fee amount, go to **Fees** in your Payoneer account.
 
 The minimum withdrawal amount may differ from the one when withdrawing from Toloka. It might be higher (for example, $50). ||
 |#
-{% endif %}
 
 ## How to connect Payoneer {#how-to-use}
 
