@@ -57,147 +57,76 @@ If you are looking for Mobile Help: ![](https://yastatic.net/s3/doc-binary/freez
 <br/>
 <br/>
 <div class="grid-container">
-
     <div class="grid-item">
-
         <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/d848d82d8310ae62fa1b62d80442550f85fc6f4d.svg"></div>
-
         <div>
-
             <h3><a href="register">Register in Toloka as an annotator</a></h3>
-
 			<p>Registration. Frequently asked questions. </p>
-
         </div>
-
     </div>
-
     <div class="grid-item">
-
         <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/0aa89463c96763370d62a13decbeb94cbbafb72d.svg"></div>
-
         <div>
-
             <h3><a href="pay/about">Withdrawing money</a></h3>
-
 			<p>Withdraw the money you earned.</p>
-
         </div>
-
     </div>
-
     <div class="grid-item">
-
        <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/a87d83a654b1b264f34bb85c891bb18796b9fa7d.svg"></div>
-
         <div>
-
             <h3><a href="priemka">How are my responses reviewed?</a></h3>
-
 			<p>Find out how long the review takes. How do I get the results?</p>
-
         </div>
-
     </div>
-
     <div class="grid-item">
-
         <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/9facae90e4a837da815abddcbf9d339b0b878b78.svg"></div>
-
         <div>
-
             <h3><a href="task-select">Task list</a></h3>
-
 			<p>How to sort tasks using filters.</p>
-
         </div>
-
     </div>
-
     <div class="grid-item">
-
         <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/42388599f5483a6f9302da945b10fb0ee55bf2a7.svg"></div>
-
         <div>
-
             <h3><a href="profile">Set up a profile</a></h3>
-
             <p>Setting up a profile. Notifications.</p>
-
         </div>
-
     </div>
-
     <div class="grid-item">
-
         <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/840d8f8a72b1af176e8932151890be1d0a633a8d.svg"></div>
-
         <div>
-
             <h3><a href="skills">Skills</a></h3>
-
             <p>What you need skills for and where you can see them.</p>
-
         </div>
-
     </div>
-
     <div class="grid-item">
-
         <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/c9e7f9f25bfc0e727a6625b66608255f739aa8df.svg"></div>
-
         <div>
-
             <h3>{% if locale == 'ru-com' %}<a href="tasks">Как быть успешным толокером</a>{% elsif locale == 'en-com' %}<a href="tasks">How to be a successful Toloker</a>{% endif %}</a></h3>
-
             <p>How to earn honestly and what not to do.</p>
-
         </div>
-
     </div>
-
 	<div class="grid-item">
-
         <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/304e7e6f5301650b1ff38416d4327174a1fc9b3e.svg"></div>
-
         <div>
-
             <h3><a href="achievements">Achievements</a></h3>
-
             <p>Get awards for your achievements on the platform. Can you get them all?</p>
-
         </div>
-
     </div>
-
 	    <div class="grid-item">
-
         <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/2aa80623d792eef4a93146c1202cb8cc63d320a9.svg"></div>
-
         <div>
-
             <h3><a href="messages">How to contact the requester</a></h3>
-
             <p>Feedback with requesters.</p>
-
         </div>
-
     </div>
-
 	    <div class="grid-item">
-
         <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/542e48d32d73bb3a21ed6cf476c3ce7cfea69cdf.svg"></div>
-
         <div>
-
             <h3><a href="referal">Invite your friends</a></h3>
-
             <p>What rewards you can get. Rules for awarding them.</p>
-
         </div>
-
     </div>
-
 </div>
 
 
@@ -213,7 +142,7 @@ If you are looking for Mobile Help: ![](https://yastatic.net/s3/doc-binary/freez
 * [About](about.md)
 * [Registration and logging in](auth.md)
 * [Required settings](settings.md)
-* [Selecting a task](task-select.md)i
+* [Selecting a task](task-select.md)
 * [How to be a successful Toloker](tasks.md)
 * [Tasks under review](priemka.md)
 * [Profile](profile.md)
