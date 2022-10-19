@@ -23,7 +23,7 @@ docs-viewer:
   show-toc-header: true
   logo-options:
     title: Toloka
-    url: /docs
+    url: /tolokers/docs
     src: https://avatars.mds.yandex.net/get-lpc/1364677/8e11e5ce-d6c2-4779-aed2-0ebeb41002dd/orig
     src-dark: https://raw.githubusercontent.com/Toloka/docs/main/_images/logo-dark.svg
     src-mobile: https://avatars.mds.yandex.net/get-lpc/1364677/8e11e5ce-d6c2-4779-aed2-0ebeb41002dd/orig
