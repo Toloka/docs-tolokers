@@ -15,7 +15,7 @@ It allows users to:
 {% if platform == "web" %}
 {% include [popup-info-qiwi-conditions](../_includes/pay/popup-info/id-popup-info/qiwi-conditions.md) %}
 {% endif %}
-{% if platform == "android" or platform == "ios" or platform == "mobile" %}
+{% if platform == "android" or platform == "ios"  %}
 # |
 || Area of operation |
 
@@ -23,12 +23,12 @@ It allows users to:
 
 #### Regions where QIWI is available:
 
-Belarus  
-Georgia  
-Kazakhstan  
-Moldova  
-Russia  
-Tajikistan  
+Belarus
+Georgia
+Kazakhstan
+Moldova
+Russia
+Tajikistan
 Uzbekistan
 
 {% endcut %}

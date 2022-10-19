@@ -42,8 +42,6 @@
 # Toloka for Android
 {% elsif platform == "ios" %}
 # Toloka for iOS
-{% elsif platform == "mobile" %}
-# Toloka for mobile devices
 {% endif%}
 
 {% if platform == "web" %}
@@ -161,25 +159,4 @@ If you are looking for Mobile Help: ![](https://yastatic.net/s3/doc-binary/freez
 
 {% if platform == "ios" %}
 [![](assets/appstore.svg)]({{ appstore-toloka }})
-{% endif %}
-
-{% if platform == "mobile" %}
-
-In the Toloka mobile app, you can complete tasks and get paid for them.
-
-Choose your device's operating system to open the appropriate Help section:
-
-* [Android]({{ toloka-app-android }})
-* [iOS]({{ toloka-app-ios }})
-
-## Installation {#installation}
-
-Download the Toloka app from official stores:
-
-[![](assets/googleplay.svg)](https://play.google.com/store/apps/details?id=com.yandex.toloka.androidapp)
-
-[![](assets/huawei-appgallery.png "" =135x)]({{ appgallery-toloka }})
-
-{% if locale == 'en-com' %}[![](assets/appstore.svg)](https://apps.apple.com/us/app/yandex-toloka/id1282350367){% elseif locale == 'ru-com' %}[![](assets/appstore.svg)](https://apps.apple.com/ru/app/яндекс-толока-заработок/id1282350367){% endif %}
-
 {% endif %}

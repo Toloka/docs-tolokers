@@ -24,8 +24,6 @@
 # Толока для Android
 {% elsif platform=="ios" %}
 # Толока для iOS
-{% elsif platform=="mobile" %}
-# Толока для мобильных устройств
 {% endif%}
 
 {% if platform=="web" %}
@@ -147,25 +145,4 @@
 
 {% if platform=="ios" %}
 [![](assets/appstore.svg)]({{ appstore-toloka }})
-{% endif %}
-
-{% if platform=="mobile" %}
-
-В мобильном приложении Толока вы можете выполнять задания и получать за них оплату.
-
-Выберите операционную систему устройства, чтобы открыть нужный раздел Помощи:
-
-* [Android]({{ toloka-app-android }})
-* [iOS]({{ toloka-app-ios }})
-
-## Установка {#installation}
-
-Скачайте приложение Толока из официальных магазинов:
-
-[![](assets/googleplay.svg)](https://play.google.com/store/apps/details?id=com.yandex.toloka.androidapp)
-
-[![](assets/huawei-appgallery.png "" =135x)]({{ appgallery-toloka }})
-
-{% if locale == "en-com" %}[![](assets/appstore.svg)](https://apps.apple.com/us/app/yandex-toloka/id1282350367){% elseif locale=="ru-com" %}[![](assets/appstore.svg)](https://apps.apple.com/ru/app/яндекс-толока-заработок/id1282350367){% endif %}
-
 {% endif %}
