@@ -19,7 +19,6 @@
 
 {% endif %}
 
-{% if platform=="android" or platform=="ios" or platform=="mobile" %}
 #|
 || Где работает |
 
@@ -69,8 +68,6 @@
 ||
 ||Способ вывода | Условия вывода на банковский счет зависят от валюты. Подробнее читайте в [Справке PayPal]({{ paypal-transfer-money }}).||
 |#
-
-{% endif %}
 
 ## Как подключить PayPal {#how-to-use}
 

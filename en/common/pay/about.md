@@ -2,25 +2,20 @@
 
 ## How to withdraw money from Toloka {#how-to-withdraw}
 
-To withdraw money from your [Toloka]({{ toloka }}) account:
+To withdraw funds from your [Toloka]({{ toloka }}) account:
 
-{% if platform == "ios" %}
-
-1. Open the **Profile** page.
-
-{% endif %}
 
 {% if platform == "web" or platform == "android" %}
-
 1. Open the [My money]({{ toloka-money }}) page.
+   {% elsif platform == "ios" %}
+1. Open the **{{ mobile_ios_profile }}** page.
+   {% endif %}
 
-{% endif %}
-    
-1. Select a payment system and click **Withdraw**.
+1. Select a payment system and click **{{ ui_worker_money__withdraw__submit }}**.
 
-You can cancel the withdrawal request if the transaction hasn't been processed yet (still has the Processing status). For such operations, the **Cancel request** button is available in the **Actions history** block.
+You can cancel the withdrawal request if the transaction hasn't been processed yet (still has the Processing status). For such operations, the **{{ ui_worker_worker-transaction-canceling__button__title }}** button is available in the **{{ ui_worker_prfl-money-history }}** block.
 
-It usually takes a few hours or days, but sometimes longer. The maximum transfer time is 30 days. Check the status in the **Actions history** block.
+It usually takes a few hours or days, but sometimes longer. The maximum transfer time is 30 days. Check the status in the **{{ ui_worker_prfl-money-history }}** block.
 
 {% note alert %}
 
@@ -30,279 +25,285 @@ You won't be able to submit a request if you just registered or recently changed
 
 ## How to choose a withdrawal method {#how-to-choose}
 
-You can withdraw money from Toloka using the following methods: PayPal and Payoneer.
+Toloka lets you withdraw money using: PayPal, Payoneer{% if locale == "ru-com"%}, YooMoney, QIWI, or the Faster Payments System (FPS){% endif %}.
 
-You can add only one account of each type.
+You can add only one account of each type{% if locale == "ru-com" %}, except FPS{% endif %}.
+
+{% note warning %}
+
+Citizens of the Russian Federation who have confirmed their self-employed status and added Toloka as a partner in the My Taxes system can only withdraw money to YooMoney and FPS.
+
+{% endnote %}
 
 {% if platform == "web" %}
-
-#|
-|| **Withdrawal method** | **Area of operation** | **Total fee** | **Minimum withdrawal amount** | **Where to transfer money next** ||
-|| [PayPal](paypal.md) 
-| 
+# |
+|| Withdrawal method | Area of operation | Total fee | Minimum withdrawal amount | Where to transfer money next ||
+|| [PayPal](paypal.md) |
 
 {% cut "Only certain countries" %}
 
-Regions where PayPal transfer is not allowed:
-* Iran
-* Crimea
-* Cuba
-* Russia
-* North Korea
-* Syria
-* Sudan
-* Turkey
-* Uzbekistan
-* Ukraine
+#### Regions where PayPal transfer is not allowed
 
-The full list can be found on the site of the [USA Department of the Treasury]({{ usa-treasury-sanctions }}). 
+Iran  
+Crimea  
+Cuba  
+Russia  
+North Korea  
+Syria  
+Sudan  
+Turkey  
+Uzbekistan  
+Ukraine
 
-{% endcut %}
-
-| 
-
-{% cut "From 2 to 6%" %}
-
-Fees:
-- From Toloka — 2% of the amount, but not more than $7. 
-- To your bank account — free of charge if there is no currency conversion. 
-- Conversion to another currency — from 3 to 4%.  
-Learn more on the [PayPal website]({{ paypal-commission }}). 
+The full list can be found on the website of the [U.S. Department of the Treasury]({{ usa-treasury-sanctions }}).
 
 {% endcut %}
 
 |
-{% cut "From $0.02 to $1" %}
 
-$0.02 for one withdrawal a week. Subsequent withdrawals within a week — $1. 
+{% cut "From 2 to 6%" %}
+
+Fees
+
+* From Toloka — 2% of the amount, but not more than $7.
+* To your bank account — free of charge if there is no currency conversion.
+* Conversion to another currency — from 3 to 4%.
+
+Learn more on the [PayPal website]({{ paypal-commission }}).
 
 {% endcut %}
 
-| The terms for withdrawing money to a bank account depend on the currency. Read more in the [PayPal Help Center]({{ paypal-transfer-money }}). 
+|
+
+{% cut "From $0.02 to $1" %}
+
+$0.02 for one withdrawal a week. Subsequent withdrawals within a week — $1.
+
+{% endcut %}
+
+| The terms for withdrawing money to a bank account depend on the currency. Read more in the [PayPal Help Center]({{ paypal-transfer-money }}).
 
 {% note alert %}
 
 Funds withdrawal to PayPal is currently unavailable for users in Russia.
 
-{% endnote %} 
+{% endnote %}
 
 ||
-{% if platform == "draft" %}|| [Skrill](skrill.md) |
-
-{% cut "Only certain countries" %}
-
-You can check whether Skrill operates in your country on the [website]({{ skrill-countries }}).
-
-{% endcut %}
-| 
-
-{% cut "From 4.99 to 8.5%" %}
-
-Fees:
-- From Toloka — 1% of the amount. 
-- To Mastercard — 4.99%. To Visa — 7.5%. 
-- To a bank account — EUR 5.5. 
-- When converting to another currency — 3.99%. 
-
-Learn more on the [Skrill website]({{ skrill-fees }}). 
-
-{% endcut %}
-|
-{% cut "From $1 to $5" %}
-
-$1 for one withdrawal per week or less. Subsequent withdrawals within a week — $5. 
-
-{% endcut %}
-| 
-- To a Visa credit/debit card with a 7.5% fee.
-
-    {% note alert %}
-
-    There may be problems with money transfers to Visa and Mastercard cards issued by Russian banks right now.
-
-    {% endnote %}
-
-- To a bank account: 5.5 euro per transaction.
-Learn more on the [Skrill website]({{ skrill-fees }}). 
-|| {%endif%}
 || [Payoneer](payoneer.md) |
 
 {% cut "Almost everywhere" %}
 
-Works with restrictions in Russia. Available in more than 200 countries. For more information, contact the [Payoneer Support Center]({{ payoneer-support }}).
+Works with restrictions in Russia.
+
+Available in more than 200 countries. For more information, contact the [Payoneer Support Center]({{ payoneer-support }}).
 
 {% endcut %}
 
-| 
+|
 
 {% cut "2%" %}
 
-Fees:
-- From Toloka — 0%. 
-- To your bank account — up to 2%. 
-- To a bank account in the same currency. USD — $1.5, EUR — €1.5, GBP — £1.5.
-Learn more on the [Payoneer website]({{ payoneer-fees }}).  
+#### Fees
+
+* From Toloka — 0%.
+* To your bank account — up to 2%.
+* To a bank account in the same currency. USD — $1.5, EUR — €1.5, GBP — £1.5.
+
+Learn more on the [ Payoneer website]({{ payoneer-fees }}).
 
 {% endcut %}
-|
-$20
-| 
-- To a bank account.
-- To a Payoneer Mastercard.
 
-    {% note alert %}
+| $20 |
 
-    There may be problems with money transfers to Visa and Mastercard cards issued by Russian banks right now.
+* To a bank account.
+* To the Payoneer Mastercard.
 
-    {% endnote %}
+{% note alert %}
 
-To find out the exact fee amount, go to **Fees** in your Payoneer account.  The minimum withdrawal amount may differ from the one when withdrawing from Toloka. It might be higher (for example, $50).
+There may be problems with money transfers to Visa and Mastercard cards issued by Russian banks right now.
+
+{% endnote %}
+
+To find out the exact fee amount, go to **Fees** in your Payoneer account.
+
+The minimum withdrawal amount may differ from the one when withdrawing from Toloka. It might be higher (for example, $50).
+
 ||
-|| [QIWI](Qiwi-wallet.md) |
+||[QIWI](Qiwi-wallet.md) |
 
 {% cut "Only certain countries" %}
 
-Regions where QIWI is available:
-* Belarus
-* Georgia
-* Kazakhstan
-* Moldova
-* Russia
-* Tajikistan
-* Uzbekistan
+#### Regions where QIWI is available:
+
+Belarus  
+Georgia  
+Kazakhstan  
+Moldova  
+Russia  
+Tajikistan  
+Uzbekistan
 
 {% endcut %}
 
-| 
+|
 
-{% cut "From 1% to 3%" %}
+{% cut "From 1 to 3%" %}
 
-Fees:
-- From Toloka — 1%. 
-- Cash from QIWI card — 2% + 50 rubles. 
-- To cards — 2% + 50 rubles. 
+#### Fees
+
+- From Toloka — 1%.
+- Cash from QIWI card — 2% + 50 rubles.
+- To cards — 2% + 50 rubles.
 - To a bank account — 1,8% + 120 rubles.
 
-Learn more on the [QIWI]({{ qiwi-payment }}) website. 
+Learn more on the [QIWI]({{ qiwi-payment }}) website.
 
-{% endcut %} 
-| 
+{% endcut %}
+
+|
 
 {% cut "From $0.05 to $1" %}
 
 $0.05 for one withdrawal a week. Subsequent withdrawals within a week — $1.
 
-{% endcut %} 
+{% endcut %}
+
 |
-- Cash from QIWI card. 
-- To bank card. 
-- To an account in any bank. 
-- To any wallet. 
-- Cash in QIWI offices: Saint Petersburg and Kazan. 
-Learn more on the [QIWI]({{ qiwi-payment }}) website.
-||
-|#
+- Cash from QIWI card.
+- To bank card.
+- To an account in any bank.
+- To any wallet.
+- Cash in QIWI offices: Saint Petersburg and Kazan.
 
-{% endif %}
+Learn more on the [QIWI]({{ qiwi-payment }}) website. || {% if locale == "ru-com" %}
+|| [YooMoney](yoomoney.md) | Russia |
 
-{% if platform == "ios" or platform == "android" %}
+{% cut "From 3.1%" %}
 
-### PayPal {#paypal}
+Fees:
 
-#### Benefits
+* From Toloka — 0.1% of the amount.
+* To a bank account — 3% of the amount + 15 rubles.
+* To cards — 3% of the amount + 45 rubles.
 
-PayPal is a fast and secure payment system.
+Learn more on the [YooMoney website]({{ yoomoney-fees }}).
 
-#### Terms
+{% endcut %}
 
-#|
-|| **Area of operation** | 
-{% cut "Only certain countries" %}
+|
 
-Regions where PayPal transfer is not allowed.
-The full list can be found on the site of the [USA Department of the Treasury]({{ usa-treasury-sanctions }}).
-
-{% endcut %} ||
-|| **Fees** | 
-{% cut "From 2 to 6%" %}
-
-Fees  
-- From Toloka — 2% of the amount, but not more than $7. 
-- To your bank account — free of charge if there is no currency conversion. 
-- Conversion to another currency — from 3 to 4%.
-
-Learn more on the [PayPal website]({{ paypal-commission }}).  
-
-{% endcut %} ||
-|| **Minimum withdrawal amount** | 
-{% cut "From $0.02 to $1" %}
+{% cut "From $0.02 to $1" %}
 
 $0.02 for one withdrawal a week. Subsequent withdrawals within a week — $1.
 
-{% endcut %} ||
-|| **Withdrawal method** | The terms for withdrawing money to a bank account depend on the currency. Read more in the [PayPal Help Center]({{ paypal-transfer-money }}).||
-|#
+{% endcut %}
 
-{% if platform == "draft" %}
+|
+* Transfer it to a [bank card]({{ yoomoney-transfer-card }}), [bank account]({{ yoomoney-transfer-account }}), or e-wallet ([WebMoney]({{ yoomoney-transfer-webmoney }}), [Qiwi]({{ yoomoney-transfer-qiwi }})).
+* Withdraw it via [faster payment systems]({{ yoomoney-transfer-systems }}).
+* Use it for online purchases and to pay [bills]({{ yoomoney-charges-bills }}) and [fines]({{ yoomoney-charges-fines }}).
+* Sign up for a [plastic]({{ yoomoney-card-plastic }}) or [virtual]({{ yoomoney-card-virtual }}) {{ yoomoney-name }} MasterCard card to make purchases or withdraw money.
+* [Contactless payments]({{ yoomoney-payments-contactless }}).
 
-### Skrill {#skrill}
+{% if locale == "ru-com" %}
 
-#### Benefits
+{% note alert %}
 
-Skrill is a fast and secure payment system.
+Money withdrawal via YooMoney is only available for citizens of the Russian Federation who have confirmed their [self-employed](../self-employed/about.dita) status and who have added Toloka as a partner in the My Taxes system.
 
-It allows users to:
-
-- Send and receive money.
-- Pay for goods and services.
-- Make deposits and withdrawals in various online services.
-
-#### Terms
-
-#|
-|| **Area of operation** | 
-
-{% cut "Only certain countries" %}
-
-You can check whether Skrill operates in your country on the [website]({{ skrill-countries }}).
-
-{% endcut %} ||
-|| **Total fee** | 
-{% cut "From 4.99 to 8.5%" %}
-
-Fees 
-- From Toloka — 1% of the amount. 
-- To Mastercard — 4.99%. To Visa — 7.5%. 
-- To a bank account — EUR 5.5. 
-- When converting to another currency — 3.99%.
-
-Learn more on the [Skrill website]({{ skrill-fees }}).
-
-{% endcut %} ||
-|| **Minimum withdrawal amount** | 
-
-{% cut "From $1 to $5" %}
-
-$1 for one withdrawal per week or less. Subsequent withdrawals within a week — $5. 
-
-{% endcut %} ||
-|| Where to transfer money next | 
-- To a Visa credit/debit card with a 7.5% fee.
-    
-    {% note alert %}
-
-    There may be problems with money transfers to Visa and Mastercard cards issued by Russian banks right now.
-
-    {% endnote %}
-
-- To a bank account: 5.5 euro per transaction.
-
-Learn more on the [Skrill website]({{ skrill-fees }}). ||
-|#
+{% endnote %}
 
 {% endif %}
 
-### Payoneer {#payoneer}
+||
+|| [FPS](sbp.md) | Russia | 0.11% |
+
+{% cut "From $0.01 to $1" %}
+
+$0.01 if it's at most once a week. Subsequent withdrawals within a week — $1.
+
+{% endcut %}
+
+|
+Funds are withdrawn to your bank account. The list of available banks depends on the service provider and may change.
+
+{% if locale == "ru-com" %}See the [full list of banks]({{ sbp-participants }}) that participate in the FPS.{% endif %}
+
+{% note alert %}
+
+Money withdrawal via the FPS is only available for citizens of the Russian Federation who confirmed their [self-employed](../self-employed/about.dita) status and added Toloka as a partner in the My Taxes system.
+
+{% endnote %}
+
+{% endif %}
+
+|#
+{% endif %}
+
+{% if platform == "android" or platform == "ios" %}
+
+{% cut "PayPal" %}
+
+##### Benefits
+
+PayPal is a fast and secure payment system.
+
+##### Terms
+
+# |
+||Area of operation |
+
+{% cut "Only certain countries" %}
+
+#### Regions where PayPal transfer is not allowed
+
+Iran  
+Crimea  
+Cuba  
+Russia  
+North Korea  
+Syria  
+Sudan  
+Turkey  
+Uzbekistan  
+Ukraine
+
+The full list can be found on the website of the [U.S. Department of the Treasury]({{ usa-treasury-sanctions }}).
+
+{% endcut %}
+
+||
+||Fee |
+
+{% cut "From 2 to 6%" %}
+
+#### Fees
+
+- From Toloka — 2% of the amount, but not more than $7.
+- To your bank account — free of charge if there is no currency conversion.
+- Conversion to another currency — from 3 to 4%.
+
+Learn more on the [PayPal website]({{ paypal-commission }}).
+
+{% endcut %}
+
+||
+||Minimum withdrawal amount |
+
+{% cut "From $0.02 to $1" %}
+
+$0.02 for one withdrawal a week. Subsequent withdrawals within a week — $1.
+
+{% endcut %}
+
+||
+||Withdrawal method | The terms for withdrawing money to a bank account depend on the currency. Read more in the [PayPal Help Center]({{ paypal-transfer-money }}).||
+|#
+
+{% endcut %}
+
+{% cut "Payoneer" %}
 
 #### Benefits
 
@@ -317,38 +318,226 @@ It allows users to:
 
 #### Terms
 
-#|
-|| **Area of operation** | 
+# |
+||Area of operation |
+
 {% cut "Almost everywhere" %}
 
-Works with restrictions in Russia. 
-Available in more than 200 countries. For more information, contact the [Payoneer Support Center]({{ payoneer-support }})
+Works with restrictions in Russia.
 
-{% endcut %} ||
-|| **Total fee** | 
+Available in more than 200 countries. For more information, contact the [Payoneer Support Center]({{ payoneer-support }}).
+
+{% endcut %}
+
+||
+||Total fee |
+
 {% cut "2%" %}
 
-Fees 
-- From Toloka — 0%. 
-- To your bank account — up to 2%. 
+#### Fees
+
+- From Toloka — 0%.
+- To your bank account — up to 2%.
 - To a bank account in the same currency. USD — $1.5, EUR — €1.5, GBP — £1.5.
 
-Learn more on the [Payoneer website]({{ payoneer-fees }}).
+Learn more on the [ Payoneer website]({{ payoneer-fees }}).
 
-{% endcut %} ||
-|| **Minimum withdrawal amount from Toloka** | $20 ||
-|| **Where to transfer money next** | 
+{% endcut %}
+
+||
+||Minimum withdrawal amount from Toloka | $20||
+||Where to transfer money next |
 - To a bank account.
-- To a Payoneer Mastercard.
 
-    {% note alert %}
-    
-    There may be problems with money transfers to Visa and Mastercard cards issued by Russian banks right now.
-    
-    {% endnote %}
+- To the Payoneer Mastercard.
 
-To find out the exact fee amount, go to **Fees** in your Payoneer account.  The minimum withdrawal amount may differ from the one when withdrawing from Toloka. It might be higher (for example, $50).||
+   {% note alert %}
+
+   There may be problems with money transfers to Visa and Mastercard cards issued by Russian banks right now.
+
+   {% endnote %}
+
+
+To find out the exact fee amount, go to **Fees** in your Payoneer account.
+
+The minimum withdrawal amount may differ from the one when withdrawing from Toloka. It might be higher (for example, $50).||
 |#
+
+{% endcut %}
+
+{% if locale == "ru-com" %}
+
+{% cut "QIWI" %}
+
+##### Benefits
+
+Payoneer is a secure, fast, and low-cost payment system.
+
+It allows users to:
+* Send and receive money.
+* Pay for goods and services.
+* Pay utility bills.
+
+##### Terms
+
+# |
+|| Area of operation |
+
+{% cut "Only certain countries" %}
+
+Regions where QIWI is available:
+
+Belarus  
+Georgia  
+Kazakhstan  
+Moldova  
+Russia  
+Tajikistan  
+Uzbekistan
+
+{% endcut %}
+
+||
+|| Total fee |
+
+{% cut "From 1 to 3%" %}
+
+Fees:
+* From Toloka — 1%.
+* Cash from QIWI card — 2% + 50 rubles.
+* To cards — 2% + 50 rubles.
+* To a bank account — 1,8% + 120 rubles.
+
+Learn more on the [QIWI]({{ qiwi-payment }}) website.
+
+{% endcut %}
+
+||
+|| Minimum withdrawal amount |
+
+{% cut "From $0.05 to $1" %}
+
+$0.05 for one withdrawal a week. Subsequent withdrawals within a week — $1.
+
+{% endcut %}
+
+||
+|| Where to transfer money next |
+* Cash from QIWI card.
+* To bank card.
+* To an account in any bank.
+* To any wallet.
+* Cash in QIWI offices: Saint Petersburg and Kazan.
+
+Learn more on the [QIWI]({{ qiwi }}) website.
+||
+|#
+
+{% endcut %}
+
+{% endif %}
+
+{% if locale == "ru-com" %}
+
+{% cut "YooMoney" %}
+
+##### Features
+
+An online payment service where you can easily create a wallet and identify it.
+
+{% note alert %}
+
+Money withdrawal via YooMoney is only available for citizens of the Russian Federation who have confirmed their [self-employed](../self-employed/about.dita) status and who have added Toloka as a partner in the My Taxes system.
+
+{% endnote %}
+
+##### Terms
+
+# |
+|| Area of operation | Russia ||
+|| Fee     |
+
+{% cut "From 0.1 to 3.1%" %}
+
+Fees:
+
+* From Toloka — 0.1% of the amount.
+* To a bank account — 3% of the amount + 15 rubles.
+* To cards — 3% of the amount + 45 rubles.
+
+Learn more on the [YooMoney website]({{ yoomoney-fees }}).
+
+{% endcut %}
+
+||
+|| Minimum withdrawal amount |
+
+{% cut "From $0.02 to $1" %}
+
+$0.02 for one withdrawal a week. Subsequent withdrawals within a week — $1.
+
+{% endcut %}
+
+||
+|| Withdrawal method |
+* Transfer it to a [bank card]({{ yoomoney-transfer-card }}), [bank account]({{ yoomoney-transfer-account }}), or e-wallet ([WebMoney]({{ yoomoney-transfer-webmoney }}), [Qiwi]({{ yoomoney-transfer-qiwi }})).
+* Withdraw it via [faster payment systems]({{ yoomoney-transfer-systems }}).
+* Use it for online purchases and to pay [bills]({{ yoomoney-charges-bills }}) and [fines]({{ yoomoney-charges-fines }}).
+* Sign up for a [plastic]({{ yoomoney-card-plastic }}) or [virtual]({{ yoomoney-card-virtual }}) {{ yoomoney-name }} MasterCard card to make purchases or withdraw money.
+* [Contactless payments]({{ yoomoney-payments-contactless }}).
+   ||
+   |#
+
+{% endcut %}
+
+{% endif %}
+
+{% if locale == "ru-com" %}
+
+{% cut "FPS" %}
+
+##### Features
+
+It's easy and convenient to withdraw money via the FPS. Transactions are fast and low-cost.
+
+{% note alert %}
+
+Money withdrawal via the FPS is only available for citizens of the Russian Federation who confirmed their [self-employed](../self-employed/about.dita) status and added Toloka as a partner in the My Taxes system.
+
+{% endnote %}
+
+##### Terms
+
+# |
+|| Area of operation | Russia ||
+|| Fee | 0.11% ||
+|| Minimum withdrawal amount |
+
+{% cut "From $0.01 to $1" %}
+
+$0.01 if it's at most once a week. Subsequent withdrawals within a week — $1.
+
+{% endcut %}
+
+||
+|| Withdrawal method | Funds are withdrawn to your bank account. The list of available banks depends on the service provider and may change.
+
+{% if locale == "ru-com" %}See the [full list of banks]({{ sbp-participants }}) that participate in the FPS.{% endif %}
+
+{% note alert %}
+
+Money withdrawal via the FPS is only available for citizens of the Russian Federation who confirmed their [self-employed](../self-employed/about.dita) status and added Toloka as a partner in the My Taxes system.
+
+{% endnote %}
+
+||
+|#
+
+{% endcut %}
+
+{% endcut %}
+
+{% endif %}
 
 {% endif %}
 
@@ -362,13 +551,9 @@ Don't request withdrawal until you are sure that your account is confirmed in th
 
 {% cut "For citizens of Uzbekistan" %}
 
-You can withdraw money from Toloka using {% if platform == "draft" %}the following methods: {% endif %}[Payoneer](payoneer.md){% if platform == "draft" %} or [Skrill](skrill.md){% endif %}.
+In Toloka, you can withdraw money via [Payoneer](payoneer.md).
 
-{% if platform == "draft" %}
-
-#### Payoneer
-
-{% endif %}
+Here are some details you need to consider:
 
 You can receive payments in EUR or USD. Direct UZS withdrawal is unavailable.
 
@@ -385,19 +570,7 @@ You can receive payments in EUR or USD. Direct UZS withdrawal is unavailable.
 - The card is issued free of charge, but there is a service fee of $3 a month or $30 annually.
 - Delivery is free, but it can take a long time. Express delivery via DHL costs $40 and takes 3-5 days.
 
-The information provided here is not official. The rates, terms, and fees may vary. Check up-to-date information in the [Payoneer Support Center]({{ payoneer-support }}).
-
-{% if platform == "draft" %}
-
-#### Skrill
-
-Citizens of Uzbekistan currently can't register in Skrill.
-
-If you already have a Skrill wallet, you can only use it for online payments. You can't withdraw money from your account.
-
-For more information, contact [Skrill support]({{ skrill-support }}).
-
-{% endif %}
+All information is provided for informational purposes. The rates, terms, and fees may vary. Check up-to-date information in the [Payoneer Support Center]({{ payoneer-support }}).
 
 {% endcut %}
 
@@ -409,9 +582,11 @@ The terms of payment systems are for information only.
 
 The payment system can change prices, conditions and its availability in the user's country on a unilateral basis. The users can find out about the changes on the payment system site.
 
-Toloka is not responsible for such changes or for placing them in this section within a certain timeframe.
+Toloka is not responsible for such changes or for publishing them here in a certain timeframe.
 
 {% endnote %}
 
-[![](../../_assets/buttons/contact-support.svg)](../troubleshooting/troubleshooting.md#money_withdrawal)
+
+
+[![](../assets/buttons/contact-support.svg)](../troubleshooting/troubleshooting.md#money_withdrawal)
 

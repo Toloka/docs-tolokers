@@ -12,7 +12,7 @@
 
 {% if platform == "web" %} Перейдите в **{{ ui_worker_prfl }}** и нажмите ссылку **{{ ui_worker_1706282c5244c8e988f76c5eb939b754 }}** слева.
 {% elsif platform == "ios" %} Откройте страницу **{{ mobile_ios_profile }}** и нажмите **{{ mobile_ios_profile_edit_button }}**.
-{% elsif platform == "android" %} Откройте **{{ mobile_android_settings }}** и в разделе **{{ mobile_android_profile }}** нажмите **mobile_android.edit**.
+{% elsif platform == "android" %} Откройте **{{ mobile_android_settings }}** и в разделе **{{ mobile_android_profile }}** нажмите **{{ mobile_android_edit }}**.
 {% endif %}
 
 {% note info %}
