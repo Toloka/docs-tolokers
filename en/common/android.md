@@ -1,3 +1,0 @@
-# Android only
-
-android.md

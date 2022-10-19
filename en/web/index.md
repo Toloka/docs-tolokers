@@ -1,3 +1,3 @@
 # About Toloka
 
-{% include notitle [index](./common/index.md) %}
+{% include notitle [index](../common/index.md) %}

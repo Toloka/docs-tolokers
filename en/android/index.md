@@ -1,3 +1,3 @@
 # Toloka for Android
 
-{% include notitle [index](./common/index.md) %}
+{% include notitle [index](../common/index.md) %}
