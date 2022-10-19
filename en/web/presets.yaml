@@ -1,6 +1,3 @@
 default:
-  region: en
-  lang: en
   platform: web
 
-  
