@@ -18,7 +18,7 @@ PayPal is one of the most popular payment systems that provides a fast and secur
 
 {% endif %}
 
-{% if platform == "android" or platform == "ios" or platform == "mobile" %}
+{% if platform == "android" or platform == "ios"  %}
 # |
 || Area of operation |
 
@@ -26,15 +26,15 @@ PayPal is one of the most popular payment systems that provides a fast and secur
 
 #### Regions where PayPal transfer is not allowed
 
-Iran  
-Crimea  
-Cuba  
-Russia  
-North Korea  
-Syria  
-Sudan  
-Turkey  
-Uzbekistan  
+Iran
+Crimea
+Cuba
+Russia
+North Korea
+Syria
+Sudan
+Turkey
+Uzbekistan
 Ukraine
 
 The full list can be found on the website of the [U.S. Department of the Treasury]({{ usa-treasury-sanctions }}).

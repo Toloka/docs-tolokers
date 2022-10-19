@@ -17,7 +17,7 @@ Money withdrawal via the FPS is only available for citizens of the Russian Feder
 
 {% include [popup-info-sbp-conditions](../_includes/pay/popup-info/id-popup-info/sbp-conditions.md) %}
 
-{% elsif platform == "android" or platform == "ios" or platform == "mobile" %}
+{% elsif platform == "android" or platform == "ios"  %}
 
 # |
 || Area of operation | Russia ||

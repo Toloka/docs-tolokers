@@ -17,7 +17,7 @@
 {% include [popup-info-yoomoney-conditions](../_includes/pay/popup-info/id-popup-info/yoomoney-conditions.md) %}
 {% endif %}
 
-{% if platform=="ios" or platform=="android" or platform=="mobile" %}
+{% if platform=="ios" or platform=="android"  %}
 #|
 || Где работает | РФ ||
 || Комиссия |
