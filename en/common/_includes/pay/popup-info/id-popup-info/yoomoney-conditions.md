@@ -1,4 +1,4 @@
-# |
+#|
 || Area of operation | Fee | Minimum withdrawal amount | Withdrawal method ||
 || Russia |
 

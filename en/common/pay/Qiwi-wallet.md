@@ -16,7 +16,7 @@ It allows users to:
 {% include [popup-info-qiwi-conditions](../_includes/pay/popup-info/id-popup-info/qiwi-conditions.md) %}
 {% endif %}
 {% if platform == "android" or platform == "ios"  %}
-# |
+#|
 || Area of operation |
 
 {% cut "Only certain countries" %}

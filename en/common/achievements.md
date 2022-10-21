@@ -17,7 +17,7 @@ For a list of awards, go to **{{ mobile_ios_profile }} → {{ mobile_ios_achieve
 
 {% endif %}
 
-# |
+#|
 || Awards earned — colored         | Available awards — black and white        ||
 || ![](assets/achievements/active.svg "active" =320x320)  | ![](assets/achievements/inactive.png "inactive" =220x)  ||
 |#

@@ -36,7 +36,7 @@ Citizens of the Russian Federation who have confirmed their self-employed status
 {% endnote %}
 
 {% if platform == "web" %}
-# |
+#|
 || Withdrawal method | Area of operation | Total fee | Minimum withdrawal amount | Where to transfer money next ||
 || [PayPal](paypal.md) |
 
@@ -251,7 +251,7 @@ PayPal is a fast and secure payment system.
 
 ##### Terms
 
-# |
+#|
 ||Area of operation |
 
 {% cut "Only certain countries" %}
@@ -318,7 +318,7 @@ It allows users to:
 
 #### Terms
 
-# |
+#|
 ||Area of operation |
 
 {% cut "Almost everywhere" %}
@@ -380,7 +380,7 @@ It allows users to:
 
 ##### Terms
 
-# |
+#|
 || Area of operation |
 
 {% cut "Only certain countries" %}
@@ -453,7 +453,7 @@ Money withdrawal via YooMoney is only available for citizens of the Russian Fede
 
 ##### Terms
 
-# |
+#|
 || Area of operation | Russia ||
 || Fee     |
 
@@ -508,7 +508,7 @@ Money withdrawal via the FPS is only available for citizens of the Russian Feder
 
 ##### Terms
 
-# |
+#|
 || Area of operation | Russia ||
 || Fee | 0.11% ||
 || Minimum withdrawal amount |
