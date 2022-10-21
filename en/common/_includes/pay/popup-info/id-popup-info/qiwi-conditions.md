@@ -1,4 +1,4 @@
-# |
+#|
 || Area of operation | Total fee | Minimum withdrawal amount | Where to transfer money next ||
 ||
 

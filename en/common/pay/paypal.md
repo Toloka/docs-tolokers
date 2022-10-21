@@ -19,7 +19,8 @@ PayPal is one of the most popular payment systems that provides a fast and secur
 {% endif %}
 
 {% if platform == "android" or platform == "ios"  %}
-# |
+
+#|
 || Area of operation |
 
 {% cut "Only certain countries" %}

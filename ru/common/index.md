@@ -118,7 +118,13 @@
 
 
 ## Следите за нами в социальных сетях {#social-networks}
-[![VK](https://yastatic.net/s3/doc-binary/src/support/toloka-tolokers/ru/SocialNetwork/Vkontakte.svg)](https://vk.com/ya.toloka) [![YouTube](https://yastatic.net/s3/doc-binary/src/support/toloka-tolokers/ru/SocialNetwork/youtube.svg)](https://www.youtube.com/channel/UCf-vd-Nf_igCYJpohQ8BPUQ) [![Facebook](https://yastatic.net/s3/doc-binary/src/support/toloka-tolokers/ru/SocialNetwork/facebook.svg)](https://www.facebook.com/yandex.toloka.ru/) [![Telegram](https://yastatic.net/s3/doc-binary/src/support/toloka-tolokers/ru/SocialNetwork/telegram_1.svg)](https://t.me/TolokaOfficial)
+{% if locale=="ru-com" %}
+[![VK](https://yastatic.net/s3/doc-binary/src/support/toloka-tolokers/ru/SocialNetwork/Vkontakte.svg)](https://vk.com/ya.toloka) [![YouTube](https://yastatic.net/s3/doc-binary/src/support/toloka-tolokers/ru/SocialNetwork/youtube.svg)](https://www.youtube.com/channel/UCf-vd-Nf_igCYJpohQ8BPUQ) [![Telegram](https://yastatic.net/s3/doc-binary/src/support/toloka-tolokers/ru/SocialNetwork/telegram_1.svg)](https://t.me/TolokaOfficial)
+
+{% elsif locale == "en-com" %}
+[![Facebook](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/dc064a5532d1ce00cf445f471aa007dcc48502f7.svg)](https://www.facebook.com/tolokaworldwide) [![Telegram](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/27723cba940eca5313c22b680a8d62afea426398.svg)](https://t.me/TolokaOfficial_en_tr)
+{% endif %}
+
 {% endif %}
 
 {% if platform=="android" or platform=="ios" %}

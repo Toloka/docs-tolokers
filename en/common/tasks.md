@@ -18,7 +18,7 @@ Sometimes, you need advice to complete tasks efficiently and use the platform co
 
 All characters are fictional and any resemblance to actual persons living or dead is accidental.
 
-# |
+#|
 || ![](assets/good_perfomer.svg)| ![](assets/bad_performer.svg) ||
 || {% if locale == "ru-com" %}**Vanya**{% elsif locale == "en-com" %}**Tom**{% endif %} | {% if locale == "ru-com" %}**Oleg**{% elsif locale == "en-com"%}**Greg**{% endif %} ||
 || A young engineer who spends his evenings online and uses weekends to go out and meet up with friends. He has been successfully using Toloka for a long time. We'll tell you how. | An IT specialist with incomplete higher education who specializes in website development. He uses Toloka as an additional source of income. He has registered recently and has already encountered problems. Let's find out what he did wrong. ||

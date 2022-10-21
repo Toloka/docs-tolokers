@@ -132,7 +132,7 @@ If you are looking for Mobile Help: ![](https://yastatic.net/s3/doc-binary/freez
 
 
 ## Follow us on social media {#social-networks}
-[![VK](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/509d1af07876fcd5f78fc8321f7150e3914f6dba.svg)](https://vk.com/ya.toloka) [![YouTube](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/38ea4cfc099936a4ae1bb7568c39795d6bc05468.svg)](https://www.youtube.com/channel/UCf-vd-Nf_igCYJpohQ8BPUQ) [![Facebook](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/dc064a5532d1ce00cf445f471aa007dcc48502f7.svg)](https://www.facebook.com/yandex.toloka.ru/) [![Telegram](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/27723cba940eca5313c22b680a8d62afea426398.svg)](https://t.me/TolokaOfficial)
+[![Facebook](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/dc064a5532d1ce00cf445f471aa007dcc48502f7.svg)](https://www.facebook.com/tolokaworldwide) [![Telegram](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/27723cba940eca5313c22b680a8d62afea426398.svg)](https://t.me/TolokaOfficial_en_tr)
 {% endif %}
 
 {% if platform == "android" or platform == "ios" %}
