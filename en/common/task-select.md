@@ -227,7 +227,7 @@ You can add a task to your favorites or hide it in the list.
 
 - Hover over the task card and click ![](assets/dots_vertical.svg) on the right.
 - Select {% if platform == "web" %}**{{ ui_worker_task_menu__bookmark_add }}**{% elsif platform == "android" %}**{{ mobile_android_add_to_bookmarks }}**{% elsif platform == "ios" %}**{{ mobile_ios_task_user_preference_choose_preference_add_as_bookmarked }}**{% endif %}.
-   Or click ![](assets/favourites.png =15x) next to the task name.
+   Or click ![](assets/favourites.svg) next to the task name.
 
 Click **{{ ui_worker_tasks_page__sort_by_bookmarked_first }}** to display the selected tasks at the top of the list.
 
