@@ -20,6 +20,9 @@ items:
   - href: task-select.md
     name: Список заданий
     when: platform == "web"
+  - href: captcha.md
+    name: Ввод капчи
+    when: platform == "web" or platform == "ios" or platform == "android"
   - href: task-select.md
     name: Выбор задания
     when: platform == "ios" or platform == "android"
