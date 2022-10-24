@@ -15,6 +15,9 @@ items:
     when: platform == "android" or platform == "ios"
   - name: Choosing a task
     href: task-select.md
+    when: platform == "web"
+  - href: captcha.md
+    name: Entering captchas
   - name: How to be a successful Toloker
     href: tasks.md
   - name: Tasks under review
