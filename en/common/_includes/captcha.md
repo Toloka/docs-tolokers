@@ -8,11 +8,3 @@ Enter the captcha carefully. The system may ban you due to frequent errors or fr
 
 {% endcut %}
 
-{% cut "Captcha is shown too often" %}
-
-The requester determines how often the captcha is displayed in the task settings. Write to the requester about this.
-
-The captcha is shown to all Tolokers, regardless of their experience and number of completed tasks.
-
-{% endcut %}
-
