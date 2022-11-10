@@ -275,9 +275,3 @@ default:
   ui_worker_worker-transaction-canceling__button__title: Отменить заявку
   ui_worker_worker__become__self_employed__heading: Подтвердить статус самозанятого
   ui_worker_wthdrw-amnt: Сумма
-ios:
-  platform: ios
-android:
-  platform: android
-mobile:
-  platform: mobile
