@@ -37,6 +37,14 @@
 </style>
 
 {% if platform == "web" %}
+# About Toloka
+{% elsif platform == "android" %}
+# Toloka for Android
+{% elsif platform == "ios" %}
+# Toloka for iOS
+{% endif%}
+
+{% if platform == "web" %}
 [Toloka](http://toloka.yandex.ru/) is a platform where you [get paid](./tasks.md) for [completing](./priemka.md#pay) tasks.
 
 If you are looking for Mobile Help: ![](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/74b7231516e694ca7e0845a2acc01437096837d8.png)[Android](../android/index.md), ![](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/954d1a32b3f72b26c733dfd826934e932860f599.png)[iOS](../ios/index.md)
