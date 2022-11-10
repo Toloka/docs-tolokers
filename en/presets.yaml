@@ -247,9 +247,3 @@ default:
   ui_worker_worker-transaction-canceling__button__title: Cancel request
   ui_worker_worker__become__self_employed__heading: Confirm self-employment
   ui_worker_wthdrw-amnt: Amount
-ios:
-  platform: ios
-android:
-  platform: android
-mobile:
-  platform: mobile

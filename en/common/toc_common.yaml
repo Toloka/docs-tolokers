@@ -1,5 +1,3 @@
-title: Toloka
-href: index.md
 items:
   - name: Registration and logging in
     href: register.md
@@ -25,7 +23,7 @@ items:
   - name: How to be a successful Toloker
     href: tasks.md
   - name: Tasks under review
-    href: priemka.md  
+    href: priemka.md
   - name: Profile
     href: profile.md
   - name: Messages
@@ -33,7 +31,7 @@ items:
   - name: Skills
     href: skills.md
   - name: Awards
-    href: achievements.md 
+    href: achievements.md
   - name: Goals
     href: goals.md
     when: platform == "android" or platform == "ios"
@@ -68,7 +66,7 @@ items:
   - name: Restoring access
     href: troubleshooting/unblock-nodoc.md
     hidden: true
-    when: platform == "web" 
+    when: platform == "web"
   - name: Notes
     href: notes.md
     hidden: true
