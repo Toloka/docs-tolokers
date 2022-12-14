@@ -2,6 +2,12 @@
 
 #### Benefits of Payoneer
 
+{% note alert %}
+
+Starting on December 16, 2022, funds withdrawal to Payoneer is unavailable for users from Russia.
+
+{% endnote %}
+
 Payoneer is a secure, fast, and low-cost payment system.
 
 It allows users to:
