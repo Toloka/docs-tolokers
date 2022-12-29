@@ -678,8 +678,6 @@ Urgench
 
 {% endcut %}
 
-- For tasks in Vietnamese: $5 for a friend who completed tasks for a total of at least $5. The reward is paid once for each friend of this type.
-- If you and a friend you invited are from Saudi Arabia, in addition to the regular 5% reward, you'll receive 20% of the amount they've earned. Increased rewards are awarded within 30 days of your friend's registration in Toloka. Mandatory conditions for you and your friends: Saudi Arabia is specified in the Residence field of the profile, the provider IP address and the phone number linked to the account are registered in Saudi Arabia.
 - 5 to 10% of the amount earned for other tasks and rewards that your friend received from requesters.
 
    The percentage depends on the total amount of rewards you received under this program over the past year:
