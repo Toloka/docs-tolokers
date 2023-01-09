@@ -12,13 +12,13 @@ In Toloka, captchas are entertaining mini games that can distract you from your 
 
 - **Select objects**
 
-  In this captcha, you need to select objects in a given order.
+  In this captcha, you need to mark the elements in the order indicated above the picture. To mark an item, click as close to its center as possible.
 
-  ![](assets/captcha/captcha-series.png)
+  ![](assets/captcha/captcha-series.png =400x315)
 
 - **Slider**
 
-  To solve this captcha, move an element to the right place. To do this, click the slider, hold, and move it. Don&apos;t release the mouse button until the element is in the right place.
+  To solve this captcha, you need to move the element to the right place. Don't drag the element itself, move it using the slider below the picture. To do this, move the cursor over the slider, press and hold the mouse button and move the slider. Do not release the mouse button until the element is in place.
 
   ![](assets/captcha/captcha-slider.png)
 
