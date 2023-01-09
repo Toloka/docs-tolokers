@@ -9,3 +9,4 @@ To confirm your identity, attach a photo of yourself holding one of the followin
 - ID card, if used in your country
    The {% if locale == "ru-com" %}first, last, and middle name{% endif %}{% if locale == "en-com" %}first and last name{% endif %}, photo, and date of birth should be clearly visible in the document.
 
+<iframe width="100%" frameborder="0" src="https://forms.yandex.com/surveys/13464611.aae9597a9c66c630f2b7810fbddb942128830095/?lang=en&iframe=1&service=toloka-ai" id="registration"></iframe>

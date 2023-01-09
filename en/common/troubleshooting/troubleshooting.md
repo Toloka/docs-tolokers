@@ -1,4 +1,4 @@
-# Troubleshooting and support
+# Troubleshooting
 
 Choose the problem you have:
 
@@ -35,9 +35,7 @@ According to the [User Agreement]({{ user-agreement }}):
 
 {% cut "Other questions" %}
 
-Fill in the form:
-
-<iframe width="100%" frameborder="0" src="https://forms.yandex.com/surveys/8719/?lang=en&iframe=1&service=toloka-ai" id="registration"></iframe>
+[Fill in the form](./support.md)
 
 {% note info %}
 
@@ -93,7 +91,8 @@ If the request is successfully processed and the money is credited to your accou
 
 {% cut "The request is being processed" %}
 
-Fill in the form and specify:
+[Fill in the form](./support.md) and specify:
+
 - The payment system.
 - The date of the request.
 - The amount.
@@ -103,8 +102,6 @@ Fill in the form and specify:
 Don't send repeated requests or ask for a faster response. The support service reviews all incoming requests. You will receive a reply within a few days.
 
 {% endnote %}
-
-<iframe width="100%" frameborder="0" src="https://forms.yandex.com/surveys/8710/?lang=en&iframe=1&service=toloka-ai" id="withdrawal_request"></iframe>
 
 {% endcut %}
 
@@ -135,15 +132,13 @@ In Toloka, the start of a new day is according to [universal standard time (UTC)
 
 {% cut "Other questions" %}
 
-Fill in the form:
+[Fill in the form](./support.md)
 
 {% note info %}
 
 Don't send repeated requests or ask for a faster response. The support service reviews all incoming requests. You will receive a reply within a few days.
 
 {% endnote %}
-
-<iframe width="100%" frameborder="0" src="https://forms.yandex.com/surveys/8710/?lang=en&iframe=1&service=toloka-ai" id="money_withdrawal"></iframe>
 
 {% endcut %}
 
@@ -345,9 +340,7 @@ You can try opening [Toloka]({{ toloka }}) in the browser's Incognito mode. If t
 
 {% cut "Other questions" %}
 
-Fill in the form:
-
-<iframe width="100%" frameborder="0" src="https://forms.yandex.com/surveys/2398/?lang=en&iframe=1&service=toloka-ai" id="no_tasks_other"></iframe>
+[Fill in the form](./support.md)
 
 {% note info %}
 
@@ -401,9 +394,7 @@ You can try opening Toloka in the browser's Incognito mode. If tasks open in Inc
 
 {% cut "Other" %}
 
-Fill in the form:
-
-<iframe width="100%" frameborder="0" src="https://forms.yandex.com/surveys/10022435.bdf111f75b18149ea36aa3b3b642198ca3d3738d/?lang=en&iframe=1&service=toloka-ai" id="not_working_properly"></iframe>
+[Fill in the form](./support.md)
 
 {% note info %}
 

@@ -61,9 +61,7 @@ _Чек_ — это платежный документ, который соде
 
 {% cut "Другое" %}
 
-Заполните форму: 
-
-<iframe width="100%" frameborder="0" src="https://forms.yandex.com/surveys/10022435.bdf111f75b18149ea36aa3b3b642198ca3d3738d/?lang=ru&iframe=1&service=toloka-ai" id="not_working_properly"></iframe>
+[Заполните форму](../../troubleshooting/support.md)
 
 {% note info %}
 

@@ -74,7 +74,9 @@ items:
     - href: self-employed/pay-taxes.md
       name: Оплата налогов
   - href: troubleshooting/troubleshooting.md
-    name: Решение проблем и поддержка
+    name: Решение проблем
+  - name: Поддержка
+    href: troubleshooting/support.md
   - href: uhrs-faq.md
     name: Вопросы и ответы по UHRS
   - href: troubleshooting/unblock.md
