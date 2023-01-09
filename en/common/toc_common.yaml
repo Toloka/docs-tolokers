@@ -55,8 +55,10 @@ items:
       href: pay/payoneer.md
     - name: QIWI
       href: pay/Qiwi-wallet.md
-  - name: Troubleshooting and support
+  - name: Troubleshooting
     href: troubleshooting/troubleshooting.md
+  - name: Support
+    href: troubleshooting/support.md
   - name: UHRS - Public FAQ
     href: uhrs-faq.md
   - name: Restoring access

@@ -81,9 +81,7 @@
 
 {% cut "Другой вопрос" %}
 
-Заполните форму:
-
-<iframe width="100%" frameborder="0" src="https://forms.yandex.com/surveys/8719/?lang=ru&iframe=1&service=toloka-ai" id="registration"></iframe>
+[Заполните форму](../../../troubleshooting/support.md)
 
 {% note info %}
 
