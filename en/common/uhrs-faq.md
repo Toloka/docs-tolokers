@@ -50,13 +50,13 @@ No, being blocked in Toloka doesn't mean that you'll be automatically blocked on
 
 {% cut "I followed the link, and I have a white screen with an `Error` message. Is something broken?" %}
 
-This may signify a number of issues. Please contact our [support service](troubleshooting/troubleshooting.md#contact) so that we can look into the matter in more detail.
+This may signify a number of issues. Please contact our [support service](troubleshooting/support.md#contact) so that we can look into the matter in more detail.
 
 {% endcut %}
 
 {% cut "I didn't receive the payment for the task. Why?" %}
 
-Task reward should be received in 24 hours. If you face any difficulties with rewards please contact our [support service](troubleshooting/troubleshooting.md#contact).
+Task reward should be received in 24 hours. If you face any difficulties with rewards please contact our [support service](troubleshooting/support.md#contact).
 
 {% endcut %}
 
@@ -76,5 +76,5 @@ You can see how much you've earned while completing tasks using the **Reports** 
 
 If you have other questions write to us:
 
-[![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#contact)
+[![](assets/buttons/contact-support.svg)](troubleshooting/support.md#contact)
 
