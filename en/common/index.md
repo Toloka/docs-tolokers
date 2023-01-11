@@ -45,7 +45,11 @@
 {% endif%}
 
 {% if platform == "web" %}
-[Toloka](http://toloka.yandex.ru/) is a platform where you [get paid](./tasks.md) for [completing](./priemka.md#pay) tasks.
+[Toloka](http://toloka.yandex.com/) is a crowdsourcing platform that helps process large amounts of data by distributing tasks to a large pool of annotators.
+
+Requesters post tasks and set a price, while Tolokers choose tasks, [complete](tasks.md) them, and earn [money](priemka.md#pay).
+
+Tolokers can help classify images, transcribe audio recordings, moderate comments, complete focus group surveys, and so on. The resulting data can be used for training machine learning algorithms or other purposes.
 
 If you are looking for Mobile Help: ![](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/74b7231516e694ca7e0845a2acc01437096837d8.png)[Android](../android/index.md), ![](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/954d1a32b3f72b26c733dfd826934e932860f599.png)[iOS](../ios/index.md)
 

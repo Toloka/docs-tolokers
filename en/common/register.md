@@ -7,7 +7,7 @@
 
 {% note warning %}
 
-If the site's main page opens, make sure that the username at the top of the page matches your username in Toloka. If the username is wrong, click on it, then click **{{ ui_worker_8ef2d61ae629c63b155ae66c3d2fc9fa }}**, choose the right username, and enter the password.
+If the Yandex home page opens, make sure that the username at the top of the page matches your username in Toloka. If the username is wrong, click on it, then click **{{ ui_worker_8ef2d61ae629c63b155ae66c3d2fc9fa }}**, choose the right username, and enter the password.
 
 {% endnote %}
 
@@ -41,7 +41,7 @@ If you don't remember your username or password, go to the [Restore access]({{ p
 
    If the wrong number is linked, change it. For more information about linking a phone number, see [Yandex ID Help]({{ support-passport-phone }}).
 
-   If the number is correct, it means you haven't registered in Toloka before with another username. Use [Restoring access]({{ passport-restore }}).
+   If the number is correct, it means you previously registered in Toloka with another username. Use [Restoring access]({{ passport-restore }}).
 
    {% note warning %}
 
@@ -61,53 +61,9 @@ If you don't remember your username or password, go to the [Restore access]({{ p
 1. [Register](#no-toloka) in Toloka.
 
 
-## Frequently asked questions {#faq}
+## FAQ {#faq}
 
-### I can't get an SMS with the confirmation code {#no-sms}
-
-Follow the recommendations in Help for [Yandex ID]({{ support-passport-nocode }}). If this doesn't help, write to the [support service]({{ support-passport-nosms-form }}).
-
-### I had an account in Toloka. Now I can't register because the number "belongs to another user" {#phone-warning}
-
-If you don't remember your credentials in Toloka, use [Restoring access]({{ passport-restore }}).
-
-If you've deleted your account in Toloka, you can't register again or restore the deleted account.
-
-According to the [User Agreement]({{ user-agreement }}):
-- A user can have only one account in Toloka.
-- A user must have a unique phone number.
-
-### How do I change the phone number in my account? {#change-phone}
-
-To change your phone number, go to Yandex ID and change your main number.
-
-{% note info %}
-
-If you don't have access to the old number, it takes a month to change it. For more information about changing your phone number, see [Yandex ID Help]({{ support-passport-phone-change }}).
-
-{% endnote %}
-
-### Where do I find my username in the web version of Toloka? {#login-web}
-
-In the web version of Toloka, your username is shown in the upper-right corner, next to the avatar. If your name or nickname is displayed next to the avatar, click on the avatar. The username will be shown in the window that opens.
-
-### Where do I view my username in the mobile app? {#login-mobile}
-
-If you use the Toloka mobile app, choose the platform:
-
-{% list tabs %}
-
-- Android
-
-   Open the menu by tapping ![](assets/menu.svg) at the top of the screen. Your username is at the top next to the avatar.
-
-   Tap ![](assets/settings.png). You'll see your username in the **{{ mobile_android_profile }}** section.
-
-- iOS
-
-   Open your **{{ mobile_ios_profile }}**. Your username is under your name.
-
-{% endlist %}
+{% include notitle [faq-login-common](_includes/register/id-faq/login-common.md) %}
 
 [![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#registration)
 

@@ -13,7 +13,7 @@ Select:
    {% endif %}
 
 {% if platform == "android" or platform == "ios" %}
-## Non-field tasks {#common}
+## Regular (non-field) tasks {#common}
 
 To complete a non-field task:
 
@@ -158,7 +158,7 @@ The list of tasks displays all tasks, including both field and non-field tasks. 
 
    Sorting
 
-   : Choose the sorting type: by price, date updated, or Favorites.
+   : Choose the sorting type: by price, last updated, or Favorites.
 
 1. Tap **{{ mobile_ios_ready_button }}** at the top of the page.
 
@@ -181,7 +181,7 @@ Unavailable tasks are marked with the ![](assets/lock.svg) icon. The condition f
 {% endif %}
 
 {% if platform == "android" or platform == "ios" %}
-### How to hide a task {#hide}
+### How do I hide a task? {#hide}
 {% if platform == "android" or platform == "ios" %} Hide a task so that it doesn't appear in the list.
 1. Tap ![](assets/dots_horizontal.svg) in the task card.
 1. Select **{{ mobile_ios_task_user_preference_choose_preference_add_as_ignored }}**.
@@ -203,18 +203,15 @@ To choose which task information to display in the label:
    {% endif %}
 
 {% if platform == "web" %}
-Open the [Tasks](https://toloka.yandex.ru/tasks) page. By default, tasks are displayed according to the "recommended first" criteria. You can set a different sorting order in the row above:
+Open the [Tasks](https://toloka.yandex.ru/tasks) page. By default, tasks are displayed according to the **{{ ui_worker_tasks_page__sort_by_bookmarked_first }}** criteria. You can set a different sorting order in the row above:
 
-- Newest first.
-- By price.
-- By expiration time.
-- Favorites first.
-- By hourly earnings.
-- By max earnings per day.
+- **{{ ui_worker_tasks_page__sort_by_new_to_old }}**
+- **{{ ui_worker_tasks_page__sort_by_price }}**
+- **{{ ui_worker_tasks_page__sort_by_bookmarked_first }}**
 
 You can also filter tasks by category (with training, with post acceptance, hidden, and so on) and by requester.
 
-Unavailable tasks are marked with the ![](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/ffff7f0618be7fe3d467ae1da45110b236860ecd.svg) icon. The condition for accessing the task is indicated next to it (for example, mobile application).
+Unavailable tasks are marked with the ![](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/ffff7f0618be7fe3d467ae1da45110b236860ecd.svg) icon. The condition for accessing the task is indicated next to it. For example, the "mobile app" condition means that the task can't be completed in the desktop version of Toloka, only in the mobile app.
 {% endif %}
 
 {% if platform== "web" %}
@@ -229,7 +226,13 @@ You can add a task to your favorites or hide it in the list.
 - Select {% if platform == "web" %}**{{ ui_worker_task_menu__bookmark_add }}**{% elsif platform == "android" %}**{{ mobile_android_add_to_bookmarks }}**{% elsif platform == "ios" %}**{{ mobile_ios_task_user_preference_choose_preference_add_as_bookmarked }}**{% endif %}.
    Or click ![](assets/favourites.png =15x) next to the task name.
 
-Click **{{ ui_worker_tasks_page__sort_by_bookmarked_first }}** to display the selected tasks at the top of the list.
+Click **{{ ui_worker_tasks_page__sort_by_bookmarked_first }}** to display the selected tasks at the top of the list. If the tasks in the favorites list are inactive, you might have run out of them, or made a lot of mistakes, and the customer restricted your access to them. When the new tasks appear, they will be active again.
+
+{% note tip %}
+
+There are a lot of tasks in Toloka, and new tasks appear every day. Therefore, check the list of tasks regularly to find something you like.
+
+{% endnote %}
 
 **Hide a task**
 

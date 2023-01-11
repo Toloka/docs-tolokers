@@ -1,6 +1,6 @@
 # Profile
 
-Your real name must be on your profile. This is required for [making withdrawals](pay/about.md) from [Toloka]({{ toloka }}) to payment systems. If you entered a different name when registering, edit the profile.
+Your profile must contain your real first and last name. Otherwise, you won't be able to [withdraw funds](pay/about.md) from [Toloka]({{ toloka }}) to your payment system. If you entered a different name when registering, edit the profile.
 
 [Edit a profile](#edit)  
 [Add a profile picture](#avatar)  
@@ -14,6 +14,16 @@ Your real name must be on your profile. This is required for [making withdrawals
 {% elsif platform == "ios" %} Open the **{{ mobile_ios_profile }}** page and click **{{ mobile_ios_profile_edit_button }}**.
 {% elsif platform == "android" %} Open **{{ mobile_android_settings }}**, go to the **{{ mobile_android_profile }}** section, and click **{{ mobile_android_edit }}**.
 {% endif %}
+
+{% note info %}
+
+If the selected language has already been confirmed by the test, you can't replace it with another one or delete it.
+
+{% endnote %}
+
+## Change username {#login}
+
+Toloka is linked to your Yandex ID account, so you can't change your username.
 
 ## Add a profile picture {#avatar}
 
@@ -81,7 +91,7 @@ You will now receive notifications from the platform.
 
 {% if platform == "web" %}
 Click your username in the upper-right corner. Then click **{{ ui_worker_8ef2d61ae629c63b155ae66c3d2fc9fa }}**.
-{% elsif platform== "android" %}.
+{% elsif platform== "android" %}
 Click **![](assets/menu.png) → {{ mobile_android_settings }}**. At the bottom of the list, choose **{{ mobile_android_logout }}**.
 {% elsif platform== "ios" %}
 Open the **{{ mobile_ios_more_title }} → {{ mobile_ios_settings_screen_title }}** page. At the bottom of the list, choose **{{ mobile_ios_logout_button }}**.
@@ -129,6 +139,9 @@ According to the [User Agreement]({{ user-agreement }}):
 
 {% endnote %}
 
+## FAQ {#faq}
+
+{% include [faq-profile](_includes/profile/profile-faq/profile.md) %}
 
 [![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
 
