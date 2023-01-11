@@ -1,6 +1,6 @@
 # Restoring access
 
-If you received a letter saying that your account in [Toloka] ({{ toloka }) is blocked and suggesting that you restore your access by proving your identity, fill in the form.
+If you received a letter saying that your account in [Toloka] ({{ toloka }}) is blocked and suggesting that you restore your access by proving your identity, fill in the form.
 
 To confirm your identity, attach a photo of yourself holding one of the following documents:
 - internal passport
