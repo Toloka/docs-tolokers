@@ -20,7 +20,7 @@ Toloka does not impose any restrictions on the execution of tasks in other servi
 
 The authors of tasks established stricter criteria for selecting annotators on the UHRS platform. If UHRS tasks have never been available to you or if they suddenly disappeared, this may be because:
 
-- Your account doesn't meet one or more criteria for a particular task or the UHRS platform in general. For example, your location and number of languages in your profile matter.
+- Your account doesn't meet one or more criteria for a particular task or the UHRS platform in general. For example, your location and the number of languages in your profile matter.
   Make sure that:
   - The location in your profile matches your real location and the geolocation settings on your device. If the data is incorrect or there are differences, you may be banned from accessing the tasks.
     Don't use VPN, anonymizers, or any other services that change your location data.
