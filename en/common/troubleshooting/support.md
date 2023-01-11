@@ -4,7 +4,7 @@
 
 - [{#T}](./troubleshooting.md)
 
-## Contact Toloka Customer Care
+## Contact Toloka Customer Care {#contact}
 
 {% note info %}
 
