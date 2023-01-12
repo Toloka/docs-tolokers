@@ -1,10 +1,10 @@
 # Tasks under review
 
-Some tasks undergo a review. The requester can reject a task if it isn't completed according to the instructions. Rejected tasks are not paid for.
+Some tasks are reviewed for longer than others. The requester can reject a task if it isn't completed according to the instructions. Rejected tasks are not paid for.
 
 ## How long does the review take? {#deadline}
 
-The review may take several days. The maximum and average review period is specified in the task information.
+The review may take several days. The review period is specified in the **Under review until** field on **{{ ui_worker_prfl-tab-history }}**. All tasks are reviewed within the specified time frame or less.
 
 ## How do I get the results? {#result}
 
@@ -23,7 +23,7 @@ If your task is rejected, you can't complete it again. You can [challenge the re
 ## When are the accepted tasks paid for? {#pay}
 
 {% if platform == "web" %}
-After the review, payment for the accepted tasks is credited to your account. The ![](assets/balance.svg) amounts are indicated in the top [Toloka]({{ toloka }}) menu:
+After the review, payment for the accepted tasks is credited to your account. The amounts are indicated in the upper [Toloka]({{ toloka }}) menu  on the right ![](assets/balance.svg):
 {% endif %}
 
 {% if platform == "android" %}
@@ -55,7 +55,7 @@ For each rejected task, you must submit a separate appeal.
 1. Choose **{{ ui_worker_assgn-type-rej }}** in the drop-down list above the **{{ ui_worker_incm-head }}** table.
 1. Click the project.
 1. Open the rejected task by clicking on its number.
-1. Click **![](assets/loudspeaker.svg) → {{ui_worker_messages_compose_to_requesters}}** at the top of the page.
+1. Click **{{ ui_worker_messages_compose_to_requesters }}** at the top of the page [Messages]({{ toloka-messages }}).
 1. Describe briefly why you think the task was completed correctly. The task number is attached to the message automatically.
 1. Click **Submit**.
    {% elsif platform == "ios" %}

@@ -60,53 +60,9 @@ Once you log in to the app, [adjust the settings](settings.md) and begin [comple
 1. Register in Yandex. Be sure to enter your mobile phone number. We need it for sending the SMS code.
 1. [Register](#no-toloka) in Toloka.
 
-## Frequently asked questions {#faq}
+## FAQ {#faq}
 
-[I can't get an SMS with the confirmation code](#no-sms)  
-[I had an account in Toloka. Now I can't register because the number "belongs to another user"](#phone-warning)  
-[How do I change the phone number in my account?](#change-phone)  
-[Where do I find my username in the web version of Toloka?](#login-web)  
-[Where do I view my username in the mobile app?](#login-mobile)
-
-### I can't get an SMS with the confirmation code {#no-sms}
-
-Follow the recommendations in Help for [Yandex ID]({{ support-passport-nocode }}). If this doesn't help, write to the [support service]({{ support-passport-nosms-form }}).
-
-### I had an account in Toloka. Now I can't register because the number "belongs to another user" {#phone-warning}
-
-If you don't remember your credentials in Toloka, use [Restoring access]({{ passport-restore }}).
-
-If you've deleted your account in Toloka, you can't register again or restore the deleted account.
-
-According to the [User Agreement]({{ user-agreement }}):
-- A user can have only one account in Toloka.
-- A user must have a unique phone number.
-
-### How do I change the phone number in my account? {#change-phone}
-
-To change your phone number, go to Yandex ID and change your main number.
-
-{% note info %}
-
-If you don't have access to the old number, it takes a month to change it. For more information about changing your phone number, see [Yandex ID Help]({{ support-passport-phone-change }}).
-
-{% endnote %}
-
-### Where do I find my username in the web version of Toloka? {#login-web}
-
-In the web version of Toloka, your username is shown in the upper-right corner, next to the avatar. If your name or nickname is displayed next to the avatar, click on the avatar. The username will be shown in the window that opens.
-
-### Where do I view my username in the mobile app? {#login-mobile}
-
-{% if platform == "android" %}
-
-{% include [faq-login-android](_includes/register/id-faq/login-android.md) %}
-
-{% elsif platform == "ios" %}
-
-{% include [faq-login-ios](_includes/register/id-faq/login-ios.md) %}
-
-{% endif %}
+{% include [faq-login-common](_includes/register/id-faq/login-common.md) %}
 
 [![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#registration)
 

@@ -2,6 +2,12 @@
 
 ## How to withdraw money from Toloka {#how-to-withdraw}
 
+{% note alert %}
+
+Enter your real first and last name in your account settings. Otherwise, you won't be able to withdraw money. The user's first and last name in the payment system must match their first and last name in Toloka. Otherwise, your account may be blocked.
+
+{% endnote %}
+
 To withdraw funds from your [Toloka]({{ toloka }}) account:
 
 
@@ -13,7 +19,7 @@ To withdraw funds from your [Toloka]({{ toloka }}) account:
 
 1. Select a payment system and click **{{ ui_worker_money__withdraw__submit }}**.
 
-You can cancel the withdrawal request if the transaction hasn't been processed yet (still has the Processing status). For such operations, the **{{ ui_worker_worker-transaction-canceling__button__title }}** button is available in the **{{ ui_worker_prfl-money-history }}** block.
+You can cancel the withdrawal request. To do this, click **{{ ui_worker_worker-transaction-canceling__button__title }}** in the **{{ ui_worker_prfl-money-history }}** block. If there is no button, you won't be able to cancel the transaction even through Toloka technical support.
 
 It usually takes a few hours or days, but sometimes longer. The maximum transfer time is 30 days. Check the status in the **{{ ui_worker_prfl-money-history }}** block.
 
@@ -119,15 +125,15 @@ Learn more on the [ Payoneer website]({{ payoneer-fees }}).
 * To a bank account.
 * To the Payoneer Mastercard.
 
-{% note alert %}
-
-There may be problems with money transfers to Visa and Mastercard cards issued by Russian banks right now.
-
-{% endnote %}
-
 To find out the exact fee amount, go to **Fees** in your Payoneer account.
 
 The minimum withdrawal amount may differ from the one when withdrawing from Toloka. It might be higher (for example, $50).
+
+{% note alert %}
+
+Starting on December 16, 2022, funds withdrawal to Payoneer is unavailable for users from Russia.
+
+{% endnote %}
 
 ||
 ||[QIWI](Qiwi-wallet.md) |
@@ -353,7 +359,7 @@ Learn more on the [ Payoneer website]({{ payoneer-fees }}).
 
    {% note alert %}
 
-   There may be problems with money transfers to Visa and Mastercard cards issued by Russian banks right now.
+   Starting on December 16, 2022, funds withdrawal to Payoneer is unavailable for users from Russia.
 
    {% endnote %}
 
@@ -551,9 +557,7 @@ Don't request withdrawal until you are sure that your account is confirmed in th
 
 {% cut "For citizens of Uzbekistan" %}
 
-In Toloka, you can withdraw money via [Payoneer](payoneer.md).
-
-Here are some details you need to consider:
+You can also withdraw funds from Toloka using [Payoneer](payoneer.md). Here are some details you need to consider:
 
 You can receive payments in EUR or USD. Direct UZS withdrawal is unavailable.
 
@@ -580,9 +584,9 @@ Payment and money withdrawal are regulated by the [User Agreement]({{ user-agree
 
 The terms of payment systems are for information only.
 
-The payment system can change prices, conditions and its availability in the user's country on a unilateral basis. The users can find out about the changes on the payment system site.
+The payment system can change prices, conditions and its availability in the user's country on a unilateral basis. Users can find out about the changes on the payment system site.
 
-Toloka is not responsible for such changes or for publishing them here in a certain timeframe.
+Toloka is not responsible for such changes or for publishing them here within a certain timeframe.
 
 {% endnote %}
 
