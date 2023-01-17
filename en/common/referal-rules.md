@@ -375,16 +375,6 @@ Pechora
 
 {% endcut %}
 
-{% cut "Republic of Crimea" %}
-
-Alushta  
-Sevastopol  
-Sudak  
-Feodosia  
-Yalta
-
-{% endcut %}
-
 {% cut "Republic of Mari El" %}
 
 Volzhsk
