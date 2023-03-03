@@ -37,5 +37,3 @@
 {% endif %}
 
 [![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#registration)
-
-
