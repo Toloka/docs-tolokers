@@ -17,7 +17,7 @@ default:
   toloka-app-ios: 'https://toloka.ai/tolokers/docs/ios/?lang=ru'
   user-agreement: 'https://yandex.ru/legal/toloka_useragreement/index.html'
   toloka-facebook: 'https://www.facebook.com/yandex.toloka.ru/'
-  toloka-vk: 'https://vk.com/ya.toloka'
+  toloka-vk: 'https://vk.com/we.toloka'
   toloka-youtube: 'https://www.youtube.com/channel/UCf-vd-Nf_igCYJpohQ8BPUQ'
   toloka-telegram: 'https://t.me/TolokaOfficial'
   passport: 'https://passport.yandex.ru/'
