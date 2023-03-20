@@ -24,7 +24,7 @@ The authors of tasks established stricter criteria for selecting annotators on t
   Make sure that:
   - The location in your profile matches your real location and the geolocation settings on your device. If the data is incorrect or there are differences, you may be banned from accessing the tasks.
     Don't use VPN, anonymizers, or any other services that change your location data.
-  - You have no more than 3 confirmed languages in your profile.
+  - You have selected no more than 3 languages in your profile (unconfirmed languages are also taken into account).
 - The author restricted your access to tasks because you made a lot of mistakes. The author monitors every user's activity on the UHRS platform and can suspend your access to tasks if you make a lot of mistakes or don't follow instructions. Please note: if your access is restricted, you aren't notified about this in Toloka.
 - No more tasks are available. The number of tasks and UHRS projects available may change over time. If a particular task isn't on the list right now, it may appear later.
 
