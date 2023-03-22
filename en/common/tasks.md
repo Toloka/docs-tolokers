@@ -47,19 +47,15 @@ So do not:
 - Complete tasks poorly.
 - Make frequent mistakes when entering captchas, enter them carelessly, or skip them.
 
-## What to do if you are banned {#ifbanned}
+## How to proceed if you are banned {#ifbanned}
 
-{% note info %}
+Temporary bans may apply in certain cases, such as repeatedly failing a captcha test, which triggers a block and prompts you to verify your human identity. While the first block is likely to be lifted, frequent captcha mistakes or more severe violations (e.g., bot usage) may result in a permanent ban from tasks.
 
-If your account is blocked, you will receive two messages: an automatic notification about the ban and a message from the administrator explaining the reason for the ban and what you can do. Usually, you need to fill out a form and provide documents or a selfie.
+Once blocked, you will receive two communications: an automated notification informing you of the block and an administrator's message saying if it’s possible to unblock the account. If unblocking is possible, follow the steps outlined in the message. Typically, to recall the ban, you will need to:
 
-{% endnote %}
-
-1. Fill out the feedback form by clicking on the link in the administrator's message.
-1. Meet the support requirements. Provide a document to confirm your identity if you are asked to do so. The pictures should be clear, and your first and last name, date of birth, and photo should be clearly visible in the document. Make sure that the data in the photo is readable before submitting the form.
-1. Wait for the administrator's decision. Usually it takes one to several days to check the data.
-
-If you're banned, it's not necessarily permanent. For example, if you often make mistakes when entering captchas, you may be blocked and asked to confirm that you are a real person and not a robot. You will most likely be unblocked the first time. But if you continue to make mistakes when entering captchas, you may lose access to tasks.
+1. Click on the link provided in the message and complete the feedback form.
+1. Submit a selfie with yourself holding a document that confirms your identity. Ensure the images are clear, and the document's photo, as well as your first and last name and date of birth, are visible and legible.
+1. Await a decision, which usually takes several days to review.
 
 {% if platform == "web" %}
 ## Troubleshooting {#faq}
