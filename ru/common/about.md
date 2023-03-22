@@ -17,10 +17,16 @@
 {% elsif locale=="ru-com" %}
 Чтобы быть в курсе последних новостей Толоки, подписывайтесь на:
 * [Группу во ВКонтакте]({{ toloka-vk }}).
-* [Страницу в Facebook]({{ toloka-facebook }}).
 * [Канал в Telegram]({{ toloka-telegram }}).
-* [Канал в YouTube]({{ toloka-youtube }}).
+{% endif %}
 
+## Узнайте больше
+
+{% if locale=="ru-com" %}
+* Читайте [блог Толоки](https://join.toloka.ai/blog/) (на английском языке).
+
+{% elsif locale=="en-com" %}
+* Read the [blog for Tolokers](https://join.toloka.ai/blog/).
 {% endif %}
 
 {% if locale=="ru-com" %}

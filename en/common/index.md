@@ -136,7 +136,12 @@ If you are looking for Mobile Help: ![](https://yastatic.net/s3/doc-binary/freez
 
 
 ## Follow us on social media {#social-networks}
-[![Facebook](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/dc064a5532d1ce00cf445f471aa007dcc48502f7.svg)](https://www.facebook.com/tolokaworldwide) [![Telegram](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/27723cba940eca5313c22b680a8d62afea426398.svg)](https://t.me/TolokaOfficial_en_tr)
+[![Facebook](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/dc064a5532d1ce00cf445f471aa007dcc48502f7.svg)](https://www.facebook.com/tolokaworldwide)
+
+## Learn more {#learn-more}
+
+* Read the [blog for Tolokers](https://join.toloka.ai/blog/).
+
 {% endif %}
 
 {% if platform == "android" or platform == "ios" %}

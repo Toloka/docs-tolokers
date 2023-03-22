@@ -18,9 +18,11 @@ The prices are set by requesters. You can [withdraw funds](pay/about.md) in diff
 To receive recent news from Toloka, subscribe to:
 * [VK group]({{ toloka-vk }}).
 * [Telegram channel]({{ toloka-telegram }}).
-* [YouTube channel]({{ toloka-youtube }}).
-
 {% endif %}
+
+## Learn more {#learn-more}
+
+* Read the [blog for Tolokers](https://join.toloka.ai/blog/).
 
 {% if locale == "ru-com" %}
 {% if platform == "android" or platform == "ios" %}

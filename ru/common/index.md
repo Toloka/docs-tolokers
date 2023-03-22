@@ -116,13 +116,21 @@
 
 [![Решение проблем и поддержка](assets/buttons/troubleshooting.svg)](troubleshooting/troubleshooting.md#not_working_properly)
 
-
 ## Следите за нами в социальных сетях {#social-networks}
 {% if locale=="ru-com" %}
-[![VK](https://yastatic.net/s3/doc-binary/src/support/toloka-tolokers/ru/SocialNetwork/Vkontakte.svg)]({{ toloka-vk }}) [![YouTube](https://yastatic.net/s3/doc-binary/src/support/toloka-tolokers/ru/SocialNetwork/youtube.svg)](https://www.youtube.com/channel/UCf-vd-Nf_igCYJpohQ8BPUQ) [![Telegram](https://yastatic.net/s3/doc-binary/src/support/toloka-tolokers/ru/SocialNetwork/telegram_1.svg)](https://t.me/TolokaOfficial)
+[![VK](https://yastatic.net/s3/doc-binary/src/support/toloka-tolokers/ru/SocialNetwork/Vkontakte.svg)]({{ toloka-vk }}) [![Telegram](https://yastatic.net/s3/doc-binary/src/support/toloka-tolokers/ru/SocialNetwork/telegram_1.svg)]({{ toloka-telegram }})
 
-{% elsif locale == "en-com" %}
-[![Facebook](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/dc064a5532d1ce00cf445f471aa007dcc48502f7.svg)](https://www.facebook.com/tolokaworldwide) [![Telegram](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/27723cba940eca5313c22b680a8d62afea426398.svg)](https://t.me/TolokaOfficial_en_tr)
+{% elsif locale=="en-com" %}
+[![Facebook](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/dc064a5532d1ce00cf445f471aa007dcc48502f7.svg)](https://www.facebook.com/tolokaworldwide)
+{% endif %}
+
+## Узнайте больше {#learn-more}
+
+{% if locale=="ru-com" %}
+* Читайте [блог Толоки](https://join.toloka.ai/blog/) (на английском языке).
+
+{% elsif locale=="en-com" %}
+* Read the [blog for Tolokers](https://join.toloka.ai/blog/).
 {% endif %}
 
 {% endif %}
