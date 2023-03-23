@@ -92,14 +92,13 @@ Please don't send duplicate requests or ask for a faster response. The support s
 
 {% cut "Account blocked" %}
 
-Toloka has an antifraud monitoring system. It automatically checks user behavior and blocks suspicious accounts. In different cases, the ban may be caused by different reasons.
+Under [How to be a successful Toloker](../tasks.md), we describe the most frequent causes of bans and offer tips on how to prevent them
 
-Tips on how to avoid getting blocked are described under [How to be a successful Toloker](../tasks.md).
-After blocking, you will receive two emails:
-1. Automatic notification about blocking.
-1. The message informs you why the account is blocked and if it is possible to unblock it.
+If you get a ban, you will receive two messages:
+1. An automated notification indicating the ban.
+1. An administrator's message regarding the potential for unblocking.
 
-If it is possible to unblock it, follow the steps in the email.
+If recalling the ban is possible, follow the instructions outlined in the message and await a decision, which typically takes several days to review.
 
 {% endcut %}
 
