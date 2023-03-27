@@ -13,30 +13,13 @@
 
 Стоимость заданий определяется заказчиками. Вы можете [вывести средства](pay/about.md) различными способами в зависимости от вашей страны.
 
-{% if locale == "en-com" %} Чтобы быть в курсе последних новостей Толоки, подписывайтесь на [канал в Telegram]({{ toloka-t }}).
-{% elsif locale=="ru-com" %}
-Чтобы быть в курсе последних новостей Толоки, подписывайтесь на:
-* [Группу во ВКонтакте]({{ toloka-vk }}).
-* [Канал в Telegram]({{ toloka-telegram }}).
-{% endif %}
+## Следите за нами
+{% if locale == "ru-com" %}
 
-## Узнайте больше
-
-{% if locale=="ru-com" %}
-* Читайте [блог Толоки](https://join.toloka.ai/blog/) (на английском языке).
-
+[![VK](assets/SocialNetwork/Vkontakte.svg)]({{ toloka-vk }}) [![Telegram](assets/SocialNetwork/telegram_1.svg)]({{ toloka-telegram }}) [![Блог Толоки](assets/SocialNetwork/toloka-blog-icon.svg)]({{ toloka-blog }})
 {% elsif locale=="en-com" %}
-* Read the [blog for Tolokers](https://join.toloka.ai/blog/).
-{% endif %}
 
-{% if locale=="ru-com" %}
-{% if platform == "android" or platform == "ios" %}
-
-## Как настроить устройство и выполнить полевое задание
-
-@[youtube](a1uqOTztw4o)
-
-{% endif %}
+[![Facebook](assets/SocialNetwork/facebook.svg)]({{ toloka-facebook }}) [![Blog for Tolokers](assets/SocialNetwork/toloka-blog-icon.svg)]({{ toloka-blog }})
 {% endif %}
 
 [![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)

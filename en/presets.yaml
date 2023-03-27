@@ -18,6 +18,7 @@ default:
   toloka-vk: https://vk.com/we.toloka
   toloka-youtube: https://www.youtube.com/channel/UC3ECut-9h01eI1qsnx-GHKA/videos
   toloka-facebook: https://www.facebook.com/tolokaworldwide
+  toloka-blog: https://join.toloka.ai/blog/
   passport: https://passport.yandex.com/
   passport-reg-toloka: https://passport.yandex.com/registration?mode=register&amp;retpath=https://toloka.yandex.com/en
   passport-auth-toloka: https://passport.yandex.com/passport?mode=auth&retpath=https://toloka.yandex.com

@@ -116,21 +116,11 @@
 
 [![Решение проблем и поддержка](assets/buttons/troubleshooting.svg)](troubleshooting/troubleshooting.md#not_working_properly)
 
-## Следите за нами в социальных сетях {#social-networks}
+## Следите за нами {#social-networks}
 {% if locale=="ru-com" %}
-[![VK](https://yastatic.net/s3/doc-binary/src/support/toloka-tolokers/ru/SocialNetwork/Vkontakte.svg)]({{ toloka-vk }}) [![Telegram](https://yastatic.net/s3/doc-binary/src/support/toloka-tolokers/ru/SocialNetwork/telegram_1.svg)]({{ toloka-telegram }})
-
+[![VK](assets/SocialNetwork/Vkontakte.svg)]({{ toloka-vk }}) [![Telegram](assets/SocialNetwork/telegram_1.svg)]({{ toloka-telegram }}) [![Блог Толоки](assets/SocialNetwork/toloka-blog-icon.svg)]({{ toloka-blog }})
 {% elsif locale=="en-com" %}
-[![Facebook](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/dc064a5532d1ce00cf445f471aa007dcc48502f7.svg)](https://www.facebook.com/tolokaworldwide)
-{% endif %}
-
-## Узнайте больше {#learn-more}
-
-{% if locale=="ru-com" %}
-* Читайте [блог Толоки](https://join.toloka.ai/blog/) (на английском языке).
-
-{% elsif locale=="en-com" %}
-* Read the [blog for Tolokers](https://join.toloka.ai/blog/).
+[![Facebook](assets/SocialNetwork/facebook.svg)]({{ toloka-facebook }}) [![Blog for Tolokers](assets/SocialNetwork/toloka-blog-icon.svg)]({{ toloka-blog }})
 {% endif %}
 
 {% endif %}

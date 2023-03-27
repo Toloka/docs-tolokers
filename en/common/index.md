@@ -135,12 +135,8 @@ If you are looking for Mobile Help: ![](https://yastatic.net/s3/doc-binary/freez
 [![Troubleshooting and support](assets/buttons/troubleshooting.svg)](troubleshooting/troubleshooting.md#not_working_properly)
 
 
-## Follow us on social media {#social-networks}
-[![Facebook](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/dc064a5532d1ce00cf445f471aa007dcc48502f7.svg)](https://www.facebook.com/tolokaworldwide)
-
-## Learn more {#learn-more}
-
-* Read the [blog for Tolokers](https://join.toloka.ai/blog/).
+## Follow us {#social-networks}
+[![Facebook](assets/SocialNetwork/facebook.svg)]({{ toloka-facebook }}) [![Blog for Tolokers](assets/SocialNetwork/toloka-blog-icon.svg)]({{ toloka-blog }})
 
 {% endif %}
 
