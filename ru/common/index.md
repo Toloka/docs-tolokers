@@ -116,13 +116,11 @@
 
 [![Решение проблем и поддержка](assets/buttons/troubleshooting.svg)](troubleshooting/troubleshooting.md#not_working_properly)
 
-
-## Следите за нами в социальных сетях {#social-networks}
+## Следите за нами {#social-networks}
 {% if locale=="ru-com" %}
-[![VK](https://yastatic.net/s3/doc-binary/src/support/toloka-tolokers/ru/SocialNetwork/Vkontakte.svg)]({{ toloka-vk }}) [![YouTube](https://yastatic.net/s3/doc-binary/src/support/toloka-tolokers/ru/SocialNetwork/youtube.svg)](https://www.youtube.com/channel/UCf-vd-Nf_igCYJpohQ8BPUQ) [![Telegram](https://yastatic.net/s3/doc-binary/src/support/toloka-tolokers/ru/SocialNetwork/telegram_1.svg)](https://t.me/TolokaOfficial)
-
-{% elsif locale == "en-com" %}
-[![Facebook](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/dc064a5532d1ce00cf445f471aa007dcc48502f7.svg)](https://www.facebook.com/tolokaworldwide) [![Telegram](https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/27723cba940eca5313c22b680a8d62afea426398.svg)](https://t.me/TolokaOfficial_en_tr)
+[![VK](assets/SocialNetwork/Vkontakte.svg)]({{ toloka-vk }}) [![Telegram](assets/SocialNetwork/telegram_1.svg)]({{ toloka-telegram }}) [![Блог Толоки](assets/SocialNetwork/toloka-blog-icon.svg)]({{ toloka-blog }})
+{% elsif locale=="en-com" %}
+[![Facebook](assets/SocialNetwork/facebook.svg)]({{ toloka-facebook }}) [![Blog for Tolokers](assets/SocialNetwork/toloka-blog-icon.svg)]({{ toloka-blog }})
 {% endif %}
 
 {% endif %}

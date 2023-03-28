@@ -20,6 +20,7 @@ default:
   toloka-vk: 'https://vk.com/we.toloka'
   toloka-youtube: 'https://www.youtube.com/channel/UCf-vd-Nf_igCYJpohQ8BPUQ'
   toloka-telegram: 'https://t.me/TolokaOfficial'
+  toloka-blog: 'https://join.toloka.ai/blog/'
   passport: 'https://passport.yandex.ru/'
   passport-reg-toloka: >-
     https://passport.yandex.ru/registration?mode=register&amp;retpath=https://toloka.yandex.ru

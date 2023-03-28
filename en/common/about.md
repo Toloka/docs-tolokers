@@ -13,24 +13,9 @@ Completed tasks are [checked](priemka.md) by the requester. The results are used
 
 The prices are set by requesters. You can [withdraw funds](pay/about.md) in different ways, depending on your country.
 
-{% if locale == "en-com" %} To receive recent news from Toloka, subscribe to the [Telegram channel]({{ toloka-t }}).
-{% elsif locale == "ru-com" %}
-To receive recent news from Toloka, subscribe to:
-* [VK group]({{ toloka-vk }}).
-* [Telegram channel]({{ toloka-telegram }}).
-* [YouTube channel]({{ toloka-youtube }}).
+## Follow us
 
-{% endif %}
-
-{% if locale == "ru-com" %}
-{% if platform == "android" or platform == "ios" %}
-
-## How to set up a device and complete a field task
-
-@[youtube](a1uqOTztw4o)
-
-{% endif %}
-{% endif %}
+[![Facebook](assets/SocialNetwork/facebook.svg)]({{ toloka-facebook }}) [![Blog for Tolokers](assets/SocialNetwork/toloka-blog-icon.svg)]({{ toloka-blog }})
 
 [![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
 
