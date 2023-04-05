@@ -100,8 +100,6 @@ Funds withdrawal to PayPal is currently unavailable for users in Russia.
 
 {% cut "Almost everywhere" %}
 
-Works with restrictions in Russia.
-
 Available in more than 200 countries. For more information, contact the [Payoneer Support Center]({{ payoneer-support }}).
 
 {% endcut %}
@@ -131,7 +129,7 @@ The minimum withdrawal amount may differ from the one when withdrawing from Tolo
 
 {% note alert %}
 
-Starting on December 16, 2022, funds withdrawal to Payoneer is unavailable for users from Russia.
+Funds withdrawal to Payoneer is currently unavailable for users from Russia.
 
 {% endnote %}
 
@@ -311,6 +309,12 @@ $0.02 for one withdrawal a week. Subsequent withdrawals within a week — $1.
 
 {% cut "Payoneer" %}
 
+{% note alert %}
+
+Funds withdrawal to Payoneer is currently unavailable for users from Russia.
+
+{% endnote %}
+
 #### Benefits
 
 Payoneer is a secure, fast, and low-cost payment system.
@@ -328,8 +332,6 @@ It allows users to:
 ||Area of operation |
 
 {% cut "Almost everywhere" %}
-
-Works with restrictions in Russia.
 
 Available in more than 200 countries. For more information, contact the [Payoneer Support Center]({{ payoneer-support }}).
 
@@ -356,13 +358,6 @@ Learn more on the [ Payoneer website]({{ payoneer-fees }}).
 - To a bank account.
 
 - To the Payoneer Mastercard.
-
-   {% note alert %}
-
-   Starting on December 16, 2022, funds withdrawal to Payoneer is unavailable for users from Russia.
-
-   {% endnote %}
-
 
 To find out the exact fee amount, go to **Fees** in your Payoneer account.
 

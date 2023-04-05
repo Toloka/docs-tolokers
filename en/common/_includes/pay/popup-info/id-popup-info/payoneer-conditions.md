@@ -4,8 +4,6 @@
 
 {% cut "Almost everywhere" %}
 
-Works with restrictions in Russia.
-
 Available in more than 200 countries. For more information, contact the [Payoneer Support Center]({{ payoneer-support }}).
 
 {% endcut %}
@@ -24,16 +22,9 @@ Learn more on the [ Payoneer website]({{ payoneer-fees }}).
 
 {% endcut %}
 
-| $20 | — To a bank account.
-    
-- To the Payoneer Mastercard.
-    
-   {% note alert %}
-    
-   There may be problems with money transfers to Visa and Mastercard cards issued by Russian banks right now.
-    
-   {% endnote %}
-    
+| $20 |
+ - To a bank account.
+ - To the Payoneer Mastercard.
 
 To find out the exact fee amount, go to **Fees** in your Payoneer account.
 

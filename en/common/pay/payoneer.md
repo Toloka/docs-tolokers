@@ -2,7 +2,7 @@
 
 {% note alert %}
 
-Starting on December 16, 2022, funds withdrawal to Payoneer is unavailable for users from Russia.
+Funds withdrawal to Payoneer is currently unavailable for users from Russia.
 
 {% endnote %}
 
@@ -23,14 +23,12 @@ It allows users to:
 
 {% include [popup-info-payoneer-conditions](../_includes/pay/popup-info/id-popup-info/payoneer-conditions.md) %}
 
-{% endif %}
+{% elsif platform == "web" or "android" %}
 
 #|
 || Area of operation |
 
 {% cut "Almost everywhere" %}
-
-Works with restrictions in Russia.
 
 Available in more than 200 countries. For more information, contact the [Payoneer Support Center]({{ payoneer-support }}).
 
@@ -53,21 +51,16 @@ Learn more on the [Payoneer website]({{ payoneer-fees }}).
 
 ||
 || Minimum withdrawal amount from Toloka | $20 ||
-|| Where to transfer money next | - To a bank account.
-
-- To the Payoneer Mastercard.
-
-    {% note alert %}
-
-    There may be problems with money transfers to Visa and Mastercard cards issued by Russian banks right now.
-
-    {% endnote %}
-
+|| Where to transfer money next |
+ - To a bank account.
+ - To the Payoneer Mastercard.
 
 To find out the exact fee amount, go to **Fees** in your Payoneer account.
 
 The minimum withdrawal amount may differ from the one when withdrawing from Toloka. It might be higher (for example, $50). ||
 |#
+
+{% endif %}
 
 ## How to connect Payoneer {#how-to-use}
 
