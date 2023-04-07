@@ -2,10 +2,10 @@ default:
   region: ru
   locale: ru-com
   platform: web
-  toloka: 'http://toloka.yandex.ru/'
+  toloka: 'https://toloka.ai/tolokers/ru/'
   yoomoney-ref: 'https://yoomoney.ru'
   yoomoney-name: 'ЮMoney'
-  toloka-tasks: 'https://toloka.yandex.ru/tasks'
+  toloka-tasks: 'https://toloka.yandex.com/ru/tasks'
   toloka-achievements: 'https://toloka.yandex.ru/achievements'
   toloka-profile: 'http://toloka.yandex.ru/profile'
   toloka-profile-history: 'https://toloka.yandex.ru/profile/history'
