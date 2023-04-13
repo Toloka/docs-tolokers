@@ -55,6 +55,14 @@ items:
       href: pay/payoneer.md
     - name: QIWI
       href: pay/Qiwi-wallet.md
+  - name: Usefull tips
+    items:
+    - href: usefull-tips/cache.md
+      name: How to clear the cache
+    - href: usefull-tips/screenshot.md
+      name: How to take a screenshot
+    - href: usefull-tips/cookie.md
+      name: How to configure cookie storage
   - name: Troubleshooting
     href: troubleshooting/troubleshooting.md
   - name: Support

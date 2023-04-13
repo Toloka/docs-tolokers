@@ -1,49 +1,133 @@
-# Как очистить кеш
+# Как сделать скриншот
 
-Кеш браузера — это копии страниц, картинок, видеороликов и другого контента, просмотренного с помощью браузера. Он помогает сократить количество запросов к сайтам: если страница, которую вы хотите просмотреть, уже есть в кеше, браузер мгновенно загрузит ее с вашего жесткого диска.
+Скриншот (от англ. screenshot) — это снимок экрана компьютера или мобильного устройства, сделанный с помощью стандартных средств или специальной программы.
 
-Кеш нужно периодически чистить, чтобы освободить память на жестком диске или если страницы отображаются некорректно, например в старом дизайне.
+{% cut "Windows 7-11" %}
 
-Выберите тип устройства, операционную систему или браузер:
+#### Сделать скриншот
 
-{% cut "На компьютере" %}
+{% list tabs %}
 
-  - [Microsoft Edge](https://support.microsoft.com/ru-ru/microsoft-edge/просмотр-или-удаление-содержимого-журнала-браузера-в-microsoft-edge-00cf7943-a9e1-975a-a33d-ac10ce454ca4)
-  - [Google Chrome](https://support.google.com/chrome/answer/2392709?hl=ru&co=GENIE.Platform=Desktop)
-  - [Mozilla Firefox](https://support.mozilla.org/ru/kb/kak-udalit-kesh-firefox?redirectslug=kak-ochistit-kesh-firefox&redirectlocale=ru)
-  - [Opera](https://help.opera.com/ru/latest/security-and-privacy/#clearPrivateData)
-  - [Safari](https://yandex.ru/support/common/browsers-settings/cache.html)
-  - [Яндекс Браузер](https://yandex.ru/support/browser/personal-data-protection/cache-memory.html#clearing-cache)
+- Компьютер
+
+  Нажмите на клавиатуре кнопку **Print Screen** (иногда она называется **PrntScrn**, **PrtScn**, **PrtScr** или **PrtSc**) — в буфер обмена скопируется снимок всего экрана.
+  
+  ![](../assets/usefull-tips/screenshot/windows/klava10.png)
+  
+  Чтобы сделать скриншот только активного окна, удерживайте сочетание клавиш **Alt + PrtScn**.
+
+- Ноутбук
+
+  Нажмите сочетание клавиш **Fn + PrtScn**. Выберите нужную область. Снимок будет скопирован в буфер обмена.
+  
+  ![](../assets/usefull-tips/screenshot/windows/klava11.png)
+  
+  Чтобы сделать скриншот только активного окна, удерживайте сочетание клавиш **Fn + Alt + PrtScn**.
+
+{% endlist %}
+
+{% note info %}
+
+В Windows 8.1 и выше используйте сочетание клавиш **Win + PrtScn**, чтобы быстро снять скриншот всего экрана и автоматически сохранить его в папке _Пользователи\(Имя)\Изображения\Снимки экрана_.
+
+{% endnote %}
+
+#### Программа Paint в Windows
+
+1. Откройте Paint: **Пуск → Программы → Стандартные → Paint**.
+2. Нажмите сочетание клавиш **Ctrl + V** или в верхнем меню программы нажмите кнопку **Вставить** (для Windows 7 и выше).
+![](../assets/usefull-tips/screenshot/windows/scissors-paste.png)
+При необходимости добавьте текст или выделите элементы изображения.
+3. Нажмите **Файл → Сохранить как** или кнопку ![](../assets/usefull-tips/screenshot/windows/save-button.png).
+![](../assets/usefull-tips/screenshot/windows/scissors-save3.png)
+
+{% note info %}
+
+Сохраняйте графические файлы в формате JPG или PNG: тогда размер файла будет оптимальным для отправки по почте. В Paint нажмите **Файл → Сохранить как** и в поле **Тип файла** выберите формат.
+
+{% endnote %}
+
+#### Программа «Ножницы» в Windows
+
+«Ножницы» позволяют сделать скриншот части рабочего стола или всего экрана.
+
+{% list tabs %}
+
+- Windows 8-11
+
+  1. Наберите слово `ножницы` в поисковой строке и нажмите на название программы.
+  ![](../assets/usefull-tips/screenshot/windows/scissors-w11.png)
+  2. Выберите режим: прямоугольная или произвольная форма, нажмите кнопку **Создать** и сделайте снимок отдельного окна или всего экрана.
+  ![](../assets/usefull-tips/screenshot/windows/scissors-form-w11.png)
+  3. В окне редактирования изображения вы можете сделать подпись **Ручкой** или выделить текст **Маркером**.
+  ![](../assets/usefull-tips/screenshot/windows/scissors-mark-w11.png)
+  4. Нажмите кнопку **Сохранить как** ![](../assets/usefull-tips/screenshot/windows/save-button-w11.png).
+
+- Windows 7
+
+  1. Найдите программу в меню **Пуск → Все программы → Стандартные** или наберите слово `ножницы` в поисковой строке и нажмите на название программы.
+  ![](../assets/usefull-tips/screenshot/windows/scissors.png)
+  2. Нажмите кнопку **Создать** и выберите область: прямоугольную или произвольную форму, сделайте снимок отдельного окна или всего экрана.
+  ![](../assets/usefull-tips/screenshot/windows/scissors-form.png)
+  3. В окне редактирования изображения вы можете сделать подпись **Пером** или выделить текст **Маркером**.
+  ![](../assets/usefull-tips/screenshot/windows/scissors-mark.png)
+  4. Нажмите кнопку **Сохранить как** ![](../assets/usefull-tips/screenshot/windows/save-button.png).
+
+{% endlist %}
 
 {% endcut %}
 
-{% cut "На мобильном устройстве" %}
+{% cut "macOS" %}
 
-	{% cut "Android"%}
-	  - [Google Chrome](https://support.google.com/chrome/answer/2392709?hl=ru&co=GENIE.Platform=Android)
-	  - [Mozilla Firefox](https://support.mozilla.org/ru/kb/udalenie-istorii-prosmotra-i-drugih-personalnyh-da?redirectslug=kak-ochistit-istoriyu-poseshenij-firefox-dlya-andr&redirectlocale=ru)
-	  - [Яндекс Браузер](https://yandex.ru/support/browser-mobile-android-phone/privacy/cash.html#clear)
-	  - {% cut "Opera Mini" %}
-
-	      1. На панели браузера внизу экрана нажмите.
-		  2. Выберите пункт **Очистить историю посещений...**.
-		  3. Отметьте нужные параметры и нажмите кнопку **ОК**.
-	    {% endcut %}
-	  См. также [Как освободить место на Android.](https://support.google.com/android/answer/7431795?hl=ru)
-
-	{% endcut %}
-
-	{% cut "iOS"%}
-	  - [Safari](https://support.apple.com/ru-ru/HT201265)
-	  - [Яндекс Браузер](https://yandex.ru/support/browser-mobile-iphone/privacy/cash.html)
-	  - {% cut "Opera Mini" %}
-
-	      1. На панели браузера внизу экрана нажмите значок  (iPhone) либо вверху нажмите  (iPad).
-		  2. Выберите пункт **Настройки** → **Очистить историю посещений**.
-		  3. Отметьте пункт **Кешированные изображения и файлы**.
-		  4. Справа вверху нажмите **Очистить**.
-	    {% endcut %}
-
-	{% endcut %}
+#|
+|| Сделать скриншот экрана компьютера | ![](../assets/usefull-tips/screenshot/macos/looped-square.png) **Cmd + Shift + 3** ||
+|| Сделать скриншот выделенной области | ![](../assets/usefull-tips/screenshot/macos/looped-square.png) **Cmd + Shift + 4** и выделите курсором нужную область экрана ||
+|| Сделать скриншот активного окна | ![](../assets/usefull-tips/screenshot/macos/looped-square.png) **Cmd + Shift + 3**, а затем нажмите **Пробел** ||
+|| Скопировать скриншот в буфер обмена | ![](../assets/usefull-tips/screenshot/macos/looped-square.png) **Cmd + Shift + 3 + Ctrl** ||
+|#
 
 {% endcut %}
+
+{% cut "Android" %}
+
+Чтобы снять скриншот, нажмите и удерживайте пару секунд кнопки **Уменьшение громкости** и **Питание**.
+
+![](../assets/usefull-tips/screenshot/android/scn-android.png)
+
+Снимки сохраняются в стандартном приложении **Галерея**.
+
+{% note info %}
+
+На некоторых моделях смартфонов (например, Samsung Galaxy S7, HTC с кнопкой **Домой**) понадобится нажать и удерживать кнопки **Питание** и **Домой**.
+
+{% endnote %}
+
+{% endcut %}
+
+{% cut "iOS" %}
+
+{% cut "iPad, iPhone SE–8" %}
+
+Нажмите и удерживайте несколько секунд кнопки **Включение/Выключение** и **Домой**.
+
+![](../assets/usefull-tips/screenshot/ios/scn-iphone-7.png)
+
+{% endcut %}
+
+{% cut "iPhone X–13" %}
+
+Нажмите и удерживайте несколько секунд кнопки **Включение/Выключение** и **Повышение громкости**.
+
+![](../assets/usefull-tips/screenshot/ios/scn-ios.png)
+
+{% endcut %}
+
+Снимки сохраняются в стандартном приложении **Фото**.
+
+{% endcut %}
+
+В [Яндекс Диске](https://yandex.ru/support/disk-desktop-windows/screenshots.html) (Windows, macOS)
+
+В [Яндекс Браузере](https://yandex.ru/support/browser/working-with-files/screenshots.html)
+
+[![](../assets/buttons/contact-support.svg)](../troubleshooting/troubleshooting.md#not_working_properly)
