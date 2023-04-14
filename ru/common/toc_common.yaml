@@ -73,7 +73,7 @@ items:
       name: После обработки анкеты
     - href: self-employed/pay-taxes.md
       name: Оплата налогов
-  - name: Полезные советы
+  - name: Советы и рекомендации
     items:
     - href: usefull-tips/cache.md
       name: Как очистить кеш

@@ -55,7 +55,7 @@ items:
       href: pay/payoneer.md
     - name: QIWI
       href: pay/Qiwi-wallet.md
-  - name: Usefull tips
+  - name: Tips and recommendations
     items:
     - href: usefull-tips/cache.md
       name: How to clear the cache
