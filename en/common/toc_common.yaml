@@ -35,13 +35,13 @@ items:
   - name: Goals
     href: goals.md
     when: platform == "android" or platform == "ios"
-  - name: Rewards for friends
+  - name: Bonuses for friends
     items:
     - name: How to invite people
       href: referal.md
-    - name: Current reward rules
+    - name: Current bonus rules
       href: referal-rules.md
-    - name: Previous reward rules
+    - name: Previous bonus rules
       href: referal-archive.md
   - name: Withdrawing money
     items:

@@ -1,10 +1,10 @@
-# Previous reward rules
+# Previous bonus rules
 
 {% cut "Rules effective as of 3:00 on September 3, 2019 to 2:59 on April 22 (Moscow time (UTC+3))" %}
 
-#### Calculating the friend referral reward
+#### Calculating the friend referral bonus
 
-The reward is:
+The bonus is:
 - 20% of the price of field tasks completed by the friend and accepted by the requester within a month after registration, in these cities:
 
    {% cut "List of cities" %}
@@ -47,24 +47,24 @@ The reward is:
 
    {% cut "Altai Territory" %}
 
-   Barnaul  
-   Belokurikha  
-   Kamen-na-Obi  
+   Barnaul
+   Belokurikha
+   Kamen-na-Obi
    Novoaltaysk
 
    {% endcut %}
 
    {% cut "Amur Region" %}
 
-   Belogorsk  
-   Svobodny  
+   Belogorsk
+   Svobodny
    Tynda
 
    {% endcut %}
 
    {% cut "Arkhangelsk Region" %}
 
-   Arkhangelsk  
+   Arkhangelsk
    Velsk
 
    {% endcut %}
@@ -77,40 +77,40 @@ The reward is:
 
    {% cut "Belgorod Region" %}
 
-   Alekseyevka  
-   Belgorod  
+   Alekseyevka
+   Belgorod
    Valuyki
 
    {% endcut %}
 
    {% cut "Bryansk Region" %}
 
-   Bryansk  
-   Klintsy  
+   Bryansk
+   Klintsy
    Novozybkov
 
    {% endcut %}
 
    {% cut "Vladimir Region" %}
 
-   Aleksandrov  
-   Vyazniki  
-   Gus-Khrustalny  
+   Aleksandrov
+   Vyazniki
+   Gus-Khrustalny
    Suzdal
 
    {% endcut %}
 
    {% cut "Volgograd Region" %}
 
-   Mikhaylovka  
+   Mikhaylovka
    Uryupinsk
 
    {% endcut %}
 
    {% cut "Voronezh Region" %}
 
-   Borisoglebsk  
-   Liski  
+   Borisoglebsk
+   Liski
    Rossosh
 
    {% endcut %}
@@ -123,12 +123,12 @@ The reward is:
 
    {% cut "Irkutsk Region" %}
 
-   Irkutsk  
-   Taishet  
-   Tulun  
-   Usolye-Sibirskoye  
-   Ust-Kut  
-   Cheremkhovo  
+   Irkutsk
+   Taishet
+   Tulun
+   Usolye-Sibirskoye
+   Ust-Kut
+   Cheremkhovo
    Shelekhov
 
    {% endcut %}
@@ -159,7 +159,7 @@ The reward is:
 
    {% cut "Kemerovo Region (Kuzbass)" %}
 
-   Anzhero-Sudzhensk  
+   Anzhero-Sudzhensk
    Novokuznetsk
 
    {% endcut %}
@@ -172,27 +172,27 @@ The reward is:
 
    {% cut "Krasnodar Krai" %}
 
-   Abinsk  
-   Goryachy Klyuch  
-   Yeysk  
-   Korenovsk  
-   Kropotkin  
-   Krymsk  
-   Labinsk  
-   Novokubansk  
-   Novorossiysk  
-   Primorsko-Akhtarsk  
-   Slavyansk-na-Kuban  
-   Sochi  
-   Temryuk  
-   Tikhoretsk  
+   Abinsk
+   Goryachy Klyuch
+   Yeysk
+   Korenovsk
+   Kropotkin
+   Krymsk
+   Labinsk
+   Novokubansk
+   Novorossiysk
+   Primorsko-Akhtarsk
+   Slavyansk-na-Kuban
+   Sochi
+   Temryuk
+   Tikhoretsk
    Tuapse
 
    {% endcut %}
 
    {% cut "Krasnoyarsk Region" %}
 
-   Kansk  
+   Kansk
    Norilsk
 
    {% endcut %}
@@ -217,26 +217,26 @@ The reward is:
 
    {% cut "Moscow and Moscow Region" %}
 
-   Aprelevka  
-   Bronnitsy  
-   Volokolamsk  
-   Voskresensk  
-   Dmitrov  
-   Dubna  
-   Yegoryevsk  
-   Zvenigorod  
-   Kashira  
-   Lukhovitsy  
-   Mozhaysk  
-   Naro-Fominsk  
+   Aprelevka
+   Bronnitsy
+   Volokolamsk
+   Voskresensk
+   Dmitrov
+   Dubna
+   Yegoryevsk
+   Zvenigorod
+   Kashira
+   Lukhovitsy
+   Mozhaysk
+   Naro-Fominsk
    Chekhov
 
    {% endcut %}
 
    {% cut "Murmansk Region" %}
 
-   Apatity  
-   Kandalaksha  
+   Apatity
+   Kandalaksha
    Monchegorsk
 
    {% endcut %}
@@ -249,25 +249,25 @@ The reward is:
 
    {% cut "Nizhny Novgorod Region" %}
 
-   Bogorodsk  
+   Bogorodsk
    Pavlovo
 
    {% endcut %}
 
    {% cut "Novgorod Region" %}
 
-   Borovichi  
-   Pestovo  
-   Staraya Russa  
+   Borovichi
+   Pestovo
+   Staraya Russa
    Iskitim
 
    {% endcut %}
 
    {% cut "Orenburg Region" %}
 
-   Buguruslan  
-   Buzuluk  
-   Orenburg  
+   Buguruslan
+   Buzuluk
+   Orenburg
    Sol-Iletsk
 
    {% endcut %}
@@ -280,19 +280,19 @@ The reward is:
 
    {% cut "Perm Region" %}
 
-   Kudymkar  
-   Kungur  
-   Solikamsk  
-   Tchaikovsky  
-   Chernushka  
+   Kudymkar
+   Kungur
+   Solikamsk
+   Tchaikovsky
+   Chernushka
    Chusovoy
 
    {% endcut %}
 
    {% cut "Primorsky Krai" %}
 
-   Arsenyev  
-   Vladivostok  
+   Arsenyev
+   Vladivostok
    Spassk-Dalniy
 
    {% endcut %}
@@ -305,9 +305,9 @@ The reward is:
 
    {% cut "Republic of Bashkortostan" %}
 
-   Birsk  
-   Ishimbay  
-   Kumertau  
+   Birsk
+   Ishimbay
+   Kumertau
    Sibay
 
    {% endcut %}
@@ -320,10 +320,10 @@ The reward is:
 
    {% cut "Republic of Dagestan" %}
 
-   Buynaksk  
-   Dagestanskiye Ogni  
-   Izberbash  
-   Kizlyar  
+   Buynaksk
+   Dagestanskiye Ogni
+   Izberbash
+   Kizlyar
    Makhachkala
 
    {% endcut %}
@@ -348,10 +348,10 @@ The reward is:
 
    {% cut "Republic of Crimea" %}
 
-   Alushta  
-   Sevastopol  
-   Sudak  
-   Feodosia  
+   Alushta
+   Sevastopol
+   Sudak
+   Feodosia
    Yalta
 
    {% endcut %}
@@ -370,36 +370,36 @@ The reward is:
 
    {% cut "Republic of Sakha (Yakutia)" %}
 
-   Aldan  
+   Aldan
    Neryungri
 
    {% endcut %}
 
    {% cut "Republic of Tatarstan" %}
 
-   Aznakayevo  
-   Buinsk  
-   Naberezhnye Chelny  
-   Nurlat  
+   Aznakayevo
+   Buinsk
+   Naberezhnye Chelny
+   Nurlat
    Chistopol
 
    {% endcut %}
 
    {% cut "Rostov Region" %}
 
-   Azov  
-   Aksay  
-   Belaya Kalitva  
-   Gukovo  
-   Kamensk-Shakhtinsky  
-   Krasny Sulin  
+   Azov
+   Aksay
+   Belaya Kalitva
+   Gukovo
+   Kamensk-Shakhtinsky
+   Krasny Sulin
    Salsk
 
    {% endcut %}
 
    {% cut "Ryazan Region" %}
 
-   Kasimov  
+   Kasimov
    Ryazan
 
    {% endcut %}
@@ -412,55 +412,55 @@ The reward is:
 
    {% cut "Saint Petersburg and Leningrad Region" %}
 
-   Kirishi  
-   Krasnoye Selo  
-   Lomonosov  
-   Luga  
-   Peterhof  
-   Sestroretsk  
+   Kirishi
+   Krasnoye Selo
+   Lomonosov
+   Luga
+   Peterhof
+   Sestroretsk
    Tikhvin
 
    {% endcut %}
 
    {% cut "Saratov Region" %}
 
-   Balashov  
+   Balashov
    Volsk
 
    {% endcut %}
 
    {% cut "Sakhalin Region" %}
 
-   Korsakov  
+   Korsakov
    Kholmsk
 
    {% endcut %}
 
    {% cut "Sverdlovsk Region" %}
 
-   Aramil  
-   Irbit  
-   Kamyshlov  
-   Krasnoufimsk  
-   Rezh  
+   Aramil
+   Irbit
+   Kamyshlov
+   Krasnoufimsk
+   Rezh
    Tavda
 
    {% endcut %}
 
    {% cut "Smolensk Region" %}
 
-   Safonovo  
+   Safonovo
    Smolensk
 
    {% endcut %}
 
    {% cut "Stavropol Territory" %}
 
-   Budyonnovsk  
-   Georgiyevsk  
-   Izobilny  
-   Mineralnye Vody  
-   Mikhailovsk  
+   Budyonnovsk
+   Georgiyevsk
+   Izobilny
+   Mineralnye Vody
+   Mikhailovsk
    Pyatigorsk
 
    {% endcut %}
@@ -473,8 +473,8 @@ The reward is:
 
    {% cut "Tver Region" %}
 
-   Vyshniy Volochyok  
-   Kimry  
+   Vyshniy Volochyok
+   Kimry
    Torzhok
 
    {% endcut %}
@@ -487,24 +487,24 @@ The reward is:
 
    {% cut "Tula Region" %}
 
-   Donskoy  
-   Kireyevsk  
-   Tula  
+   Donskoy
+   Kireyevsk
+   Tula
    Shchekino
 
    {% endcut %}
 
    {% cut "Tyumen Region" %}
 
-   Zavodoukovsk  
-   Ishim  
+   Zavodoukovsk
+   Ishim
    Tyumen
 
    {% endcut %}
 
    {% cut "Udmurt Republic" %}
 
-   Izhevsk  
+   Izhevsk
    Mozhga
 
    {% endcut %}
@@ -523,26 +523,26 @@ The reward is:
 
    {% cut "Khanty-Mansi Autonomous Area" %}
 
-   Kogalym  
-   Megion  
-   Nyagan  
-   Pyt-Yakh  
+   Kogalym
+   Megion
+   Nyagan
+   Pyt-Yakh
    Surgut
 
    {% endcut %}
 
    {% cut "Chelyabinsk Region" %}
 
-   Kyshtym  
-   Magnitogorsk  
+   Kyshtym
+   Magnitogorsk
    Satka
 
    {% endcut %}
 
    {% cut "Chechen Republic" %}
 
-   Argun  
-   Gudermes  
+   Argun
+   Gudermes
    Urus-Martan
 
    {% endcut %}
@@ -555,17 +555,17 @@ The reward is:
 
    {% cut "Yamalo-Nenets Autonomous Area" %}
 
-   Labytnangi  
-   Muravlenko  
-   Novy Urengoy  
+   Labytnangi
+   Muravlenko
+   Novy Urengoy
    Salekhard
 
    {% endcut %}
 
    {% cut "Yaroslavl Region" %}
 
-   Pereslavl-Zalessky  
-   Rostov  
+   Pereslavl-Zalessky
+   Rostov
    Uglich
 
    {% endcut %}
@@ -594,7 +594,7 @@ The reward is:
 
    {% cut "Kashkadarya Region" %}
 
-   Karshi  
+   Karshi
    Shakhrisabz
 
    {% endcut %}
@@ -625,16 +625,16 @@ The reward is:
 
    {% cut "Tashkent Region" %}
 
-   Almalyk  
-   Angren  
+   Almalyk
+   Angren
    Bekabad
 
    {% endcut %}
 
    {% cut "Fergana Region" %}
 
-   Kokand  
-   Margilan  
+   Kokand
+   Margilan
    Fergana
 
    {% endcut %}
@@ -651,34 +651,34 @@ The reward is:
 
 
 - 5% of the price of other tasks completed by the friend and accepted by the requester within a month after registration:
-- 5% of the reward amount received by the friend within a month after registration, excluding the friend referral reward.
-- For tasks in Vietnamese: $5 for a friend who completed tasks for a total of at least $5. A task is considered completed if the requester accepts it. The reward is paid once for each friend of this type.
-   Rewards for all friends are combined.
+- 5% of the bonus amount received by the friend within a month after registration, excluding the friend referral bonus.
+- For tasks in Vietnamese: $5 for a friend who completed tasks for a total of at least $5. A task is considered completed if the requester accepts it. The bonus is paid once for each friend of this type.
+   Bonuses for all friends are combined.
 
 {% note alert %}
 
-We do not provide details of the reward calculation.
+We do not provide details of the bonus calculation.
 
 {% endnote %}
 
-If you are banned for violating the [User Agreement]({{ user-agreement }}), the reward is not given.
+If you are banned for violating the [User Agreement]({{ user-agreement }}), the bonus is not given.
 
-A month after a friend registers, their completed tasks are excluded from the reward calculation.
+A month after a friend registers, their completed tasks are excluded from the bonus calculation.
 
-#### Awarding the friend referral reward
+#### Awarding the friend referral bonus
 
-The reward amount is credited to your [Toloka]({{ toloka }}) account no more than once a day for tasks completed by friends and accepted by the requester during the previous day.
+The bonus amount is credited to your [Toloka]({{ toloka }}) account no more than once a day for tasks completed by friends and accepted by the requester during the previous day.
 
-The reward is given with accuracy up to $0.01.
+The bonus is given with accuracy up to $0.01.
 
 
 {% endcut %}
 
 {% cut "Rules valid from 3:00 on December 27, 2018 to 2:59 on September 3, 2019 (UTC+3, Moscow time)" %}
 
-#### Calculating the friend referral reward
+#### Calculating the friend referral bonus
 
-The reward is:
+The bonus is:
 - 20% of the price of field tasks completed by the friend and accepted by the requester within a month after registration, in these cities:
 
 
@@ -688,103 +688,103 @@ The reward is:
 
    {% cut "Brest Region" %}
 
-   Baranovichi  
-   Beloozersk  
-   Beryoza  
-   Brest  
-   Gantsevichi  
-   Drogichin  
-   Zhabinka  
-   Ivanovo  
-   Ivacevičy  
-   Luniniec  
-   Liachavičy  
-   Mikaševičy  
-   Pinsk  
+   Baranovichi
+   Beloozersk
+   Beryoza
+   Brest
+   Gantsevichi
+   Drogichin
+   Zhabinka
+   Ivanovo
+   Ivacevičy
+   Luniniec
+   Liachavičy
+   Mikaševičy
+   Pinsk
    Pruzhany
 
    {% endcut %}
 
    {% cut "Vitebsk Region" %}
 
-   Baran  
-   Glubokoye  
-   Gorodok  
-   Novalukomĺ  
-   Orsha  
+   Baran
+   Glubokoye
+   Gorodok
+   Novalukomĺ
+   Orsha
    Tolochin
 
    {% endcut %}
 
    {% cut "Gomel Region" %}
 
-   Buda-Kašaliova  
-   Dobruš  
-   Žytkavičy  
-   Žlobin  
-   Kalinkavičy  
-   Mazyr  
-   Pietrykaŭ  
-   Rečyca  
-   Rahačoŭ  
-   Svietlahorsk  
+   Buda-Kašaliova
+   Dobruš
+   Žytkavičy
+   Žlobin
+   Kalinkavičy
+   Mazyr
+   Pietrykaŭ
+   Rečyca
+   Rahačoŭ
+   Svietlahorsk
    Chojniki
 
    {% endcut %}
 
    {% cut "Grodno Region" %}
 
-   Bierazoŭka  
-   Vaŭkavysk  
-   Grodno  
-   Lida  
-   Masty  
-   Navahrudak  
-   Ašmiany  
-   Skidzieĺ  
-   Slonim  
-   Smarhoń  
+   Bierazoŭka
+   Vaŭkavysk
+   Grodno
+   Lida
+   Masty
+   Navahrudak
+   Ašmiany
+   Skidzieĺ
+   Slonim
+   Smarhoń
    Ščučyn
 
    {% endcut %}
 
    {% cut "Minsk Region" %}
 
-   Bierazino  
-   Barysaŭ  
-   Viliejka  
-   Valožyn  
-   Dziaržynsk  
-   Žodzina  
-   Zaslaŭje  
-   Klieck  
-   Kapyĺ  
-   Lahojsk  
-   Liubań  
-   Marjina Horka  
-   Maladziečna  
-   Niasviž  
-   Slutsk  
-   Smaliavičy  
-   Salihorsk  
-   Staryja Darohi  
-   Stowbtsy  
+   Bierazino
+   Barysaŭ
+   Viliejka
+   Valožyn
+   Dziaržynsk
+   Žodzina
+   Zaslaŭje
+   Klieck
+   Kapyĺ
+   Lahojsk
+   Liubań
+   Marjina Horka
+   Maladziečna
+   Niasviž
+   Slutsk
+   Smaliavičy
+   Salihorsk
+   Staryja Darohi
+   Stowbtsy
    Fanipaĺ
 
    {% endcut %}
 
    {% cut "Mogilev Region" %}
 
-   Bialyničy  
-   Babrujsk  
-   Bychaŭ  
-   Horki  
-   Klіmavіčy  
-   Kasciukovičy  
-   Kryčaŭ  
-   Mscislaŭ  
-   Asipovičy  
-   Čavusy  
+   Bialyničy
+   Babrujsk
+   Bychaŭ
+   Horki
+   Klіmavіčy
+   Kasciukovičy
+   Kryčaŭ
+   Mscislaŭ
+   Asipovičy
+   Čavusy
    Škloŭ
 
    {% endcut %}
@@ -795,109 +795,109 @@ The reward is:
 
    {% cut "Akmola Region" %}
 
-   Akkol  
-   Atbasar  
-   Ereymentau  
-   Esil  
-   Kokshetau  
-   Makinsk  
-   Stepnogorsk  
+   Akkol
+   Atbasar
+   Ereymentau
+   Esil
+   Kokshetau
+   Makinsk
+   Stepnogorsk
    Schuchinsk
 
    {% endcut %}
 
    {% cut "Aktyubinsk Region" %}
 
-   Alga  
-   Kandyagash  
-   Khromtau  
-   Shalkar  
+   Alga
+   Kandyagash
+   Khromtau
+   Shalkar
    Emba
 
    {% endcut %}
 
    {% cut "Almatinskaya Region" %}
 
-   Yesik  
-   Zharkent  
-   Kapshagai  
-   Kaskelen  
-   Sarkand  
-   Talgar  
-   Taldykorgan  
-   Tekeli  
-   Usharal  
+   Yesik
+   Zharkent
+   Kapshagai
+   Kaskelen
+   Sarkand
+   Talgar
+   Taldykorgan
+   Tekeli
+   Usharal
    Ushtobe
 
    {% endcut %}
 
    {% cut "Atyrau Region" %}
 
-   Atyrau  
+   Atyrau
    Kulsary
 
    {% endcut %}
 
    {% cut "East Kazakhstan Region" %}
 
-   Ayagoz  
-   Zaysan  
-   Altay  
-   Kurchatov  
-   Ridder  
-   Semey  
-   Oskemen  
+   Ayagoz
+   Zaysan
+   Altay
+   Kurchatov
+   Ridder
+   Semey
+   Oskemen
    Shemonaikha
 
    {% endcut %}
 
    {% cut "Jambyl Region" %}
 
-   Zhanatas  
-   Karatau  
+   Zhanatas
+   Karatau
    Shu
 
    {% endcut %}
 
    {% cut "West Kazakhstan Region" %}
 
-   Aksay  
+   Aksay
    Uralsk
 
    {% endcut %}
 
    {% cut "Karaganda Region" %}
 
-   Abay  
-   Balkhash  
-   Jezkazgan  
-   Priozyorsk  
-   Saran  
-   Satbayev  
-   Temirtau  
+   Abay
+   Balkhash
+   Jezkazgan
+   Priozyorsk
+   Saran
+   Satbayev
+   Temirtau
    Shakhtinsk
 
    {% endcut %}
 
    {% cut "Kostanay Region" %}
 
-   Arkalyk  
-   Zhitikara  
-   Kostanay  
-   Lisakovsk  
-   Rudny  
-   Arkalyk  
-   Zhitikara  
-   Kostanay  
-   Lisakovsk  
+   Arkalyk
+   Zhitikara
+   Kostanay
+   Lisakovsk
+   Rudny
+   Arkalyk
+   Zhitikara
+   Kostanay
+   Lisakovsk
    Rudny
 
    {% endcut %}
 
    {% cut "Kyzylorda Region" %}
 
-   Aralsk  
-   Baikonur  
+   Aralsk
+   Baikonur
    Kyzylorda
 
    {% endcut %}
@@ -916,11 +916,11 @@ The reward is:
 
    {% cut "South Kazakhstan Region" %}
 
-   Arys  
-   Zhetisay  
-   Kentau  
-   Saryagash  
-   Turkestan  
+   Arys
+   Zhetisay
+   Kentau
+   Saryagash
+   Turkestan
    Shardara
 
    {% endcut %}
@@ -932,7 +932,7 @@ The reward is:
 
    {% cut "Republic of Adygea" %}
 
-   Adygeysk  
+   Adygeysk
    Maykop
 
    {% endcut %}
@@ -945,204 +945,204 @@ The reward is:
 
    {% cut "Altai Territory" %}
 
-   Aleysk  
-   Belokurikha  
-   Biysk  
-   Gornyak  
-   Zarinsk  
-   Zmeinogorsk  
-   Kamen-na-Obi  
-   Novoaltaysk  
-   Rubtsovsk  
-   Slavgorod  
+   Aleysk
+   Belokurikha
+   Biysk
+   Gornyak
+   Zarinsk
+   Zmeinogorsk
+   Kamen-na-Obi
+   Novoaltaysk
+   Rubtsovsk
+   Slavgorod
    Yarovoye
 
    {% endcut %}
 
    {% cut "Amur Region" %}
 
-   Belogorsk  
-   Blagoveschensk  
-   Zavitinsk  
-   Zeya  
-   Raychikhinsk  
-   Svobodny  
-   Tynda  
+   Belogorsk
+   Blagoveschensk
+   Zavitinsk
+   Zeya
+   Raychikhinsk
+   Svobodny
+   Tynda
    Shimanovsk
 
    {% endcut %}
 
    {% cut "Arkhangelsk Region" %}
 
-   Velsk  
-   Kargopol  
-   Koryazhma  
-   Kotlas  
-   Novodvinsk  
-   Nyandoma  
-   Onega  
+   Velsk
+   Kargopol
+   Koryazhma
+   Kotlas
+   Novodvinsk
+   Nyandoma
+   Onega
    Severodvinsk
 
    {% endcut %}
 
    {% cut "Astrakhan Region" %}
 
-   Akhtubinsk  
-   Znamensk  
-   Kamyzyak  
-   Narimanov  
+   Akhtubinsk
+   Znamensk
+   Kamyzyak
+   Narimanov
    Kharabali
 
    {% endcut %}
 
    {% cut "Republic of Bashkortostan" %}
 
-   Agidel  
-   Baymak  
-   Belebey  
-   Beloretsk  
-   Birsk  
-   Davlekanovo  
-   Dyurtyuli  
-   Ishimbay  
-   Kumertau  
-   Mezhgorye  
-   Meleuz  
-   Neftekamsk  
-   Oktyabrsky  
-   Salavat  
-   Sibay  
-   Sterlitamak  
-   Tuymazy  
-   Uchaly  
+   Agidel
+   Baymak
+   Belebey
+   Beloretsk
+   Birsk
+   Davlekanovo
+   Dyurtyuli
+   Ishimbay
+   Kumertau
+   Mezhgorye
+   Meleuz
+   Neftekamsk
+   Oktyabrsky
+   Salavat
+   Sibay
+   Sterlitamak
+   Tuymazy
+   Uchaly
    Yanaul
 
    {% endcut %}
 
    {% cut "Belgorod Region" %}
 
-   Alekseyevka  
-   Valuyki  
-   Gubkin  
-   Novy Oskol  
-   Stary Oskol  
-   Stroitel  
+   Alekseyevka
+   Valuyki
+   Gubkin
+   Novy Oskol
+   Stary Oskol
+   Stroitel
    Shebekino
 
    {% endcut %}
 
    {% cut "Bryansk Region" %}
 
-   Dyatkovo  
-   Zhukovka  
-   Karachev  
-   Klintsy  
-   Novozybkov  
-   Pochep  
-   Seltso  
-   Starodub  
-   Surazh  
-   Trubchevsk  
+   Dyatkovo
+   Zhukovka
+   Karachev
+   Klintsy
+   Novozybkov
+   Pochep
+   Seltso
+   Starodub
+   Surazh
+   Trubchevsk
    Unecha
 
    {% endcut %}
 
    {% cut "Republic of Buryatia" %}
 
-   Gusinoozyorsk  
-   Zakamensk  
-   Kyakhta  
+   Gusinoozyorsk
+   Zakamensk
+   Kyakhta
    Severobaykalsk
 
    {% endcut %}
 
    {% cut "Vladimir Region" %}
 
-   Aleksandrov  
-   Vyazniki  
-   Gorokhovets  
-   Gus-Khrustalny  
-   Kameshkovo  
-   Karabanovo  
-   Kirzhach  
-   Kovrov  
-   Kolchugino  
-   Lakinsk  
-   Melenki  
-   Murom  
-   Petushki  
-   Pokrov  
-   Sobinka  
-   Strunino  
-   Sudogda  
-   Suzdal  
+   Aleksandrov
+   Vyazniki
+   Gorokhovets
+   Gus-Khrustalny
+   Kameshkovo
+   Karabanovo
+   Kirzhach
+   Kovrov
+   Kolchugino
+   Lakinsk
+   Melenki
+   Murom
+   Petushki
+   Pokrov
+   Sobinka
+   Strunino
+   Sudogda
+   Suzdal
    Yuryev-Polskiy
 
    {% endcut %}
 
    {% cut "Volgograd Region" %}
 
-   Volzhsky  
-   Dubovka  
-   Zhirnovsk  
-   Kalach-na-Don  
-   Kamyshin  
-   Kotelnikovo  
-   Kotovo  
-   Krasnoslobodsk  
-   Leninsk  
-   Mikhaylovka  
-   Nikolyevsk  
-   Novoanninsky  
-   Pallasovka  
-   Petrov Val  
-   Surovikino  
-   Uryupinsk  
+   Volzhsky
+   Dubovka
+   Zhirnovsk
+   Kalach-na-Don
+   Kamyshin
+   Kotelnikovo
+   Kotovo
+   Krasnoslobodsk
+   Leninsk
+   Mikhaylovka
+   Nikolyevsk
+   Novoanninsky
+   Pallasovka
+   Petrov Val
+   Surovikino
+   Uryupinsk
    Frolovo
 
    {% endcut %}
 
    {% cut "Vologda Region" %}
 
-   Babayevo  
-   Velikiy Ustyug  
-   Vologda  
-   Vytegra  
-   Gryazovets  
-   Sokol  
-   Kharovsk  
+   Babayevo
+   Velikiy Ustyug
+   Vologda
+   Vytegra
+   Gryazovets
+   Sokol
+   Kharovsk
    Cherepovets
 
    {% endcut %}
 
    {% cut "Voronezh Region" %}
 
-   Bobrov  
-   Boguchar  
-   Borisoglebsk  
-   Buturlinovka  
-   Kalach  
-   Liski  
-   Novovoronezh  
-   Ostrogozhsk  
-   Pavlovsk  
-   Povorino  
-   Rossosh  
-   Semiluki  
+   Bobrov
+   Boguchar
+   Borisoglebsk
+   Buturlinovka
+   Kalach
+   Liski
+   Novovoronezh
+   Ostrogozhsk
+   Pavlovsk
+   Povorino
+   Rossosh
+   Semiluki
    Ertil
 
    {% endcut %}
 
    {% cut "Republic of Dagestan" %}
 
-   Buynaksk  
-   Dagestanskiye Ogni  
-   Derbent  
-   Izberbash  
-   Kaspiysk  
-   Kizilyurt  
-   Kizlyar  
-   Khasavyurt  
+   Buynaksk
+   Dagestanskiye Ogni
+   Derbent
+   Izberbash
+   Kaspiysk
+   Kizilyurt
+   Kizlyar
+   Khasavyurt
    Yuzhno-Sukhokumsk
 
    {% endcut %}
@@ -1155,318 +1155,318 @@ The reward is:
 
    {% cut "Trans-Baikal Territory" %}
 
-   Baley  
-   Borzya  
-   Krasnokamensk  
-   Mogocha  
-   Nerchinsk  
-   Petrovsk-Zabaykalskiy  
-   Khilok  
-   Chita  
+   Baley
+   Borzya
+   Krasnokamensk
+   Mogocha
+   Nerchinsk
+   Petrovsk-Zabaykalskiy
+   Khilok
+   Chita
    Shilka
 
    {% endcut %}
 
    {% cut "Ivanovo Region" %}
 
-   Vichuga  
-   Zavolzhsk  
-   Kineshma  
-   Kokhma  
-   Navoloki  
-   Privolzhsk  
-   Rodniki  
-   Teykovo  
-   Furmanov  
-   Shuya  
-   Yuzha  
+   Vichuga
+   Zavolzhsk
+   Kineshma
+   Kokhma
+   Navoloki
+   Privolzhsk
+   Rodniki
+   Teykovo
+   Furmanov
+   Shuya
+   Yuzha
    Yuryevets
 
    {% endcut %}
 
    {% cut "Republic of Ingushetia" %}
 
-   Karabulak  
-   Malgobek  
-   Nazran  
+   Karabulak
+   Malgobek
+   Nazran
    Sunzha
 
    {% endcut %}
 
    {% cut "Irkutsk Region" %}
 
-   Angarsk  
-   Baykalsk  
-   Bodaybo  
-   Bratsk  
-   Vikhorevka  
-   Zheleznogorsk-Ilimskiy  
-   Zima  
-   Kirensk  
-   Nizhneudinsk  
-   Sayansk  
-   Svirsk  
-   Slyudyanka  
-   Taishet  
-   Tulun  
-   Usolye-Sibirskoye  
-   Ust-Ilimsk  
-   Ust-Kut  
-   Cheremkhovo  
+   Angarsk
+   Baykalsk
+   Bodaybo
+   Bratsk
+   Vikhorevka
+   Zheleznogorsk-Ilimskiy
+   Zima
+   Kirensk
+   Nizhneudinsk
+   Sayansk
+   Svirsk
+   Slyudyanka
+   Taishet
+   Tulun
+   Usolye-Sibirskoye
+   Ust-Ilimsk
+   Ust-Kut
+   Cheremkhovo
    Shelekhov
 
    {% endcut %}
 
    {% cut "Kabardino-Balkarian Republic" %}
 
-   Baksan  
-   Maysky  
-   Nalchik  
-   Nartkala  
-   Prokhladny  
-   Terek  
+   Baksan
+   Maysky
+   Nalchik
+   Nartkala
+   Prokhladny
+   Terek
    Tyrnyauz
 
    {% endcut %}
 
    {% cut "Kaliningrad Region" %}
 
-   Baltiysk  
-   Gvardeysk  
-   Gusev  
-   Zelenogradsk  
-   Neman  
-   Pionersky  
-   Svetlogorsk  
-   Svetly  
-   Sovetsk  
+   Baltiysk
+   Gvardeysk
+   Gusev
+   Zelenogradsk
+   Neman
+   Pionersky
+   Svetlogorsk
+   Svetly
+   Sovetsk
    Chernyakhovsk
 
    {% endcut %}
 
    {% cut "Republic of Kalmykia" %}
 
-   Lagan  
+   Lagan
    Elista
 
    {% endcut %}
 
    {% cut "Kaluga Region" %}
 
-   Balabanovo  
-   Borovsk  
-   Ermolino  
-   Zhukov  
-   Kaluga  
-   Kozelsk  
-   Kondrovo  
-   Kremenki  
-   Lyudinovo  
-   Maloyaroslavets  
-   Obninsk  
-   Sosensky  
+   Balabanovo
+   Borovsk
+   Ermolino
+   Zhukov
+   Kaluga
+   Kozelsk
+   Kondrovo
+   Kremenki
+   Lyudinovo
+   Maloyaroslavets
+   Obninsk
+   Sosensky
    Sukhinichi
 
    {% endcut %}
 
    {% cut "Kamchatka Territory" %}
 
-   Vilyuchinsk  
-   Elizovo  
+   Vilyuchinsk
+   Elizovo
    Petropavlovsk-Kamchatsky
 
    {% endcut %}
 
    {% cut "Karachay-Cherkess Republic" %}
 
-   Karachaevsk  
-   Ust-Dzheguta  
+   Karachaevsk
+   Ust-Dzheguta
    Cherkessk
 
    {% endcut %}
 
    {% cut "Republic of Karelia" %}
 
-   Belomorsk  
-   Kem  
-   Kondopoga  
-   Kostomuksha  
-   Medvezhyegorsk  
-   Petrozavodsk  
-   Pitkyaranta  
-   Segezha  
+   Belomorsk
+   Kem
+   Kondopoga
+   Kostomuksha
+   Medvezhyegorsk
+   Petrozavodsk
+   Pitkyaranta
+   Segezha
    Sortavala
 
    {% endcut %}
 
    {% cut "Kemerovo Region" %}
 
-   Anzhero-Sudzhensk  
-   Belovo  
-   Guryevsk  
-   Kaltan  
-   Kiselyovsk  
-   Leninsk-Kuznetskiy  
-   Mariinsk  
-   Mezhdurechensk  
-   Myski  
-   Osinniki  
-   Polysayevo  
-   Prokopyevsk  
-   Tayga  
-   Tashtagol  
-   Topki  
+   Anzhero-Sudzhensk
+   Belovo
+   Guryevsk
+   Kaltan
+   Kiselyovsk
+   Leninsk-Kuznetskiy
+   Mariinsk
+   Mezhdurechensk
+   Myski
+   Osinniki
+   Polysayevo
+   Prokopyevsk
+   Tayga
+   Tashtagol
+   Topki
    Yurga
 
    {% endcut %}
 
    {% cut "Kirov Region" %}
 
-   Belaya Kholunitsa  
-   Vyatskiye Polyany  
-   Zuevka  
-   Kirovo-Chepetsk  
-   Kirs  
-   Kotelnich  
-   Luza  
-   Nolinsk  
-   Omutninsk  
-   Slobodskoy  
-   Sosnovka  
-   Urzhum  
+   Belaya Kholunitsa
+   Vyatskiye Polyany
+   Zuevka
+   Kirovo-Chepetsk
+   Kirs
+   Kotelnich
+   Luza
+   Nolinsk
+   Omutninsk
+   Slobodskoy
+   Sosnovka
+   Urzhum
    Yaransk
 
    {% endcut %}
 
    {% cut "Komi Republic" %}
 
-   Vorkuta  
-   Vuktyl  
-   Emva  
-   Inta  
-   Mikun  
-   Pechora  
-   Sosnogorsk  
-   Syktyvkar  
-   Usinsk  
+   Vorkuta
+   Vuktyl
+   Emva
+   Inta
+   Mikun
+   Pechora
+   Sosnogorsk
+   Syktyvkar
+   Usinsk
    Ukhta
 
    {% endcut %}
 
    {% cut "Kostroma Region" %}
 
-   Buy  
-   Volgorechensk  
-   Galich  
-   Kostroma  
-   Manturovo  
-   Nerekhta  
-   Neya  
+   Buy
+   Volgorechensk
+   Galich
+   Kostroma
+   Manturovo
+   Nerekhta
+   Neya
    Sharya
 
    {% endcut %}
 
    {% cut "Krasnodar Krai" %}
 
-   Abinsk  
-   Anapa  
-   Apsheronsk  
-   Armavir  
-   Belorechensk  
-   Gelendzhik  
-   Goryachy Klyuch  
-   Gulkevichi  
-   Yeysk  
-   Korenovsk  
-   Krymsk  
-   Kurganinsk  
-   Labinsk  
-   Novokubansk  
-   Novorossiysk  
-   Primorsko-Akhtarsk  
-   Temryuk  
-   Timashevsk  
-   Tikhoretsk  
-   Tuapse  
-   Ust-Labinsk  
+   Abinsk
+   Anapa
+   Apsheronsk
+   Armavir
+   Belorechensk
+   Gelendzhik
+   Goryachy Klyuch
+   Gulkevichi
+   Yeysk
+   Korenovsk
+   Krymsk
+   Kurganinsk
+   Labinsk
+   Novokubansk
+   Novorossiysk
+   Primorsko-Akhtarsk
+   Temryuk
+   Timashevsk
+   Tikhoretsk
+   Tuapse
+   Ust-Labinsk
    Khadyzhensk
 
    {% endcut %}
 
    {% cut "Krasnoyarsk Region" %}
 
-   Achinsk  
-   Bogotol  
-   Borodino  
-   Divnogorsk  
-   Dudinka  
-   Yeniseysk  
-   Zaozyorny  
-   Zelenogorsk  
-   Ilanskiy  
-   Kansk  
-   Kodinsk  
-   Lesosibirsk  
-   Minusinsk  
-   Nazarovo  
-   Norilsk  
-   Sosnovoborsk  
-   Uzhur  
-   Uyar  
+   Achinsk
+   Bogotol
+   Borodino
+   Divnogorsk
+   Dudinka
+   Yeniseysk
+   Zaozyorny
+   Zelenogorsk
+   Ilanskiy
+   Kansk
+   Kodinsk
+   Lesosibirsk
+   Minusinsk
+   Nazarovo
+   Norilsk
+   Sosnovoborsk
+   Uzhur
+   Uyar
    Sharypovo
 
    {% endcut %}
 
    {% cut "Republic of Crimea" %}
 
-   Alushta  
-   Armyansk  
-   Bakhchisarai  
-   Dzhankoy  
-   Eupatoria  
-   Inkerman  
-   Kerch  
-   Krasnoperekopsk  
-   Saki  
-   Simferopol  
-   Sudak  
-   Feodosia  
-   Shchyolkino  
+   Alushta
+   Armyansk
+   Bakhchisarai
+   Dzhankoy
+   Eupatoria
+   Inkerman
+   Kerch
+   Krasnoperekopsk
+   Saki
+   Simferopol
+   Sudak
+   Feodosia
+   Shchyolkino
    Yalta
 
    {% endcut %}
 
    {% cut "Kurgan Region" %}
 
-   Dalmatovo  
-   Kataysk  
-   Kurgan  
-   Kurtamysh  
-   Petukhovo  
-   Shadrinsk  
-   Shumikha  
+   Dalmatovo
+   Kataysk
+   Kurgan
+   Kurtamysh
+   Petukhovo
+   Shadrinsk
+   Shumikha
    Shchuchye
 
    {% endcut %}
 
    {% cut "Kursk Region" %}
 
-   Zheleznogorsk  
-   Kurchatov  
-   Lgov  
-   Oboyan  
-   Rylsk  
+   Zheleznogorsk
+   Kurchatov
+   Lgov
+   Oboyan
+   Rylsk
    Shchigry
 
    {% endcut %}
 
    {% cut "Lipetsk Region" %}
 
-   Gryazi  
-   Dankov  
-   Yelets  
-   Lebedyan  
-   Usman  
+   Gryazi
+   Dankov
+   Yelets
+   Lebedyan
+   Usman
    Chaplygin
 
    {% endcut %}
@@ -1479,117 +1479,117 @@ The reward is:
 
    {% cut "Republic of Mari El" %}
 
-   Volzhsk  
-   Zvenigovo  
-   Yoshkar-Ola  
+   Volzhsk
+   Zvenigovo
+   Yoshkar-Ola
    Kozmodemyansk
 
    {% endcut %}
 
    {% cut "Republic of Mordovia" %}
 
-   Kovylkino  
-   Ruzayevka  
+   Kovylkino
+   Ruzayevka
    Saransk
 
    {% endcut %}
 
    {% cut "Moscow and Moscow Region" %}
 
-   Aprelevka  
-   Bronnitsy  
-   Vidnoye  
-   Volokolamsk  
-   Voskresensk  
-   Vysokovsk  
-   Golitsyno  
-   Dedovsk  
-   Dzerzhinsky  
-   Dmitrov  
-   Dolgoprudny  
-   Domodedovo  
-   Drezna  
-   Dubna  
-   Yegoryevsk  
-   Zheleznodorozhny  
-   Zhukovsky  
-   Zaraysk  
-   Zvenigorod  
-   Zelenograd  
-   Ivanteyevka  
-   Istra  
-   Kashira  
-   Klin  
-   Kolomna  
-   Korolyov  
-   Kotelniki  
-   Krasnoarmeysk  
-   Krasnogorsk  
-   Krasnozavodsk  
-   Krasnoznamensk  
-   Kubinka  
-   Kurovskoye  
-   Likino-Dulyovo  
-   Lobnya  
-   Losino-Petrovsky  
-   Lukhovitsy  
-   Lytkarino  
-   Lyubertsy  
-   Mozhaysk  
-   Moskovsky  
-   Mytischi  
-   Naro-Fominsk  
-   Noginsk  
-   Odintsovo  
-   Ozyory  
-   Orekhovo-Zuyevo  
-   Pavlovsky Posad  
-   Peresvet  
-   Podolsk  
-   Protvino  
-   Pushkino  
-   Puschino  
-   Ramenskoye  
-   Reutov  
-   Roshal  
-   Ruza  
-   Sergiev Posad  
-   Serpukhov  
-   Solnechnogorsk  
-   Staraya Kupavna  
-   Stupino  
-   Taldom  
-   Fryazino  
-   Khimki  
-   Khotkovo  
-   Chernogolovka  
-   Chekhov  
-   Shatura  
-   Schyolkovo  
-   Scherbinka  
-   Elektrogorsk  
-   Elektrostal  
-   Elektrougli  
+   Aprelevka
+   Bronnitsy
+   Vidnoye
+   Volokolamsk
+   Voskresensk
+   Vysokovsk
+   Golitsyno
+   Dedovsk
+   Dzerzhinsky
+   Dmitrov
+   Dolgoprudny
+   Domodedovo
+   Drezna
+   Dubna
+   Yegoryevsk
+   Zheleznodorozhny
+   Zhukovsky
+   Zaraysk
+   Zvenigorod
+   Zelenograd
+   Ivanteyevka
+   Istra
+   Kashira
+   Klin
+   Kolomna
+   Korolyov
+   Kotelniki
+   Krasnoarmeysk
+   Krasnogorsk
+   Krasnozavodsk
+   Krasnoznamensk
+   Kubinka
+   Kurovskoye
+   Likino-Dulyovo
+   Lobnya
+   Losino-Petrovsky
+   Lukhovitsy
+   Lytkarino
+   Lyubertsy
+   Mozhaysk
+   Moskovsky
+   Mytischi
+   Naro-Fominsk
+   Noginsk
+   Odintsovo
+   Ozyory
+   Orekhovo-Zuyevo
+   Pavlovsky Posad
+   Peresvet
+   Podolsk
+   Protvino
+   Pushkino
+   Puschino
+   Ramenskoye
+   Reutov
+   Roshal
+   Ruza
+   Sergiev Posad
+   Serpukhov
+   Solnechnogorsk
+   Staraya Kupavna
+   Stupino
+   Taldom
+   Fryazino
+   Khimki
+   Khotkovo
+   Chernogolovka
+   Chekhov
+   Shatura
+   Schyolkovo
+   Scherbinka
+   Elektrogorsk
+   Elektrostal
+   Elektrougli
    Yakhroma
 
    {% endcut %}
 
    {% cut "Murmansk Region" %}
 
-   Apatity  
-   Gadzhiyevo  
-   Zaozyorsk  
-   Zapolyarniy  
-   Kandalaksha  
-   Kirovsk  
-   Kovdor  
-   Kola  
-   Monchegorsk  
-   Murmansk  
-   Olenegorsk  
-   Polyarnye Zori  
-   Polyarny  
-   Severomorsk  
+   Apatity
+   Gadzhiyevo
+   Zaozyorsk
+   Zapolyarniy
+   Kandalaksha
+   Kirovsk
+   Kovdor
+   Kola
+   Monchegorsk
+   Murmansk
+   Olenegorsk
+   Polyarnye Zori
+   Polyarny
+   Severomorsk
    Snezhnogorsk
 
    {% endcut %}
@@ -1602,603 +1602,603 @@ The reward is:
 
    {% cut "Nizhny Novgorod Region" %}
 
-   Arzamas  
-   Balakhna  
-   Bogorodsk  
-   Bor  
-   Volodarsk  
-   Vorsma  
-   Vyksa  
-   Gorodets  
-   Dzerzhinsk  
-   Zavolzhye  
-   Kstovo  
-   Kulebaki  
-   Lukoyanov  
-   Lyskovo  
-   Navashino  
-   Pavlovo  
-   Pervomaysk  
-   Sarov  
-   Semyonov  
-   Sergach  
-   Uren  
-   Chkalovsk  
+   Arzamas
+   Balakhna
+   Bogorodsk
+   Bor
+   Volodarsk
+   Vorsma
+   Vyksa
+   Gorodets
+   Dzerzhinsk
+   Zavolzhye
+   Kstovo
+   Kulebaki
+   Lukoyanov
+   Lyskovo
+   Navashino
+   Pavlovo
+   Pervomaysk
+   Sarov
+   Semyonov
+   Sergach
+   Uren
+   Chkalovsk
    Shakhunya
 
    {% endcut %}
 
    {% cut "Novgorod Region" %}
 
-   Borovichi  
-   Valday  
-   Velikiy Novgorod  
-   Malaya Vishera  
-   Okulovka  
-   Pestovo  
-   Soltsy  
-   Staraya Russa  
+   Borovichi
+   Valday
+   Velikiy Novgorod
+   Malaya Vishera
+   Okulovka
+   Pestovo
+   Soltsy
+   Staraya Russa
    Chudovo
 
    {% endcut %}
 
    {% cut "Novosibirsk Region" %}
 
-   Barabinsk  
-   Berdsk  
-   Bolotnoye  
-   Iskitim  
-   Karasuk  
-   Kargat  
-   Kuybyshev  
-   Kupino  
-   Ob  
-   Tatarsk  
-   Toguchin  
-   Cherepanovo  
+   Barabinsk
+   Berdsk
+   Bolotnoye
+   Iskitim
+   Karasuk
+   Kargat
+   Kuybyshev
+   Kupino
+   Ob
+   Tatarsk
+   Toguchin
+   Cherepanovo
    Chulym
 
    {% endcut %}
 
    {% cut "Omsk Region" %}
 
-   Isilkul  
-   Kalachinsk  
-   Nazyvayevsk  
-   Tara  
+   Isilkul
+   Kalachinsk
+   Nazyvayevsk
+   Tara
    Tyukalinsk
 
    {% endcut %}
 
    {% cut "Orenburg Region" %}
 
-   Abdulino  
-   Buguruslan  
-   Buzuluk  
-   Gay  
-   Kuvandyk  
-   Mednogorsk  
-   Novotroitsk  
-   Orsk  
-   Sol-Iletsk  
-   Sorochinsk  
+   Abdulino
+   Buguruslan
+   Buzuluk
+   Gay
+   Kuvandyk
+   Mednogorsk
+   Novotroitsk
+   Orsk
+   Sol-Iletsk
+   Sorochinsk
    Yasny
 
    {% endcut %}
 
    {% cut "Oryol Region" %}
 
-   Bolkhov  
-   Livny  
-   Mtsensk  
+   Bolkhov
+   Livny
+   Mtsensk
    Oryol
 
    {% endcut %}
 
    {% cut "Penza Region" %}
 
-   Zarechny  
-   Kamenka  
-   Kuznetsk  
-   Nizhniy Lomov  
-   Nikolsk  
+   Zarechny
+   Kamenka
+   Kuznetsk
+   Nizhniy Lomov
+   Nikolsk
    Serdobsk
 
    {% endcut %}
 
    {% cut "Perm Region" %}
 
-   Aleksandrovsk  
-   Berezniki  
-   Vereshchagino  
-   Gornozavodsk  
-   Gubakha  
-   Dobryanka  
-   Kizel  
-   Krasnovishersk  
-   Krasnokamsk  
-   Kudymkar  
-   Kungur  
-   Lysva  
-   Nytva  
-   Osa  
-   Ocher  
-   Solikamsk  
-   Tchaikovsky  
-   Chernushka  
+   Aleksandrovsk
+   Berezniki
+   Vereshchagino
+   Gornozavodsk
+   Gubakha
+   Dobryanka
+   Kizel
+   Krasnovishersk
+   Krasnokamsk
+   Kudymkar
+   Kungur
+   Lysva
+   Nytva
+   Osa
+   Ocher
+   Solikamsk
+   Tchaikovsky
+   Chernushka
    Chusovoy
 
    {% endcut %}
 
    {% cut "Primorsky Krai" %}
 
-   Arsenyev  
-   Artyom  
-   Bolshoy Kamen  
-   Dalnegorsk  
-   Dalnerechensk  
-   Lesozavodsk  
-   Nokhodka  
-   Partizansk  
-   Spassk-Dalniy  
-   Ussuriysk  
+   Arsenyev
+   Artyom
+   Bolshoy Kamen
+   Dalnegorsk
+   Dalnerechensk
+   Lesozavodsk
+   Nokhodka
+   Partizansk
+   Spassk-Dalniy
+   Ussuriysk
    Fokino
 
    {% endcut %}
 
    {% cut "Pskov Region" %}
 
-   Velikiye Luki  
-   Nevel  
-   Opochka  
-   Ostrov  
-   Pechory  
-   Porkhov  
+   Velikiye Luki
+   Nevel
+   Opochka
+   Ostrov
+   Pechory
+   Porkhov
    Pskov
 
    {% endcut %}
 
    {% cut "Rostov Region" %}
 
-   Azov  
-   Aksay  
-   Bataysk  
-   Belaya Kalitva  
-   Volgodonsk  
-   Gukovo  
-   Donetsk  
-   Zernograd  
-   Kamensk-Shakhtinsky  
-   Konstantinovsk  
-   Krasny Sulin  
-   Millerovo  
-   Morozovsk  
-   Novocherkassk  
-   Novoshakhtinsk  
-   Proletarsk  
-   Salsk  
-   Semikarakorsk  
-   Taganrog  
-   Tsimlyansk  
+   Azov
+   Aksay
+   Bataysk
+   Belaya Kalitva
+   Volgodonsk
+   Gukovo
+   Donetsk
+   Zernograd
+   Kamensk-Shakhtinsky
+   Konstantinovsk
+   Krasny Sulin
+   Millerovo
+   Morozovsk
+   Novocherkassk
+   Novoshakhtinsk
+   Proletarsk
+   Salsk
+   Semikarakorsk
+   Taganrog
+   Tsimlyansk
    Shakhty
 
    {% endcut %}
 
    {% cut "Ryazan Region" %}
 
-   Kasimov  
-   Korablino  
-   Mikhaylov  
-   Novomichurinsk  
-   Rybnoye  
-   Ryazhsk  
-   Sasovo  
+   Kasimov
+   Korablino
+   Mikhaylov
+   Novomichurinsk
+   Rybnoye
+   Ryazhsk
+   Sasovo
    Skopin
 
    {% endcut %}
 
    {% cut "Samara Region" %}
 
-   Zhigulyovsk  
-   Kinel  
-   Neftegorsk  
-   Novokuybyshevsk  
-   Oktyabrsk  
-   Otradny  
-   Pokhvistnevo  
-   Syzran  
+   Zhigulyovsk
+   Kinel
+   Neftegorsk
+   Novokuybyshevsk
+   Oktyabrsk
+   Otradny
+   Pokhvistnevo
+   Syzran
    Chapayevsk
 
    {% endcut %}
 
    {% cut "Saint Petersburg and Leningrad Region" %}
 
-   Boksitogorsk  
-   Volosovo  
-   Volkhov  
-   Vsevolozhsk  
-   Vyborg  
-   Gatchina  
-   Ivangorod  
-   Kingisepp  
-   Kirishi  
-   Kolpino  
-   Kommunar  
-   Krasnoye Selo  
-   Kronstadt  
-   Lodeynoye Pole  
-   Lomonosov  
-   Luga  
-   Nikolskoye  
-   Otradnoye  
-   Peterhof  
-   Pikalyovo  
-   Podporozhye  
-   Priozersk  
-   Pushkin  
-   Svetogorsk  
-   Sertolovo  
-   Sestroretsk  
-   Slantsy  
-   Sosnovy Bor  
-   Syastroy  
-   Tikhvin  
-   Tosno  
+   Boksitogorsk
+   Volosovo
+   Volkhov
+   Vsevolozhsk
+   Vyborg
+   Gatchina
+   Ivangorod
+   Kingisepp
+   Kirishi
+   Kolpino
+   Kommunar
+   Krasnoye Selo
+   Kronstadt
+   Lodeynoye Pole
+   Lomonosov
+   Luga
+   Nikolskoye
+   Otradnoye
+   Peterhof
+   Pikalyovo
+   Podporozhye
+   Priozersk
+   Pushkin
+   Svetogorsk
+   Sertolovo
+   Sestroretsk
+   Slantsy
+   Sosnovy Bor
+   Syastroy
+   Tikhvin
+   Tosno
    Shlisselburg
 
    {% endcut %}
 
    {% cut "Saratov Region" %}
 
-   Arkadak  
-   Atkarsk  
-   Balakovo  
-   Balashov  
-   Volsk  
-   Ershov  
-   Kalininsk  
-   Krasny Kut  
-   Marks  
-   Novouzensk  
-   Petrovsk  
-   Pugachyov  
-   Rtischevo  
+   Arkadak
+   Atkarsk
+   Balakovo
+   Balashov
+   Volsk
+   Ershov
+   Kalininsk
+   Krasny Kut
+   Marks
+   Novouzensk
+   Petrovsk
+   Pugachyov
+   Rtischevo
    Engels
 
    {% endcut %}
 
    {% cut "Republic of Sakha (Yakutia)" %}
 
-   Aldan  
-   Vilyuysk  
-   Lensk  
-   Mirniy  
-   Neryungri  
-   Pokrovsk  
-   Udachny  
+   Aldan
+   Vilyuysk
+   Lensk
+   Mirniy
+   Neryungri
+   Pokrovsk
+   Udachny
    Yakutsk
 
    {% endcut %}
 
    {% cut "Sakhalin Region" %}
 
-   Aleksandrovsk-Sakhalinsky  
-   Dolinsk  
-   Korsakov  
-   Nevelsk  
-   Okha  
-   Poronaysk  
-   Uglegorsk  
-   Kholmsk  
-   Shakhtyorsk  
+   Aleksandrovsk-Sakhalinsky
+   Dolinsk
+   Korsakov
+   Nevelsk
+   Okha
+   Poronaysk
+   Uglegorsk
+   Kholmsk
+   Shakhtyorsk
    Yuzhno-Sakhalinsk
 
    {% endcut %}
 
    {% cut "Sverdlovsk Region" %}
 
-   Alapayevsk  
-   Aramil  
-   Artyomovskiy  
-   Asbest  
-   Beryozovskiy  
-   Bogdanovich  
-   Verkhniy Tagil  
-   Verkhnyaya Pyshma  
-   Verkhnyaya Salda  
-   Verkhnyaya Tura  
-   Degtyarsk  
-   Ivdel  
-   Irbit  
-   Kamensk-Uralskiy  
-   Kamyshlov  
-   Karpinsk  
-   Kachkanar  
-   Kirovgrad  
-   Krasnoturyinsk  
-   Krasnouralsk  
-   Krasnoufimsk  
-   Kushva  
-   Lesnoy  
-   Nevyansk  
-   Nizhnyaya Salda  
-   Nizhnyaya Tura  
-   Novaya Lyalya  
-   Novouralsk  
-   Pervouralsk  
-   Polevskoy  
-   Revda  
-   Rezh  
-   Severouralsk  
-   Serov  
-   Sredneuralsk  
-   Sukhoy Log  
-   Sysert  
-   Tavda  
-   Talitsa  
+   Alapayevsk
+   Aramil
+   Artyomovskiy
+   Asbest
+   Beryozovskiy
+   Bogdanovich
+   Verkhniy Tagil
+   Verkhnyaya Pyshma
+   Verkhnyaya Salda
+   Verkhnyaya Tura
+   Degtyarsk
+   Ivdel
+   Irbit
+   Kamensk-Uralskiy
+   Kamyshlov
+   Karpinsk
+   Kachkanar
+   Kirovgrad
+   Krasnoturyinsk
+   Krasnouralsk
+   Krasnoufimsk
+   Kushva
+   Lesnoy
+   Nevyansk
+   Nizhnyaya Salda
+   Nizhnyaya Tura
+   Novaya Lyalya
+   Novouralsk
+   Pervouralsk
+   Polevskoy
+   Revda
+   Rezh
+   Severouralsk
+   Serov
+   Sredneuralsk
+   Sukhoy Log
+   Sysert
+   Tavda
+   Talitsa
    Turinsk
 
    {% endcut %}
 
    {% cut "Republic of North Ossetia — Alania" %}
 
-   Alagir  
-   Ardon  
-   Beslan  
-   Vladikavkaz  
-   Digora  
+   Alagir
+   Ardon
+   Beslan
+   Vladikavkaz
+   Digora
    Mozdok
 
    {% endcut %}
 
    {% cut "Smolensk Region" %}
 
-   Vyazma  
-   Gagarin  
-   Desnogorsk  
-   Dorogobuzh  
-   Roslavl  
-   Rudnya  
-   Safonovo  
-   Smolensk  
+   Vyazma
+   Gagarin
+   Desnogorsk
+   Dorogobuzh
+   Roslavl
+   Rudnya
+   Safonovo
+   Smolensk
    Yartsevo
 
    {% endcut %}
 
    {% cut "Stavropol Territory" %}
 
-   Blagodarny  
-   Budyonnovsk  
-   Georgievsk  
-   Yessentuki  
-   Zheleznovodsk  
-   Zelenokumsk  
-   Izobilny  
-   Ipatovo  
-   Kislovodsk  
-   Lermontov  
-   Mineralnye Vody  
-   Mikhailovsk  
-   Nevinnomyssk  
-   Neftekumsk  
-   Novoaleksandrovsk  
-   Novopavlovsk  
-   Pyatigorsk  
+   Blagodarny
+   Budyonnovsk
+   Georgievsk
+   Yessentuki
+   Zheleznovodsk
+   Zelenokumsk
+   Izobilny
+   Ipatovo
+   Kislovodsk
+   Lermontov
+   Mineralnye Vody
+   Mikhailovsk
+   Nevinnomyssk
+   Neftekumsk
+   Novoaleksandrovsk
+   Novopavlovsk
+   Pyatigorsk
    Svetlograd
 
    {% endcut %}
 
    {% cut "Tambov Region" %}
 
-   Zherdevka  
-   Kirsanov  
-   Kotovsk  
-   Michurinsk  
-   Rasskazovo  
-   Tambov  
+   Zherdevka
+   Kirsanov
+   Kotovsk
+   Michurinsk
+   Rasskazovo
+   Tambov
    Uvarovo
 
    {% endcut %}
 
    {% cut "Republic of Tatarstan" %}
 
-   Agryz  
-   Aznakayevo  
-   Almetyevsk  
-   Arsk  
-   Bavly  
-   Bugulma  
-   Buinsk  
-   Yelabuga  
-   Zainsk  
-   Zelenodolsk  
-   Leninogorsk  
-   Mamadysh  
-   Mendeleyevsk  
-   Menzelinsk  
-   Nizhnekamsk  
-   Nurlat  
-   Tetyushi  
+   Agryz
+   Aznakayevo
+   Almetyevsk
+   Arsk
+   Bavly
+   Bugulma
+   Buinsk
+   Yelabuga
+   Zainsk
+   Zelenodolsk
+   Leninogorsk
+   Mamadysh
+   Mendeleyevsk
+   Menzelinsk
+   Nizhnekamsk
+   Nurlat
+   Tetyushi
    Chistopol
 
    {% endcut %}
 
    {% cut "Tver Region" %}
 
-   Bezhetsk  
-   Bologoe  
-   Vyshniy Volochyok  
-   Kalyazin  
-   Kashin  
-   Kimry  
-   Konakovo  
-   Likhoslavl  
-   Nelidovo  
-   Ostashkov  
-   Rzhev  
-   Torzhok  
-   Toropets  
+   Bezhetsk
+   Bologoe
+   Vyshniy Volochyok
+   Kalyazin
+   Kashin
+   Kimry
+   Konakovo
+   Likhoslavl
+   Nelidovo
+   Ostashkov
+   Rzhev
+   Torzhok
+   Toropets
    Udomlya
 
    {% endcut %}
 
    {% cut "Tomsk Region" %}
 
-   Asino  
-   Kolpashevo  
-   Seversk  
+   Asino
+   Kolpashevo
+   Seversk
    Strezhevoy
 
    {% endcut %}
 
    {% cut "Tula Region" %}
 
-   Aleksin  
-   Belyov  
-   Bogoroditsk  
-   Venyov  
-   Donskoy  
-   Efremov  
-   Kimovsk  
-   Kireyevsk  
-   Novomoskovsk  
-   Plavsk  
-   Suvorov  
-   Uzlovaya  
-   Shchekino  
+   Aleksin
+   Belyov
+   Bogoroditsk
+   Venyov
+   Donskoy
+   Efremov
+   Kimovsk
+   Kireyevsk
+   Novomoskovsk
+   Plavsk
+   Suvorov
+   Uzlovaya
+   Shchekino
    Yasnogorsk
 
    {% endcut %}
 
    {% cut "Republic of Tyva" %}
 
-   Ak-Dovurak  
-   Kyzyl  
-   Chadan  
+   Ak-Dovurak
+   Kyzyl
+   Chadan
    Shagonar
 
    {% endcut %}
 
    {% cut "Tyumen Region" %}
 
-   Zavodoukovsk  
-   Ishim  
-   Tobolsk  
+   Zavodoukovsk
+   Ishim
+   Tobolsk
    Yalutorovsk
 
    {% endcut %}
 
    {% cut "Udmurt Republic" %}
 
-   Votkinsk  
-   Glazov  
-   Kambarka  
-   Mozhga  
+   Votkinsk
+   Glazov
+   Kambarka
+   Mozhga
    Sarapul
 
    {% endcut %}
 
    {% cut "Ulyanovsk Region" %}
 
-   Barysh  
-   Dimitrovgrad  
-   Inza  
+   Barysh
+   Dimitrovgrad
+   Inza
    Novoulyanovsk
 
    {% endcut %}
 
    {% cut "Khabarovsk Territory" %}
 
-   Amursk  
-   Bikin  
-   Vyazemskiy  
-   Komsomolsk-na-Amur  
-   Nikolayevsk-na-Amur  
+   Amursk
+   Bikin
+   Vyazemskiy
+   Komsomolsk-na-Amur
+   Nikolayevsk-na-Amur
    Sovetskaya Gavan
 
    {% endcut %}
 
    {% cut "Republic of Khakassia" %}
 
-   Abaza  
-   Abakan  
-   Sayanogorsk  
-   Sorsk  
+   Abaza
+   Abakan
+   Sayanogorsk
+   Sorsk
    Chernogorsk
 
    {% endcut %}
 
    {% cut "Khanty-Mansi Autonomous Area" %}
 
-   Beloyarskiy  
-   Kogalym  
-   Langepas  
-   Lyantor  
-   Megion  
-   Nefteyugansk  
-   Nizhnevartovsk  
-   Nyagan  
-   Pokachi  
-   Pyt-Yakh  
-   Raduzhny  
-   Sovetskiy  
-   Uray  
-   Khanty-Mansiysk  
+   Beloyarskiy
+   Kogalym
+   Langepas
+   Lyantor
+   Megion
+   Nefteyugansk
+   Nizhnevartovsk
+   Nyagan
+   Pokachi
+   Pyt-Yakh
+   Raduzhny
+   Sovetskiy
+   Uray
+   Khanty-Mansiysk
    Yugorsk
 
    {% endcut %}
 
    {% cut "Chelyabinsk Region" %}
 
-   Asha  
-   Bakal  
-   Verkhneuralsk  
-   Verkhniy Ufaley  
-   Yemanzhelinsk  
-   Zlatoust  
-   Karabash  
-   Kartaly  
-   Kasli  
-   Katav-Ivanovsk  
-   Kopeysk  
-   Korkino  
-   Kusa  
-   Kyshtym  
-   Miass  
-   Minyar  
-   Nyazepetrovsk  
-   Ozersk  
-   Plast  
-   Satka  
-   Sim  
-   Snezhinsk  
-   Troitsk  
-   Trekhgorny  
-   Ust-Katav  
-   Chebarkul  
-   Yuzhnouralsk  
+   Asha
+   Bakal
+   Verkhneuralsk
+   Verkhniy Ufaley
+   Yemanzhelinsk
+   Zlatoust
+   Karabash
+   Kartaly
+   Kasli
+   Katav-Ivanovsk
+   Kopeysk
+   Korkino
+   Kusa
+   Kyshtym
+   Miass
+   Minyar
+   Nyazepetrovsk
+   Ozersk
+   Plast
+   Satka
+   Sim
+   Snezhinsk
+   Troitsk
+   Trekhgorny
+   Ust-Katav
+   Chebarkul
+   Yuzhnouralsk
    Yuryuzan
 
    {% endcut %}
 
    {% cut "Chechen Republic" %}
 
-   Argun  
-   Grozny  
-   Gudermes  
-   Urus-Martan  
+   Argun
+   Grozny
+   Gudermes
+   Urus-Martan
    Shali
 
    {% endcut %}
 
    {% cut "Chuvash Republic" %}
 
-   Alatyr  
-   Kanash  
-   Kozlovka  
-   Mariinskiy Posad  
-   Novocheboksarsk  
-   Tsivilsk  
+   Alatyr
+   Kanash
+   Kozlovka
+   Mariinskiy Posad
+   Novocheboksarsk
+   Tsivilsk
    Shumerlya
 
    {% endcut %}
@@ -2211,24 +2211,24 @@ The reward is:
 
    {% cut "Yamalo-Nenets Autonomous Area" %}
 
-   Gubkinskiy  
-   Labytnangi  
-   Muravlenko  
-   Nadym  
-   Noyabrsk  
-   Salekhard  
+   Gubkinskiy
+   Labytnangi
+   Muravlenko
+   Nadym
+   Noyabrsk
+   Salekhard
    Tarko-Sale
 
    {% endcut %}
 
    {% cut "Yaroslavl Region" %}
 
-   Gavrilov-Yam  
-   Danilov  
-   Pereslavl-Zalessky  
-   Rostov  
-   Rybinsk  
-   Tutayev  
+   Gavrilov-Yam
+   Danilov
+   Pereslavl-Zalessky
+   Rostov
+   Rybinsk
+   Tutayev
    Uglich
 
    {% endcut %}
@@ -2240,24 +2240,24 @@ The reward is:
 
    {% cut "Andijan Region" %}
 
-   Asaka  
-   Dzhalakuduk  
-   Kurgantepa  
-   Paytug  
-   Pakhtaabad  
-   Khanabad  
-   Khodjaabad  
+   Asaka
+   Dzhalakuduk
+   Kurgantepa
+   Paytug
+   Pakhtaabad
+   Khanabad
+   Khodjaabad
    Shakhrikhan
 
    {% endcut %}
 
    {% cut "Bukhara Region" %}
 
-   Alat  
-   Bukhara  
-   Vabkent  
-   Galaasiya  
-   Gijduvan  
+   Alat
+   Bukhara
+   Vabkent
+   Galaasiya
+   Gijduvan
    Kagan
 
    {% endcut %}
@@ -2270,34 +2270,34 @@ The reward is:
 
    {% cut "Republic of Karakalpakstan" %}
 
-   Kungrad  
-   Nukus  
+   Kungrad
+   Nukus
    Turtkul
 
    {% endcut %}
 
    {% cut "Kashkadarya Region" %}
 
-   Karshi  
+   Karshi
    Shakhrisabz
 
    {% endcut %}
 
    {% cut "Navoi Region" %}
 
-   Zarafshan  
-   Navoi  
+   Zarafshan
+   Navoi
    Uchkuduk
 
    {% endcut %}
 
    {% cut "Namangan Region" %}
 
-   Pap  
-   Turakurgan  
-   Uchkurgan  
-   Khakkulabad  
-   Chartak  
+   Pap
+   Turakurgan
+   Uchkurgan
+   Khakkulabad
+   Chartak
    Chust
 
    {% endcut %}
@@ -2310,37 +2310,37 @@ The reward is:
 
    {% cut "Syrdarya Region" %}
 
-   Gulistan  
+   Gulistan
    Syrdarya
 
    {% endcut %}
 
    {% cut "Tashkent Region" %}
 
-   Akkurgan  
-   Almalyk  
-   Angren  
-   Bekabad  
-   Buka  
-   Gazalkent  
-   Dustabad  
-   Keles  
-   Kibray  
-   Parkent  
-   Pskent  
-   Chinaz  
+   Akkurgan
+   Almalyk
+   Angren
+   Bekabad
+   Buka
+   Gazalkent
+   Dustabad
+   Keles
+   Kibray
+   Parkent
+   Pskent
+   Chinaz
    Yangiyul
 
    {% endcut %}
 
    {% cut "Fergana Region" %}
 
-   Baghdad  
-   Besharyk  
-   Kokand  
-   Kuva  
-   Margilan  
-   Tinchlik  
+   Baghdad
+   Besharyk
+   Kokand
+   Kuva
+   Margilan
+   Tinchlik
    Fergana
 
    {% endcut %}
@@ -2357,55 +2357,54 @@ The reward is:
 
 
 - 5% of the price of other tasks completed by the friend and accepted by the requester within a month after registration:
-- 5% of the reward amount received by the friend within a month after registration, excluding the friend referral reward.
-   Rewards for all friends are combined.
+- 5% of the bonus amount received by the friend within a month after registration, excluding the friend referral bonus.
+   Bonuses for all friends are combined.
 
 {% note alert %}
 
-We do not provide details of the reward calculation.
+We do not provide details of the bonus calculation.
 
 {% endnote %}
 
 
-If you are banned for violating the [User Agreement]({{ user-agreement }}), the reward is not given.
+If you are banned for violating the [User Agreement]({{ user-agreement }}), the bonus is not given.
 
-A month after a friend registers, their completed tasks are excluded from the reward calculation.
+A month after a friend registers, their completed tasks are excluded from the bonus calculation.
 
-#### Awarding the friend referral reward
+#### Awarding the friend referral bonus
 
-The reward amount is credited to your [Toloka]({{ toloka }}) account no more than once a day for tasks completed by friends and accepted by the requester during the previous day.
+The bonus amount is credited to your [Toloka]({{ toloka }}) account no more than once a day for tasks completed by friends and accepted by the requester during the previous day.
 
-The reward is given with accuracy up to $0.01.
+The bonus is given with accuracy up to $0.01.
 
 {% endcut %}
 
 {% cut "Rules valid until 2:59 on December 27, 2018 (Moscow time)" %}
 
-#### Calculating the friend referral reward
+#### Calculating the friend referral bonus
 
-The reward is 5% of:
+The bonus is 5% of:
 - Price of tasks completed by the friend and accepted by the requester within a month after registration.
-- Reward amount received by the friend within a month after registration.
-   Rewards for all friends are combined.
+- Bonus amount received by the friend within a month after registration.
+   Bonuses for all friends are combined.
 
 {% note alert %}
 
-We do not provide details of the reward calculation.
+We do not provide details of the bonus calculation.
 
 {% endnote %}
 
 
-If you are banned for violating the [User Agreement]({{ user-agreement }}), the reward is not given.
+If you are banned for violating the [User Agreement]({{ user-agreement }}), the bonus is not given.
 
-A month after a friend registers, their completed tasks are excluded from the reward calculation.
+A month after a friend registers, their completed tasks are excluded from the bonus calculation.
 
-#### Awarding the friend referral reward
+#### Awarding the friend referral bonus
 
-The reward amount is credited to your [Toloka]({{ toloka }}) account no more than once a day for tasks completed by friends and accepted by the requester during the previous day.
+The bonus amount is credited to your [Toloka]({{ toloka }}) account no more than once a day for tasks completed by friends and accepted by the requester during the previous day.
 
-The reward is given with accuracy up to $0.01.
+The bonus is given with accuracy up to $0.01.
 
 {% endcut %}
 
 [![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
-
