@@ -6,7 +6,7 @@ This section provides answers to frequently asked questions related to work with
 
 In some Toloka tasks you can face integration with UHRS. It is agreed with the administration of our platform and does not violate the rules of Toloka.
 
-To complete the task, you do not need to register on third-party sites. You open the task in Toloka and follow a unique link to UHRS, where you can perform tasks available to you for two hours. In terms of content, they usually correspond to the subject of the original project. At the end of the session you will receive a reward in Toloka. Please note that reward may not be forwarded to your Toloka account right away, normally this process takes about 2 hours but no more than 24 hours. If it takes longer don't hesitate [to let us know](troubleshooting/support.md#contact) so that we can look into the issue
+To complete the task, you do not need to register on third-party sites. You open the task in Toloka and follow a unique link to UHRS, where you can perform tasks available to you for two hours. In terms of content, they usually correspond to the subject of the original project. At the end of the session you will receive a bonus in Toloka. Please note that bonus may not be forwarded to your Toloka account right away, normally this process takes about 2 hours but no more than 24 hours. If it takes longer don't hesitate [to let us know](troubleshooting/support.md#contact) so that we can look into the issue
 
 {% endcut %}
 
@@ -56,7 +56,7 @@ This may signify a number of issues. Please contact our [support service](troubl
 
 {% cut "My tasks are different in cost from my friend's tasks." %}
 
-As a matter of fact, the rate may differ. The final price depends on Toloker's skills, region and task size. All this information you can see in the author's task card by clicking on question mark symbol below the task reward.
+As a matter of fact, the rate may differ. The final price depends on Toloker's skills, region and task size. All this information you can see in the author's task card by clicking on question mark symbol below the task bonus.
 
 ![](assets/cost.png)
 
@@ -68,25 +68,25 @@ You can see how much you've earned while completing tasks using the **Reports** 
 
 {% endcut %}
 
-{% cut "When will I get a reward?" %}
+{% cut "When will I get a bonus?" %}
 
-When the session is closed, the reward is calculated based on the number of completed tasks. Within 24 hours, UHRS transfers money to Toloka account. These funds are initially unavailable for withdrawals as the tasks undergo review. It might take up to 7 days. Withdrawal of funds will be available after the review period.
+When the session is closed, the bonus is calculated based on the number of completed tasks. Within 24 hours, UHRS transfers money to Toloka account. These funds are initially unavailable for withdrawals as the tasks undergo review. It might take up to 7 days. Withdrawal of funds will be available after the review period.
 
 {% if platform == 'web' %}
 In the upper right corner of the screen, you can see two amounts of money of different colors:
 
-* Gray sum shows the rewards for tasks that are under review;
+* Gray sum shows the bonuses for tasks that are under review;
 * Green sum indicates funds available for withdrawal from Toloka.
 
 {% elsif platform == 'android' %}
 In the upper left corner of the screen, click icon ![](assets/menu.svg). Next to your photo you can see two amounts of money of different colors:
 
-* White sum shows the rewards for tasks that are under review;
+* White sum shows the bonuses for tasks that are under review;
 * Black sum indicates funds available for withdrawal from Toloka.
 
 {% elsif platform == 'ios' %}
 In the **Profile** section you can see two amounts of money of different colors:
-* Gray sum shows the rewards for tasks that are under review;
+* Gray sum shows the bonuses for tasks that are under review;
 * Black sum indicates funds available for withdrawal from Toloka.
 
 {% endif %}
@@ -95,11 +95,10 @@ In the **Profile** section you can see two amounts of money of different colors:
 
 {% cut "I didn't receive the payment for the task. Why?" %}
 
-Within 24 hours, UHRS transfers money to Toloka account. These funds are initially unavailable for withdrawals as the tasks undergo review. It might take up to 7 days. {% if platform == 'web' %}Until that moment, the reward is indicated as gray in the upper right corner of the account.{% elsif platform == 'android' %}Until that moment, the reward is indicated as white next to your photo in the account.{% elsif platform == 'ios' %}Until that moment, the reward is indicated as grey in the **Profile** section.{% endif %} If you face any difficulties with rewards please contact our [support service](troubleshooting/support.md#contact).
+Within 24 hours, UHRS transfers money to Toloka account. These funds are initially unavailable for withdrawals as the tasks undergo review. It might take up to 7 days. {% if platform == 'web' %}Until that moment, the bonus is indicated as gray in the upper right corner of the account.{% elsif platform == 'android' %}Until that moment, the bonus is indicated as white next to your photo in the account.{% elsif platform == 'ios' %}Until that moment, the bonus is indicated as grey in the **Profile** section.{% endif %} If you face any difficulties with bonuses please contact our [support service](troubleshooting/support.md#contact).
 
 {% endcut %}
 
 If you have other questions write to us:
 
 [![](assets/buttons/contact-support.svg)](troubleshooting/support.md#contact)
-

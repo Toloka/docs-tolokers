@@ -3,7 +3,7 @@
 In [Messages]({{ toloka-messages }}) you receive:
 - Notifications about transactions on your account.
 - News and notifications about the platform.
-- Messages from the requester about training completion, skill assignment, new tasks and rewards.
+- Messages from the requester about training completion, skill assignment, new tasks and bonuses.
 
 Write to the requester:
 
@@ -33,4 +33,3 @@ To write to the requester:
    {% endif %}
 
 [![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
-

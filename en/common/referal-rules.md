@@ -1,39 +1,39 @@
-# Current reward rules
+# Current bonus rules
 
 The rules come into effect on the launch date and can be modified unilaterally by [Toloka]({{ toloka }}). You will be notified of any changes to the rules with a [message]({{ toloka-messages }}) in Toloka.
 
 The updated version of the rules is published on this page. [Previous rule versions](referal-archive.md).
 
-## What are rewards given for? {#section_nj1_pft_klb}
+## What are bonuses given for? {#section_nj1_pft_klb}
 
 - For tasks performed by a friend. A task is considered completed if the requester accepts it.
-- For rewards that a friend received from requesters. The requester can grant rewards to Tolokers.
+- For bonuses that a friend received from requesters. The requester can grant bonuses to Tolokers.
 
 {% note warning %}
 
-Friend rewards are granted only in the first month after your friend registers in Toloka.
+Friend bonuses are granted only in the first month after your friend registers in Toloka.
 
 {% endnote %}
 
 
-## How are rewards granted? {#section_vkb_tft_klb}
+## How are bonuses granted? {#section_vkb_tft_klb}
 
-Rewards are granted for tasks completed by friends on the previous day. The money is credited to your account in Toloka.
+Bonuses are granted for tasks completed by friends on the previous day. The money is credited to your account in Toloka.
 
 {% note tip %}
 
-Bring new friends often and help them earn to get more rewards from their earnings.
+Bring new friends often and help them earn to get more bonuses from their earnings.
 
 {% endnote %}
 
-## How is the reward amount calculated? {#section_lmj_zft_klb}
+## How is the bonus amount calculated? {#section_lmj_zft_klb}
 
 #### Features
-- Reward amounts are calculated under the most profitable program.
-- Rewards for all friends are combined. We do not provide details of the reward calculation.
-- Rewards are not given if you're banned for violating the [User Agreement]({{ user-agreement }}).
+- Bonus amounts are calculated under the most profitable program.
+- Bonuses for all friends are combined. We do not provide details of the bonus calculation.
+- Bonuses are not given if you're banned for violating the [User Agreement]({{ user-agreement }}).
 
-#### Reward programs
+#### Bonus programs
 - 20% of the task price for field tasks performed in the cities from the list.
 
 {% cut "List of cities" %}
@@ -76,24 +76,24 @@ Mogilev
 
 {% cut "Altai Territory" %}
 
-Barnaul  
-Belokurikha  
-Kamen-na-Obi  
+Barnaul
+Belokurikha
+Kamen-na-Obi
 Novoaltaysk
 
 {% endcut %}
 
 {% cut "Amur Region" %}
 
-Belogorsk  
-Svobodny  
+Belogorsk
+Svobodny
 Tynda
 
 {% endcut %}
 
 {% cut "Arkhangelsk Region" %}
 
-Arkhangelsk  
+Arkhangelsk
 Velsk
 
 {% endcut %}
@@ -106,40 +106,40 @@ Astrakhan
 
 {% cut "Belgorod Region" %}
 
-Alekseyevka  
-Belgorod  
+Alekseyevka
+Belgorod
 Valuyki
 
 {% endcut %}
 
 {% cut "Bryansk Region" %}
 
-Bryansk  
-Klintsy  
+Bryansk
+Klintsy
 Novozybkov
 
 {% endcut %}
 
 {% cut "Vladimir Region" %}
 
-Aleksandrov  
-Vyazniki  
-Gus-Khrustalny  
+Aleksandrov
+Vyazniki
+Gus-Khrustalny
 Suzdal
 
 {% endcut %}
 
 {% cut "Volgograd Region" %}
 
-Mikhaylovka  
+Mikhaylovka
 Uryupinsk
 
 {% endcut %}
 
 {% cut "Voronezh Region" %}
 
-Borisoglebsk  
-Liski  
+Borisoglebsk
+Liski
 Rossosh
 
 {% endcut %}
@@ -152,12 +152,12 @@ Birobidzhan
 
 {% cut "Irkutsk Region" %}
 
-Irkutsk  
-Taishet  
-Tulun  
-Usolye-Sibirskoye  
-Ust-Kut  
-Cheremkhovo  
+Irkutsk
+Taishet
+Tulun
+Usolye-Sibirskoye
+Ust-Kut
+Cheremkhovo
 Shelekhov
 
 {% endcut %}
@@ -188,7 +188,7 @@ Elizovo
 
 {% cut "Kemerovo Region (Kuzbass)" %}
 
-Anzhero-Sudzhensk  
+Anzhero-Sudzhensk
 Novokuznetsk
 
 {% endcut %}
@@ -201,27 +201,27 @@ Kirov
 
 {% cut "Krasnodar Krai" %}
 
-Abinsk  
-Goryachy Klyuch  
-Yeysk  
-Korenovsk  
-Kropotkin  
-Krymsk  
-Labinsk  
-Novokubansk  
-Novorossiysk  
-Primorsko-Akhtarsk  
-Slavyansk-na-Kuban  
-Sochi  
-Temryuk  
-Tikhoretsk  
+Abinsk
+Goryachy Klyuch
+Yeysk
+Korenovsk
+Kropotkin
+Krymsk
+Labinsk
+Novokubansk
+Novorossiysk
+Primorsko-Akhtarsk
+Slavyansk-na-Kuban
+Sochi
+Temryuk
+Tikhoretsk
 Tuapse
 
 {% endcut %}
 
 {% cut "Krasnoyarsk Region" %}
 
-Kansk  
+Kansk
 Norilsk
 
 {% endcut %}
@@ -246,26 +246,26 @@ Magadan
 
 {% cut "Moscow and Moscow Region" %}
 
-Aprelevka  
-Bronnitsy  
-Volokolamsk  
-Voskresensk  
-Dmitrov  
-Dubna  
-Yegoryevsk  
-Zvenigorod  
-Kashira  
-Lukhovitsy  
-Mozhaysk  
-Naro-Fominsk  
+Aprelevka
+Bronnitsy
+Volokolamsk
+Voskresensk
+Dmitrov
+Dubna
+Yegoryevsk
+Zvenigorod
+Kashira
+Lukhovitsy
+Mozhaysk
+Naro-Fominsk
 Chekhov
 
 {% endcut %}
 
 {% cut "Murmansk Region" %}
 
-Apatity  
-Kandalaksha  
+Apatity
+Kandalaksha
 Monchegorsk
 
 {% endcut %}
@@ -278,25 +278,25 @@ Naryan-Mar
 
 {% cut "Nizhny Novgorod Region" %}
 
-Bogorodsk  
+Bogorodsk
 Pavlovo
 
 {% endcut %}
 
 {% cut "Novgorod Region" %}
 
-Borovichi  
-Pestovo  
-Staraya Russa  
+Borovichi
+Pestovo
+Staraya Russa
 Iskitim
 
 {% endcut %}
 
 {% cut "Orenburg Region" %}
 
-Buguruslan  
-Buzuluk  
-Orenburg  
+Buguruslan
+Buzuluk
+Orenburg
 Sol-Iletsk
 
 {% endcut %}
@@ -309,19 +309,19 @@ Kuznetsk
 
 {% cut "Perm Region" %}
 
-Kudymkar  
-Kungur  
-Solikamsk  
-Tchaikovsky  
-Chernushka  
+Kudymkar
+Kungur
+Solikamsk
+Tchaikovsky
+Chernushka
 Chusovoy
 
 {% endcut %}
 
 {% cut "Primorsky Krai" %}
 
-Arsenyev  
-Vladivostok  
+Arsenyev
+Vladivostok
 Spassk-Dalniy
 
 {% endcut %}
@@ -334,9 +334,9 @@ Gorno-Altaysk
 
 {% cut "Republic of Bashkortostan" %}
 
-Birsk  
-Ishimbay  
-Kumertau  
+Birsk
+Ishimbay
+Kumertau
 Sibay
 
 {% endcut %}
@@ -349,10 +349,10 @@ Ulan-Ude
 
 {% cut "Republic of Dagestan" %}
 
-Buynaksk  
-Dagestanskiye Ogni  
-Izberbash  
-Kizlyar  
+Buynaksk
+Dagestanskiye Ogni
+Izberbash
+Kizlyar
 Makhachkala
 
 {% endcut %}
@@ -389,36 +389,36 @@ Ruzayevka
 
 {% cut "Republic of Sakha (Yakutia)" %}
 
-Aldan  
+Aldan
 Neryungri
 
 {% endcut %}
 
 {% cut "Republic of Tatarstan" %}
 
-Aznakayevo  
-Buinsk  
-Naberezhnye Chelny  
-Nurlat  
+Aznakayevo
+Buinsk
+Naberezhnye Chelny
+Nurlat
 Chistopol
 
 {% endcut %}
 
 {% cut "Rostov Region" %}
 
-Azov  
-Aksay  
-Belaya Kalitva  
-Gukovo  
-Kamensk-Shakhtinsky  
-Krasny Sulin  
+Azov
+Aksay
+Belaya Kalitva
+Gukovo
+Kamensk-Shakhtinsky
+Krasny Sulin
 Salsk
 
 {% endcut %}
 
 {% cut "Ryazan Region" %}
 
-Kasimov  
+Kasimov
 Ryazan
 
 {% endcut %}
@@ -431,55 +431,55 @@ Otradny
 
 {% cut "Saint Petersburg and Leningrad Region" %}
 
-Kirishi  
-Krasnoye Selo  
-Lomonosov  
-Luga  
-Peterhof  
-Sestroretsk  
+Kirishi
+Krasnoye Selo
+Lomonosov
+Luga
+Peterhof
+Sestroretsk
 Tikhvin
 
 {% endcut %}
 
 {% cut "Saratov Region" %}
 
-Balashov  
+Balashov
 Volsk
 
 {% endcut %}
 
 {% cut "Sakhalin Region" %}
 
-Korsakov  
+Korsakov
 Kholmsk
 
 {% endcut %}
 
 {% cut "Sverdlovsk Region" %}
 
-Aramil  
-Irbit  
-Kamyshlov  
-Krasnoufimsk  
-Rezh  
+Aramil
+Irbit
+Kamyshlov
+Krasnoufimsk
+Rezh
 Tavda
 
 {% endcut %}
 
 {% cut "Smolensk Region" %}
 
-Safonovo  
+Safonovo
 Smolensk
 
 {% endcut %}
 
 {% cut "Stavropol Territory" %}
 
-Budyonnovsk  
-Georgiyevsk  
-Izobilny  
-Mineralnye Vody  
-Mikhailovsk  
+Budyonnovsk
+Georgiyevsk
+Izobilny
+Mineralnye Vody
+Mikhailovsk
 Pyatigorsk
 
 {% endcut %}
@@ -492,8 +492,8 @@ Morshansk
 
 {% cut "Tver Region" %}
 
-Vyshniy Volochyok  
-Kimry  
+Vyshniy Volochyok
+Kimry
 Torzhok
 
 {% endcut %}
@@ -506,24 +506,24 @@ Tomsk
 
 {% cut "Tula Region" %}
 
-Donskoy  
-Kireyevsk  
-Tula  
+Donskoy
+Kireyevsk
+Tula
 Shchekino
 
 {% endcut %}
 
 {% cut "Tyumen Region" %}
 
-Zavodoukovsk  
-Ishim  
+Zavodoukovsk
+Ishim
 Tyumen
 
 {% endcut %}
 
 {% cut "Udmurt Republic" %}
 
-Izhevsk  
+Izhevsk
 Mozhga
 
 {% endcut %}
@@ -542,26 +542,26 @@ Amursk
 
 {% cut "Khanty-Mansi Autonomous Area" %}
 
-Kogalym  
-Megion  
-Nyagan  
-Pyt-Yakh  
+Kogalym
+Megion
+Nyagan
+Pyt-Yakh
 Surgut
 
 {% endcut %}
 
 {% cut "Chelyabinsk Region" %}
 
-Kyshtym  
-Magnitogorsk  
+Kyshtym
+Magnitogorsk
 Satka
 
 {% endcut %}
 
 {% cut "Chechen Republic" %}
 
-Argun  
-Gudermes  
+Argun
+Gudermes
 Urus-Martan
 
 {% endcut %}
@@ -574,17 +574,17 @@ Cheboksary
 
 {% cut "Yamalo-Nenets Autonomous Area" %}
 
-Labytnangi  
-Muravlenko  
-Novy Urengoy  
+Labytnangi
+Muravlenko
+Novy Urengoy
 Salekhard
 
 {% endcut %}
 
 {% cut "Yaroslavl Region" %}
 
-Pereslavl-Zalessky  
-Rostov  
+Pereslavl-Zalessky
+Rostov
 Uglich
 
 {% endcut %}
@@ -613,7 +613,7 @@ Jizzakh
 
 {% cut "Kashkadarya Region" %}
 
-Karshi  
+Karshi
 Shakhrisabz
 
 {% endcut %}
@@ -644,16 +644,16 @@ Samarkand
 
 {% cut "Tashkent Region" %}
 
-Almalyk  
-Angren  
+Almalyk
+Angren
 Bekabad
 
 {% endcut %}
 
 {% cut "Fergana Region" %}
 
-Kokand  
-Margilan  
+Kokand
+Margilan
 Fergana
 
 {% endcut %}
@@ -668,15 +668,14 @@ Urgench
 
 {% endcut %}
 
-- 5 to 10% of the amount earned for other tasks and rewards that your friend received from requesters.
+- 5 to 10% of the amount earned for other tasks and bonuses that your friend received from requesters.
 
-   The percentage depends on the total amount of rewards you received under this program over the past year:
-   - 5% if your reward amount for the year is less than $10.
-   - You will start receiving 7% as soon as your total rewards for the year exceed $10. This means that your friends' total annual earnings have gone over $200.
-   - 10% if your reward amount for the year is more than $100.
+   The percentage depends on the total amount of bonuses you received under this program over the past year:
+   - 5% if your bonus amount for the year is less than $10.
+   - You will start receiving 7% as soon as your total bonuses for the year exceed $10. This means that your friends' total annual earnings have gone over $200.
+   - 10% if your bonus amount for the year is more than $100.
 
-   Here's how your rewards are counted. For example, today is April 20. If you've received over $100 for your friends since April 21 of the previous year, you get 10% of their income. If your reward amount for this period is less than $100 but more than $10, you receive 7%. If it's less than $10, it's 5%.
+   Here's how your bonuses are counted. For example, today is April 20. If you've received over $100 for your friends since April 21 of the previous year, you get 10% of their income. If your bonus amount for this period is less than $100 but more than $10, you receive 7%. If it's less than $10, it's 5%.
 
 
 [![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
-

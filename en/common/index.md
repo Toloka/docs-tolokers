@@ -126,7 +126,7 @@ If you are looking for Mobile Help: ![](https://yastatic.net/s3/doc-binary/freez
         <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/542e48d32d73bb3a21ed6cf476c3ce7cfea69cdf.svg"></div>
         <div>
             <h3><a href="referal">Invite your friends</a></h3>
-            <p>What rewards you can get. Rules for awarding them.</p>
+            <p>What bonuses you can get. Rules for awarding them.</p>
         </div>
     </div>
 </div>

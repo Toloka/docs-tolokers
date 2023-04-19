@@ -146,7 +146,7 @@ Training tasks are generally not paid for. They are used to teach Tolokers to pe
 
 {% cut "Low task cost" %}
 
-The cost of the task directly depends on its complexity and how much time it takes to complete it. Simple tasks that don't require special skills and a lot of time cost less than more complex ones. But the better you cope with them, the higher their cost will be and the more chances there are to get a reward from the requester.
+The cost of the task directly depends on its complexity and how much time it takes to complete it. Simple tasks that don't require special skills and a lot of time cost less than more complex ones. But the better you cope with them, the higher their cost will be and the more chances there are to get a bonus from the requester.
 
 {% endcut %}
 

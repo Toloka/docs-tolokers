@@ -1,6 +1,6 @@
-# How to invite friends and get rewards
+# How to invite friends and get bonuses
 
-Invite friends to register as Tolokers and get a reward that equals 5 to 20% of their earnings in [Toloka]({{ toloka }}). Read more in the [reward rules](referal-rules.md).
+Invite friends to register as Tolokers and get a bonus that equals 5 to 20% of their earnings in [Toloka]({{ toloka }}). Read more in the [bonus rules](referal-rules.md).
 
 To invite a friend:
 
@@ -27,9 +27,8 @@ You can't distribute the link in the following ways:
 {% endnote %}
 
 ### Learn more {#learnmore}
-- [Current reward rules](referal-rules.md)
-- [Previous reward rules](referal-archive.md)
+- [Current bonus rules](referal-rules.md)
+- [Previous bonus rules](referal-archive.md)
 
 
 [![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
-
