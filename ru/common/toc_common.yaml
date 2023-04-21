@@ -73,6 +73,14 @@ items:
       name: После обработки анкеты
     - href: self-employed/pay-taxes.md
       name: Оплата налогов
+  - name: Советы и рекомендации
+    items:
+    - href: usefull-tips/cache.md
+      name: Как очистить кеш
+    - href: usefull-tips/screenshot.md
+      name: Как сделать скриншот
+    - href: usefull-tips/cookie.md
+      name: Как настроить прием файлов cookie
   - href: troubleshooting/troubleshooting.md
     name: Решение проблем
   - name: Поддержка
