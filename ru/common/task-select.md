@@ -2,14 +2,12 @@
 # Список заданий
 {% elsif platform == "android" or platform == "ios" %}
 # Выбор задания
+
+Cписок заданий находится на главной странице приложения. Вы можете выбрать обычные или полевые задания в правом верхнем углу страницы.
+
 {% endif %}
-
-{% if platform == "android" or platform == "ios" %}
-Выберите:
-
-* [обычное задание](#non-walk);
-* [полевое задание](#walk);
-* [советы и рекомендации](#android-list).
+{% if platform == "android" %}
+Чтобы выбрать тип заданий по умолчанию, используйте опцию ![](assets/menu.png) → **{{ mobile_android_settings }}** → **Открывать задания на карте**.
 {% endif %}
 
 {% if platform == "android" or platform=="ios" %}
@@ -17,7 +15,6 @@
 
 Чтобы выполнить обычное задание:
 
-1. Откройте список заданий, нажав {% if platform == "android" %}**![](assets/menu.png) → {{ mobile_android_tasks_available }}**{% elsif platform == "ios" %}кнопку **{{ mobile_ios_all_tasks }}**{% endif %}.
 1. Прочитайте {% if locale=="ru-com" %}инструкцию{% elsif locale=="en-com" %}instructions{% endif %} и перейдите к заданию.
 1. Нажмите  {% if platform=="ios" %}**{{ mobile_ios_start_task }}**{% elsif platform=="android" %}**{{ mobile_android_start_now }}**{% endif %}.
 1. Ответьте на вопросы и нажмите кнопку {% if platform == 'ios' %}**{{ mobile_ios_submit_button}}**{% elsif platform == 'android' %}**{{ mobile_android_task_submit }}**{% endif %}.
@@ -43,7 +40,6 @@
 
 Чтобы выполнить полевое здание:
 
-1. Откройте список заданий. {% if platform=="android" %}Для этого нажмите значок ![](assets/menu.png) → **{{ mobile_android_tasks_available }}** {% elsif platform=="ios" %}Для этого нажмите **{{ mobile_ios_all_tasks_title }}**{% endif %}.
 1. Откройте точки заданий одним из способов:
 
     * Выберите задание в списке заданий и нажмите кнопку {% if platform=="android" %}**{{ mobile_android_task_choose }}**{% elsif platform == "ios"%}**{{ mobile_ios_open_map }}**{% endif %}, чтобы увидеть расположение точек этого задания.
