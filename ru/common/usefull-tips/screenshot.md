@@ -11,17 +11,17 @@
 - Компьютер
 
   Нажмите на клавиатуре кнопку **Print Screen** (иногда она называется **PrntScrn**, **PrtScn**, **PrtScr** или **PrtSc**) — в буфер обмена скопируется снимок всего экрана.
-  
+
   ![](../assets/usefull-tips/screenshot/windows/klava10.png)
-  
+
   Чтобы сделать скриншот только активного окна, удерживайте сочетание клавиш **Alt + PrtScn**.
 
 - Ноутбук
 
   Нажмите сочетание клавиш **Fn + PrtScn**. Выберите нужную область. Снимок будет скопирован в буфер обмена.
-  
+
   ![](../assets/usefull-tips/screenshot/windows/klava11.png)
-  
+
   Чтобы сделать скриншот только активного окна, удерживайте сочетание клавиш **Fn + Alt + PrtScn**.
 
 {% endlist %}
@@ -80,10 +80,10 @@
 {% cut "macOS" %}
 
 #|
-|| Сделать скриншот экрана компьютера | ![](../assets/usefull-tips/screenshot/macos/looped-square.png) **Cmd + Shift + 3** ||
-|| Сделать скриншот выделенной области | ![](../assets/usefull-tips/screenshot/macos/looped-square.png) **Cmd + Shift + 4** и выделите курсором нужную область экрана ||
-|| Сделать скриншот активного окна | ![](../assets/usefull-tips/screenshot/macos/looped-square.png) **Cmd + Shift + 3**, а затем нажмите **Пробел** ||
-|| Скопировать скриншот в буфер обмена | ![](../assets/usefull-tips/screenshot/macos/looped-square.png) **Cmd + Shift + 3 + Ctrl** ||
+|| Сделать скриншот экрана компьютера | ⌘ **Cmd + Shift + 3** ||
+|| Сделать скриншот выделенной области | ⌘ **Cmd + Shift + 4** и выделите курсором нужную область экрана ||
+|| Сделать скриншот активного окна | ⌘ **Cmd + Shift + 3**, а затем нажмите **Пробел** ||
+|| Скопировать скриншот в буфер обмена | ⌘ **Cmd + Shift + 3 + Ctrl** ||
 |#
 
 {% endcut %}

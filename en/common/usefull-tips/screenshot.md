@@ -11,17 +11,17 @@ A screenshot is a picture of a computer or mobile device screen taken using stan
 - Computer
 
   Press the **Print Screen** button (it's sometimes called **PrntScrn**, **PrtScn**, **PrtScr**, or **PrtSc**) on the keyboard, and a snapshot of the entire screen will be copied to the clipboard.
-  
+
   ![](../assets/usefull-tips/screenshot/windows/klava10.png)
-  
+
   To take a screenshot of the active window, press and hold **Alt + PrtScn**.
 
 - Laptop
 
   Use the keyboard shortcut **Fn + PrtScn**. Select the area you want to capture. The screenshot will be copied to the clipboard.
-  
+
   ![](../assets/usefull-tips/screenshot/windows/klava11.png)
-  
+
   To take a screenshot of the active window, press and hold **Fn + Alt + PrtScn**.
 
 {% endlist %}
@@ -79,10 +79,10 @@ Use the “Snipping Tool” to take a screenshot of a part of your desktop or th
 {% cut "macOS" %}
 
 #|
-|| Take a screenshot of the computer screen | ![](../assets/usefull-tips/screenshot/macos/looped-square.png) **Cmd + Shift + 3** ||
-|| Take a screenshot of a selected area | ![](../assets/usefull-tips/screenshot/macos/looped-square.png) **Cmd + Shift + 4** and select the area you want to capture ||
-|| Take a screenshot of the active window | ![](../assets/usefull-tips/screenshot/macos/looped-square.png) **Cmd + Shift + 3** then press the **spacebar** ||
-|| Скопировать скриншот в буфер обмена | ![](../assets/usefull-tips/screenshot/macos/looped-square.png) **Cmd + Shift + 3 + Ctrl** ||
+|| Take a screenshot of the computer screen | ⌘ **Cmd + Shift + 3** ||
+|| Take a screenshot of a selected area | ⌘ **Cmd + Shift + 4** and select the area you want to capture ||
+|| Take a screenshot of the active window | ⌘ **Cmd + Shift + 3** then press the **spacebar** ||
+|| Скопировать скриншот в буфер обмена | ⌘ **Cmd + Shift + 3 + Ctrl** ||
 |#
 
 {% endcut %}
