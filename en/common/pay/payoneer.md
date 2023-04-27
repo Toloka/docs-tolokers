@@ -2,7 +2,7 @@
 
 {% note alert %}
 
-Funds withdrawal to Payoneer is currently unavailable for users from Russia.
+Starting from 2 July 2023 Payoneer will charge 1 USD per every Toloka payment received to Payoneer account. If you don’t agree with the change, you may choose an alternative payment system available in your region.
 
 {% endnote %}
 
