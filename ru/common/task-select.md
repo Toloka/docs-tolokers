@@ -1,15 +1,27 @@
+[*ordinary_tasks]: Задания, в которых исполнитель обрабатывает данные, предоставленные заказчиком. Для выполнения таких заданий не нужно куда-то идти или ехать.
+[*field_tasks]: В полевых заданиях заказчик указывает точку на карте, где исполнитель должен сделать какие-то действия (например, найти организацию, узнать режим работы, сделать фотографии).
+
 {% if platform == "web" %}
 # Список заданий
 {% elsif platform == "android" or platform == "ios" %}
 # Выбор задания
+
+Cписок заданий в приложении открывается сразу после авторизации. Вы можете переключиться на другой тип заданий с помощью значков в правом верхнем углу:
+
+- ![](assets/list.svg) — [обычные задания](*ordinary_tasks);
+
+- ![](assets/map.svg) — [полевые задания](*field_tasks).
+
 {% endif %}
 
-{% if platform == "android" or platform == "ios" %}
-Выберите:
+{% if platform == "android" %}
 
-* [обычное задание](#non-walk);
-* [полевое задание](#walk);
-* [советы и рекомендации](#android-list).
+{% note tip %}
+
+Чтобы выбрать тип заданий по умолчанию, используйте опцию ![](assets/menu.png) → **{{ mobile_android_settings }}** → **{{ mobile_android_settings_map_title }}**.
+
+{% endnote %}
+
 {% endif %}
 
 {% if platform == "android" or platform=="ios" %}
@@ -17,37 +29,18 @@
 
 Чтобы выполнить обычное задание:
 
-1. Откройте список заданий, нажав {% if platform == "android" %}**![](assets/menu.png) → {{ mobile_android_tasks_available }}**{% elsif platform == "ios" %}кнопку **{{ mobile_ios_all_tasks }}**{% endif %}.
 1. Прочитайте {% if locale=="ru-com" %}инструкцию{% elsif locale=="en-com" %}instructions{% endif %} и перейдите к заданию.
 1. Нажмите  {% if platform=="ios" %}**{{ mobile_ios_start_task }}**{% elsif platform=="android" %}**{{ mobile_android_start_now }}**{% endif %}.
-1. Ответьте на вопросы и нажмите кнопку {% if platform == 'ios' %}**{{ mobile_ios_submit_button}}**{% elsif platform == 'android' %}**{{ mobile_android_task_submit }}**{% endif %}.
+1. После выполнения задания нажмите кнопку {% if platform == 'ios' %}**{{ mobile_ios_submit_button}}**{% elsif platform == 'android' %}**{{ mobile_android_task_submit }}**{% endif %}.
 
 Вы будете перенаправлены на страницу со следующим заданием.
 {% if platform=='ios' %}Чтобы выйти из задания нажмите кнопку ![](assets/dots_horizontal.svg) внизу экрана и выберите **{{ mobile_ios_task_actions_finish }}**{% elsif platform=="android" %}Чтобы выйти из задания нажмите кнопку ![](assets/dots_vertical.svg) вверху экрана и выберите **{{ mobile_android_task_finish }}**{% endif %}.
 
-{% endif %}
-
-{% if platform == "android" %}
-## Как сохранять начатые задания {#howtosave}
-
-Вы можете сохранять задания, которые вы не выполнили до конца, в **{{ mobile_android_tasks_reserved }}**. Для этого:
-
-1. Нажмите ![](assets/menu.png) → **{{ mobile_android_settings }}**.
-1. Выберите опцию **{{ mobile_android_settings_keep_tasks_title }}**.
-
-Чтобы продолжить выполнять задание, нажмите ![](assets/menu.png) → **{{ mobile_android_tasks_reserved }}**, найдите нужно задание и нажмите кнопку **{{ ui_worker_tsk__resume }}**.
-{% endif %}
-
-{% if platform == 'android' or platform == 'ios' %}
 ## Полевые задания {#fieldwork}
 
 Чтобы выполнить полевое здание:
 
-1. Откройте список заданий. {% if platform=="android" %}Для этого нажмите значок ![](assets/menu.png) → **{{ mobile_android_tasks_available }}** {% elsif platform=="ios" %}Для этого нажмите **{{ mobile_ios_all_tasks_title }}**{% endif %}.
-1. Откройте точки заданий одним из способов:
-
-    * Выберите задание в списке заданий и нажмите кнопку {% if platform=="android" %}**{{ mobile_android_task_choose }}**{% elsif platform == "ios"%}**{{ mobile_ios_open_map }}**{% endif %}, чтобы увидеть расположение точек этого задания.
-    * Откройте общую карту, нажав {% if platform=="android" %}значок ![](assets/map-android2.png) в нижней части экрана{% elsif platform=='ios'%}кнопку **{{ ui_worker_tsk__tab_map }}**{% endif %}, чтобы увидеть все точки с доступными заданиями.
+1. Откройте карту, нажав {% if platform=="android" %}значок ![](assets/map.svg) в правом верхнем углу{% elsif platform=='ios'%}кнопку **{{ ui_worker_tsk__tab_map }}**{% endif %}, чтобы увидеть все точки с доступными заданиями.
 
     {% if platform=='ios' %}
 
@@ -61,8 +54,6 @@
 
     {% endif %}
 
-    Чтобы вернуться к списку заданий, нажмите {% if platform=="android" %}значок ![](assets/list.png) внизу экрана {% elsif platform == 'ios' %} кнопку **{{ mobile_ios_tasks_list_button }}** вверху экрана{% endif %}.
-
 1. Нажмите точку с заданием.
 
    {% if platform=="android" %}Если в одной точке несколько заданий, воспользуйтесь поиском. Чтобы найти задание в списке:
@@ -74,7 +65,7 @@
 
    Чтобы установить минимальную цену за задание:
 
-   1. {% if platform=="android" %}Нажмите на значок ![](assets/filter-android.png) внизу экрана{% elsif platform=="ios" %}Нажмите кнопку **{{ mobile_ios_filters_title }}** вверху экрана{% endif %}.
+   1. {% if platform=="android" %}Нажмите на значок ![](assets/filter-android.png){% elsif platform=="ios" %}Нажмите кнопку **{{ mobile_ios_filters_title }}**{% endif %} вверху экрана.
    1. Передвиньте ползунок.
    1. Нажмите кнопку {% if platform=="android"%}**{{ mobile_android_apply_positive_button }}**{% elsif platform=='ios'%}**{{ mobile_ios_ready_button }}**{% endif %}.
 
@@ -84,7 +75,7 @@
 
    Вы можете зарезервировать несколько заданий.
 
-1. {% if platform=="android" %}Чтобы построить маршрут, нажмите ![](assets/kebab-menu.png) → **{{ mobile_android_task_build_route }}**.{% endif %}{% if platform=="ios" %}Постройте маршрут до точки, нажав кнопку **{{ mobile_ios_route_button }}**.{% endif %} Маршрут будет построен в приложении [Яндекс Карты]({{ ya-maps }}).
+1. {% if platform=="android" %}Чтобы построить маршрут, нажмите ![](assets/dots_vertical.svg) → **{{ mobile_android_task_build_route }}**.{% endif %}{% if platform=="ios" %}Постройте маршрут до точки, нажав кнопку **{{ mobile_ios_route_button }}**.{% endif %} Маршрут будет построен в приложении [Яндекс Карты]({{ ya-maps }}).
 
 1. Доберитесь до места, которое указано в задании. Затем выберите задание на странице {% if platform=="ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_active_tasks }}** и нажмите кнопку **{{ mobile_ios_continue_button }}**. {% endif %}{% if platform=="android" %}**{{ mobile_android_tasks_reserved }}** и нажмите кнопку **{{ mobile_android_task_resume }}**{% endif %}
 
@@ -100,6 +91,17 @@
      {% endnote %}
 
 Задание с ответами сохраняется на странице {% if platform=="android" %}**{{ mobile_android_tasks_done }}**{% elsif platform=="ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_done_tasks }}**{% endif %} до подключения к Wi-Fi, если в [настройках](settings.dita) выбрана опция {% if platform=="android"%}**{{ mobile_android_settings_wifi_title }}}**{% elsif platform=="ios" %}**{{ mobile_ios_settings_wifi_title }}**{% endif %}. Вам нужно успеть отправить задание до того, как истечет время на его выполнение.
+{% endif %}
+
+{% if platform == "android" %}
+## Как сохранять начатые задания {#howtosave}
+
+Вы можете сохранять задания, которые вы не выполнили до конца, в **{{ mobile_android_tasks_reserved }}**. Для этого:
+
+1. Нажмите ![](assets/menu.png) → **{{ mobile_android_settings }}**.
+1. Выберите опцию **{{ mobile_android_settings_keep_tasks_title }}**.
+
+Чтобы продолжить выполнять задание, нажмите ![](assets/menu.png) → **{{ mobile_android_tasks_reserved }}**, найдите нужно задание и нажмите кнопку **{{ ui_worker_tsk__resume }}**.
 {% endif %}
 
 {% if platform == "android" or platform=="ios" %}
@@ -129,7 +131,7 @@
 {% if platform=="android" or platform=="ios" %}
 ## Советы и рекомендации {#tips}
 
-В списке заданий отображаются все задания — обычные и полевые. Чтобы открыть список заданий, нажмите
+Чтобы открыть список заданий, нажмите
 {% if platform=="android" %}![](assets/menu.png) → **{{ mobile_android_tasks_available }}**{% endif %}
 {% if platform=="ios" %}кнопку **{{ mobile_ios_all_tasks_title }}**{% endif %}.
 
@@ -247,3 +249,6 @@
 - Выберите {{ ui_worker_task_menu__ignore_remove }}.
 
 {% endif %}
+
+[![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md)
+
