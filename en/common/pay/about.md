@@ -31,18 +31,17 @@ You won't be able to submit a request if you just registered or recently changed
 
 ## How to choose a withdrawal method {#how-to-choose}
 
-{% if locale == "ru-com"%}
-Toloka lets you withdraw money using: PayPal, Payoneer, YooMoney, QIWI, or the Faster Payments System (FPS).
-{% endif %}
-{% if locale != "ru-com"%}
-Toloka lets you withdraw money using: PayPal, Payoneer and QIWI, depending on your region.
-{% endif %}
+
+Toloka lets you withdraw money using: {% if locale == "ru-com"%}PayPal, Payoneer, YooMoney, QIWI, or the Faster Payments System (FPS){% endif %}{% if locale != "ru-com"%}PayPal, Payoneer and QIWI, depending on your region{% endif %}.
 
 You can add only one account of each type{% if locale == "ru-com" %}, except FPS{% endif %}.
 
-{% note warning %}
+{% note alert %}
 
-Citizens of the Russian Federation who have confirmed their self-employed status and added Toloka as a partner in the My Taxes system can only withdraw money to YooMoney and FPS.
+- В настоящее время вывод средств на PayPal и Payoneer недоступен для пользователей из России.
+{% if locale == "ru-com"%}
+- Вывод средств через ЮMoney и Систему быстрых платежей (СБП) доступен только для граждан РФ, подтвердивших статус [самозанятого](../self-employed/about.md) и указавших Толоку партнером в системе Мой Налог.
+{% endif %}
 
 {% endnote %}
 
