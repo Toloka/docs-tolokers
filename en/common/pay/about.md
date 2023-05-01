@@ -31,7 +31,12 @@ You won't be able to submit a request if you just registered or recently changed
 
 ## How to choose a withdrawal method {#how-to-choose}
 
-Toloka lets you withdraw money using: PayPal, Payoneer{% if locale == "ru-com"%}, YooMoney, QIWI, or the Faster Payments System (FPS){% endif %}.
+{% if locale == "ru-com"%}
+Toloka lets you withdraw money using: PayPal, Payoneer, YooMoney, QIWI, or the Faster Payments System (FPS).
+{% endif %}
+{% if locale != "ru-com"%}
+Toloka lets you withdraw money using: PayPal, Payoneer and QIWI, depending on your region.
+{% endif %}
 
 You can add only one account of each type{% if locale == "ru-com" %}, except FPS{% endif %}.
 
