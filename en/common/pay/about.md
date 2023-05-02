@@ -93,12 +93,6 @@ $0.02 for one withdrawal a week. Subsequent withdrawals within a week — $1.
 
 | The terms for withdrawing money to a bank account depend on the currency. Read more in the [PayPal Help Center]({{ paypal-transfer-money }}).
 
-{% note alert %}
-
-Funds withdrawal to PayPal is currently unavailable for users in Russia.
-
-{% endnote %}
-
 ||
 || [Payoneer](payoneer.md) |
 
