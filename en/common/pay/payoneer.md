@@ -2,13 +2,13 @@
 
 {% note alert %}
 
-Payoneer is one of the most popular payment systems that provides a fast and secure way to pay online.
+Funds withdrawal to Payoneer is currently unavailable for users from Russia.
 
 {% endnote %}
 
 #### Benefits of Payoneer
 
-Payoneer is a secure, fast, and low-cost payment system.
+Payoneer is one of the most popular payment systems that provides a fast and secure way to pay online.
 
 It allows users to:
 
@@ -52,14 +52,15 @@ Learn more on the [Payoneer website]({{ payoneer-fees }}).
 ||
 || Minimum withdrawal amount from Toloka | $20 ||
 || Where to transfer money next |
- - To a bank account.
- - To the Payoneer Mastercard.
 
 {% note alert %}
 
-Starting from 2 July 2023 Payoneer will charge 1 USD per every Toloka payment received to Payoneer account. If you don’t agree with the change, you may choose an alternative payment system available in your region.
+Starting from 2 July 2023 Payoneer will charge 1 USD per every Toloka payment received to Payoneer account. If you don’t agree with the change, you may choose an alternative payment system available in your region.
 
 {% endnote %}
+
+ - To a bank account.
+ - To the Payoneer Mastercard.
 
 To find out the exact fee amount, go to **Fees** in your Payoneer account.
 
