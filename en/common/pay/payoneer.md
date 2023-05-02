@@ -2,7 +2,7 @@
 
 {% note alert %}
 
-Funds withdrawal to Payoneer is currently unavailable for users from Russia.
+Payoneer is one of the most popular payment systems that provides a fast and secure way to pay online.
 
 {% endnote %}
 
