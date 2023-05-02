@@ -552,6 +552,12 @@ Don't request withdrawal until you are sure that your account is confirmed in th
 
 You can also withdraw funds from Toloka using [Payoneer](payoneer.md). Here are some details you need to consider:
 
+{% note alert %}
+
+Starting from 2 July 2023 Payoneer will charge 1 USD per every Toloka payment received to Payoneer account. If you don’t agree with the change, you may choose an alternative payment system available in your region.
+
+{% endnote %}
+
 You can receive payments in EUR or USD. Direct UZS withdrawal is unavailable.
 
 #### Foreign currency account
