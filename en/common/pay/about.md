@@ -364,8 +364,6 @@ The minimum withdrawal amount may differ from the one when withdrawing from Tolo
 
 {% endcut %}
 
-{% if locale == "ru-com" %}
-
 {% cut "QIWI" %}
 
 ##### Benefits
@@ -433,8 +431,6 @@ Learn more on the [QIWI]({{ qiwi }}) website.
 |#
 
 {% endcut %}
-
-{% endif %}
 
 {% if locale == "ru-com" %}
 
