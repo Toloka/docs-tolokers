@@ -154,6 +154,26 @@ $0.05
 - Crediting funds within a week.
 
 ||
+|| [Papara](papara.md) |
+
+Turkey
+
+|
+
+2% of the amount
+
+|
+
+$0.05
+
+
+|
+
+- Currency conversion when withdrawing funds from Toloka.
+- Conversion to Turkish lira at the Forex rate.
+- Crediting funds within a week.
+
+||
 ||[QIWI](Qiwi-wallet.md) |
 
 {% cut "Only certain countries" %}
