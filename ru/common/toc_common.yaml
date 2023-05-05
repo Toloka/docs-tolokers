@@ -53,6 +53,8 @@ items:
       name: Способы вывода средств
     - href: pay/paypal.md
       name: PayPal
+    - href: pay/papara.md
+      name: Papara
     - href: pay/payoneer.md
       name: Payoneer
     - href: pay/yoomoney.md
