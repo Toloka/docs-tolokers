@@ -36,4 +36,6 @@
 ||
 |#
 
-[Помощь и поддержка Papara](https://www.papara.com/#!/support)
+[Подробнее читайте на сайте Papara](https://www.papara.com/en/faq/).
+
+[![](../assets/buttons/contact-support.svg)](../troubleshooting/troubleshooting.md#money_withdrawal)

@@ -31,7 +31,7 @@ You won't be able to submit a request if you just registered or recently changed
 
 ## How to choose a withdrawal method {#how-to-choose}
 
-Toloka lets you withdraw money using: PayPal, Payoneer{% if locale == "ru-com"%}, YooMoney, QIWI, or the Faster Payments System (FPS){% endif %}.
+Toloka lets you withdraw money using: PayPal, Payoneer, Papara{% if locale == "ru-com"%}, YooMoney, QIWI, or the Faster Payments System (FPS){% endif %}.
 
 You can add only one account of each type{% if locale == "ru-com" %}, except FPS{% endif %}.
 
@@ -96,26 +96,6 @@ Funds withdrawal to PayPal is currently unavailable for users in Russia.
 {% endnote %}
 
 ||
-|| [Papara](papara.md) |
-
-Turkey
-
-|
-
-2% of the amount
-
-|
-
-$0.05
-
-
-|
-
-- Currency conversion when withdrawing funds from Toloka.
-- Conversion to Turkish lira at the Forex rate.
-- Crediting funds within a week.
-
-||
 || [Payoneer](payoneer.md) |
 
 {% cut "Almost everywhere" %}
@@ -152,6 +132,26 @@ Starting from 2 July 2023 Payoneer will charge 1 USD per every Toloka paymen
 To find out the exact fee amount, go to **Fees** in your Payoneer account.
 
 The minimum withdrawal amount may differ from the one when withdrawing from Toloka. It might be higher (for example, $50).
+
+||
+|| [Papara](papara.md) |
+
+Turkey
+
+|
+
+2% of the amount
+
+|
+
+$0.05
+
+
+|
+
+- Currency conversion when withdrawing funds from Toloka.
+- Conversion to Turkish lira at the Forex rate.
+- Crediting funds within a week.
 
 ||
 ||[QIWI](Qiwi-wallet.md) |
@@ -327,51 +327,6 @@ $0.02 for one withdrawal a week. Subsequent withdrawals within a week — $1.
 
 {% endcut %}
 
-
-{% cut "Papara" %}
-
-###№# Benefits of Papara
-
-Allows you to withdraw money from your Toloka account in Turkish liras.
-
-##№## Terms
-
-
-#|
-||Area of operation |
-
-Turkey
-
-||
-||Fee |
-
-2% of the amount
-
-{% endcut %}
-
-||
-||Minimum withdrawal amount |
-
-
-
-$0.05
-
-
-||
-||Withdrawal method |
-
-- Currency conversion when withdrawing funds from Toloka.
-- Conversion to Turkish lira at the Forex rate.
-- Crediting funds within a week.
-
-||
-|#
-
-[Papara help and support](https://www.papara.com/#!/support)
-
-{% endcut %}
-
-
 {% cut "Payoneer" %}
 
 {% note alert %}
@@ -428,6 +383,47 @@ To find out the exact fee amount, go to **Fees** in your Payoneer account.
 
 The minimum withdrawal amount may differ from the one when withdrawing from Toloka. It might be higher (for example, $50).||
 |#
+
+{% endcut %}
+
+{% cut "Papara" %}
+
+##### Benefits of Papara
+
+Allows you to withdraw money from your Toloka account in Turkish liras.
+
+##### Terms
+
+
+#|
+||Area of operation |
+
+Turkey
+
+||
+||Fee |
+
+2% of the amount
+
+||
+||Minimum withdrawal amount |
+
+
+
+$0.05
+
+
+||
+||Withdrawal method |
+
+- Currency conversion when withdrawing funds from Toloka.
+- Conversion to Turkish lira at the Forex rate.
+- Crediting funds within a week.
+
+||
+|#
+
+[Read more on the Papara website](https://www.papara.com/en/faq/).
 
 {% endcut %}
 
