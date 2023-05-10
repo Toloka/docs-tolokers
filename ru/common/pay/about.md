@@ -430,7 +430,7 @@
 ||
 |#
 
-[Подробнее читайте на сайте Papara](https://www.papara.com/en/faq/).
+Подробнее читайте на [сайте Papara](https://www.papara.com/en/faq/).
 
 {% endcut %}
 

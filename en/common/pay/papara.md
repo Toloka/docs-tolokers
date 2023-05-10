@@ -36,7 +36,7 @@ $0.05
 ||
 |#
 
-[Read more on the Papara website](https://www.papara.com/en/faq/).
+Read more on [the Papara website](https://www.papara.com/en/faq/).
 
 [![](../assets/buttons/contact-support.svg)](../troubleshooting/troubleshooting.md#money_withdrawal)
 
