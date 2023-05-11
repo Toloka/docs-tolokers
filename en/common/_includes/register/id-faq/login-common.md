@@ -1,12 +1,12 @@
 {% cut "I can't get an SMS with the confirmation code." %}
 
-Follow the recommendations in Help for [Yandex ID]({{ support-passport-nocode }}). If this doesn't help, write to the [support service]({{ support-passport-nosms-form }}).
+Write to the [support service]({{ support-passport-nosms-form }}).
 
 {% endcut %}
 
 {% cut "I can't register because my phone number is already linked to another account" %}
 
-Your phone number can only be linked to one [Toloka](http://toloka.yandex.com/) account at a time. Most likely, you already registered in the system under a different username. Recall the username you registered with and use it to log in. If you don't remember your username, use [Restoring access]({{ passport-restore }}).
+Your phone number can only be linked to one [Toloka](http://toloka.yandex.com/) account at a time. Most likely, you already registered in the system using a different social network. Try to remember it. If you have any problems, write to the [support service]({{ support-passport-nosms-form }}).
 
 According to the [User Agreement]({{ user-agreement }}):
 - The user may have only one account in Toloka.
@@ -17,11 +17,15 @@ According to the [User Agreement]({{ user-agreement }}):
 
 {% cut "How do I change the phone number in my account?" %}
 
-Go to [Yandex ID]({{ passport-phones }}) and change your main number. After changing your phone number, you won't be able to withdraw money for a week.
+1. Log in to the web version of [Toloka]({{ toloka }}).
+2. Go to the **Profile** tab.
+3. In the **Telephone** block, click **Edit**.
+4. Enter a new phone number and click **Confirm**. We will send an SMS code to this phone number.
+5. Enter the code from the SMS and click **Confirm**. If you did not receive the code or entered an incorrect one, click the link **Resend code**. A new code can be requested in a minute.
 
-{% note info %}
+{% note alert %}
 
-If you don't have access to the old number, it takes a month to change it. For more information about changing your phone number, see the [Yandex ID Help]({{ support-passport-phone-change }}).
+After changing the number, the withdrawal of funds will be blocked for 7 days.
 
 {% endnote %}
 
@@ -55,9 +59,7 @@ Open your **{{ mobile_ios_profile }}**. Your username is under your name.
 
 {% cut "I don't remember my username or password" %}
 
-If you don't remember your username or password, go to the [Restore access]({{ passport-restore }}) page.
-
-Learn more about {% if platform == "web" %}[logging in to Toloka](../../../register.md){% elsif platform == "android" or platform == "ios" %}[logging in to Toloka](../../../auth.md#registered){% endif %}.
+If you don't remember your password, restore it in the social network with which you registered on the platform. Passwords aren't stored in Toloka.
 
 {% endcut %}
 

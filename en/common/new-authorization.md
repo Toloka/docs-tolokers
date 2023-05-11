@@ -37,5 +37,3 @@ You can select and continue to use [Yandex ID]({{ passport-phones }}) to log in 
 {% endif %}
 
 [![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#registration)
-
-
