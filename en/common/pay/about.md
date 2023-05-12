@@ -117,7 +117,7 @@ Learn more on the [ Payoneer website]({{ payoneer-fees }}).
 
 {% note alert %}
 
-Starting from 2 July 2023 Payoneer will charge 1 USD per every Toloka payment received to Payoneer account. If you don’t agree with the change, you may choose an alternative payment system available in your region.
+Starting from 15 July 2023 Payoneer will charge 1 USD per every Toloka payment received to Payoneer account. If you don’t agree with the change, you may choose an alternative payment system available in your region.
 
 {% endnote %}
 
@@ -347,7 +347,7 @@ Learn more on the [ Payoneer website]({{ payoneer-fees }}).
 
 {% note alert %}
 
-Starting from 2 July 2023 Payoneer will charge 1 USD per every Toloka payment received to Payoneer account. If you don’t agree with the change, you may choose an alternative payment system available in your region.
+Starting from 15 July 2023 Payoneer will charge 1 USD per every Toloka payment received to Payoneer account. If you don’t agree with the change, you may choose an alternative payment system available in your region.
 
 {% endnote %}
 
@@ -548,7 +548,7 @@ You can also withdraw funds from Toloka using [Payoneer](payoneer.md). Here are 
 
 {% note alert %}
 
-Starting from 2 July 2023 Payoneer will charge 1 USD per every Toloka payment received to Payoneer account. If you don’t agree with the change, you may choose an alternative payment system available in your region.
+Starting from 15 July 2023 Payoneer will charge 1 USD per every Toloka payment received to Payoneer account. If you don’t agree with the change, you may choose an alternative payment system available in your region.
 
 {% endnote %}
 
