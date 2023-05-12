@@ -2,7 +2,7 @@
 
 ## How to withdraw money from Toloka {#how-to-withdraw}
 
-{% note alert %}
+{% note warning %}
 
 Enter your real first and last name in your account settings. Otherwise, you won't be able to withdraw money. The user's first and last name in the payment system must match their first and last name in Toloka. Otherwise, your account may be blocked.
 
@@ -31,13 +31,13 @@ You won't be able to submit a request if you just registered or recently changed
 
 ## How to choose a withdrawal method {#how-to-choose}
 
-Toloka lets you withdraw money using: PayPal, Payoneer, Papara{% if locale == "ru-com"%}, YooMoney, QIWI, or the Faster Payments System (FPS){% endif %}.
+Toloka lets you withdraw money using: PayPal, Payoneer, Papara or QIWI.
 
 You can add only one account of each type{% if locale == "ru-com" %}, except FPS{% endif %}.
 
-{% note warning %}
+{% note alert %}
 
-Citizens of the Russian Federation who have confirmed their self-employed status and added Toloka as a partner in the My Taxes system can only withdraw money to YooMoney and FPS.
+Funds withdrawal to Payoneer and Payoneer is currently unavailable for Tolokers from Russia.
 
 {% endnote %}
 
@@ -89,12 +89,6 @@ $0.02 for one withdrawal a week. Subsequent withdrawals within a week — $1.
 
 | The terms for withdrawing money to a bank account depend on the currency. Read more in the [PayPal Help Center]({{ paypal-transfer-money }}).
 
-{% note alert %}
-
-Funds withdrawal to PayPal is currently unavailable for users in Russia.
-
-{% endnote %}
-
 ||
 || [Payoneer](payoneer.md) |
 
@@ -119,12 +113,6 @@ Learn more on the [ Payoneer website]({{ payoneer-fees }}).
 {% endcut %}
 
 | $20 |
-
-{% note alert %}
-
-Starting from 2 July 2023 Payoneer will charge 1 USD per every Toloka payment received to Payoneer account. If you don’t agree with the change, you may choose an alternative payment system available in your region.
-
-{% endnote %}
 
 * To a bank account.
 * To the Payoneer Mastercard.
@@ -329,12 +317,6 @@ $0.02 for one withdrawal a week. Subsequent withdrawals within a week — $1.
 
 {% cut "Payoneer" %}
 
-{% note alert %}
-
-Starting from 2 July 2023 Payoneer will charge 1 USD per every Toloka payment received to Payoneer account. If you don’t agree with the change, you may choose an alternative payment system available in your region.
-
-{% endnote %}
-
 #### Benefits
 
 Payoneer is a secure, fast, and low-cost payment system.
@@ -427,8 +409,6 @@ Read more on [the Papara website](https://www.papara.com/en/faq/).
 
 {% endcut %}
 
-{% if locale == "ru-com" %}
-
 {% cut "QIWI" %}
 
 ##### Benefits
@@ -496,8 +476,6 @@ Learn more on the [QIWI]({{ qiwi }}) website.
 |#
 
 {% endcut %}
-
-{% endif %}
 
 {% if locale == "ru-com" %}
 

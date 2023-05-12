@@ -49,12 +49,12 @@ items:
       href: pay/about.md
     - name: PayPal
       href: pay/paypal.md
-    - name: Papara
-      href: pay/papara.md
 #   - name: Skrill
 #     href: pay/skrill.md
     - name: Payoneer
       href: pay/payoneer.md
+    - name: Papara
+      href: pay/papara.md
     - name: QIWI
       href: pay/Qiwi-wallet.md
   - name: Tips and recommendations
