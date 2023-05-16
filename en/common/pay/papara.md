@@ -31,7 +31,7 @@ $0.05
 
 - Currency conversion when withdrawing funds from Toloka.
 - Conversion to Turkish lira at the Forex rate.
-- Crediting funds within a week.
+- Transferring money to an account within a week.
 
 ||
 |#
