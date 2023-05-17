@@ -14,10 +14,10 @@ You can register in Toloka through a social networks:
 2. Click on the social network button through which you want to register. To see all the social networks, click the link **More social networks**.
 3. The social network window will open. Do one of the following:
    - Select the social media profile if you are already logged in.
-   - Log in to the social network if you have not been logged in.
-   - Create an social media profile if you have not yet registered in the social network.
+   - Log in to the social network if you you are not already logged in.
+   - Create a social media profile if you have not yet registered in the social network.
 4. Enter the phone number and click **Send code**. We will send an SMS message with a confirmation code to this phone number.
-5. Enter the code from the SMS and click **Submit**. If you didn't receive the code or entered an incorrect one, click the link **Resend code**. You can request a new code in a minute.
+5. Enter the code from the SMS and click **Submit**. If you did not receive the code or entered an incorrect one, click the link **Resend code**. You can request a new code in a minute.
 6. Fill in the information about yourself: first and last name, date of birth, country. Read the [User agreement]({{ user-agreement }}), confirm that you are 18 or older, and click **Continue**.
 7. After successful registration, you can start completing tasks.
 
@@ -27,7 +27,7 @@ You can register in Toloka through a social networks:
 2. Click on the social network button.
 3. In the opened social network window, do one of the following:
    - Select the social media profile if you are already logged in.
-   - Log in to the social network if you have not been logged in.
+   - Log in to the social network if you you are not already logged in.
 4. You can complete tasks.
 
 ## FAQ {#faq}
