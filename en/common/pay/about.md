@@ -114,6 +114,12 @@ Learn more on the [ Payoneer website]({{ payoneer-fees }}).
 
 | $20 |
 
+{% note alert %}
+
+Starting from 15 July 2023 Payoneer will charge $1 per every Toloka payment received to Payoneer account. If you don’t agree with the change, you may choose an alternative payment system available in your region.
+
+{% endnote %}
+
 * To a bank account.
 * To the Payoneer Mastercard.
 
@@ -357,6 +363,13 @@ Learn more on the [ Payoneer website]({{ payoneer-fees }}).
 ||
 ||Minimum withdrawal amount from Toloka | $20||
 ||Where to transfer money next |
+
+{% note alert %}
+
+Starting from 15 July 2023 Payoneer will charge $1 per every Toloka payment received to Payoneer account. If you don’t agree with the change, you may choose an alternative payment system available in your region.
+
+{% endnote %}
+
 - To a bank account.
 
 - To the Payoneer Mastercard.
@@ -591,7 +604,15 @@ Don't request withdrawal until you are sure that your account is confirmed in th
 
 {% cut "For citizens of Uzbekistan" %}
 
-You can also withdraw funds from Toloka using [Payoneer](payoneer.md). Here are some details you need to consider:
+You can also withdraw funds from Toloka using [Payoneer](payoneer.md).
+
+{% note alert %}
+
+Starting from 15 July 2023 Payoneer will charge $1 per every Toloka payment received to Payoneer account. If you don’t agree with the change, you may choose an alternative payment system available in your region.
+
+{% endnote %}
+
+Here are some details you need to consider:
 
 You can receive payments in EUR or USD. Direct UZS withdrawal is unavailable.
 

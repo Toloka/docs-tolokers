@@ -52,6 +52,13 @@ Learn more on the [Payoneer website]({{ payoneer-fees }}).
 ||
 || Minimum withdrawal amount from Toloka | $20 ||
 || Where to transfer money next |
+
+{% note alert %}
+
+Starting from 15 July 2023 Payoneer will charge $1 per every Toloka payment received to Payoneer account. If you don’t agree with the change, you may choose an alternative payment system available in your region.
+
+{% endnote %}
+
  - To a bank account.
  - To the Payoneer Mastercard.
 
