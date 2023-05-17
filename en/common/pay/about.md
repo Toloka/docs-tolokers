@@ -2,7 +2,7 @@
 
 ## How to withdraw money from Toloka {#how-to-withdraw}
 
-{% note alert %}
+{% note warning %}
 
 Enter your real first and last name in your account settings. Otherwise, you won't be able to withdraw money. The user's first and last name in the payment system must match their first and last name in Toloka. Otherwise, your account may be blocked.
 
@@ -31,13 +31,13 @@ You won't be able to submit a request if you just registered or recently changed
 
 ## How to choose a withdrawal method {#how-to-choose}
 
-Toloka lets you withdraw money using: PayPal, Payoneer{% if locale == "ru-com"%}, YooMoney, QIWI, or the Faster Payments System (FPS){% endif %}.
+Toloka lets you withdraw money using: PayPal, Payoneer, Papara or QIWI.
 
 You can add only one account of each type{% if locale == "ru-com" %}, except FPS{% endif %}.
 
-{% note warning %}
+{% note alert %}
 
-Citizens of the Russian Federation who have confirmed their self-employed status and added Toloka as a partner in the My Taxes system can only withdraw money to YooMoney and FPS.
+Funds withdrawal to Payoneer and Payoneer is currently unavailable for Tolokers from Russia.
 
 {% endnote %}
 
@@ -89,12 +89,6 @@ $0.02 for one withdrawal a week. Subsequent withdrawals within a week — $1.
 
 | The terms for withdrawing money to a bank account depend on the currency. Read more in the [PayPal Help Center]({{ paypal-transfer-money }}).
 
-{% note alert %}
-
-Funds withdrawal to PayPal is currently unavailable for users in Russia.
-
-{% endnote %}
-
 ||
 || [Payoneer](payoneer.md) |
 
@@ -120,6 +114,12 @@ Learn more on the [ Payoneer website]({{ payoneer-fees }}).
 
 | $20 |
 
+{% note alert %}
+
+Starting from 15 July 2023 Payoneer will charge $1 per every Toloka payment received to Payoneer account. If you don’t agree with the change, you may choose an alternative payment system available in your region.
+
+{% endnote %}
+
 * To a bank account.
 * To the Payoneer Mastercard.
 
@@ -127,11 +127,25 @@ To find out the exact fee amount, go to **Fees** in your Payoneer account.
 
 The minimum withdrawal amount may differ from the one when withdrawing from Toloka. It might be higher (for example, $50).
 
-{% note alert %}
+||
+|| [Papara](papara.md) |
 
-Funds withdrawal to Payoneer is currently unavailable for users from Russia.
+Turkey
 
-{% endnote %}
+|
+
+2% of the amount
+
+|
+
+$0.05
+
+
+|
+
+- Currency conversion when withdrawing funds from Toloka.
+- Conversion to Turkish lira at the Forex rate.
+- Crediting funds within a week.
 
 ||
 ||[QIWI](Qiwi-wallet.md) |
@@ -309,12 +323,6 @@ $0.02 for one withdrawal a week. Subsequent withdrawals within a week — $1.
 
 {% cut "Payoneer" %}
 
-{% note alert %}
-
-Funds withdrawal to Payoneer is currently unavailable for users from Russia.
-
-{% endnote %}
-
 #### Benefits
 
 Payoneer is a secure, fast, and low-cost payment system.
@@ -355,6 +363,13 @@ Learn more on the [ Payoneer website]({{ payoneer-fees }}).
 ||
 ||Minimum withdrawal amount from Toloka | $20||
 ||Where to transfer money next |
+
+{% note alert %}
+
+Starting from 15 July 2023 Payoneer will charge $1 per every Toloka payment received to Payoneer account. If you don’t agree with the change, you may choose an alternative payment system available in your region.
+
+{% endnote %}
+
 - To a bank account.
 
 - To the Payoneer Mastercard.
@@ -366,7 +381,46 @@ The minimum withdrawal amount may differ from the one when withdrawing from Tolo
 
 {% endcut %}
 
-{% if locale == "ru-com" %}
+{% cut "Papara" %}
+
+##### Benefits of Papara
+
+Allows you to withdraw money from your Toloka account in Turkish liras.
+
+##### Terms
+
+
+#|
+||Area of operation |
+
+Turkey
+
+||
+||Fee |
+
+2% of the amount
+
+||
+||Minimum withdrawal amount |
+
+
+
+$0.05
+
+
+||
+||Withdrawal method |
+
+- Currency conversion when withdrawing funds from Toloka.
+- Conversion to Turkish lira at the Forex rate.
+- Crediting funds within a week.
+
+||
+|#
+
+Read more on [the Papara website](https://www.papara.com/en/faq/).
+
+{% endcut %}
 
 {% cut "QIWI" %}
 
@@ -435,8 +489,6 @@ Learn more on the [QIWI]({{ qiwi }}) website.
 |#
 
 {% endcut %}
-
-{% endif %}
 
 {% if locale == "ru-com" %}
 
@@ -552,7 +604,15 @@ Don't request withdrawal until you are sure that your account is confirmed in th
 
 {% cut "For citizens of Uzbekistan" %}
 
-You can also withdraw funds from Toloka using [Payoneer](payoneer.md). Here are some details you need to consider:
+You can also withdraw funds from Toloka using [Payoneer](payoneer.md).
+
+{% note alert %}
+
+Starting from 15 July 2023 Payoneer will charge $1 per every Toloka payment received to Payoneer account. If you don’t agree with the change, you may choose an alternative payment system available in your region.
+
+{% endnote %}
+
+Here are some details you need to consider:
 
 You can receive payments in EUR or USD. Direct UZS withdrawal is unavailable.
 

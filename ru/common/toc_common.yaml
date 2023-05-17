@@ -55,14 +55,16 @@ items:
       name: PayPal
     - href: pay/payoneer.md
       name: Payoneer
+    - href: pay/papara.md
+      name: Papara
+    - href: pay/Qiwi-wallet.md
+      name: QIWI
     - href: pay/yoomoney.md
       name: ЮMoney
       when: locale=="ru-com"
     - href: pay/sbp.md
       name: Система быстрых платежей
       when: locale=="ru-com"
-    - href: pay/Qiwi-wallet.md
-      name: QIWI
   - name: Стать самозанятым
     items:
     - href: self-employed/about.md
