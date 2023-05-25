@@ -8,6 +8,9 @@ items:
   - href: register.md
     name: Регистрация и вход
     when: platform == "web"
+  - href: new-authorization.md
+    name: Новая система авторизации
+    hidden: true
   - href: settings.md
     name: Необходимые настройки
     when: platform == "ios" or platform == "android"

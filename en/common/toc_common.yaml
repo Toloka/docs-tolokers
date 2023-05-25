@@ -8,6 +8,9 @@ items:
   - name: Registration and logging in
     href: auth.md
     when: platform == "android" or platform == "ios"
+  - name: New authorization system
+    href: new-authorization.md
+    hidden: true
   - name: Required settings
     href: settings.md
     when: platform == "android" or platform == "ios"
