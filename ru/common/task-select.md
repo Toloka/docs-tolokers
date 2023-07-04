@@ -1,53 +1,53 @@
 {% if platform == "web" %}
-# Список заданий
+# Список проектов
 {% elsif platform == "android" or platform == "ios" %}
-# Выбор задания
+# Выбор проекта
 {% endif %}
 
 {% if platform == "android" or platform == "ios" %}
 Выберите:
 
-* [обычное задание](#non-walk);
-* [полевое задание](#walk);
+* [обычный проект](#non-walk);
+* [полевой проект](#walk);
 * [советы и рекомендации](#android-list).
 {% endif %}
 
 {% if platform == "android" or platform=="ios" %}
-## Обычные задания {#common}
+## Обычные проекты {#common}
 
-Чтобы выполнить обычное задание:
+Чтобы выполнить обычный проект:
 
-1. Откройте список заданий, нажав {% if platform == "android" %}**![](assets/menu.png) → {{ mobile_android_tasks_available }}**{% elsif platform == "ios" %}кнопку **{{ mobile_ios_all_tasks }}**{% endif %}.
-1. Прочитайте {% if locale=="ru-com" %}инструкцию{% elsif locale=="en-com" %}instructions{% endif %} и перейдите к заданию.
+1. Откройте список проектов, нажав {% if platform == "android" %}**![](assets/menu.png) → {{ mobile_android_tasks_available }}**{% elsif platform == "ios" %}кнопку **{{ mobile_ios_all_tasks }}**{% endif %}.
+1. Прочитайте {% if locale=="ru-com" %}инструкцию{% elsif locale=="en-com" %}instructions{% endif %} и перейдите к проекту.
 1. Нажмите  {% if platform=="ios" %}**{{ mobile_ios_start_task }}**{% elsif platform=="android" %}**{{ mobile_android_start_now }}**{% endif %}.
 1. Ответьте на вопросы и нажмите кнопку {% if platform == 'ios' %}**{{ mobile_ios_submit_button}}**{% elsif platform == 'android' %}**{{ mobile_android_task_submit }}**{% endif %}.
 
-Вы будете перенаправлены на страницу со следующим заданием.
-{% if platform=='ios' %}Чтобы выйти из задания нажмите кнопку ![](assets/dots_horizontal.svg) внизу экрана и выберите **{{ mobile_ios_task_actions_finish }}**{% elsif platform=="android" %}Чтобы выйти из задания нажмите кнопку ![](assets/dots_vertical.svg) вверху экрана и выберите **{{ mobile_android_task_finish }}**{% endif %}.
+Вы будете перенаправлены на страницу со следующим проектом.
+{% if platform=='ios' %}Чтобы выйти из проекта, нажмите кнопку ![](assets/dots_horizontal.svg) внизу экрана и выберите **{{ mobile_ios_task_actions_finish }}**{% elsif platform=="android" %}Чтобы выйти из проекта, нажмите кнопку ![](assets/dots_vertical.svg) вверху экрана и выберите **{{ mobile_android_task_finish }}**{% endif %}.
 
 {% endif %}
 
 {% if platform == "android" %}
-## Как сохранять начатые задания {#howtosave}
+## Как сохранять начатые проекты {#howtosave}
 
-Вы можете сохранять задания, которые вы не выполнили до конца, в **{{ mobile_android_tasks_reserved }}**. Для этого:
+Вы можете сохранять проекты, которые вы не выполнили до конца, в **{{ mobile_android_tasks_reserved }}**. Для этого:
 
 1. Нажмите ![](assets/menu.png) → **{{ mobile_android_settings }}**.
 1. Выберите опцию **{{ mobile_android_settings_keep_tasks_title }}**.
 
-Чтобы продолжить выполнять задание, нажмите ![](assets/menu.png) → **{{ mobile_android_tasks_reserved }}**, найдите нужно задание и нажмите кнопку **{{ ui_worker_tsk__resume }}**.
+Чтобы продолжить выполнять проект, нажмите ![](assets/menu.png) → **{{ mobile_android_tasks_reserved }}**, найдите нужный проект и нажмите кнопку **{{ ui_worker_tsk__resume }}**.
 {% endif %}
 
 {% if platform == 'android' or platform == 'ios' %}
-## Полевые задания {#fieldwork}
+## Полевые проекты {#fieldwork}
 
-Чтобы выполнить полевое здание:
+Чтобы выполнить полевой проект:
 
-1. Откройте список заданий. {% if platform=="android" %}Для этого нажмите значок ![](assets/menu.png) → **{{ mobile_android_tasks_available }}** {% elsif platform=="ios" %}Для этого нажмите **{{ mobile_ios_all_tasks_title }}**{% endif %}.
-1. Откройте точки заданий одним из способов:
+1. Откройте список проектов. {% if platform=="android" %}Для этого нажмите значок ![](assets/menu.png) → **{{ mobile_android_tasks_available }}** {% elsif platform=="ios" %}Для этого нажмите **{{ mobile_ios_all_tasks_title }}**{% endif %}.
+1. Откройте точки проектов одним из способов:
 
-    * Выберите задание в списке заданий и нажмите кнопку {% if platform=="android" %}**{{ mobile_android_task_choose }}**{% elsif platform == "ios"%}**{{ mobile_ios_open_map }}**{% endif %}, чтобы увидеть расположение точек этого задания.
-    * Откройте общую карту, нажав {% if platform=="android" %}значок ![](assets/map-android2.png) в нижней части экрана{% elsif platform=='ios'%}кнопку **{{ ui_worker_tsk__tab_map }}**{% endif %}, чтобы увидеть все точки с доступными заданиями.
+    * Выберите проект в списке проектов и нажмите кнопку {% if platform=="android" %}**{{ mobile_android_task_choose }}**{% elsif platform == "ios"%}**{{ mobile_ios_open_map }}**{% endif %}, чтобы увидеть расположение точек этого проекта.
+    * Откройте общую карту, нажав {% if platform=="android" %}значок ![](assets/map-android2.png) в нижней части экрана{% elsif platform=='ios'%}кнопку **{{ ui_worker_tsk__tab_map }}**{% endif %}, чтобы увидеть все точки с доступными проектами.
 
     {% if platform=='ios' %}
 
@@ -61,18 +61,18 @@
 
     {% endif %}
 
-    Чтобы вернуться к списку заданий, нажмите {% if platform=="android" %}значок ![](assets/list.png) внизу экрана {% elsif platform == 'ios' %} кнопку **{{ mobile_ios_tasks_list_button }}** вверху экрана{% endif %}.
+    Чтобы вернуться к списку проектов, нажмите {% if platform=="android" %}значок ![](assets/list.png) внизу экрана {% elsif platform == 'ios' %} кнопку **{{ mobile_ios_tasks_list_button }}** вверху экрана{% endif %}.
 
-1. Нажмите точку с заданием.
+1. Нажмите точку с проектом.
 
-   {% if platform=="android" %}Если в одной точке несколько заданий, воспользуйтесь поиском. Чтобы найти задание в списке:
+   {% if platform=="android" %}Если в одной точке несколько проектов, воспользуйтесь поиском. Чтобы найти проект в списке:
 
    1. Сдвиньте список вверх.
    1. Нажмите значок ![](assets/search.svg) справа вверху экрана.
-   1. Начните вводить текст с названием или описанием задания.
+   1. Начните вводить текст с названием или описанием проекта.
    {% endif %}
 
-   Чтобы установить минимальную цену за задание:
+   Чтобы установить минимальную цену за проект:
 
    1. {% if platform=="android" %}Нажмите на значок ![](assets/filter-android.png) внизу экрана{% elsif platform=="ios" %}Нажмите кнопку **{{ mobile_ios_filters_title }}** вверху экрана{% endif %}.
    1. Передвиньте ползунок.
@@ -80,48 +80,48 @@
 
 1. Прочитайте {% if locale=="ru-com" %}инструкцию{% elsif locale=='en-com' %}instructions{% endif %}.
 
-1. Зарезервируйте задание, нажав кнопку {% if platform=="ios" %}**{{ mobile_ios_start_task_later_button }}**{% endif %}{% if platform=="android" %}**{{ mobile_android_task_postpone }}**{% endif %}. Задание отобразится на странице {% if platform=="android" %}**{{ mobile_android_tasks_reserved }}**{% endif %}{% if platform=="ios" %}**{{ mobile_ios_my_tasks }}**{% endif %}. С этого момента начинается отсчет времени: таймер отображается в заголовке задания рядом со значком ![](assets/clock.svg). {% if locale=="ru-com" %}Время на выполнение{% endif %}{% if locale=="en-com" %}Max duration{% endif %} указано в карточке задания.
+1. Зарезервируйте проект, нажав кнопку {% if platform=="ios" %}**{{ mobile_ios_start_task_later_button }}**{% endif %}{% if platform=="android" %}**{{ mobile_android_task_postpone }}**{% endif %}. Проект отобразится на странице {% if platform=="android" %}**{{ mobile_android_tasks_reserved }}**{% endif %}{% if platform=="ios" %}**{{ mobile_ios_my_tasks }}**{% endif %}. С этого момента начинается отсчет времени: таймер отображается в заголовке проекта рядом со значком ![](assets/clock.svg). {% if locale=="ru-com" %}Время на выполнение{% endif %}{% if locale=="en-com" %}Max duration{% endif %} указано в карточке проекта.
 
-   Вы можете зарезервировать несколько заданий.
+   Вы можете зарезервировать несколько проектов.
 
 1. {% if platform=="android" %}Чтобы построить маршрут, нажмите ![](assets/kebab-menu.png) → **{{ mobile_android_task_build_route }}**.{% endif %}{% if platform=="ios" %}Постройте маршрут до точки, нажав кнопку **{{ mobile_ios_route_button }}**.{% endif %} Маршрут будет построен в приложении [Яндекс Карты]({{ ya-maps }}).
 
-1. Доберитесь до места, которое указано в задании. Затем выберите задание на странице {% if platform=="ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_active_tasks }}** и нажмите кнопку **{{ mobile_ios_continue_button }}**. {% endif %}{% if platform=="android" %}**{{ mobile_android_tasks_reserved }}** и нажмите кнопку **{{ mobile_android_task_resume }}**{% endif %}
+1. Доберитесь до места, которое указано в проекте. Затем выберите проект на странице {% if platform=="ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_active_tasks }}** и нажмите кнопку **{{ mobile_ios_continue_button }}**. {% endif %}{% if platform=="android" %}**{{ mobile_android_tasks_reserved }}** и нажмите кнопку **{{ mobile_android_task_resume }}**{% endif %}
 
-1. Выполните задание:
+1. Выполните проект:
    * Перечитайте инструкцию.
    * Ответьте на вопросы и прикрепите фото (если требуется).
    * Нажмите кнопку {% if platform=="ios" %}**{{ mobile_ios_submit_button }}**{% elsif platform=="android" %}**{{ mobile_android_action_done }}**.{% endif %}
 
      {% note warning %}
 
-     Нажать кнопку {% if platform=="ios" %}**{{ mobile_ios_submit_button }}**{% elsif platform=="android" %} **{{ mobile_android_action_done }}**{% endif %} нужно находясь в том месте, которое указано в задании. Иначе ответ может быть отклонен.
+     Нажать кнопку {% if platform=="ios" %}**{{ mobile_ios_submit_button }}**{% elsif platform=="android" %} **{{ mobile_android_action_done }}**{% endif %} нужно находясь в том месте, которое указано в проекте. Иначе ответ может быть отклонен.
 
      {% endnote %}
 
-Задание с ответами сохраняется на странице {% if platform=="android" %}**{{ mobile_android_tasks_done }}**{% elsif platform=="ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_done_tasks }}**{% endif %} до подключения к Wi-Fi, если в [настройках](settings.dita) выбрана опция {% if platform=="android"%}**{{ mobile_android_settings_wifi_title }}}**{% elsif platform=="ios" %}**{{ mobile_ios_settings_wifi_title }}**{% endif %}. Вам нужно успеть отправить задание до того, как истечет время на его выполнение.
+Проекты с ответами сохраняется на странице {% if platform=="android" %}**{{ mobile_android_tasks_done }}**{% elsif platform=="ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_done_tasks }}**{% endif %} до подключения к Wi-Fi, если в [настройках](settings.dita) выбрана опция {% if platform=="android"%}**{{ mobile_android_settings_wifi_title }}}**{% elsif platform=="ios" %}**{{ mobile_ios_settings_wifi_title }}**{% endif %}. Вам нужно успеть отправить проект до того, как истечет время на его выполнение.
 {% endif %}
 
 {% if platform == "android" or platform=="ios" %}
-### Как внести изменения в задание {#makechanges}
+### Как внести изменения в проект {#makechanges}
 
-Если задание выполнено, но еще не отправлено, вы можете внести в него изменения:
+Если проект выполнен, но еще не отправлено, вы можете внести в него изменения:
 
-1. Откройте задание на странице {% if platform=="android" %}**{{ mobile_android_tasks_done }}**{% elsif platform=="ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_done_tasks }}**{% endif %}.
+1. Откройте проект на странице {% if platform=="android" %}**{{ mobile_android_tasks_done }}**{% elsif platform=="ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_done_tasks }}**{% endif %}.
 1. {% if platform=="android" %}Нажмите кнопку ![](assets/dots_vertical.svg) вверху экрана и выберите **{{ mobile_android_task_back_to_reserved }}**.{% elsif platform=="ios" %}Нажмите кнопку **{{ mobile_ios_assignment_return_to_active }}**.{% endif %}
-1. Перейдите на страницу {% if platform=="android" %}**{{ mobile_android_tasks_reserved }}**{% elsif platform=="ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_active_tasks }}**{% endif %} и {% if platform=="android" %}внесите изменения в задание{% endif %}{% if platform=="ios" %}нажмите кнопку **{{ mobile_ios_continue_button }}**{% endif %}.
+1. Перейдите на страницу {% if platform=="android" %}**{{ mobile_android_tasks_reserved }}**{% elsif platform=="ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_active_tasks }}**{% endif %} и {% if platform=="android" %}внесите изменения в проект{% endif %}{% if platform=="ios" %}нажмите кнопку **{{ mobile_ios_continue_button }}**{% endif %}.
 1. {% if platform=="android" %}Нажмите кнопку **{{ mobile_android_action_done }}**{% endif %}
    {% if platform=="ios" %}Внесите изменения и нажмите кнопку **{{ mobile_ios_submit_button }}**{% endif %}.
 
 {% endif %}
 
 {% if platform == "android" or platform=="ios" %}
-### Как отправить задание {#sendtask}
+### Как отправить проект {#sendtask}
 
-Ответы на задание будут отправлены заказчику, как только у вас появится доступ к интернету. Для отправки необходимо открыть мобильное приложение. Если в [настройках](settings.dita) выбрана опция {% if platform=="android" %}**{{ mobile_android_settings_wifi_title }}**{% elsif platform=="ios" %}**{{ mobile_ios_settings_wifi_title }}**{% endif %}, задание будет отправлено после подключения к Wi-Fi. {% if platform=="android" or platform=="ios" %}Чтобы отправить задание по мобильному интернету:{% endif %}
+Ответы на проект будут отправлены заказчику, как только у вас появится доступ к интернету. Для отправки необходимо открыть мобильное приложение. Если в [настройках](settings.dita) выбрана опция {% if platform=="android" %}**{{ mobile_android_settings_wifi_title }}**{% elsif platform=="ios" %}**{{ mobile_ios_settings_wifi_title }}**{% endif %}, проект будет отправлен после подключения к Wi-Fi. {% if platform=="android" or platform=="ios" %}Чтобы отправить проект по мобильному интернету:{% endif %}
 
 {% if platform=="android" or platform=="ios" %}
-1. Откройте задание на странице {% if platform=="android" %} **{{ mobile_android_tasks_done }}**{% elsif platform=="ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_done_tasks }}**{% endif %}.
+1. Откройте проект на странице {% if platform=="android" %} **{{ mobile_android_tasks_done }}**{% elsif platform=="ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_done_tasks }}**{% endif %}.
 1. Нажмите кнопку {% if platform=="android" %}![](assets/dots_vertical.svg) вверху экрана и выберите **{{ mobile_android_task_force_submit }}**{% elsif platform=="ios" %}**{{ mobile_ios_assignment_submit_now }}**{% endif %}.
 
 {% endif %}
@@ -129,32 +129,32 @@
 {% if platform=="android" or platform=="ios" %}
 ## Советы и рекомендации {#tips}
 
-В списке заданий отображаются все задания — обычные и полевые. Чтобы открыть список заданий, нажмите
+В списке проектов отображаются все проекты — обычные и полевые. Чтобы открыть список проектов, нажмите
 {% if platform=="android" %}![](assets/menu.png) → **{{ mobile_android_tasks_available }}**{% endif %}
 {% if platform=="ios" %}кнопку **{{ mobile_ios_all_tasks_title }}**{% endif %}.
 
-{% if platform=="android" %}Чтобы управлять списком заданий, примените фильтры и настройте сортировку:
+{% if platform=="android" %}Чтобы управлять списком проектов, примените фильтры и настройте сортировку:
 
 1. Нажмите значок ![](assets/filter-android.png) вверху экрана.
-1. Выберите один или несколько фильтров. Выберите заказчиков, чьи задания хотите увидеть в списке. Укажите тип сортировки.
+1. Выберите один или несколько фильтров. Выберите заказчиков, чьи проекты хотите увидеть в списке. Укажите тип сортировки.
 1. Нажмите кнопку **{{ mobile_android_apply_positive_button }}**.
 
 {% endif %}
-{% if platform=="ios" %}Чтобы управлять списком заданий:
+{% if platform=="ios" %}Чтобы управлять списком проектов:
 1. Нажмите кнопку **{{ mobile_ios_filters_title }}** вверху экрана.
 1. Используйте фильтры или инструменты сортировки:
 
-   Цена задания
+   Цена проекта
 
-   : Чтобы установить минимальную цену за задание, передвиньте ползунок.
+   : Чтобы установить минимальную цену за проект, передвиньте ползунок.
 
-   Категории заданий
+   Категории проектов
 
-   : Включите или отключите категории заданий — **{{ mobile_ios_tasks_on_field }}**, **{{ mobile_ios_tasks_with_training }}** и т.д.
+   : Включите или отключите категории проектов — **{{ mobile_ios_tasks_on_field }}**, **{{ mobile_ios_tasks_with_training }}** и т.д.
 
    Заказчики
 
-   : Нажмите на заказчика, чтобы включить его задания в список или исключить из него.
+   : Нажмите на заказчика, чтобы включить его проекты в список или исключить из него.
 
    Сортировка
 
@@ -164,26 +164,26 @@
 
 {% endif %}
 
-Недоступные задания отмечены значком ![](assets/lock.svg). Рядом указано условие доступа к заданию, например наличие навыка. Некоторые задания можно выполнить только в браузере на сайте {% if locale=="en-com" %}[toloka.yandex.com]({{ toloka }}){% else %}[toloka.yandex.ru]({{ toloka }}){% endif %}.
+Недоступные проекты отмечены значком ![](assets/lock.svg). Рядом указано условие доступа к проекту, например наличие навыка. Некоторые проекты можно выполнить только в браузере на сайте {% if locale=="en-com" %}[toloka.yandex.com]({{ toloka }}){% else %}[toloka.yandex.ru]({{ toloka }}){% endif %}.
 {% endif %}
 
 {% if platform == "android" or platform=="ios" %}
-### Как добавить задание в избранные {#favourites}
+### Как добавить проект в избранные {#favourites}
 
-{% if platform=="android" or platform=="ios" %}Отметьте задания, которые вам понравились:
+{% if platform=="android" or platform=="ios" %}Отметьте проекты, которые вам понравились:
 
-1. Нажмите значок ![](assets/dots_horizontal.svg) в карточке задания.
+1. Нажмите значок ![](assets/dots_horizontal.svg) в карточке проекта.
 2. Выберите {% if platform=="web" %}**{{ ui_worker_task_menu__bookmark_add }}**{% elsif platform=="android" %}**{{ mobile_android_add_to_bookmarks }}**{% elsif platform=="ios" %}**{{ mobile_ios_task_user_preference_choose_preference_add_as_bookmarked }}**{% endif %}.
 {% endif %}
 
-{% if platform=="android" %} Чтобы поместить избранные задания в начало списка, выберите тип [сортировки](#android-list/list-settings-android) **{{ mobile_android_sort_by_bookmarks }}**.{% endif %}
-{% if platform=="ios" %} Чтобы поместить избранные задания в начало списка, выберите тип [сортировки](#android-list/list-settings-ios) **{{ mobile_ios_filters_sort_tasks_user_preference_bookmarked_first }}**.{% endif %}
+{% if platform=="android" %} Чтобы поместить избранные проекты в начало списка, выберите тип [сортировки](#android-list/list-settings-android) **{{ mobile_android_sort_by_bookmarks }}**.{% endif %}
+{% if platform=="ios" %} Чтобы поместить избранные проекты в начало списка, выберите тип [сортировки](#android-list/list-settings-ios) **{{ mobile_ios_filters_sort_tasks_user_preference_bookmarked_first }}**.{% endif %}
 {% endif %}
 
 {% if platform == "android" or platform=="ios" %}
-### Как скрыть задание {#hide}
-{% if platform=="android" or platform=="ios" %} Скройте задание, чтобы оно не отображалось в списке.
-1. Нажмите значок ![](assets/dots_horizontal.svg) в карточке задания.
+### Как скрыть проект {#hide}
+{% if platform=="android" or platform=="ios" %} Скройте проект, чтобы он не отображалось в списке.
+1. Нажмите значок ![](assets/dots_horizontal.svg) в карточке проекта.
 1. Выберите {% if platform=="android" %}**{{ mobile_android_add_to_ignore }}**{% elsif platform=="ios" %}**{{ mobile_ios_task_user_preference_choose_preference_add_as_ignored }}**{% endif %}.
 {% endif %}
 {% endif %}
@@ -191,7 +191,7 @@
 {% if platform == "android" or platform=="ios" %}
 ### Как изменить внешний вид меток {#changelook}
 
-Чтобы выбрать, какая информация о задании будет изображена на метке:
+Чтобы выбрать, какая информация о проекте будет изображена на метке:
 
 1. {% if platform=="ios" %}Нажмите **{{ mobile_ios_more_title }} → {{ mobile_ios_settings_screen_title }}** {% endif %}
    {% if platform=="android" %}Нажмите ![](assets/menu.png) → **{{ mobile_android_settings }}**{% endif %}
@@ -203,47 +203,47 @@
 {% endif %}
 
 {% if platform=="web" %}
-Откройте страницу [Задания](https://toloka.yandex.ru/tasks). По умолчанию задания отображаются по критерию **{{ ui_worker_tasks_page__sort_by_bookmarked_first }}**. Вы можете установить другой порядок сортировки в строке сверху:
+Откройте страницу [Проекты](https://toloka.yandex.ru/tasks). По умолчанию проекты отображаются по критерию **{{ ui_worker_tasks_page__sort_by_bookmarked_first }}**. Вы можете установить другой порядок сортировки в строке сверху:
 
 -    **{{ ui_worker_tasks_page__sort_by_new_to_old }}**
 -    **{{ ui_worker_tasks_page__sort_by_price }}**
 -    **{{ ui_worker_tasks_page__sort_by_bookmarked_first }}**
 
-Также вы можете фильтровать задания по категориям (с обучением, с отложенной приёмкой, скрытые и т.д.) и по заказчикам.
+Также вы можете фильтровать проекты по категориям (с обучением, с отложенной приёмкой, скрытые и т.д.) и по заказчикам.
 
-Недоступные задания отмечены значком ![](https://yastatic.net/s3/doc-binary/src/support/toloka-tolokers/ru/lock.svg). Рядом указано условие доступа к заданию. Например, условие {% if locale=="ru-com" %}«мобильное приложение»{% elsif locale=="en-com" %}mobile application{% endif %} означает, что задание нельзя выполнить в десктопной версии Толоки, только в мобильном приложении.
+Недоступные проекты отмечены значком ![](https://yastatic.net/s3/doc-binary/src/support/toloka-tolokers/ru/lock.svg). Рядом указано условие доступа к проекту. Например, условие {% if locale=="ru-com" %}«мобильное приложение»{% elsif locale=="en-com" %}mobile application{% endif %} означает, что проект нельзя выполнить в десктопной версии Толоки, только в мобильном приложении.
 {% endif %}
 
 {% if platform=="web" %}
 
-## Избранные и скрытые задания {#selected-n-hidden}
+## Избранные и скрытые проекты {#selected-n-hidden}
 
-Вы можете добавить задание в избранные или скрыть его в списке.
+Вы можете добавить проект в избранные или скрыть его в списке.
 
-**Добавить задание в избранные**
+**Добавить проект в избранные**
 
-- Наведите курсор на карточку задания и нажмите кнопку ![](assets/dots_vertical.svg) справа.
+- Наведите курсор на карточку проекта и нажмите кнопку ![](assets/dots_vertical.svg) справа.
 - Выберите {{ ui_worker_task_menu__bookmark_add }}.
-         Или нажмите кнопку ![](assets/favourites.png =15x) рядом с названием задания.
+         Или нажмите кнопку ![](assets/favourites.png =15x) рядом с названием проекта.
 
-Нажмите {{ ui_worker_tasks_page__sort_by_bookmarked_first }}, чтобы избранные задания выводились в начале списка. Если задания в списке избранных неактивны, возможно, они закончились или вы допускали много ошибок и заказчик ограничил вам доступ к ним. Когда задания появятся, они снова будут активны.
+Нажмите {{ ui_worker_tasks_page__sort_by_bookmarked_first }}, чтобы избранные проекты выводились в начале списка. Если проекты в списке избранных неактивны, возможно, они закончились или вы допускали много ошибок и заказчик ограничил вам доступ к ним. Когда проекты появятся, они снова будут активны.
 
 {% note tip %}
 
-В Толоке много заданий, и каждый день появляются новые. Поэтому регулярно проверяйте список заданий, чтобы подобрать себе что-нибудь интересное.
+В Толоке много проектов, и каждый день появляются новые. Поэтому регулярно проверяйте список проектов, чтобы подобрать себе что-нибудь интересное.
 
 {% endnote %}
 
-**Скрыть задание**
+**Скрыть проект**
 
-- Наведите курсор на карточку задания и нажмите кнопку ![](assets/dots_vertical.svg) справа.
+- Наведите курсор на карточку проекта и нажмите кнопку ![](assets/dots_vertical.svg) справа.
 - Выберите {{ ui_worker_task_menu__ignore_add }}.
 - Выключите фильтр {{ ui_worker_tasks_filter__with_ignored }}.
 
-**Убрать задание из скрытых**
+**Убрать проект из скрытых**
 
 - Включите фильтр {{ ui_worker_tasks_filter__with_ignored }}.
-- Наведите курсор на карточку задания и нажмите кнопку ![](assets/dots_vertical.svg) справа.
+- Наведите курсор на карточку проекта и нажмите кнопку ![](assets/dots_vertical.svg) справа.
 - Выберите {{ ui_worker_task_menu__ignore_remove }}.
 
 {% endif %}
