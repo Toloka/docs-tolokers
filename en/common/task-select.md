@@ -99,7 +99,7 @@ To complete a field task:
 
       {% endnote %}
 
-The task with the responses is saved on the {% if platform == "android" %}**{{ mobile_android_tasks_done }}**{% elsif platform == "ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_done_tasks }}**{% endif %} page until you connect to Wi-Fi, if you set the {% if platform == "android"%}**{{ mobile_android_settings_wifi_title }}}**{% elsif platform == "ios" %}**{{ mobile_ios_settings_wifi_title }}**{% endif %} option in the [settings](settings.dita). You need to make sure the task is submitted before the task time expires.
+The task with the responses is saved on the {% if platform == "android" %}**{{ mobile_android_tasks_done }}**{% elsif platform == "ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_done_tasks }}**{% endif %} page until you connect to Wi-Fi, if you set the {% if platform == "android"%}**{{ mobile_android_settings_wifi_title }}}**{% elsif platform == "ios" %}**{{ mobile_ios_settings_wifi_title }}**{% endif %} option in the [settings](settings.md). You need to make sure the task is submitted before the task time expires.
 {% endif %}
 
 {% if platform == "android" or platform == "ios" %}
@@ -118,7 +118,7 @@ If a task is completed but isn't sent yet, you can make changes to it:
 {% if platform == "android" or platform == "ios" %}
 ### How do I submit a task? {#sendtask}
 
-Task responses are sent to the requester as soon as you have internet access. To send, you need to open the mobile app. If the {% if platform == "android" %}**{{ mobile_android_settings_wifi_title }}**{% elsif platform == "ios" %}**{{ mobile_ios_settings_wifi_title }**{% endif %} option is chosen in the [settings](settings.dita), the task is sent after you connect to Wi-Fi. {% if platform == "android" or platform == "ios" %}To submit a task over mobile internet:{% endif %}
+Task responses are sent to the requester as soon as you have internet access. To send, you need to open the mobile app. If the {% if platform == "android" %}**{{ mobile_android_settings_wifi_title }}**{% elsif platform == "ios" %}**{{ mobile_ios_settings_wifi_title }**{% endif %} option is chosen in the [settings](settings.md), the task is sent after you connect to Wi-Fi. {% if platform == "android" or platform == "ios" %}To submit a task over mobile internet:{% endif %}
 
 {% if platform == "android" or platform == "ios" %}
 1. Open the task on the {% if platform == "android" %} **{{ mobile_android_tasks_done }}**{% elsif platform== "ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_done_tasks }}**{% endif %} page.

@@ -50,15 +50,15 @@ Funds withdrawal to Payoneer and Payoneer is currently unavailable for Tolokers 
 
 #### Regions where PayPal transfer is not allowed
 
-Iran  
-Crimea  
-Cuba  
-Russia  
-North Korea  
-Syria  
-Sudan  
-Turkey  
-Uzbekistan  
+Iran
+Crimea
+Cuba
+Russia
+North Korea
+Syria
+Sudan
+Turkey
+Uzbekistan
 Ukraine
 
 The full list can be found on the website of the [U.S. Department of the Treasury]({{ usa-treasury-sanctions }}).
@@ -154,12 +154,12 @@ $0.05
 
 #### Regions where QIWI is available:
 
-Belarus  
-Georgia  
-Kazakhstan  
-Moldova  
-Russia  
-Tajikistan  
+Belarus
+Georgia
+Kazakhstan
+Moldova
+Russia
+Tajikistan
 Uzbekistan
 
 {% endcut %}
@@ -228,7 +228,7 @@ $0.02 for one withdrawal a week. Subsequent withdrawals within a week — $1.
 
 {% note alert %}
 
-Money withdrawal via YooMoney is only available for citizens of the Russian Federation who have confirmed their [self-employed](../self-employed/about.dita) status and who have added Toloka as a partner in the My Taxes system.
+Money withdrawal via YooMoney is only available for citizens of the Russian Federation who have confirmed their [self-employed](../self-employed/about.md) status and who have added Toloka as a partner in the My Taxes system.
 
 {% endnote %}
 
@@ -250,7 +250,7 @@ Funds are withdrawn to your bank account. The list of available banks depends on
 
 {% note alert %}
 
-Money withdrawal via the FPS is only available for citizens of the Russian Federation who confirmed their [self-employed](../self-employed/about.dita) status and added Toloka as a partner in the My Taxes system.
+Money withdrawal via the FPS is only available for citizens of the Russian Federation who confirmed their [self-employed](../self-employed/about.md) status and added Toloka as a partner in the My Taxes system.
 
 {% endnote %}
 
@@ -276,15 +276,15 @@ PayPal is a fast and secure payment system.
 
 #### Regions where PayPal transfer is not allowed
 
-Iran  
-Crimea  
-Cuba  
-Russia  
-North Korea  
-Syria  
-Sudan  
-Turkey  
-Uzbekistan  
+Iran
+Crimea
+Cuba
+Russia
+North Korea
+Syria
+Sudan
+Turkey
+Uzbekistan
 Ukraine
 
 The full list can be found on the website of the [U.S. Department of the Treasury]({{ usa-treasury-sanctions }}).
@@ -442,12 +442,12 @@ It allows users to:
 
 Regions where QIWI is available:
 
-Belarus  
-Georgia  
-Kazakhstan  
-Moldova  
-Russia  
-Tajikistan  
+Belarus
+Georgia
+Kazakhstan
+Moldova
+Russia
+Tajikistan
 Uzbekistan
 
 {% endcut %}
@@ -500,7 +500,7 @@ An online payment service where you can easily create a wallet and identify it.
 
 {% note alert %}
 
-Money withdrawal via YooMoney is only available for citizens of the Russian Federation who have confirmed their [self-employed](../self-employed/about.dita) status and who have added Toloka as a partner in the My Taxes system.
+Money withdrawal via YooMoney is only available for citizens of the Russian Federation who have confirmed their [self-employed](../self-employed/about.md) status and who have added Toloka as a partner in the My Taxes system.
 
 {% endnote %}
 
@@ -555,7 +555,7 @@ It's easy and convenient to withdraw money via the FPS. Transactions are fast an
 
 {% note alert %}
 
-Money withdrawal via the FPS is only available for citizens of the Russian Federation who confirmed their [self-employed](../self-employed/about.dita) status and added Toloka as a partner in the My Taxes system.
+Money withdrawal via the FPS is only available for citizens of the Russian Federation who confirmed their [self-employed](../self-employed/about.md) status and added Toloka as a partner in the My Taxes system.
 
 {% endnote %}
 
@@ -579,7 +579,7 @@ $0.01 if it's at most once a week. Subsequent withdrawals within a week — $1.
 
 {% note alert %}
 
-Money withdrawal via the FPS is only available for citizens of the Russian Federation who confirmed their [self-employed](../self-employed/about.dita) status and added Toloka as a partner in the My Taxes system.
+Money withdrawal via the FPS is only available for citizens of the Russian Federation who confirmed their [self-employed](../self-employed/about.md) status and added Toloka as a partner in the My Taxes system.
 
 {% endnote %}
 
@@ -648,4 +648,3 @@ Toloka is not responsible for such changes or for publishing them here within a 
 
 
 [![](../assets/buttons/contact-support.svg)](../troubleshooting/troubleshooting.md#money_withdrawal)
-

@@ -37,9 +37,9 @@ You can change the tax regime:
 
 * Make sure you're registered in the [account]({{ nalog-npd-lk }}).
 
-* [Make Toloka a partner](../self-employed/accept-status.dita#accept-status/section_f3t_j4p_bmb) in the account settings.
+* [Make Toloka a partner](../self-employed/accept-status.md#section_f3t_j4p_bmb) in the account settings.
 
-* Contact [support](../troubleshooting/troubleshooting.dita). In your message, specify that you want to be a self-employed Toloker and why you declined self-employment status before.
+* Contact [support](../troubleshooting/support.md). In your message, specify that you want to be a self-employed Toloker and why you declined self-employment status before.
 
 {% endcut %}
 
