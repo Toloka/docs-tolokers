@@ -99,7 +99,7 @@
 
      {% endnote %}
 
-Задание с ответами сохраняется на странице {% if platform=="android" %}**{{ mobile_android_tasks_done }}**{% elsif platform=="ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_done_tasks }}**{% endif %} до подключения к Wi-Fi, если в [настройках](settings.dita) выбрана опция {% if platform=="android"%}**{{ mobile_android_settings_wifi_title }}}**{% elsif platform=="ios" %}**{{ mobile_ios_settings_wifi_title }}**{% endif %}. Вам нужно успеть отправить задание до того, как истечет время на его выполнение.
+Задание с ответами сохраняется на странице {% if platform=="android" %}**{{ mobile_android_tasks_done }}**{% elsif platform=="ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_done_tasks }}**{% endif %} до подключения к Wi-Fi, если в [настройках](settings.md) выбрана опция {% if platform=="android"%}**{{ mobile_android_settings_wifi_title }}}**{% elsif platform=="ios" %}**{{ mobile_ios_settings_wifi_title }}**{% endif %}. Вам нужно успеть отправить задание до того, как истечет время на его выполнение.
 {% endif %}
 
 {% if platform == "android" or platform=="ios" %}
@@ -118,7 +118,7 @@
 {% if platform == "android" or platform=="ios" %}
 ### Как отправить задание {#sendtask}
 
-Ответы на задание будут отправлены заказчику, как только у вас появится доступ к интернету. Для отправки необходимо открыть мобильное приложение. Если в [настройках](settings.dita) выбрана опция {% if platform=="android" %}**{{ mobile_android_settings_wifi_title }}**{% elsif platform=="ios" %}**{{ mobile_ios_settings_wifi_title }}**{% endif %}, задание будет отправлено после подключения к Wi-Fi. {% if platform=="android" or platform=="ios" %}Чтобы отправить задание по мобильному интернету:{% endif %}
+Ответы на задание будут отправлены заказчику, как только у вас появится доступ к интернету. Для отправки необходимо открыть мобильное приложение. Если в [настройках](settings.md) выбрана опция {% if platform=="android" %}**{{ mobile_android_settings_wifi_title }}**{% elsif platform=="ios" %}**{{ mobile_ios_settings_wifi_title }}**{% endif %}, задание будет отправлено после подключения к Wi-Fi. {% if platform=="android" or platform=="ios" %}Чтобы отправить задание по мобильному интернету:{% endif %}
 
 {% if platform=="android" or platform=="ios" %}
 1. Откройте задание на странице {% if platform=="android" %} **{{ mobile_android_tasks_done }}**{% elsif platform=="ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_done_tasks }}**{% endif %}.
