@@ -34,13 +34,13 @@ Cписок заданий в приложении открывается сра
 1. После выполнения задания нажмите кнопку {% if platform == 'ios' %}**{{ mobile_ios_submit_button}}**{% elsif platform == 'android' %}**{{ mobile_android_task_submit }}**{% endif %}.
 
 Вы будете перенаправлены на страницу со следующим заданием.
-{% if platform=='ios' %}Чтобы выйти из задания нажмите кнопку ![](assets/dots_horizontal.svg) внизу экрана и выберите **{{ mobile_ios_task_actions_finish }}**{% elsif platform=="android" %}Чтобы выйти из задания нажмите кнопку ![](assets/dots_vertical.svg) вверху экрана и выберите **{{ mobile_android_task_finish }}**{% endif %}.
+{% if platform=='ios' %}Чтобы выйти из задания, нажмите значок ![](assets/dots_horizontal.svg) внизу экрана и выберите **{{ mobile_ios_task_actions_finish }}**{% elsif platform=="android" %}Чтобы выйти из задания, нажмите значок ![](assets/dots_vertical.svg) вверху экрана и выберите **{{ mobile_android_task_finish }}**{% endif %}.
 
 ## Полевые задания {#fieldwork}
 
 Чтобы выполнить полевое здание:
 
-1. Откройте карту, нажав {% if platform=="android" %}значок ![](assets/map.svg) в правом верхнем углу{% elsif platform=='ios'%}кнопку **{{ ui_worker_tsk__tab_map }}**{% endif %}, чтобы увидеть все точки с доступными заданиями.
+1. Откройте карту, нажав {% if platform=="android" %}значок ![](assets/map.svg) в правом верхнем углу{% elsif platform=='ios'%}кнопку **{{ ui_worker_tsk__tab_map }}**{% endif %}. Вы увидите все точки с доступными заданиями.
 
     {% if platform=='ios' %}
 
@@ -77,12 +77,12 @@ Cписок заданий в приложении открывается сра
 
 1. {% if platform=="android" %}Чтобы построить маршрут, нажмите ![](assets/dots_vertical.svg) → **{{ mobile_android_task_build_route }}**.{% endif %}{% if platform=="ios" %}Постройте маршрут до точки, нажав кнопку **{{ mobile_ios_route_button }}**.{% endif %} Маршрут будет построен в приложении [Яндекс Карты]({{ ya-maps }}).
 
-1. Доберитесь до места, которое указано в задании. Затем выберите задание на странице {% if platform=="ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_active_tasks }}** и нажмите кнопку **{{ mobile_ios_continue_button }}**. {% endif %}{% if platform=="android" %}**{{ mobile_android_tasks_reserved }}** и нажмите кнопку **{{ mobile_android_task_resume }}**{% endif %}
+1. Доберитесь до места, которое указано в задании. Затем выберите задание на странице {% if platform=="ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_active_tasks }}** и нажмите кнопку **{{ mobile_ios_continue_button }}**. {% endif %}{% if platform=="android" %}**{{ mobile_android_tasks_reserved }}** и нажмите кнопку **{{ mobile_android_task_resume }}**.{% endif %}
 
 1. Выполните задание:
    * Перечитайте инструкцию.
    * Ответьте на вопросы и прикрепите фото (если требуется).
-   * Нажмите кнопку {% if platform=="ios" %}**{{ mobile_ios_submit_button }}**{% elsif platform=="android" %}**{{ mobile_android_action_done }}**.{% endif %}
+   * Нажмите кнопку {% if platform=="ios" %}**{{ mobile_ios_submit_button }}**.{% elsif platform=="android" %}**{{ mobile_android_action_done }}**.{% endif %}
 
      {% note warning %}
 
@@ -112,8 +112,7 @@ Cписок заданий в приложении открывается сра
 1. Откройте задание на странице {% if platform=="android" %}**{{ mobile_android_tasks_done }}**{% elsif platform=="ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_done_tasks }}**{% endif %}.
 1. {% if platform=="android" %}Нажмите кнопку ![](assets/dots_vertical.svg) вверху экрана и выберите **{{ mobile_android_task_back_to_reserved }}**.{% elsif platform=="ios" %}Нажмите кнопку **{{ mobile_ios_assignment_return_to_active }}**.{% endif %}
 1. Перейдите на страницу {% if platform=="android" %}**{{ mobile_android_tasks_reserved }}**{% elsif platform=="ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_active_tasks }}**{% endif %} и {% if platform=="android" %}внесите изменения в задание{% endif %}{% if platform=="ios" %}нажмите кнопку **{{ mobile_ios_continue_button }}**{% endif %}.
-1. {% if platform=="android" %}Нажмите кнопку **{{ mobile_android_action_done }}**{% endif %}
-   {% if platform=="ios" %}Внесите изменения и нажмите кнопку **{{ mobile_ios_submit_button }}**{% endif %}.
+1. {% if platform=="android" %}Нажмите кнопку **{{ mobile_android_action_done }}**.{% elsif platform=="ios" %}Внесите изменения и нажмите кнопку **{{ mobile_ios_submit_button }}**.{% endif %}
 
 {% endif %}
 
@@ -131,9 +130,7 @@ Cписок заданий в приложении открывается сра
 {% if platform=="android" or platform=="ios" %}
 ## Советы и рекомендации {#tips}
 
-Чтобы открыть список заданий, нажмите
-{% if platform=="android" %}![](assets/menu.png) → **{{ mobile_android_tasks_available }}**{% endif %}
-{% if platform=="ios" %}кнопку **{{ mobile_ios_all_tasks_title }}**{% endif %}.
+Чтобы открыть список заданий, нажмите {% if platform=="android" %}![](assets/menu.png) → **{{ mobile_android_tasks_available }}**{% endif %}{% if platform=="ios" %}кнопку **{{ mobile_ios_all_tasks_title }}**{% endif %}.
 
 {% if platform=="android" %}Чтобы управлять списком заданий, примените фильтры и настройте сортировку:
 
@@ -166,7 +163,7 @@ Cписок заданий в приложении открывается сра
 
 {% endif %}
 
-Недоступные задания отмечены значком ![](assets/lock.svg). Рядом указано условие доступа к заданию, например наличие навыка. Некоторые задания можно выполнить только в браузере на сайте {% if locale=="en-com" %}[toloka.yandex.com]({{ toloka }}){% else %}[toloka.yandex.ru]({{ toloka }}){% endif %}.
+Недоступные задания отмечены значком ![](assets/lock.svg). Рядом указано условие доступа к заданию, например, наличие навыка. Некоторые задания можно выполнить только в полной версии на сайте {% if locale=="en-com" %}[toloka.yandex.com]({{ toloka }}){% else %}[toloka.yandex.ru]({{ toloka }}){% endif %}.
 {% endif %}
 
 {% if platform == "android" or platform=="ios" %}
@@ -195,8 +192,8 @@ Cписок заданий в приложении открывается сра
 
 Чтобы выбрать, какая информация о задании будет изображена на метке:
 
-1. {% if platform=="ios" %}Нажмите **{{ mobile_ios_more_title }} → {{ mobile_ios_settings_screen_title }}** {% endif %}
-   {% if platform=="android" %}Нажмите ![](assets/menu.png) → **{{ mobile_android_settings }}**{% endif %}
+1. {% if platform=="ios" %}Нажмите **{{ mobile_ios_more_title }} → {{ mobile_ios_settings_screen_title }}**. {% endif %}
+   {% if platform=="android" %}Нажмите ![](assets/menu.png) → **{{ mobile_android_settings }}**.{% endif %}
 1. Откройте {% if platform=="android" %}**{{ mobile_android_settings_pin_view_type_title }}**{% elsif platform=="ios" %}**{{ mobile_ios_settings_map_pin_format_setting_title }}**{% endif %} и выберите нужную опцию.
 {% if platform=="android" %}
 1. Нажмите кнопку **{{ mobile_android_action_save }}**.
