@@ -50,7 +50,5 @@
 - [Почитайте про особенности оплаты налогов.](pay-taxes.md)
 
 
-{% include [Решение проблем](_include/self-employed_troubles.md) %}
-
 [![](../assets/buttons/contact-support.svg)](../troubleshooting/troubleshooting.md#self-employed)
 
