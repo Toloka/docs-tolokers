@@ -272,4 +272,3 @@ Cписок заданий в приложении открывается сра
 {% endif %}
 
 [![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md)
-
