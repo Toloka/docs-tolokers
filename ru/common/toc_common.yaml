@@ -68,14 +68,14 @@ items:
     - href: pay/sbp.md
       name: Система быстрых платежей
       when: locale=="ru-com"
-  - name: Стать самозанятым
+  - name: Самозанятые
     items:
     - href: self-employed/about.md
-      name: Как и зачем
+      name: Как стать
     - href: self-employed/send-request.md
-      name: Подача анкеты
+      name: Заполнение анкеты
     - href: self-employed/accept-status.md
-      name: После обработки анкеты
+      name: Подтверждение статуса
     - href: self-employed/pay-taxes.md
       name: Оплата налогов
   - name: Советы и рекомендации
