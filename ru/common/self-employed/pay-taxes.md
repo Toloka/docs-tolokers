@@ -17,6 +17,8 @@
 - [Как стать самозанятым в Толоке](about.md)
 - [Как заполнить анкету](send-request.md)
 - [Что делать после обработки анкеты](accept-status.md)
+- [Как подключить ЮMonеy](../pay/yoomoney.md)
+- [Как подключить СБП](../pay/sbp.md)
 
 [![](../assets/buttons/contact-support.svg)](../troubleshooting/troubleshooting.md#self-employed)
 

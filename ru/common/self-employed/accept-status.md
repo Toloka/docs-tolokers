@@ -40,9 +40,11 @@
 
 ## Узнать больше {#learn_more}
 
-- [Как подключить ЮMonеy](../pay/yoomoney.md)
 - [Как стать самозанятым в Толоке](about.md)
+- [Как заполнить анкету в Толоке](send-request.md)
 - [Как платить налоги](pay-taxes.md)
+- [Как подключить ЮMonеy](../pay/yoomoney.md)
+- [Как подключить СБП](../pay/sbp.md)
 
 [![](../assets/buttons/contact-support.svg)](../troubleshooting/troubleshooting.md#self-employed)
 
