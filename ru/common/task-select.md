@@ -60,7 +60,7 @@
 - Выберите **{{ ui_worker_task_menu__ignore_add }}**.
 - Справа от списка в разделе {% if locale=="ru-com" %}**Задания**{% elsif locale=="en-com" %}**Tasks**{% endif %} отключите опцию **{{ ui_worker_tasks_filter__with_ignored }}**.
 
-{% cut "Как это выглядить — скрыть задание" %}
+{% cut "Как это выглядит — скрыть задание" %}
 
 ![](../common/assets/hidden-tasks.png =800x)
 
@@ -322,7 +322,7 @@ Cписок заданий в приложении открывается сра
 1. Нажмите значок ![](assets/dots_horizontal.svg) в карточке задания.
 2. Выберите **{{ mobile_ios_task_user_preference_choose_preference_add_as_bookmarked }}**.
 
-Чтобы поместить избранные задания в начало списка, выберите тип [сортировки](#android-list/list-settings-ios) **{{ mobile_ios_filters_sort_tasks_user_preference_bookmarked_first }}**.
+Чтобы поместить избранные задания в начало списка, выберите тип [сортировки](#tips) **{{ mobile_ios_filters_sort_tasks_user_preference_bookmarked_first }}**.
 
 ### Как скрыть задание {#hide}
 Скройте задание, чтобы оно не отображалось в списке.
