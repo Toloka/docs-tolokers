@@ -2,7 +2,7 @@
 
 #### Benefits
 
-Payoneer is a secure, fast, and low-cost payment system.
+QIWI is a secure, fast, and low-cost payment system.
 
 It allows users to:
 

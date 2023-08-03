@@ -643,7 +643,7 @@
 
 При выводе средств со счета в Толоке на кошелек {{ yoomoney-name }} сумма конвертируется из долларов в рубли по {% if locale=="ru-com"%}[курсу, актуальному на день подачи заявки на вывод](https://yastatic.net/s3/toloka/eula/usd_rate_ru.html){% elsif locale=="en-com" %}[курсу, актуальному на день подачи заявки на вывод](https://yastatic.net/s3/toloka/eula/usd_rate_en.html){% endif %}.
 
-В Толоке новые сутки наступают по [всемирному времени (UTC)](../pay/popup-info.dita#popup-info/utc).
+В Толоке новые сутки наступают по [всемирному времени (UTC)](../notes.md).
 
 {% endcut %}
 

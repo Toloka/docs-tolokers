@@ -23,6 +23,13 @@ Learn more on the [ Payoneer website]({{ payoneer-fees }}).
 {% endcut %}
 
 | $20 |
+
+{% note alert %}
+
+Starting from 15 July 2023 Payoneer will charge $1 per every Toloka payment received to Payoneer account.
+
+{% endnote %}
+
  - To a bank account.
  - To the Payoneer Mastercard.
 

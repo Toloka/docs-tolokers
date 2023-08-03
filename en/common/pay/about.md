@@ -2,7 +2,7 @@
 
 ## How to withdraw money from Toloka {#how-to-withdraw}
 
-{% note alert %}
+{% note warning %}
 
 Enter your real first and last name in your account settings. Otherwise, you won't be able to withdraw money. The user's first and last name in the payment system must match their first and last name in Toloka. Otherwise, your account may be blocked.
 
@@ -31,13 +31,13 @@ You won't be able to submit a request if you just registered or recently changed
 
 ## How to choose a withdrawal method {#how-to-choose}
 
-Toloka lets you withdraw money using: PayPal, Payoneer{% if locale == "ru-com"%}, YooMoney, QIWI, or the Faster Payments System (FPS){% endif %}.
+Toloka lets you withdraw money using: PayPal, Payoneer, Papara or QIWI.
 
 You can add only one account of each type{% if locale == "ru-com" %}, except FPS{% endif %}.
 
-{% note warning %}
+{% note alert %}
 
-Citizens of the Russian Federation who have confirmed their self-employed status and added Toloka as a partner in the My Taxes system can only withdraw money to YooMoney and FPS.
+Funds withdrawal to Payoneer and Payoneer is currently unavailable for Tolokers from Russia.
 
 {% endnote %}
 
@@ -50,15 +50,15 @@ Citizens of the Russian Federation who have confirmed their self-employed status
 
 #### Regions where PayPal transfer is not allowed
 
-Iran  
-Crimea  
-Cuba  
-Russia  
-North Korea  
-Syria  
-Sudan  
-Turkey  
-Uzbekistan  
+Iran
+Crimea
+Cuba
+Russia
+North Korea
+Syria
+Sudan
+Turkey
+Uzbekistan
 Ukraine
 
 The full list can be found on the website of the [U.S. Department of the Treasury]({{ usa-treasury-sanctions }}).
@@ -89,12 +89,6 @@ $0.02 for one withdrawal a week. Subsequent withdrawals within a week — $1.
 
 | The terms for withdrawing money to a bank account depend on the currency. Read more in the [PayPal Help Center]({{ paypal-transfer-money }}).
 
-{% note alert %}
-
-Funds withdrawal to PayPal is currently unavailable for users in Russia.
-
-{% endnote %}
-
 ||
 || [Payoneer](payoneer.md) |
 
@@ -120,6 +114,12 @@ Learn more on the [ Payoneer website]({{ payoneer-fees }}).
 
 | $20 |
 
+{% note alert %}
+
+Starting from 15 July 2023 Payoneer will charge $1 per every Toloka payment received to Payoneer account.
+
+{% endnote %}
+
 * To a bank account.
 * To the Payoneer Mastercard.
 
@@ -127,11 +127,25 @@ To find out the exact fee amount, go to **Fees** in your Payoneer account.
 
 The minimum withdrawal amount may differ from the one when withdrawing from Toloka. It might be higher (for example, $50).
 
-{% note alert %}
+||
+|| [Papara](papara.md) |
 
-Funds withdrawal to Payoneer is currently unavailable for users from Russia.
+Turkey
 
-{% endnote %}
+|
+
+2% of the amount
+
+|
+
+$0.05
+
+
+|
+
+- Currency conversion when withdrawing funds from Toloka.
+- Conversion to Turkish lira at the Forex rate.
+- Transferring money to an account within a week.
 
 ||
 ||[QIWI](Qiwi-wallet.md) |
@@ -140,12 +154,12 @@ Funds withdrawal to Payoneer is currently unavailable for users from Russia.
 
 #### Regions where QIWI is available:
 
-Belarus  
-Georgia  
-Kazakhstan  
-Moldova  
-Russia  
-Tajikistan  
+Belarus
+Georgia
+Kazakhstan
+Moldova
+Russia
+Tajikistan
 Uzbekistan
 
 {% endcut %}
@@ -214,7 +228,7 @@ $0.02 for one withdrawal a week. Subsequent withdrawals within a week — $1.
 
 {% note alert %}
 
-Money withdrawal via YooMoney is only available for citizens of the Russian Federation who have confirmed their [self-employed](../self-employed/about.dita) status and who have added Toloka as a partner in the My Taxes system.
+Money withdrawal via YooMoney is only available for citizens of the Russian Federation who have confirmed their [self-employed](../self-employed/about.md) status and who have added Toloka as a partner in the My Taxes system.
 
 {% endnote %}
 
@@ -236,7 +250,7 @@ Funds are withdrawn to your bank account. The list of available banks depends on
 
 {% note alert %}
 
-Money withdrawal via the FPS is only available for citizens of the Russian Federation who confirmed their [self-employed](../self-employed/about.dita) status and added Toloka as a partner in the My Taxes system.
+Money withdrawal via the FPS is only available for citizens of the Russian Federation who confirmed their [self-employed](../self-employed/about.md) status and added Toloka as a partner in the My Taxes system.
 
 {% endnote %}
 
@@ -262,15 +276,15 @@ PayPal is a fast and secure payment system.
 
 #### Regions where PayPal transfer is not allowed
 
-Iran  
-Crimea  
-Cuba  
-Russia  
-North Korea  
-Syria  
-Sudan  
-Turkey  
-Uzbekistan  
+Iran
+Crimea
+Cuba
+Russia
+North Korea
+Syria
+Sudan
+Turkey
+Uzbekistan
 Ukraine
 
 The full list can be found on the website of the [U.S. Department of the Treasury]({{ usa-treasury-sanctions }}).
@@ -308,12 +322,6 @@ $0.02 for one withdrawal a week. Subsequent withdrawals within a week — $1.
 {% endcut %}
 
 {% cut "Payoneer" %}
-
-{% note alert %}
-
-Funds withdrawal to Payoneer is currently unavailable for users from Russia.
-
-{% endnote %}
 
 #### Benefits
 
@@ -355,6 +363,13 @@ Learn more on the [ Payoneer website]({{ payoneer-fees }}).
 ||
 ||Minimum withdrawal amount from Toloka | $20||
 ||Where to transfer money next |
+
+{% note alert %}
+
+Starting from 15 July 2023 Payoneer will charge $1 per every Toloka payment received to Payoneer account.
+
+{% endnote %}
+
 - To a bank account.
 
 - To the Payoneer Mastercard.
@@ -366,7 +381,46 @@ The minimum withdrawal amount may differ from the one when withdrawing from Tolo
 
 {% endcut %}
 
-{% if locale == "ru-com" %}
+{% cut "Papara" %}
+
+##### Benefits of Papara
+
+Allows you to withdraw money from your Toloka account in Turkish liras.
+
+##### Terms
+
+
+#|
+||Area of operation |
+
+Turkey
+
+||
+||Fee |
+
+2% of the amount
+
+||
+||Minimum withdrawal amount |
+
+
+
+$0.05
+
+
+||
+||Withdrawal method |
+
+- Currency conversion when withdrawing funds from Toloka.
+- Conversion to Turkish lira at the Forex rate.
+- Transferring money to an account within a week.
+
+||
+|#
+
+Read more on [the Papara website](https://www.papara.com/en/faq/).
+
+{% endcut %}
 
 {% cut "QIWI" %}
 
@@ -388,12 +442,12 @@ It allows users to:
 
 Regions where QIWI is available:
 
-Belarus  
-Georgia  
-Kazakhstan  
-Moldova  
-Russia  
-Tajikistan  
+Belarus
+Georgia
+Kazakhstan
+Moldova
+Russia
+Tajikistan
 Uzbekistan
 
 {% endcut %}
@@ -436,8 +490,6 @@ Learn more on the [QIWI]({{ qiwi }}) website.
 
 {% endcut %}
 
-{% endif %}
-
 {% if locale == "ru-com" %}
 
 {% cut "YooMoney" %}
@@ -448,7 +500,7 @@ An online payment service where you can easily create a wallet and identify it.
 
 {% note alert %}
 
-Money withdrawal via YooMoney is only available for citizens of the Russian Federation who have confirmed their [self-employed](../self-employed/about.dita) status and who have added Toloka as a partner in the My Taxes system.
+Money withdrawal via YooMoney is only available for citizens of the Russian Federation who have confirmed their [self-employed](../self-employed/about.md) status and who have added Toloka as a partner in the My Taxes system.
 
 {% endnote %}
 
@@ -503,7 +555,7 @@ It's easy and convenient to withdraw money via the FPS. Transactions are fast an
 
 {% note alert %}
 
-Money withdrawal via the FPS is only available for citizens of the Russian Federation who confirmed their [self-employed](../self-employed/about.dita) status and added Toloka as a partner in the My Taxes system.
+Money withdrawal via the FPS is only available for citizens of the Russian Federation who confirmed their [self-employed](../self-employed/about.md) status and added Toloka as a partner in the My Taxes system.
 
 {% endnote %}
 
@@ -527,7 +579,7 @@ $0.01 if it's at most once a week. Subsequent withdrawals within a week — $1.
 
 {% note alert %}
 
-Money withdrawal via the FPS is only available for citizens of the Russian Federation who confirmed their [self-employed](../self-employed/about.dita) status and added Toloka as a partner in the My Taxes system.
+Money withdrawal via the FPS is only available for citizens of the Russian Federation who confirmed their [self-employed](../self-employed/about.md) status and added Toloka as a partner in the My Taxes system.
 
 {% endnote %}
 
@@ -552,7 +604,15 @@ Don't request withdrawal until you are sure that your account is confirmed in th
 
 {% cut "For citizens of Uzbekistan" %}
 
-You can also withdraw funds from Toloka using [Payoneer](payoneer.md). Here are some details you need to consider:
+You can also withdraw funds from Toloka using [Payoneer](payoneer.md).
+
+{% note alert %}
+
+Starting from 15 July 2023 Payoneer will charge $1 per every Toloka payment received to Payoneer account.
+
+{% endnote %}
+
+Here are some details you need to consider:
 
 You can receive payments in EUR or USD. Direct UZS withdrawal is unavailable.
 
@@ -588,4 +648,3 @@ Toloka is not responsible for such changes or for publishing them here within a 
 
 
 [![](../assets/buttons/contact-support.svg)](../troubleshooting/troubleshooting.md#money_withdrawal)
-

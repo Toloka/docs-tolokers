@@ -99,7 +99,7 @@ default:
   yoomoney-transfer-account: 'https://yoomoney.ru/page?id=536236'
   yoomoney-transfer-webmoney: 'https://yoomoney.ru/page?id=536240#to-eps__wm'
   yoomoney-transfer-qiwi: 'https://yoomoney.ru/page?id=536240#to-eps__qiwi'
-  yoomoney-transfer-systems: 'https://yoomoney.ru/page?id=536244'
+  yoomoney-transfer-systems: 'https://yoomoney.ru/page?id=536524'
   yoomoney-charges-bills: 'https://yoomoney.ru/page?id=535908#charges__bills'
   yoomoney-charges-fines: 'https://yoomoney.ru/page?id=535908#charges__fines'
   yoomoney-card-plastic: 'https://yoomoney.ru/page?id=536272'

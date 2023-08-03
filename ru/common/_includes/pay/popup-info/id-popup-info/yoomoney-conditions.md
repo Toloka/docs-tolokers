@@ -21,10 +21,10 @@
 {% endcut %} 
 
 | 
-- Перевод на [банковскую карту]({{ yoomoney-transfer-card }}) или [счет]({{ yoomoney-transfer-account }}), в электронные кошельки ([WebMoney]({{ yoomoney-transfer-webmoney }}), [Qiwi]({{ yoomoney-transfer-qiwi }})).
-- Вывод денег через [системы быстрых переводов]({{ yoomoney-transfer-systems }}).
-- Совершение покупок в интернете, оплата [квитанций]({{ yoomoney-charges-bills }}) и [штрафов]({{ yoomoney-charges-fines }}).
-- Оформление [пластиковой]({{ yoomoney-card-plastic }}) или [виртуальной]({{ yoomoney-card-virtual }}) карты MasterCard  для совершения покупок или вывода денег.
+- Перевод на&nbsp;[банковскую карту]({{ yoomoney-transfer-card }}), [счет]({{ yoomoney-transfer-account }}) или на&nbsp;электронный кошелек [Qiwi]({{ yoomoney-transfer-qiwi }}).
+- Вывод денег через [системы быстрых переводов]({{ yoomoney-transfer-systems }}) (доступно в мобильном приложении ЮMoney).
+- Совершение покупок в&nbsp;интернете, оплата [квитанций]({{ yoomoney-charges-bills }}) и [штрафов]({{ yoomoney-charges-fines }}).
+- Оформление [пластиковой]({{ yoomoney-card-plastic }}) или [виртуальной]({{ yoomoney-card-virtual }}) карты «Мир», а также платежных стикеров для совершения покупок или вывода денег. 
 - [Бесконтактные платежи]({{ yoomoney-payments-contactless }}).||
 |#
 
