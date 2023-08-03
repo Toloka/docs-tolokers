@@ -270,6 +270,15 @@ default:
   ui_worker_tasks_page__sort_by_bookmarked_first: сначала избранные
   ui_worker_tasks_page__sort_by_new_to_old: сначала новые
   ui_worker_tasks_page__sort_by_price: по цене
+  ui_worker_tasks_with_training: С обучением
+  ui_worker_tasks_with_non-automatic-acceptance: С отложенной приемкой
+  ui_worker_tasks_adult: 18+
+  ui_worker_tasks_unavialable: Недоступные
+  ui_worker_tasks_hidden: Скрытые
+  ui_worker_tasks_category_classification: Классификация
+  ui_worker_tasks_category_moderation: Модерация
+  ui_worker_tasks_category_online_search: Поиск в интернете
+  ui_worker_tasks_category_content_making: Создание контента
   ui_worker_tsk__resume: Продолжить
   ui_worker_tsk__tab_map: На карте
   ui_worker_verification_info__button_provide: Заполнить анкету
