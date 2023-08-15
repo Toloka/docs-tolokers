@@ -17,7 +17,7 @@
 ## Internet {#internet}
 
 Choose the internet usage mode depending on the tasks you are planning to complete:
-1. {% if platform == "android" %}Open the menu by tapping ![](assets/menu.png) at the top left of the screen.{% elsif platform == "ios" %} Open the **{{ mobile_ios_more_title }} → {{ mobile_ios_settings_screen_title }}**.{% endif %}
+1. {% if platform == "android" %}Open the menu by tapping ![](assets/hamburger-menu.svg) at the top left of the screen.{% elsif platform == "ios" %} Open the **{{ mobile_ios_more_title }} → {{ mobile_ios_settings_screen_title }}**.{% endif %}
    {% if platform == "android" %} page.
 1. Select **{{ mobile_android_settings }}**.
    {% endif %}
@@ -53,7 +53,7 @@ Choose the internet usage mode depending on the tasks you are planning to comple
 
 Choose which notifications you want to receive and how you want to receive them:
 
-1. Open the menu by tapping ![](assets/menu.png) at the top left of the screen.
+1. Open the menu by tapping ![](assets/hamburger-menu.svg) at the top left of the screen.
 1. Select **{{ mobile_android_settings }}**.
 1. Go to the **{{ mobile_android_notifications_title }}** block.
 1. Turn on the notification and tap **{{ mobile_android_action_save }}**.
@@ -70,10 +70,10 @@ Choose which notifications you want to receive and how you want to receive them:
 ## Area map {#map}
 
 To use the map without an internet connection, download a map of the area to your device.
-1. Open the menu by tapping ![](assets/menu.png) on the left.
+1. Open the menu by tapping ![](assets/hamburger-menu.svg) on the left.
 1. Select **{{ mobile_android_settings }}**.
 1. Turn on the **{{ mobile_android_settings__download_maps__title }}** option.
-1. Select {% if locale == "ru-com" %}![](assets/menu.png) → **Available**{% endif %}{% if locale == "en-com" %}![](assets/menu.png) → **Available**{% endif %}.
+1. Select {% if locale == "ru-com" %}![](assets/hamburger-menu.svg) → **Available**{% endif %}{% if locale == "en-com" %}![](assets/hamburger-menu.svg) → **Available**{% endif %}.
 1. Tap ![](assets/map-android2.png) to go to tasks on the map.
 1. Tap ![](assets/map-download.png) at the bottom of the screen and save the map:
 
@@ -119,4 +119,3 @@ In some field tasks, you need to attach several photos at once (for example, the
 {% endif %}
 
 [![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
-

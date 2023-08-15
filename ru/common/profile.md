@@ -92,7 +92,7 @@
 {% if platform=="web" %}
 Нажмите на ваш логин в правом верхнем углу. Затем нажмите кнопку **{{ ui_worker_8ef2d61ae629c63b155ae66c3d2fc9fa }}**.
 {% elsif platform=="android" %}
-Нажмите **![](assets/menu.png) → {{ mobile_android_settings }}**. Внизу списка выберите **{{ mobile_android_logout }}**.
+Нажмите **![](assets/hamburger-menu.svg) → {{ mobile_android_settings }}**. Внизу списка выберите **{{ mobile_android_logout }}**.
 {% elsif platform=="ios" %}
 Откройте страницу **{{ mobile_ios_more_title }} → {{ mobile_ios_settings_screen_title }}**. Внизу списка выберите **{{ mobile_ios_logout_button }}**.
 {% endif %}
@@ -125,7 +125,7 @@
   1. В мобильном приложении откройте страницу **Еще → Настройки**.
   1. В конце списка выберите **Удалить аккаунт**.
   {% elsif platform=="android" %}
-  1. Нажмите ![](assets/menu.png) → **{{ mobile_android_settings }}**.
+  1. Нажмите ![](assets/hamburger-menu.svg) → **{{ mobile_android_settings }}**.
   1. Нажмите кнопку **{{ ui_worker_2c5461dee3add8fe9c9e803e1de003c5 }}** в конце списка.
   {% endif %}
 
@@ -144,4 +144,3 @@
 {% include [faq-profile](_includes/profile/profile-faq/profile.md) %}
 
 [![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
-

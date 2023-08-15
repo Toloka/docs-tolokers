@@ -8,7 +8,7 @@ Visit this [page]({{ toloka-achievements }}) to view the full list of achievemen
 
 {% elsif platform == "android" %}
 
-At the top left, click **![](assets/menu.png) → {{ mobile_android_nav_title_achievements }}**
+At the top left, click **![](assets/hamburger-menu.svg) → {{ mobile_android_nav_title_achievements }}**
 
 {% elsif platform == "ios" %}
 
@@ -42,4 +42,3 @@ Click on the award icon to find out how to earn it.
 
 
 [![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
-

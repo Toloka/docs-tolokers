@@ -8,7 +8,7 @@
 
 {% elsif platform == 'android' %}
 
-Слева вверху нажмите значок **![](assets/menu.png) → {{ mobile_android_nav_title_achievements }}**.
+Слева вверху нажмите значок **![](assets/hamburger-menu.svg) → {{ mobile_android_nav_title_achievements }}**.
 
 {% elsif platform == 'ios' %}
 
