@@ -17,7 +17,7 @@ Select:
 
 To complete a non-field task:
 
-1. Open the list of tasks by tapping {% if platform == "android" %}**![](assets/menu.png) → {{ mobile_android_tasks_available }}**{% elsif platform == "ios" %}the button **{{ mobile_ios_all_tasks }}**{% endif %}.
+1. Open the list of tasks by tapping {% if platform == "android" %}**![](assets/hamburger-menu.svg) → {{ mobile_android_tasks_available }}**{% elsif platform == "ios" %}the button **{{ mobile_ios_all_tasks }}**{% endif %}.
 1. Read the {% if locale == "ru-com" %}instructions{% elsif locale == "en-com" %}instructions{% endif %} and go to the task.
 1. Tap {% if platform == "ios" %}**{{ mobile_ios_start_task }}**{% elsif platform == "android" %}**{{ mobile_android_start_now }}**{% endif %}.
 1. Answer the questions and tap {% if platform == "ios" %}**{{ mobile_ios_submit_button}}**{% elsif platform == "android" %}**{{ mobile_android_task_submit }}**{% endif %}.
@@ -32,10 +32,10 @@ You will be redirected to a page with the next task.
 
 You can save tasks that you didn't complete in **{{ mobile_android_tasks_reserved }}**. To do this:
 
-1. Tap ![](assets/menu.png) → **{{ mobile_android_settings }}**.
+1. Tap ![](assets/hamburger-menu.svg) → **{{ mobile_android_settings }}**.
 1. Select the **{{ mobile_android_settings_keep_tasks_title }}** option
 
-To continue performing the task, tap ![](assets/menu.png) → **{{ mobile_android_tasks_reserved }}**, find the task you need, and tap **{{ ui_worker_tsk__resume }}**.
+To continue performing the task, tap ![](assets/hamburger-menu.svg) → **{{ mobile_android_tasks_reserved }}**, find the task you need, and tap **{{ ui_worker_tsk__resume }}**.
 {% endif %}
 
 {% if platform == "android" or platform == "ios" %}
@@ -43,7 +43,7 @@ To continue performing the task, tap ![](assets/menu.png) → **{{ mobile_andr
 
 To complete a field task:
 
-1. Open the task list. {% if platform == "android" %}To do this, tap ![](assets/menu.png) → **{{ mobile_android_tasks_available }}** {% elsif platform == "ios" %}To do this, tap **{{ mobile_ios_all_tasks_title }}**{% endif %}.
+1. Open the task list. {% if platform == "android" %}To do this, tap ![](assets/hamburger-menu.svg) → **{{ mobile_android_tasks_available }}** {% elsif platform == "ios" %}To do this, tap **{{ mobile_ios_all_tasks_title }}**{% endif %}.
 1. Use one of these ways to open task locations:
 
    * Select a task in the task list and tap {% if platform == "android" %}**{{ mobile_android_task_choose }}**{% elsif platform == "ios"%}**{{ mobile_ios_open_map }}**{% endif %} to see the locations for this task.
@@ -74,7 +74,7 @@ To complete a field task:
 
    To set a minimum price per task:
 
-   1. {% if platform == "android" %}Tap ![](assets/filter-android.png) at the bottom of the screen{% elsif platform == "ios" %}Tap **{{ mobile_ios_filters_title }}** at the top of the screen{% endif %}.
+   1. {% if platform == "android" %}Tap ![](assets/filters-menu.svg) at the bottom of the screen{% elsif platform == "ios" %}Tap **{{ mobile_ios_filters_title }}** at the top of the screen{% endif %}.
    1. Move the slider.
    1. Tap {% if platform == "android"%}**{{ mobile_android_apply_positive_button }}**{% elsif platform == "ios"%}**{{ mobile_ios_ready_button }}**{% endif %}.
 
@@ -84,7 +84,7 @@ To complete a field task:
 
    You can reserve several tasks at once.
 
-1. {% if platform == "android" %}To build a route, tap ![](assets/kebab-menu.png) → **{{ mobile_android_task_build_route }}**.{% endif %}{% if platform == "ios" %}Create a route to the location by tapping **{{ mobile_ios_route_button }}**.{% endif %} The route is created in the [Yandex Maps]({{ ya-maps }}) app.
+1. {% if platform == "android" %}To build a route, tap ![](assets/dots_vertical.svg) → **{{ mobile_android_task_build_route }}**.{% endif %}{% if platform == "ios" %}Create a route to the location by tapping **{{ mobile_ios_route_button }}**.{% endif %} The route is created in the [Yandex Maps]({{ ya-maps }}) app.
 
 1. Go to the location shown in the task. Next, select the desired task on the {% if platform == "ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_active_tasks }}** page and tap **{{ mobile_ios_continue_button }}**. {% endif %}{% if platform == "android" %}**{{ mobile_android_tasks_reserved }}** and tap **{{ mobile_android_task_resume }}**{% endif %}
 
@@ -118,7 +118,7 @@ If a task is completed but isn't sent yet, you can make changes to it:
 {% if platform == "android" or platform == "ios" %}
 ### How do I submit a task? {#sendtask}
 
-Task responses are sent to the requester as soon as you have internet access. To send, you need to open the mobile app. If the {% if platform == "android" %}**{{ mobile_android_settings_wifi_title }}**{% elsif platform == "ios" %}**{{ mobile_ios_settings_wifi_title }**{% endif %} option is chosen in the [settings](settings.md), the task is sent after you connect to Wi-Fi. {% if platform == "android" or platform == "ios" %}To submit a task over mobile internet:{% endif %}
+Task responses are sent to the requester as soon as you have internet access. To send, you need to open the mobile app. If the {% if platform == "android" %}**{{ mobile_android_settings_wifi_title }}**{% elsif platform == "ios" %}**{{ mobile_ios_settings_wifi_title }}**{% endif %} option is chosen in the [settings](settings.md), the task is sent after you connect to Wi-Fi. {% if platform == "android" or platform == "ios" %}To submit a task over mobile internet:{% endif %}
 
 {% if platform == "android" or platform == "ios" %}
 1. Open the task on the {% if platform == "android" %} **{{ mobile_android_tasks_done }}**{% elsif platform== "ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_done_tasks }}**{% endif %} page.
@@ -130,12 +130,12 @@ Task responses are sent to the requester as soon as you have internet access. To
 ## Tips and recommendations {#tips}
 
 The list of tasks displays all tasks, including both field and non-field tasks. To open the list of tasks, tap
-{% if platform == "android" %}![](assets/menu.png) → **{{ mobile_android_tasks_available }}**{% endif %}
+{% if platform == "android" %}![](assets/hamburger-menu.svg) → **{{ mobile_android_tasks_available }}**{% endif %}
 {% if platform == "ios" %} **{{ mobile_ios_all_tasks_title }}**{% endif %}.
 
 {% if platform == "android" %}To manage the list of tasks, apply filters and configure sorting:
 
-1. Tap ![](assets/filter-android.png) at the top of the screen.
+1. Tap ![](assets/filters-menu.svg) at the top of the screen.
 1. Choose one or more filters. Choose the requesters you want to see in the list. Set the sorting type.
 1. Tap **{{ mobile_android_apply_positive_button }}**.
 
@@ -194,7 +194,7 @@ Unavailable tasks are marked with the ![](assets/lock.svg) icon. The condition f
 To choose which task information to display in the label:
 
 1. {% if platform == "ios" %}Tap **{{ mobile_ios_more_title }} → {{ mobile_ios_settings_screen_title }}** {% endif %}
-   {% if platform == "android" %}Tap ![](assets/menu.png) → **{{ mobile_android_settings }}**{% endif %}
+   {% if platform == "android" %}Tap ![](assets/hamburger-menu.svg) → **{{ mobile_android_settings }}**{% endif %}
 1. Open {% if platform == "android" %}**{{ mobile_android_settings_pin_view_type_title}}**{% elsif platform== "ios" %}**{{ mobile_ios_settings_map_pin_format_setting_title }}**{% endif %} and choose the desired option.
    {% if platform == "android" %}
 1. Tap **{{ mobile_android_action_save }}**.

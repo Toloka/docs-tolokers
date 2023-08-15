@@ -83,7 +83,7 @@ Cписок заданий в приложении открывается сра
 
 {% note tip %}
 
-Чтобы умолчанию открывались полевые задания, используйте опцию ![](assets/menu.png) → **{{ mobile_android_settings }}** → **{{ mobile_android_settings_map_title }}**.
+Чтобы умолчанию открывались полевые задания, используйте опцию ![](assets/hamburger-menu.svg) → **{{ mobile_android_settings }}** → **{{ mobile_android_settings_map_title }}**.
 
 {% endnote %}
 
@@ -114,7 +114,7 @@ Cписок заданий в приложении открывается сра
 
    Чтобы установить минимальную цену за задание:
 
-   1. Нажмите значок ![](assets/filter-android.png) вверху экрана.
+   1. Нажмите значок ![](assets/filters-menu.svg) вверху экрана.
    1. Передвиньте ползунок.
    1. Нажмите кнопку **{{ mobile_android_apply_positive_button }}**.
 
@@ -145,10 +145,10 @@ Cписок заданий в приложении открывается сра
 
 Вы можете сохранять задания, которые вы не выполнили до конца, в **{{ mobile_android_tasks_reserved }}**. Для этого:
 
-1. Нажмите ![](assets/menu.png) → **{{ mobile_android_settings }}**.
+1. Нажмите ![](assets/hamburger-menu.svg) → **{{ mobile_android_settings }}**.
 1. Выберите опцию **{{ mobile_android_settings_keep_tasks_title }}**.
 
-Чтобы продолжить выполнять задание, нажмите ![](assets/menu.png) → **{{ mobile_android_tasks_reserved }}**, найдите нужное задание и нажмите кнопку **{{ ui_worker_tsk__resume }}**.
+Чтобы продолжить выполнять задание, нажмите ![](assets/hamburger-menu.svg) → **{{ mobile_android_tasks_reserved }}**, найдите нужное задание и нажмите кнопку **{{ ui_worker_tsk__resume }}**.
 
 ### Как внести изменения в задание {#makechanges}
 
@@ -170,11 +170,11 @@ Cписок заданий в приложении открывается сра
 
 ## Советы и рекомендации {#tips}
 
-Чтобы открыть список заданий, нажмите ![](assets/menu.png) → **{{ mobile_android_tasks_available }}**.
+Чтобы открыть список заданий, нажмите ![](assets/hamburger-menu.svg) → **{{ mobile_android_tasks_available }}**.
 
 Чтобы управлять списком заданий, примените фильтры и настройте сортировку:
 
-1. Нажмите значок ![](assets/filter-android.png) вверху экрана.
+1. Нажмите значок ![](assets/filters-menu.svg) вверху экрана.
 1. Выберите один или несколько фильтров. Выберите заказчиков, чьи задания хотите увидеть в списке. Укажите тип сортировки.
 1. Нажмите кнопку **{{ mobile_android_apply_positive_button }}**.
 
@@ -198,7 +198,7 @@ Cписок заданий в приложении открывается сра
 
 Чтобы выбрать, какая информация о задании будет изображена на метке:
 
-1. Нажмите ![](assets/menu.png) → **{{ mobile_android_settings }}**.
+1. Нажмите ![](assets/hamburger-menu.svg) → **{{ mobile_android_settings }}**.
 1. Откройте **{{ mobile_android_settings_pin_view_type_title }}** и выберите нужную опцию.
 1. Нажмите кнопку **{{ mobile_android_action_save }}**.
 

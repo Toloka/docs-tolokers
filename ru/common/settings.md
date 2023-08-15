@@ -17,7 +17,7 @@
 ## Интернет {#internet}
 
 Выберите режим использования интернета в зависимости от того, какие задания вы собираетесь выполнять:
-1. {% if platform=="android" %}Откройте меню, нажав кнопку ![](assets/menu.png) слева вверху экрана.{% elsif platform=="ios" %} Откройте страницу **{{ mobile_ios_more_title }} → {{ mobile_ios_settings_screen_title }}**.{% endif %}
+1. {% if platform=="android" %}Откройте меню, нажав кнопку ![](assets/hamburger-menu.svg) слева вверху экрана.{% elsif platform=="ios" %} Откройте страницу **{{ mobile_ios_more_title }} → {{ mobile_ios_settings_screen_title }}**.{% endif %}
 {% if platform=="android" %}
 1. Выберите **{{ mobile_android_settings }}**.
 {% endif %}
@@ -53,7 +53,7 @@
 
 Выберите, какие уведомления и каким способом вы хотите получать:
 
-1. Откройте меню, нажав слева вверху экрана кнопку ![](assets/menu.png).
+1. Откройте меню, нажав слева вверху экрана кнопку ![](assets/hamburger-menu.svg).
 1. Выберите **{{ mobile_android_settings }}**.
 1. Перейдите в блок **{{ mobile_android_notifications_title }}**.
 1. Включите уведомление и нажмите кнопку **{{ mobile_android_action_save }}**.
@@ -70,10 +70,10 @@
 ## Карта региона {#map}
 
 Чтобы пользоваться картой без подключения к интернету, скачайте карту региона на устройство:
-1. Откройте меню, нажав кнопку ![](assets/menu.png) слева.
+1. Откройте меню, нажав кнопку ![](assets/hamburger-menu.svg) слева.
 1. Выберите **{{ mobile_android_settings }}**.
 1. Включите опцию **{{ mobile_android_settings__download_maps__title }}**.
-1. Нажмите {% if locale=="ru-com" %}![](assets/menu.png) → **Доступные**{% endif %}{% if locale=="en-com" %}![](assets/menu.png) → **Available**{% endif %}.
+1. Нажмите {% if locale=="ru-com" %}![](assets/hamburger-menu.svg) → **Доступные**{% endif %}{% if locale=="en-com" %}![](assets/hamburger-menu.svg) → **Available**{% endif %}.
 1. Нажмите значок ![](assets/map-android2.png), чтобы перейти к заданиям на карте.
 1. Нажмите на значок ![](assets/map-download.png) в нижней части экрана и сохраните карту:
 
@@ -119,4 +119,3 @@
 {% endif %}
 
 [![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
-

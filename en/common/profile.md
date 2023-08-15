@@ -2,9 +2,9 @@
 
 Your profile must contain your real first and last name. Otherwise, you won't be able to [withdraw funds](pay/about.md) from [Toloka]({{ toloka }}) to your payment system. If you entered a different name when registering, edit the profile.
 
-[Edit a profile](#edit)  
-[Add a profile picture](#avatar)  
-[Delete an account](#delete)  
+[Edit a profile](#edit)
+[Add a profile picture](#avatar)
+[Delete an account](#delete)
 {% if platform == "web" %}[Turn on notifications](#notifications){% endif %}
 
 
@@ -92,7 +92,7 @@ You will now receive notifications from the platform.
 {% if platform == "web" %}
 Click your username in the upper-right corner. Then click **{{ ui_worker_8ef2d61ae629c63b155ae66c3d2fc9fa }}**.
 {% elsif platform== "android" %}
-Click **![](assets/menu.png) → {{ mobile_android_settings }}**. At the bottom of the list, choose **{{ mobile_android_logout }}**.
+Click **![](assets/hamburger-menu.svg) → {{ mobile_android_settings }}**. At the bottom of the list, choose **{{ mobile_android_logout }}**.
 {% elsif platform== "ios" %}
 Open the **{{ mobile_ios_more_title }} → {{ mobile_ios_settings_screen_title }}** page. At the bottom of the list, choose **{{ mobile_ios_logout_button }}**.
 {% endif %}
@@ -125,7 +125,7 @@ Open the **{{ mobile_ios_more_title }} → {{ mobile_ios_settings_screen_title }
    1. In the mobile app, go to **More → Settings**.
    1. At the end of the list, select **Delete account**.
       {% elsif platform == "android" %}
-   1. Tap ![](assets/menu.png) → **{{ mobile_android_settings }}**.
+   1. Tap ![](assets/hamburger-menu.svg) → **{{ mobile_android_settings }}**.
    1. Tap **{{ ui_worker_2c5461dee3add8fe9c9e803e1de003c5 }}** at the end of the list.
       {% endif %}
 
@@ -144,4 +144,3 @@ According to the [User Agreement]({{ user-agreement }}):
 {% include [faq-profile](_includes/profile/profile-faq/profile.md) %}
 
 [![](assets/buttons/contact-support.svg)](troubleshooting/troubleshooting.md#not_working_properly)
-
