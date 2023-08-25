@@ -1,14 +1,15 @@
 {% cut "I can't get an SMS with the confirmation code." %}
 
-Write to the [support service]({{ support-passport-nosms-form }}).
+Contact the [support service]({{ support-passport-nosms-form }}).
 
 {% endcut %}
 
 {% cut "I can't register because my phone number is already linked to another account" %}
 
-Your phone number can only be linked to one [Toloka](http://toloka.yandex.com/) account at a time. Most likely, you already registered in the system using a different social network. Try to remember it. If you have any problems, write to the [support service]({{ support-passport-nosms-form }}).
+Your phone number can only be linked to one [Toloka](https://toloka.ai/tolokers/) account at a time. Most likely, you already registered in the system using a different social network. Try to remember it. If you have any problems, contact the [support service]({{ support-passport-nosms-form }}).
 
 According to the [User Agreement]({{ user-agreement }}):
+
 - The user may have only one account in Toloka.
 - Re-registration is prohibited.
 - The user must have a unique phone number.
@@ -20,8 +21,8 @@ According to the [User Agreement]({{ user-agreement }}):
 1. Log in to the web version of [Toloka]({{ toloka }}).
 2. Go to the **Profile** tab.
 3. In the **Telephone** block, click **Edit**.
-4. Enter a new phone number and click **Confirm**. We will send an SMS code to this phone number.
-5. Enter the code from the SMS and click **Confirm**. If you did not receive the code or entered an incorrect one, click the link **Resend code**. A new code can be requested in a minute.
+4. Enter a new phone number and click **Confirm**. We will send a text message to this phone number.
+5. Enter the code from the text message and click **Confirm**. If you haven't received the code or entered an incorrect one, click the **Resend code** link. You can request a new one in a minute.
 
 {% note alert %}
 
@@ -59,7 +60,7 @@ Open your **{{ mobile_ios_profile }}**. Your username is under your name.
 
 {% cut "I don't remember my username or password" %}
 
-If you don't remember your password, restore it in the social network with which you registered on the platform. Passwords aren't stored in Toloka.
+If you don't remember your password, restore it in the social network with which you registered on the platform. Toloka doesn't store any passwords.
 
 {% endcut %}
 
@@ -87,5 +88,3 @@ Please don't send duplicate requests or ask for a faster response. The support s
 {% endcut %}
 
 {% endif %}
-
-
