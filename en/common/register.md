@@ -2,7 +2,7 @@
 
 {% note warning %}
 
-Since 01.06.2023, Toloka has a new way of registration and authorization. If you registered in Toloka before this date, then you need to [update the data](new-authorization.md ) for the new authorization system.
+Now Toloka has a new way of registration and authorization. If you are already registered in Toloka, but haven't yet updated the data for the new authorization system, then you need to [do so](new-authorization.md ).
 
 {% endnote %}
 
