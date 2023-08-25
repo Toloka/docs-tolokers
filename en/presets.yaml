@@ -2,7 +2,7 @@ default:
   region: en
   locale: en-com
   platform: web
-  toloka: http://toloka.yandex.com/
+  toloka: https://toloka.ai/tolokers/en/
   toloka-tasks: https://toloka.yandex.com/tasks
   toloka-achievements: https://toloka.yandex.com/achievements
   toloka-profile: http://toloka.yandex.com/profile

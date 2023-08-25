@@ -45,7 +45,7 @@
 {% endif%}
 
 {% if platform == "web" %}
-[Toloka](http://toloka.yandex.com/) is a crowdsourcing platform that helps process large amounts of data by distributing tasks to a large pool of annotators.
+[Toloka]({{ toloka }}) is a crowdsourcing platform that helps process large amounts of data by distributing tasks to a large pool of annotators.
 
 Requesters post tasks and set a price, while Tolokers choose tasks, [complete](tasks.md) them, and earn [money](priemka.md#pay).
 
