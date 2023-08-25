@@ -11,8 +11,8 @@ You can select and continue to use [Yandex ID]({{ passport-phones }}) to log in 
 {% if platform == 'web' %}
 1. Open the [Tasks]({{ toloka-tasks }}) page and click the **Connect** button in the banner. If you accidentally closed the banner, refresh the page in the browser.
 2. In the opened window, read the information and click the **Continue** button. We will send a text message with a code to the phone number linked to your Toloka profile.
-3. Enter the code and click **Confirm**. If you haven't received the code or entered an incorrect one, click the**Resend code** link . You can request a new one in a minute.
-4. In the list, select a social network and click the **Connect**link next to its name.
+3. Enter the code and click **Confirm**. If you haven't received the code or entered an incorrect one, click the **Resend code** link. You can request a new one in a minute.
+4. In the list, select a social network and click the **Connect** link next to its name.
 5. Do one of the following:
    - Select the social media profile if you're already logged in.
    - Log in to the social network if you you aren't logged in.
