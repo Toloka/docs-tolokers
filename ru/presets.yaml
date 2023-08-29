@@ -153,7 +153,7 @@ default:
   mobile_android_action_done: Готово
   mobile_android_action_save: Сохранить
   mobile_android_add_to_bookmarks: Добавить в избранные
-  mobile_android_add_to_ignore: Скрыть задание
+  mobile_android_add_to_ignore: Скрыть проект
   mobile_android_apply_positive_button: Применить
   mobile_android_button_confirm_sms: Подтвердить
   mobile_android_button_next: Далее
@@ -176,8 +176,8 @@ default:
   mobile_android_registration_complete_button: Начать зарабатывать
   mobile_android_settings: Настройки
   mobile_android_settings__download_maps__title: Загрузка офлайн-карт
-  mobile_android_settings_keep_tasks_title: Всегда оставлять задания за мной
-  mobile_android_settings_map_title: Открывать задания на карте
+  mobile_android_settings_keep_tasks_title: Всегда оставлять проект за мной
+  mobile_android_settings_map_title: Открывать проекты на карте
   mobile_android_settings_offline_maps_auto_update__title: Автообновление
   mobile_android_settings_pin_view_type_title: Изменить внешний вид меток
   mobile_android_settings_wifi_title: Отправлять только по Wi-Fi
@@ -199,8 +199,8 @@ default:
   mobile_android_tasks_reserved: Зарезервированные
   mobile_ios_achievements_awards_title: Награды
   mobile_ios_active_tasks: В работе
-  mobile_ios_all_tasks: Все задания
-  mobile_ios_all_tasks_title: Задания
+  mobile_ios_all_tasks: Все проекты
+  mobile_ios_all_tasks_title: Проекты
   mobile_ios_assignment_return_to_active: Вернуть в работу
   mobile_ios_assignment_submit_now: Отправить сейчас
   mobile_ios_button_next: Далее
@@ -212,7 +212,7 @@ default:
   mobile_ios_logout_button: Выйти
   mobile_ios_messages_write-to-requester: Написать заказчику
   mobile_ios_more_title: Ещё
-  mobile_ios_my_tasks: Мои задания
+  mobile_ios_my_tasks: Мои проекты
   mobile_ios_notifications_preferences_title: Настройка уведомлений
   mobile_ios_open_map: Открыть карту
   mobile_ios_phone_error_add_action: Перейти
@@ -236,12 +236,12 @@ default:
   mobile_ios_task_actions_finish: Выйти
   mobile_ios_task_user_preference_choose_preference_add_as_bookmarked: Добавить в
     избранные
-  mobile_ios_task_user_preference_choose_preference_add_as_ignored: Скрыть задание
+  mobile_ios_task_user_preference_choose_preference_add_as_ignored: Скрыть проект
   mobile_ios_tasks_list_button: Списком
   mobile_ios_tasks_on_field: полевые
   mobile_ios_tasks_with_training: с обучением
   ui_core_btn-submit: Отправить
-  ui_core_profile_editor__label__allow_adult: Могу выполнять задания, содержащие контент
+  ui_core_profile_editor__label__allow_adult: Могу выполнять проекты, содержащие контент
     для взрослых
   ui_core_taxes_form__button_submit: Отправить данные
   ui_worker_1706282c5244c8e988f76c5eb939b754: Редактировать
@@ -250,7 +250,7 @@ default:
   ui_worker_assgn-type-rej: Отклонённые
   ui_worker_auth-si-signin: Войти
   ui_worker_btn-next: Далее
-  ui_worker_incm-head: Выполненные задания за последние 2 месяца
+  ui_worker_incm-head: Выполненные проекты за последние 2 месяца
   ui_worker_messages_compose_to_requesters: Написать заказчику
   ui_worker_money_PAYONEER__button-link-account: Привязать мой аккаунт
   ui_worker_money__withdraw__submit: Вывести
@@ -264,8 +264,8 @@ default:
   ui_worker_prfl-tab-profile: Профиль
   ui_worker_sms_popup__submit: Подтвердить
   ui_worker_task_menu__bookmark_add: Добавить в избранные
-  ui_worker_task_menu__ignore_add: Скрыть задание
-  ui_worker_task_menu__ignore_remove: Показать задание
+  ui_worker_task_menu__ignore_add: Скрыть проект
+  ui_worker_task_menu__ignore_remove: Показать проект
   ui_worker_tasks_filter__with_ignored: Скрытые
   ui_worker_tasks_page__sort_by_bookmarked_first: сначала избранные
   ui_worker_tasks_page__sort_by_new_to_old: сначала новые
