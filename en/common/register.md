@@ -18,7 +18,7 @@ Toloka has a new way of registration and authorization. If you are already regis
 5. Enter the phone number and click **Send code**. We will send a text message with a confirmation code to this phone number.
 6. Enter the code from the text message and click **Submit**. If you haven't received the code or entered an incorrect one, click the **Resend code** link. You can request a new code in a minute.
 7. Fill in the information about yourself: first and last name, date of birth, country. Read the [User agreement]({{ user-agreement }}), confirm that you are 18 or older, and click **Continue**.
-8. After successful registration, the [tasks page](task-select.md ) will open. You can start completing tasks.
+8. After successful registration, the [projects page](task-select.md ) will open. You can start completing projects.
 
 ## Authorization {#authorization}
 
@@ -27,7 +27,7 @@ Toloka has a new way of registration and authorization. If you are already regis
 3. In the opened social network window, do one of the following:
    - Select the social media profile if you're already logged in.
    - Log in to the social network if you you aren't logged in.
-4. The [task page](task-select.md ) opens. You can complete tasks.
+4. The [project page](task-select.md ) opens. You can complete projects.
 
 ## FAQ {#faq}
 

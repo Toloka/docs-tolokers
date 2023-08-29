@@ -11,7 +11,7 @@
 1. Open the **{{ ui_worker_prfl-tab-profile }}** tab.
 1. Click {% if platform == "web" %}**{{ ui_worker_verification_info__button_provide }}**{% elsif platform == "android" %}**{{ mobile_android_profile_verification_status_action_fill }}**{% elsif platform == "ios"%} **{{ mobile_ios_profile_verification_initiate_button_title }}**{% endif %}.
 
-   If you don't see this button in your profile, most likely you have registered only recently and you haven't done enough paid tasks. The form automatically opens to users when they earn $1. You can wait a little for access to open automatically or [contact support](../troubleshooting/troubleshooting.md#self-employed) so that we grant access to the form to you personally.
+   If you don't see this button in your profile, most likely you have registered only recently and you haven't done enough paid projects. The form automatically opens to users when they earn $1. You can wait a little for access to open automatically or [contact support](../troubleshooting/troubleshooting.md#self-employed) so that we grant access to the form to you personally.
 
 1. Fill out the form and attach the photos of your documents.
 

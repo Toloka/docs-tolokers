@@ -2,9 +2,9 @@
 
 {% cut "Stop cooperating with Toloka as a self-employed individual" %}
 
-You don't have to end your cooperation with [Toloka]({{ toloka }}) if you no longer want to complete tasks. You don't have to pay the 6% tax if you stop doing tasks and withdrawing money from Toloka.
+You don't have to end your cooperation with [Toloka]({{ toloka }}) if you no longer want to complete projects. You don't have to pay the 6% tax if you stop doing projects and withdrawing money from Toloka.
 
-If you change your mind, you can resume completing tasks and withdrawing money at any time.
+If you change your mind, you can resume completing projects and withdrawing money at any time.
 
 If you still want to end your cooperation with Toloka:
 
@@ -13,7 +13,7 @@ If you still want to end your cooperation with Toloka:
 
 * Click **Stop cooperating with Toloka as self-employed**.
 
-* Make sure you have withdrawn all your money and are not going to perform any tasks. Click **Confirm**.
+* Make sure you have withdrawn all your money and are not going to perform any projects. Click **Confirm**.
 
 
 {% endcut %}
@@ -22,7 +22,7 @@ If you still want to end your cooperation with Toloka:
 
 {% note alert %}
 
-If you decline the self-employment status, you will no longer be able to complete tasks and withdraw money from your [Toloka]({{ toloka }}) account.
+If you decline the self-employment status, you will no longer be able to complete projects and withdraw money from your [Toloka]({{ toloka }}) account.
 
 {% endnote %}
 

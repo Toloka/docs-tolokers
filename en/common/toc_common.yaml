@@ -14,18 +14,18 @@ items:
   - name: Required settings
     href: settings.md
     when: platform == "android" or platform == "ios"
-  - name: Task list
+  - name: Project list
     href: task-select.md
     when: platform == "web"
   - name: Entering captchas
     href: captcha.md
     when: platform == "web" or platform == "ios" or platform == "android"
-  - name: Choosing a task
+  - name: Choosing a project
     href: task-select.md
     when: platform == "ios" or platform == "android"
   - name: How to be a successful Toloker
     href: tasks.md
-  - name: Tasks under review
+  - name: Projects under review
     href: priemka.md
   - name: Profile
     href: profile.md

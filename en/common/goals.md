@@ -12,7 +12,7 @@ To set a deadline for your goal, go to the **My money** section, click **New goa
 | Set a deadline for your goal: a week or a month. | Specify the desired amount: from $5 to $100. |
 
 
-- Complete tasks [well](tasks.md) and get bonuses.
+- Complete projects [well](tasks.md) and get bonuses.
 - Track your progress in the **My money** section.
 - Earn the desired amount to cover your expenses.
 

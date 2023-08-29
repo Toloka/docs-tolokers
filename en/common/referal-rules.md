@@ -6,7 +6,7 @@ The updated version of the rules is published on this page. [Previous rule versi
 
 ## What are bonuses given for? {#section_nj1_pft_klb}
 
-- For tasks performed by a friend. A task is considered completed if the requester accepts it.
+- For projects performed by a friend. A project is considered completed if the requester accepts it.
 - For bonuses that a friend received from requesters. The requester can grant bonuses to Tolokers.
 
 {% note warning %}
@@ -18,7 +18,7 @@ Friend bonuses are granted only in the first month after your friend registers i
 
 ## How are bonuses granted? {#section_vkb_tft_klb}
 
-Bonuses are granted for tasks completed by friends on the previous day. The money is credited to your account in Toloka.
+Bonuses are granted for projects completed by friends on the previous day. The money is credited to your account in Toloka.
 
 {% note tip %}
 
@@ -34,7 +34,7 @@ Bring new friends often and help them earn to get more bonuses from their earnin
 - Bonuses are not given if you're banned for violating the [User Agreement]({{ user-agreement }}).
 
 #### Bonus programs
-- 20% of the task price for field tasks performed in the cities from the list.
+- 20% of the project price for field projects performed in the cities from the list.
 
 {% cut "List of cities" %}
 
@@ -668,7 +668,7 @@ Urgench
 
 {% endcut %}
 
-- 5 to 10% of the amount earned for other tasks and bonuses that your friend received from requesters.
+- 5 to 10% of the amount earned for other projects and bonuses that your friend received from requesters.
 
    The percentage depends on the total amount of bonuses you received under this program over the past year:
    - 5% if your bonus amount for the year is less than $10.

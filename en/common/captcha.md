@@ -1,6 +1,6 @@
 # Entering captchas
 
-In Toloka, captchas are entertaining mini games that can distract you from your tasks for a few seconds. The games are simple, quick, and easy. The captchas don&apos;t contain any foreign words, only pictures and clear symbols. At the same time, captchas are good at protecting Toloka from robots and cheaters.
+In Toloka, captchas are entertaining mini games that can distract you from your projects for a few seconds. The games are simple, quick, and easy. The captchas don&apos;t contain any foreign words, only pictures and clear symbols. At the same time, captchas are good at protecting Toloka from robots and cheaters.
 
 ## Captcha examples {#example-captcha}
 

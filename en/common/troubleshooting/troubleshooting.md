@@ -109,7 +109,7 @@ If recalling the ban is possible, follow the instructions outlined in the messag
 
 {% cut "Why don't I see all my skills in my profile?" %}
 
-Not all skills are displayed in your profile. It depends on the skill settings and the type of task.
+Not all skills are displayed in your profile. It depends on the skill settings and the type of project.
 
 {% endcut %}
 
@@ -133,82 +133,82 @@ Awards are given within 24 hours after you achieve the desired result. If the aw
 
 {% endcut %}
 
-{% cut "Questions about tasks" %}
+{% cut "Questions about projects" %}
 
-{% cut "How do I choose a task?" %}
+{% cut "How do I choose a project?" %}
 
-The list of tasks shows the tasks available to you at the moment. Each of them has a short description and price. Choose a task and complete it.
-
-{% endcut %}
-
-{% cut "What are free tasks for?" %}
-
-Training tasks are generally not paid for. They are used to teach Tolokers to perform a particular kind of task and select those who show the best results. You get access to the main, paid task only after you successfully complete the training.
+The list of projects shows the projects available to you at the moment. Each of them has a short description and price. Choose a project and complete it.
 
 {% endcut %}
 
-{% cut "Low task cost" %}
+{% cut "What are free projects for?" %}
 
-The cost of the task directly depends on its complexity and how much time it takes to complete it. Simple tasks that don't require special skills and a lot of time cost less than more complex ones. But the better you cope with them, the higher their cost will be and the more chances there are to get a bonus from the requester.
+Training projects are generally not paid for. They are used to teach Tolokers to perform a particular kind of project and select those who show the best results. You get access to the main, paid project only after you successfully complete the training.
+
+{% endcut %}
+
+{% cut "Low project cost" %}
+
+The cost of the project directly depends on its complexity and how much time it takes to complete it. Simple projects that don't require special skills and a lot of time cost less than more complex ones. But the better you cope with them, the higher their cost will be and the more chances there are to get a bonus from the requester.
 
 {% endcut %}
 
 {% cut "Maximum and average earnings" %}
 
-The maximum earnings displayed in the task card show how much three of the most active Tolokers earn on average per day.
-The average earnings displayed in the task card show how much you can earn on the task per hour on average.
+The maximum earnings displayed in the project card show how much three of the most active Tolokers earn on average per day.
+The average earnings displayed in the project card show how much you can earn on the project per hour on average.
 
 {% endcut %}
 
-{% cut "How do I remove a reservation from a task??" %}
+{% cut "How do I remove a reservation from a project??" %}
 
-After the expiration of the allotted period, the reservation is automatically removed and the tasks return to the main page. You can remove the reservation manually. To do this, go to the task, click **←** and select {% if platform=="android" or platform=="web" %}**{{ mobile_android_dialog_going_back_negative }}**{% elsif platform == 'ios' %}**{{ mobile_ios_task_action_refuse }}**{% endif %}. The option to reserve tasks is provided for Tolokers' convenience. If for some reason you can't complete the tasks you have reserved, it doesn't affect the availability of other tasks or your performance in [Toloka]({{ toloka }}).
-
-{% endcut %}
-
-{% cut "Questions about the content of tasks" %}
-
-{% cut "The task contains adult content" %}
-
-According to the [User Agreement]({{ user-agreement }}), tasks in Toloka may contain "adult" (including pornographic) content. Your actions in [Toloka]({{ toloka }}) that have to do with evaluating "adult content" don't violate the law. The Toloka service operates in accordance with the legislation of the Swiss Confederation and is aimed, among other things, at identifying materials of an offensive or pornographic nature. If this type of material is unacceptable to you, turn off the **{{ ui_core_profile_editor__label__allow_adult }}** option in the {% if platform == 'web' %}[profile]({{ toloka-profile }}){% else %}profile{% endif %}.
+After the expiration of the allotted period, the reservation is automatically removed and the projects return to the main page. You can remove the reservation manually. To do this, go to the project, click **←** and select {% if platform=="android" or platform=="web" %}**{{ mobile_android_dialog_going_back_negative }}**{% elsif platform == 'ios' %}**{{ mobile_ios_task_action_refuse }}**{% endif %}. The option to reserve projects is provided for Tolokers' convenience. If for some reason you can't complete the projects you have reserved, it doesn't affect the availability of other projects or your performance in [Toloka]({{ toloka }}).
 
 {% endcut %}
 
-{% cut "The task requires recording a video or sending a photo" %}
+{% cut "Questions about the content of projects" %}
 
-Tasks in which Tolokers are asked to record a video or audio or take a photo are not prohibited in [Toloka]({{ toloka }}). If for some reason you don't want to complete this type of task, select another task from the list of available tasks.
+{% cut "The project contains adult content" %}
 
-{% endcut %}
-
-{% cut "The task requires recording a video or sending a photo" %}
-
-Tasks in which Tolokers are asked to record a video or audio or take a photo are not prohibited in [Toloka]({{ toloka }}). If for some reason you don't want to complete this type of task, select another task from the list of available tasks.
+According to the [User Agreement]({{ user-agreement }}), projects in Toloka may contain "adult" (including pornographic) content. Your actions in [Toloka]({{ toloka }}) that have to do with evaluating "adult content" don't violate the law. The Toloka service operates in accordance with the legislation of the Swiss Confederation and is aimed, among other things, at identifying materials of an offensive or pornographic nature. If this type of material is unacceptable to you, turn off the **{{ ui_core_profile_editor__label__allow_adult }}** option in the {% if platform == 'web' %}[profile]({{ toloka-profile }}){% else %}profile{% endif %}.
 
 {% endcut %}
 
-{% cut "The task contains a virus" %}
+{% cut "The project requires recording a video or sending a photo" %}
 
-Requesters check their tasks before posting and try to make sure they don't contain malicious links. The virus can only appear if the content of the site you access from the task has changed after the task was posted. According to Section 4.7 of the [User Agreement]({{ user-agreement }}), Toloka does not guarantee that tasks won't contain viruses and other malicious components. When completing tasks, the Toloker is solely responsible for the consequences of using the Toloka platform, including the damage that may be caused to software or hardware. If you encounter an infected site, notify the author of the task immediately.
+Projects in which Tolokers are asked to record a video or audio or take a photo are not prohibited in [Toloka]({{ toloka }}). If for some reason you don't want to complete this type of project, select another project from the list of available projects.
+
+{% endcut %}
+
+{% cut "The project requires recording a video or sending a photo" %}
+
+Projects in which Tolokers are asked to record a video or audio or take a photo are not prohibited in [Toloka]({{ toloka }}). If for some reason you don't want to complete this type of project, select another project from the list of available projects.
+
+{% endcut %}
+
+{% cut "The project contains a virus" %}
+
+Requesters check their projects before posting and try to make sure they don't contain malicious links. The virus can only appear if the content of the site you access from the project has changed after the project was posted. According to Section 4.7 of the [User Agreement]({{ user-agreement }}), Toloka does not guarantee that projects won't contain viruses and other malicious components. When completing projects, the Toloker is solely responsible for the consequences of using the Toloka platform, including the damage that may be caused to software or hardware. If you encounter an infected site, notify the author of the project immediately.
 
 {% note tip %}
 
-Install antivirus software to prevent threats. This will be useful not only for completing tasks in [Toloka]({{ toloka }}) but also for visiting other sites.
+Install antivirus software to prevent threats. This will be useful not only for completing projects in [Toloka]({{ toloka }}) but also for visiting other sites.
 
 {% endnote %}
 
 {% endcut %}
 
-{% cut "The task is in an unfamiliar language" %}
+{% cut "The project is in an unfamiliar language" %}
 
-If you encounter tasks in an unfamiliar language, don't complete them.
-
-{% endcut %}
+If you encounter projects in an unfamiliar language, don't complete them.
 
 {% endcut %}
 
-{% cut "Questions about a particular task" %}
+{% endcut %}
 
-Tasks are posted and checked by requesters. If you have a question about the completion of a particular task, contact the requester directly. To do this, find the task in the **Available**, **Reserved**, or **Done** section, open the task, click on the three dots in the upper-right corner, and select **{{ ui_worker_messages_compose_to_requesters }}**.
+{% cut "Questions about a particular project" %}
+
+Projects are posted and checked by requesters. If you have a question about the completion of a particular project, contact the requester directly. To do this, find the project in the **Available**, **Reserved**, or **Done** section, open the project, click on the three dots in the upper-right corner, and select **{{ ui_worker_messages_compose_to_requesters }}**.
 
 {% cut "Incorrect actions by the requester" %}
 
@@ -224,12 +224,12 @@ Please don't send duplicate requests or ask for a faster response. The support s
 
 {% endcut %}
 
-{% cut "Questions about field tasks" %}
+{% cut "Questions about field projects" %}
 
-{% cut "Can a task be rejected if a person or a car license plate number is in the shot?" %}
+{% cut "Can a project be rejected if a person or a car license plate number is in the shot?" %}
 
-When requesters review tasks, they primarily check whether they are completed according to the instructions. However, according to Section 3.5 of the [User Agreement]({{ user-agreement }}), you can't submit photos or videos of third parties or car license plates. Therefore, it doesn't matter whether the requester accepts the task or not. Your account might still be blocked for violation of the User Agreement, and you won't be able to withdraw money from Toloka (Section 8.5.3). Therefore, carefully check the photos and videos you're submitting for whether they contain vehicle number plates or other people's faces.
-If the task asks you to take photos of strangers or car license plates, don't complete it and contact the Toloka support service. We will check the task, suspend it, or ask the requester to make changes to it so that the task complies with [Toloka]({{ toloka }}) rules.
+When requesters review projects, they primarily check whether they are completed according to the instructions. However, according to Section 3.5 of the [User Agreement]({{ user-agreement }}), you can't submit photos or videos of third parties or car license plates. Therefore, it doesn't matter whether the requester accepts the project or not. Your account might still be blocked for violation of the User Agreement, and you won't be able to withdraw money from Toloka (Section 8.5.3). Therefore, carefully check the photos and videos you're submitting for whether they contain vehicle number plates or other people's faces.
+If the project asks you to take photos of strangers or car license plates, don't complete it and contact the Toloka support service. We will check the project, suspend it, or ask the requester to make changes to it so that the project complies with [Toloka]({{ toloka }}) rules.
 
 {% endcut %}
 
@@ -239,13 +239,13 @@ According to the law, you are allowed to take photos on the street and in stores
 
 {% endcut %}
 
-{% cut "I want to make a badge with the Yandex logo to complete field tasks" %}
+{% cut "I want to make a badge with the Yandex logo to complete field projects" %}
 
 According to Section 5.8 of the [User Agreement]({{ user-agreement }}), you work for Yandex as an independent contractor. Therefore, you can't use the logo, badge, or another ID that indicates your professional affiliation with Yandex or [Toloka]({{ toloka }}).
 
 {% endcut %}
 
-{% cut "Why do I need to take photos in field tasks?" %}
+{% cut "Why do I need to take photos in field projects?" %}
 
 The photos you take help improve map services and make online maps and directories more complete, useful, and up-to-date.
 
@@ -253,45 +253,45 @@ The photos you take help improve map services and make online maps and directori
 
 {% cut "What do I do if the employees of organizations ask questions or don't allow me to take photos?" %}
 
-If the employees of organizations ask you what you're collecting information for, explain that you're completing a task on the [Toloka]({{ toloka }}) platform. Your goal is to verify information about a business's presence at a certain address and its working hours. The accuracy and reliability of this information is in the interests of the organization itself, because it will be published in directories and on online maps. If the employees of organizations tell you that you're filming illegally, explain that you're not collecting any personally identifiable information such as people's faces and car license plate numbers. All photos will be further processed according to all applicable privacy laws. If the employees of organizations don't allow you to enter the building and take photos, try to politely explain the legality of your actions. If this doesn't help, don't get into a conflict, and refuse the task.
+If the employees of organizations ask you what you're collecting information for, explain that you're completing a project on the [Toloka]({{ toloka }}) platform. Your goal is to verify information about a business's presence at a certain address and its working hours. The accuracy and reliability of this information is in the interests of the organization itself, because it will be published in directories and on online maps. If the employees of organizations tell you that you're filming illegally, explain that you're not collecting any personally identifiable information such as people's faces and car license plate numbers. All photos will be further processed according to all applicable privacy laws. If the employees of organizations don't allow you to enter the building and take photos, try to politely explain the legality of your actions. If this doesn't help, don't get into a conflict, and refuse the project.
 
 {% endcut %}
 
-{% cut "I can't complete a task in a remote place" %}
+{% cut "I can't complete a project in a remote place" %}
 
-If you can't complete the task according to the instructions, refuse it.
-
-{% endcut %}
-
-{% cut "There are no field tasks" %}
-
-The availability of field tasks in specific cities depends on a number of factors: the needs of requesters, the epidemiological situation in the region, and so on. If there are currently no field tasks in your city, it means that requesters have suspended their placement for some reason. Check the map from time to time. You'll see the tasks when they appear.
+If you can't complete the project according to the instructions, refuse it.
 
 {% endcut %}
 
-{% endcut %}
+{% cut "There are no field projects" %}
 
-{% cut "I want to take a certain type of task, but it's not in the list anymore" %}
-
-If the task you liked is no longer displayed, it may have already been completed or you don't meet the selection criteria set by the requester. While this task is absent, you can take other ones. The desired tasks may appear again later.
+The availability of field projects in specific cities depends on a number of factors: the needs of requesters, the epidemiological situation in the region, and so on. If there are currently no field projects in your city, it means that requesters have suspended their placement for some reason. Check the map from time to time. You'll see the projects when they appear.
 
 {% endcut %}
 
-{% cut "Can I complete tasks in a foreign language?" %}
+{% endcut %}
+
+{% cut "I want to take a certain type of project, but it's not in the list anymore" %}
+
+If the project you liked is no longer displayed, it may have already been completed or you don't meet the selection criteria set by the requester. While this project is absent, you can take other ones. The desired projects may appear again later.
+
+{% endcut %}
+
+{% cut "Can I complete projects in a foreign language?" %}
 
 Yes, if you are fluent enough in it.
 
 {% endcut %}
 
-{% cut "What should I do if I received a task that I do not want to complete?" %}
+{% cut "What should I do if I received a project that I do not want to complete?" %}
 
-If you don't want to complete a task from the list, don't start doing it. If you started a task, but you can't or don't want to complete the page that opens, go to the next one (use the {% if platform=="web" %}**{{ ui_worker_new-task-page__skip-button }}**{% elsif platform=="android" %}**{{ mobile_android_task_skip }}**{% elsif platform=="ios" %}**Skip**{% endif %}) button. Only fully completed tasks are paid for.
+If you don't want to complete a project from the list, don't start doing it. If you started a project, but you can't or don't want to complete the page that opens, go to the next one (use the {% if platform=="web" %}**{{ ui_worker_new-task-page__skip-button }}**{% elsif platform=="android" %}**{{ mobile_android_task_skip }}**{% elsif platform=="ios" %}**Skip**{% endif %}) button. Only fully completed projects are paid for.
 
-If you no longer want to complete this task, use the **Exit** button.
+If you no longer want to complete this project, use the **Exit** button.
 
 {% endcut %}
 
-{% cut "How do I stop task completion correctly if I decided to take a break?" %}
+{% cut "How do I stop project completion correctly if I decided to take a break?" %}
 
 Click the **Exit** button.
 
@@ -299,18 +299,18 @@ If you answered all the questions on the page, click the **Send** button. When a
 
 {% endcut %}
 
-{% cut "There are no tasks in the list" %}
+{% cut "There are no projects in the list" %}
 
 This happens because of the filters you set. Sometimes, Tolokers set up filters and then forget to disable them.
 Make sure that:
-- You chose at least one requester and at least one task category in the {% if platform=="web" %}[task list](../task-select.md){% elsif platform=="android" or platform=="ios"%}task list{% endif %}.
+- You chose at least one requester and at least one project category in the {% if platform=="web" %}[task list](../task-select.md){% elsif platform=="android" or platform=="ios"%}project list{% endif %}.
 - You specified the correct language in the {% if platform=="web" %}[profile]({{ toloka-profile }}){% elsif platform=="android" or platform=="ios"%}profile{% endif %}.
 - You linked your phone number to your [Yandex ID]({{ passport-phones }}).
 - You are not connected via a server located in Switzerland (this may happen if you are using an [anonymizer]({{ anonymizer }}), [VPN]({{ vpn }}) or [proxy server]({{ proxy-server }})).
 
 {% note info %}
 
-If you are willing to complete tasks that are marked 18+, check that the **{{ ui_core_profile_editor__label__allow_adult }}** option is turned on in your {% if platform=="web" %}[profile]({{ toloka-profile }}){% elsif platform=="android" or platform=="ios" %}profile{% endif %}.
+If you are willing to complete projects that are marked 18+, check that the **{{ ui_core_profile_editor__label__allow_adult }}** option is turned on in your {% if platform=="web" %}[profile]({{ toloka-profile }}){% elsif platform=="android" or platform=="ios" %}profile{% endif %}.
 
 {% endnote %}
 
@@ -336,7 +336,7 @@ Please don't send duplicate requests or ask for a faster response. The support s
 
 - Web version
 
-   To complete certain tasks, you need to set up access to your device microphone and camera. You can allow access in your browser settings. For information about how to do this, see the instructions for your browser.
+   To complete certain projects, you need to set up access to your device microphone and camera. You can allow access in your browser settings. For information about how to do this, see the instructions for your browser.
 
    {% cut "Select a browser" %}
 
@@ -381,7 +381,7 @@ Please don't send duplicate requests or ask for a faster response. The support s
 
 - Android
 
-   To complete certain tasks, you need to set up access to your device microphone and camera. You can allow access in your device settings.
+   To complete certain projects, you need to set up access to your device microphone and camera. You can allow access in your device settings.
 
    {% cut "Allow access in the settings" %}
 
@@ -401,7 +401,7 @@ Please don't send duplicate requests or ask for a faster response. The support s
 
 - iOS
 
-   To complete certain tasks, you need to set up access to your device microphone and camera. You can allow access in your device settings.
+   To complete certain projects, you need to set up access to your device microphone and camera. You can allow access in your device settings.
 
    {% cut "Allow access in the settings" %}
 
@@ -419,7 +419,7 @@ Please don't send duplicate requests or ask for a faster response. The support s
 
 To restore access, follow the link in the personal message from the administrator and fill out the feedback form. Technical support staff will review your message.
 
-The system may ban you due to frequent errors or frequent captcha updates. If you are banned again, you may lose access to tasks.
+The system may ban you due to frequent errors or frequent captcha updates. If you are banned again, you may lose access to projects.
 
 {% endcut %}
 
@@ -447,7 +447,7 @@ You can install the Toloka app for Android using Google Play or AppGallery. The 
 
 {% cut "I have installation problems because my operating system is too old" %}
 
-The app is available on devices running Android 6.0 or higher, or iOS 13.0 or higher. If you have an older version of the operating system, you won't be able to install the app. But you can complete tasks in the browser on your computer or laptop.
+The app is available on devices running Android 6.0 or higher, or iOS 13.0 or higher. If you have an older version of the operating system, you won't be able to install the app. But you can complete projects in the browser on your computer or laptop.
 
 {% endcut %}
 
@@ -513,36 +513,36 @@ The app is available in the following regions:
 
 {% endcut %}
 
-{% cut "How do I change the type of walk-home tasks?" %}
+{% cut "How do I change the type of walk-home projects?" %}
 
 Go to **Settings** by clicking on {% if platform == "android" or platform == "web" %}three horizontal stripes in the upper-left corner{% elsif platform == "ios"%}**{{ mobile_ios_more_title }}** in the lower-right corner{% endif %}, and switch the {% if platform == "android" or platform == "web" %}**{{ mobile_android_settings_map_title }}**{% elsif platform == "ios" %}**{{ mobile_ios_settings_show_map_screen_first_setting_title }}**{% endif %} option.
 
 {% endcut %}
 
-{% cut "How can I see all tasks that are near me on the map?" %}
+{% cut "How can I see all projects that are near me on the map?" %}
 
-To see all tasks located near you, switch to the task view mode on the map. You can do this {% if platform == "android" or platform == "web" %}by clicking the blue button with the map icon in the bottom right{% elsif platform == "ios" %}by switching to the **{{ ui_worker_tsk__tab_map }}** tab in the **{{ mobile_ios_all_tasks }}**{% endif %}section.
+To see all projects located near you, switch to the project view mode on the map. You can do this {% if platform == "android" or platform == "web" %}by clicking the blue button with the map icon in the bottom right{% elsif platform == "ios" %}by switching to the **{{ ui_worker_tsk__tab_map }}** tab in the **{{ mobile_ios_all_tasks }}**{% endif %}section.
 
 {% endcut %}
 
-{% cut "How do I hide a task?" %}
+{% cut "How do I hide a project?" %}
 
-Go to the main page, find the task you need, click on the three dots in the upper-right corner of the task card, and select **{{ ui_worker_task_menu__ignore_add }}**. This task will no longer be displayed on the main page.
+Go to the main page, find the project you need, click on the three dots in the upper-right corner of the project card, and select **{{ ui_worker_task_menu__ignore_add }}**. This project will no longer be displayed on the main page.
 To return it to the main page again, follow these steps:
 
-1. Go to the tasks page.
+1. Go to the projects page.
 1. In the filter on the right, put a check mark next to **{{ ui_worker_tasks_filter__with_ignored }}**.
-1. Find the task you need, click on the three dots in the upper-right corner of the task card, and select **{{ ui_worker_task_menu__ignore_remove }}**.
+1. Find the project you need, click on the three dots in the upper-right corner of the project card, and select **{{ ui_worker_task_menu__ignore_remove }}**.
 
 {% endcut %}
 
-{% cut "Tasks are not loaded in the app" %}
+{% cut "Projects are not loaded in the app" %}
 
 Try updating the app, reinstalling it, and restarting your mobile device.
 
 {% note warning %}
 
-Reinstalling the app will clear the history of completed tasks. You can view the full history of completed tasks and earnings on the [Toloka]({{ toloka }}) website.
+Reinstalling the app will clear the history of completed projects. You can view the full history of completed projects and earnings on the [Toloka]({{ toloka }}) website.
 
 {% endnote %}
 
@@ -552,40 +552,40 @@ Reinstalling the app will clear the history of completed tasks. You can view the
 
 {% cut "Technical issues" %}
 
-{% cut "I can't click "Submit" when I complete training tasks" %}
+{% cut "I can't click "Submit" when I complete training projects" %}
 
-You must have made mistakes when completing the task, so you can't submit it.
+You must have made mistakes when completing the project, so you can't submit it.
 How the training works:
 
-1. You give responses to all tasks on the page and click **{{ ui_core_btn-submit }}**.
+1. You give responses to all projects on the page and click **{{ ui_core_btn-submit }}**.
 1. The system compares your responses with the correct answers provided by the requester.
 1. If you make a mistake, a hint appears set against a red background.
-1. Change your responses to the correct ones in all the tasks where hints appeared.
+1. Change your responses to the correct ones in all the projects where hints appeared.
 1. Then click **{{ ui_core_btn-submit }}**.
 
-After you change all your responses to the correct ones, the training will be completed. If you think that you answered correctly, but the task is not accepted, take a screenshot of the page and send it to the author of the project.
+After you change all your responses to the correct ones, the training will be completed. If you think that you answered correctly, but the project is not accepted, take a screenshot of the page and send it to the author of the project.
 
 {% endcut %}
 
-{% cut "I open the task, but there are no points on the map" %}
+{% cut "I open the project, but there are no points on the map" %}
 
-Task authors group tasks according to their goals. If you don't see any available tasks in your city when trying to select points on the {% if platform == "android" or platform == "web" %}**{{ mobile_android_tasks_available }}**{% elsif platform == "ios"%}**{{ mobile_ios_all_tasks }}**{% endif %} tab, it means that there are no relevant tasks in this group. To see all tasks that are currently available in your city, switch to the task view mode on the map. To do this, {% if platform == "android" %}click the blue button with the map icon at the bottom right{% elsif platform == 'ios' %}switch to the **{{ ui_worker_tsk__tab_map }}**{% endif %} tab.
+Project authors group projects according to their goals. If you don't see any available projects in your city when trying to select points on the {% if platform == "android" or platform == "web" %}**{{ mobile_android_tasks_available }}**{% elsif platform == "ios"%}**{{ mobile_ios_all_tasks }}**{% endif %} tab, it means that there are no relevant projects in this group. To see all projects that are currently available in your city, switch to the project view mode on the map. To do this, {% if platform == "android" %}click the blue button with the map icon at the bottom right{% elsif platform == 'ios' %}switch to the **{{ ui_worker_tsk__tab_map }}**{% endif %} tab.
 
 {% endcut %}
 
-{% cut "After I click "Submit", the task remains in "Completed"" %}
+{% cut "After I click "Submit", the project remains in "Completed"" %}
 
-Check if the {% if platform == "android" %}**{{ mobile_android_settings_wifi_title }}**{% elsif platform == "ios"%}**{{ mobile_ios_settings_wifi_title }}**{% endif %} function is enabled in the app settings. If it is enabled, tasks will be submitted once your device connects to Wi-Fi. You can disable this setting to submit tasks via mobile Internet. If you connected to Wi-Fi, but the tasks are still not submitted, open each task, go to the menu, and select **{{ ui_core_btn-submit }}**.
+Check if the {% if platform == "android" %}**{{ mobile_android_settings_wifi_title }}**{% elsif platform == "ios"%}**{{ mobile_ios_settings_wifi_title }}**{% endif %} function is enabled in the app settings. If it is enabled, projects will be submitted once your device connects to Wi-Fi. You can disable this setting to submit projects via mobile Internet. If you connected to Wi-Fi, but the projects are still not submitted, open each project, go to the menu, and select **{{ ui_core_btn-submit }}**.
 
 {% endcut %}
 
 {% cut "Can several Tolokers use the same IP address?" %}
 
-According to the [User Agreement]({{ user-agreement }}), a user can only have one account in [Toloka]({{ toloka }}). Users who have different accounts in Toloka can complete tasks from the same IP address.
+According to the [User Agreement]({{ user-agreement }}), a user can only have one account in [Toloka]({{ toloka }}). Users who have different accounts in Toloka can complete projects from the same IP address.
 
 {% endcut %}
 
-{% cut "Can I install a third-party program or extension to refresh the page in the browser, notify me about new tasks, and so on?" %}
+{% cut "Can I install a third-party program or extension to refresh the page in the browser, notify me about new projects, and so on?" %}
 
 We can't guarantee that [Toloka]({{ toloka }}) will work correctly with additional programs or browser extensions because they were not tested by us. They might be used by hackers to access your account.
 
@@ -654,7 +654,7 @@ Please don't send duplicate requests or ask for a faster response. The support s
 
 {% cut "My skill level dropped" %}
 
-The skill level shows how well you handle certain types of tasks. The skill level is set by the requester based on your responses. Questions about skill changes should be [addressed to the requester](../messages.md#requester).
+The skill level shows how well you handle certain types of projects. The skill level is set by the requester based on your responses. Questions about skill changes should be [addressed to the requester](../messages.md#requester).
 
 Learn more about [skills](../skills.md).
 
@@ -662,7 +662,7 @@ Learn more about [skills](../skills.md).
 
 {% cut "Something doesn't work on the platform" %}
 
-{% cut "Tasks are not loading" %}
+{% cut "Projects are not loading" %}
 
 Try the following:
 
@@ -674,7 +674,7 @@ Try the following:
 
 {% note info %}
 
-You can also try opening [Toloka]({{ toloka }}) in Incognito mode. If you can open tasks in Incognito mode, it means that some extension is causing the error. If none of these methods help, contact the Toloka technical support.
+You can also try opening [Toloka]({{ toloka }}) in Incognito mode. If you can open projects in Incognito mode, it means that some extension is causing the error. If none of these methods help, contact the Toloka technical support.
 
 {% endnote %}
 
