@@ -4,7 +4,7 @@
 {% if platform == "web" %}
 # Список проектов
 
-[Авторизируйтесь](register.md) в Толоке и откройте страницу {% if locale=="ru-com" %}[Проекты](https://toloka.yandex.ru/tasks){% elsif locale=="en-com" %}[Tasks](https://toloka.yandex.com/tasks){% endif %}. По умолчанию сначала отображаются [избранные](#add-selected). Чтобы установить другой порядок сортировки, вверху над списком проектов выберите один из критериев:
+[Авторизируйтесь](register.md) в Толоке и откройте страницу {% if locale=="ru-com" %}[Проекты](https://we.toloka.ai/tasks){% elsif locale=="en-com" %}[Tasks](https://we.toloka.ai/tasks){% endif %}. По умолчанию сначала отображаются [избранные](#add-selected). Чтобы установить другой порядок сортировки, вверху над списком проектов выберите один из критериев:
 
 -    **{{ ui_worker_tasks_page__sort_by_new_to_old }}**
 -    **{{ ui_worker_tasks_page__sort_by_price }}**
