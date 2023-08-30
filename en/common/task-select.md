@@ -1,5 +1,5 @@
 {% if platform == "web" %}
-# Project list
+# Project feed
 {% elsif platform == "android" or platform == "ios" %}
 # Selecting a project
 {% endif %}
@@ -17,7 +17,7 @@ Select:
 
 To complete a non-field project:
 
-1. Open the list of projects by tapping {% if platform == "android" %}**![](assets/hamburger-menu.svg) → {{ mobile_android_tasks_available }}**{% elsif platform == "ios" %}the button **{{ mobile_ios_all_tasks }}**{% endif %}.
+1. Open the project feed by tapping {% if platform == "android" %}**![](assets/hamburger-menu.svg) → {{ mobile_android_tasks_available }}**{% elsif platform == "ios" %}the button **{{ mobile_ios_all_tasks }}**{% endif %}.
 1. Read the {% if locale == "ru-com" %}instructions{% elsif locale == "en-com" %}instructions{% endif %} and go to the project.
 1. Tap {% if platform == "ios" %}**{{ mobile_ios_start_task }}**{% elsif platform == "android" %}**{{ mobile_android_start_now }}**{% endif %}.
 1. Answer the questions and tap {% if platform == "ios" %}**{{ mobile_ios_submit_button}}**{% elsif platform == "android" %}**{{ mobile_android_task_submit }}**{% endif %}.
@@ -43,10 +43,10 @@ To continue performing the project, tap ![](assets/hamburger-menu.svg) → **{
 
 To complete a field project:
 
-1. Open the project list. {% if platform == "android" %}To do this, tap ![](assets/hamburger-menu.svg) → **{{ mobile_android_tasks_available }}** {% elsif platform == "ios" %}To do this, tap **{{ mobile_ios_all_tasks_title }}**{% endif %}.
+1. Open the project feed. {% if platform == "android" %}To do this, tap ![](assets/hamburger-menu.svg) → **{{ mobile_android_tasks_available }}** {% elsif platform == "ios" %}To do this, tap **{{ mobile_ios_all_tasks_title }}**{% endif %}.
 1. Use one of these ways to open project locations:
 
-   * Select a project in the project list and tap {% if platform == "android" %}**{{ mobile_android_task_choose }}**{% elsif platform == "ios"%}**{{ mobile_ios_open_map }}**{% endif %} to see the locations for this project.
+   * Select a project in the project feed and tap {% if platform == "android" %}**{{ mobile_android_task_choose }}**{% elsif platform == "ios"%}**{{ mobile_ios_open_map }}**{% endif %} to see the locations for this project.
    * Open the common map by tapping {% if platform == "android" %}![](assets/map-android2.png) at the bottom of the screen{% elsif platform == "ios"%} **{{ ui_worker_tsk__tab_map }}**{% endif %} to view locations with available projects.
 
    {% if platform == "ios" %}
@@ -61,7 +61,7 @@ To complete a field project:
 
    {% endif %}
 
-   To return to the project list, tap {% if platform == "android" %} ![](assets/list.png) at the bottom of the screen {% elsif platform == "ios" %} the **{{ mobile_ios_tasks_list_button }}** button at the top of the screen{% endif %}.
+   To return to the project feed, tap {% if platform == "android" %} ![](assets/list.png) at the bottom of the screen {% elsif platform == "ios" %} the **{{ mobile_ios_tasks_list_button }}** button at the top of the screen{% endif %}.
 
 1. Tap a placemark with a project.
 
@@ -80,15 +80,15 @@ To complete a field project:
 
 1. Read the {% if locale == "ru-com" %}instructions{% elsif locale == "en-com" %}instructions{% endif %}.
 
-1. Reserve a project by tapping {% if platform == "ios" %}**{{ mobile_ios_start_task_later_button }}**{% endif %}{% if platform == "android" %}**{{ mobile_android_task_postpone }}**{% endif %}. The project is displayed on the {% if platform == "android" %}**{{ mobile_android_tasks_reserved }}**{% endif %}{% if platform == "ios" %}**{{ mobile_ios_my_tasks }}**{% endif %} page. The countdown starts from this moment. The timer is displayed in the project header next to the ![](assets/clock.svg) icon. {% if locale == "ru-com" %}The{% endif %}{% if locale == "en-com" %}Max duration{% endif %} is specified in the project card.
+1. Reserve a task set by tapping {% if platform == "ios" %}**{{ mobile_ios_start_task_later_button }}**{% endif %}{% if platform == "android" %}**{{ mobile_android_task_postpone }}**{% endif %}. The task set is displayed on the {% if platform == "android" %}**{{ mobile_android_tasks_reserved }}**{% endif %}{% if platform == "ios" %}**{{ mobile_ios_my_tasks }}**{% endif %} page. The countdown starts from this moment. The timer is displayed in the task set header next to the ![](assets/clock.svg) icon. {% if locale == "ru-com" %}The{% endif %}{% if locale == "en-com" %}Max duration{% endif %} is specified in the task set card.
 
-   You can reserve several projects at once.
+   You can reserve several task sets at once.
 
 1. {% if platform == "android" %}To build a route, tap ![](assets/dots_vertical.svg) → **{{ mobile_android_task_build_route }}**.{% endif %}{% if platform == "ios" %}Create a route to the location by tapping **{{ mobile_ios_route_button }}**.{% endif %} The route is created in the [Yandex Maps]({{ ya-maps }}) app.
 
 1. Go to the location shown in the project. Next, select the desired project on the {% if platform == "ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_active_tasks }}** page and tap **{{ mobile_ios_continue_button }}**. {% endif %}{% if platform == "android" %}**{{ mobile_android_tasks_reserved }}** and tap **{{ mobile_android_task_resume }}**{% endif %}
 
-1. Perform the project:
+1. Complete the project:
    * Re-read the instructions.
    * Answer the questions and attach a photo (if required).
    * Tap {% if platform == "ios" %}**{{ mobile_ios_submit_button }}**{% elsif platform == "android" %}**{{ mobile_android_action_done }}**.{% endif %}
@@ -99,29 +99,29 @@ To complete a field project:
 
       {% endnote %}
 
-The project with the responses is saved on the {% if platform == "android" %}**{{ mobile_android_tasks_done }}**{% elsif platform == "ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_done_tasks }}**{% endif %} page until you connect to Wi-Fi, if you set the {% if platform == "android"%}**{{ mobile_android_settings_wifi_title }}**{% elsif platform == "ios" %}**{{ mobile_ios_settings_wifi_title }}**{% endif %} option in the [settings](settings.md). You need to make sure the project is submitted before the project time expires.
+The task set with the responses is saved on the {% if platform == "android" %}**{{ mobile_android_tasks_done }}**{% elsif platform == "ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_done_tasks }}**{% endif %} page until you connect to Wi-Fi, if you set the {% if platform == "android"%}**{{ mobile_android_settings_wifi_title }}**{% elsif platform == "ios" %}**{{ mobile_ios_settings_wifi_title }}**{% endif %} option in the [settings](settings.md). You need to make sure the task set is submitted before the task set time expires.
 {% endif %}
 
 {% if platform == "android" or platform == "ios" %}
 ### How do I make changes to a project? {#makechanges}
 
-If a project is completed but isn't sent yet, you can make changes to it:
+If a task set is completed but isn't sent yet, you can make changes to it:
 
-1. Open the project on the {% if platform == "android" %}**{{ mobile_android_tasks_done }}**{% elsif platform== "ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_done_tasks }}**{% endif %} page.
+1. Open the task set on the {% if platform == "android" %}**{{ mobile_android_tasks_done }}**{% elsif platform== "ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_done_tasks }}**{% endif %} page.
 1. {% if platform == "android" %}Tap ![](assets/dots_vertical.svg) at the top of the screen and select **{{ mobile_android_task_back_to_reserved }}**.{% elsif platform == "ios" %}Tap **{{ mobile_ios_assignment_return_to_active }}**.{% endif %}
-1. Go to the {% if platform == "android" %}**{{ mobile_android_tasks_reserved }}**{% elsif platform == "ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_active_tasks }}**{% endif %} page and {% if platform == "android" %}make changes to the project{% endif %}{% if platform == "ios" %}tap **{{ mobile_ios_continue_button }}**{% endif %}.
+1. Go to the {% if platform == "android" %}**{{ mobile_android_tasks_reserved }}**{% elsif platform == "ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_active_tasks }}**{% endif %} page and {% if platform == "android" %}make changes to the task set{% endif %}{% if platform == "ios" %}tap **{{ mobile_ios_continue_button }}**{% endif %}.
 1. {% if platform == "android" %}Tap **{{ mobile_android_action_done }}**{% endif %}
-   {% if platform == "ios" %}Make changes to the project and tap **{{ mobile_ios_submit_button }}**{% endif %}.
+   {% if platform == "ios" %}Make changes to the task set and tap **{{ mobile_ios_submit_button }}**{% endif %}.
 
 {% endif %}
 
 {% if platform == "android" or platform == "ios" %}
-### How do I submit a project? {#sendtask}
+### How do I submit a task set? {#sendtask}
 
-Project responses are sent to the requester as soon as you have internet access. To send, you need to open the mobile app. If the {% if platform == "android" %}**{{ mobile_android_settings_wifi_title }}**{% elsif platform == "ios" %}**{{ mobile_ios_settings_wifi_title }}**{% endif %} option is chosen in the [settings](settings.md), the project is sent after you connect to Wi-Fi. {% if platform == "android" or platform == "ios" %}To submit a project over mobile internet:{% endif %}
+Task set responses are sent to the requester as soon as you have internet access. To send, you need to open the mobile app. If the {% if platform == "android" %}**{{ mobile_android_settings_wifi_title }}**{% elsif platform == "ios" %}**{{ mobile_ios_settings_wifi_title }}**{% endif %} option is chosen in the [settings](settings.md), the task set is sent after you connect to Wi-Fi. {% if platform == "android" or platform == "ios" %}To submit a task set over mobile internet:{% endif %}
 
 {% if platform == "android" or platform == "ios" %}
-1. Open the project on the {% if platform == "android" %} **{{ mobile_android_tasks_done }}**{% elsif platform== "ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_done_tasks }}**{% endif %} page.
+1. Open the task set on the {% if platform == "android" %} **{{ mobile_android_tasks_done }}**{% elsif platform== "ios" %}**{{ mobile_ios_my_tasks }} → {{ mobile_ios_done_tasks }}**{% endif %} page.
 1. Tap {% if platform == "android" %}![](assets/dots_vertical.svg) at the top of the screen and choose **{{ mobile_android_task_force_submit }}**{% elsif platform== "ios" %}**{{ mobile_ios_assignment_submit_now }}**{% endif %}.
 
 {% endif %}
@@ -129,18 +129,18 @@ Project responses are sent to the requester as soon as you have internet access.
 {% if platform == "android" or platform == "ios" %}
 ## Tips and recommendations {#tips}
 
-The list of projects displays all projects, including both field and non-field projects. To open the list of projects, tap
+The project feed displays all projects, including both field and non-field projects. To open the project feed, tap
 {% if platform == "android" %}![](assets/hamburger-menu.svg) → **{{ mobile_android_tasks_available }}**{% endif %}
 {% if platform == "ios" %} **{{ mobile_ios_all_tasks_title }}**{% endif %}.
 
-{% if platform == "android" %}To manage the list of projects, apply filters and configure sorting:
+{% if platform == "android" %}To manage the project feed, apply filters and configure sorting:
 
 1. Tap ![](assets/filters-menu.svg) at the top of the screen.
 1. Choose one or more filters. Choose the requesters you want to see in the list. Set the sorting type.
 1. Tap **{{ mobile_android_apply_positive_button }}**.
 
 {% endif %}
-{% if platform == "ios" %}To manage your project list:
+{% if platform == "ios" %}To manage your project feed:
 1. Tap **{{ mobile_ios_filters_title }}** at the top of the screen.
 1. Use filters or sorting tools:
 

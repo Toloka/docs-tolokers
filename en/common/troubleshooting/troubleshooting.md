@@ -160,9 +160,9 @@ The average earnings displayed in the project card show how much you can earn on
 
 {% endcut %}
 
-{% cut "How do I remove a reservation from a project??" %}
+{% cut "How do I remove a reservation from a task set?" %}
 
-After the expiration of the allotted period, the reservation is automatically removed and the projects return to the main page. You can remove the reservation manually. To do this, go to the project, click **←** and select {% if platform=="android" or platform=="web" %}**{{ mobile_android_dialog_going_back_negative }}**{% elsif platform == 'ios' %}**{{ mobile_ios_task_action_refuse }}**{% endif %}. The option to reserve projects is provided for Tolokers' convenience. If for some reason you can't complete the projects you have reserved, it doesn't affect the availability of other projects or your performance in [Toloka]({{ toloka }}).
+After the expiration of the allotted period, the reservation is automatically removed and the projects return to the main page. You can remove the reservation manually. To do this, go to the task set, click **←** and select {% if platform=="android" or platform=="web" %}**{{ mobile_android_dialog_going_back_negative }}**{% elsif platform == 'ios' %}**{{ mobile_ios_task_action_refuse }}**{% endif %}. The option to reserve task sets is provided for Tolokers' convenience. If for some reason you can't complete the task sets you have reserved, it doesn't affect the availability of other projects or your performance in [Toloka]({{ toloka }}).
 
 {% endcut %}
 
@@ -303,7 +303,7 @@ If you answered all the questions on the page, click the **Send** button. When a
 
 This happens because of the filters you set. Sometimes, Tolokers set up filters and then forget to disable them.
 Make sure that:
-- You chose at least one requester and at least one project category in the {% if platform=="web" %}[task list](../task-select.md){% elsif platform=="android" or platform=="ios"%}project list{% endif %}.
+- You chose at least one requester and at least one project category in the {% if platform=="web" %}[project feed](../task-select.md){% elsif platform=="android" or platform=="ios"%}project feed{% endif %}.
 - You specified the correct language in the {% if platform=="web" %}[profile]({{ toloka-profile }}){% elsif platform=="android" or platform=="ios"%}profile{% endif %}.
 - You linked your phone number to your [Yandex ID]({{ passport-phones }}).
 - You are not connected via a server located in Switzerland (this may happen if you are using an [anonymizer]({{ anonymizer }}), [VPN]({{ vpn }}) or [proxy server]({{ proxy-server }})).
@@ -569,7 +569,7 @@ After you change all your responses to the correct ones, the training will be co
 
 {% cut "I open the project, but there are no points on the map" %}
 
-Project authors group projects according to their goals. If you don't see any available projects in your city when trying to select points on the {% if platform == "android" or platform == "web" %}**{{ mobile_android_tasks_available }}**{% elsif platform == "ios"%}**{{ mobile_ios_all_tasks }}**{% endif %} tab, it means that there are no relevant projects in this group. To see all projects that are currently available in your city, switch to the project view mode on the map. To do this, {% if platform == "android" %}click the blue button with the map icon at the bottom right{% elsif platform == 'ios' %}switch to the **{{ ui_worker_tsk__tab_map }}**{% endif %} tab.
+Project authors group task sets according to their goals. If you don't see any available projects in your city when trying to select points on the {% if platform == "android" or platform == "web" %}**{{ mobile_android_tasks_available }}**{% elsif platform == "ios"%}**{{ mobile_ios_all_tasks }}**{% endif %} tab, it means that there are no relevant projects in this group. To see all projects that are currently available in your city, switch to the project view mode on the map. To do this, {% if platform == "android" %}click the blue button with the map icon at the bottom right{% elsif platform == 'ios' %}switch to the **{{ ui_worker_tsk__tab_map }}**{% endif %} tab.
 
 {% endcut %}
 

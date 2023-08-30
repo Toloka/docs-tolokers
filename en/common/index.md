@@ -83,7 +83,7 @@ If you are looking for Mobile Help: ![](https://yastatic.net/s3/doc-binary/freez
     <div class="grid-item">
         <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/9facae90e4a837da815abddcbf9d339b0b878b78.svg"></div>
         <div>
-            <h3><a href="task-select">Project list</a></h3>
+            <h3><a href="task-select">Project feed</a></h3>
 			<p>How to sort projects using filters.</p>
         </div>
     </div>
@@ -147,7 +147,7 @@ If you are looking for Mobile Help: ![](https://yastatic.net/s3/doc-binary/freez
 * [Required settings](settings.md)
 * [Selecting a project](task-select.md)
 * [How to be a successful Toloker](tasks.md)
-* [Projects under review](priemka.md)
+* [Task sets under review](priemka.md)
 * [Profile](profile.md)
 * [Messages](messages.md)
 * [Skills](skills.md)

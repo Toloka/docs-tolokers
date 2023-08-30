@@ -14,7 +14,7 @@ items:
   - name: Required settings
     href: settings.md
     when: platform == "android" or platform == "ios"
-  - name: Project list
+  - name: Project feed
     href: task-select.md
     when: platform == "web"
   - name: Entering captchas
@@ -25,7 +25,7 @@ items:
     when: platform == "ios" or platform == "android"
   - name: How to be a successful Toloker
     href: tasks.md
-  - name: Projects under review
+  - name: Task sets under review
     href: priemka.md
   - name: Profile
     href: profile.md
