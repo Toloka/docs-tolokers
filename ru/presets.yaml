@@ -5,14 +5,14 @@ default:
   toloka: 'https://toloka.ai/tolokers/ru/'
   yoomoney-ref: 'https://yoomoney.ru'
   yoomoney-name: 'ЮMoney'
-  toloka-tasks: 'https://toloka.yandex.com/ru/tasks'
-  toloka-achievements: 'https://toloka.yandex.ru/achievements'
-  toloka-profile: 'http://toloka.yandex.ru/profile'
-  toloka-profile-history: 'https://toloka.yandex.ru/profile/history'
-  toloka-profile-money: 'https://toloka.yandex.ru/profile/money'
-  toloka-messages: 'http://toloka.yandex.ru/messages'
-  toloka-referral: 'https://toloka.yandex.ru/profile/referral'
-  toloka-money: 'https://toloka.yandex.ru/profile/money'
+  toloka-tasks: 'https://we.toloka.ai/tasks'
+  toloka-achievements: 'https://we.toloka.ai/achievements'
+  toloka-profile: 'https://we.toloka.ai/profile'
+  toloka-profile-history: 'https://we.toloka.ai/profile/history'
+  toloka-profile-money: 'https://we.toloka.ai/profile/money'
+  toloka-messages: 'https://we.toloka.ai/messages'
+  toloka-referral: 'https://we.toloka.ai/profile/referral'
+  toloka-money: 'https://we.toloka.ai/profile/money'
   toloka-app-android: 'https://toloka.ai/tolokers/docs/android/?lang=ru'
   toloka-app-ios: 'https://toloka.ai/tolokers/docs/ios/?lang=ru'
   user-agreement: 'https://yandex.ru/legal/toloka_useragreement/index.html'
@@ -23,9 +23,9 @@ default:
   toloka-blog: 'https://join.toloka.ai/blog/'
   passport: 'https://passport.yandex.ru/'
   passport-reg-toloka: >-
-    https://passport.yandex.ru/registration?mode=register&amp;retpath=https://toloka.yandex.ru
+    https://passport.yandex.ru/registration?mode=register&amp;retpath=https://we.toloka.ai
   passport-auth-toloka: >-
-    https://passport.yandex.ru/passport?mode=auth&amp;retpath=https://toloka.yandex.ru
+    https://passport.yandex.ru/passport?mode=auth&amp;retpath=https://we.toloka.ai
   passport-profile: 'https://passport.yandex.ru/profile'
   passport-restore: 'https://passport.yandex.ru/passport?mode=restore'
   passport-phones: 'https://passport.yandex.ru/profile/phones'
@@ -108,7 +108,7 @@ default:
   yoomoney-send-request: 'https://yoomoney.ru/page?id=536164'
   yoomoney-help: 'https://yoomoney.ru/help'
   yoomoney-feedback: 'https://yoomoney.ru/feedback/'
-  papara: 'http://www.papara.com/'
+  papara: 'https://www.papara.com/'
   papara-support: 'https://www.papara.com/#!/support'
   privatbank: 'https://privatbank.ua/ru/'
   bps-sberbank-offices: >-
@@ -127,7 +127,7 @@ default:
   nalog-npd-lk: 'https://lknpd.nalog.ru/auth/login'
   nalog-support-online: 'https://www.nalog.ru/rn77/service/service_feedback/?service=3'
   npd-pensioner: 'https://journal.tinkoff.ru/news/pensioner-na-npd/'
-  pfrf: 'http://www.pfrf.ru/knopki/zhizn/'
+  pfrf: 'https://www.pfrf.ru/knopki/zhizn/'
   googleplay-toloka: 'https://play.google.com/store/apps/details?id=com.yandex.toloka.androidapp'
   appgallery-toloka: 'https://appgallery.huawei.com/#/app/C101068701'
   ya-maps: 'https://play.google.com/store/apps/details?id=ru.yandex.yandexmaps&hl=en'

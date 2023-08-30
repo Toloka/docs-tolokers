@@ -10,7 +10,7 @@
       - скриншот с сайта Госуслуги, на котором видны ФИО, дата рождения и номер ИНН.
 
 {% if platform == "web" %}
-1. Откройте страницу [**{{ ui_worker_prfl-tab-profile }}**](https://toloka.yandex.ru/profile) в Толоке. В верхней части будет окно с предложением подтвердить свою личность. Нажмите кнопку **Подтвердить**.
+1. Откройте страницу [**{{ ui_worker_prfl-tab-profile }}**](https://we.toloka.ai/profile) в Толоке. В верхней части будет окно с предложением подтвердить свою личность. Нажмите кнопку **Подтвердить**.
 
    ![](../assets/self-employed/self-employed.png =700x)
 
@@ -40,4 +40,3 @@
 - [Как подключить СБП](../pay/sbp.md)
 
 [![](../assets/buttons/contact-support.svg)](../troubleshooting/troubleshooting.md#self-employed)
-
