@@ -23,7 +23,7 @@ If you haven't reached your [tax deduction limit]({{ self-employed-state }}) (10
 
 - If you receive unemployment payments (pension, benefits, or subsidies), check in advance whether you will lose them by becoming self-employed. You can check with the organizations that issue your payments, such as the Pension Fund.
 
-- If you later cancel your self-employment status, you will no longer be able to complete tasks and withdraw money from your [Toloka]({{ toloka }}) account.
+- If you later cancel your self-employment status, you will no longer be able to complete projects and withdraw money from your [Toloka]({{ toloka }}) account.
 
 
 

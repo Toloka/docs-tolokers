@@ -45,9 +45,9 @@
 {% endif%}
 
 {% if platform == "web" %}
-[Toloka]({{ toloka }}) is a crowdsourcing platform that helps process large amounts of data by distributing tasks to a large pool of annotators.
+[Toloka]({{ toloka }}) is a crowdsourcing platform that helps process large amounts of data by distributing projects to a large pool of annotators.
 
-Requesters post tasks and set a price, while Tolokers choose tasks, [complete](tasks.md) them, and earn [money](priemka.md#pay).
+Requesters post projects and set a price, while Tolokers choose projects, [complete](tasks.md) them, and earn [money](priemka.md#pay).
 
 Tolokers can help classify images, transcribe audio recordings, moderate comments, complete focus group surveys, and so on. The resulting data can be used for training machine learning algorithms or other purposes.
 
@@ -83,8 +83,8 @@ If you are looking for Mobile Help: ![](https://yastatic.net/s3/doc-binary/freez
     <div class="grid-item">
         <div class="gallery_img"><img src="https://yastatic.net/s3/doc-binary/freeze/ru/toloka-common/9facae90e4a837da815abddcbf9d339b0b878b78.svg"></div>
         <div>
-            <h3><a href="task-select">Task list</a></h3>
-			<p>How to sort tasks using filters.</p>
+            <h3><a href="task-select">Project feed</a></h3>
+			<p>How to sort projects using filters.</p>
         </div>
     </div>
     <div class="grid-item">
@@ -145,9 +145,9 @@ If you are looking for Mobile Help: ![](https://yastatic.net/s3/doc-binary/freez
 * [About](about.md)
 * [Registration and logging in](auth.md)
 * [Required settings](settings.md)
-* [Selecting a task](task-select.md)
+* [Selecting a project](task-select.md)
 * [How to be a successful Toloker](tasks.md)
-* [Tasks under review](priemka.md)
+* [Task sets under review](priemka.md)
 * [Profile](profile.md)
 * [Messages](messages.md)
 * [Skills](skills.md)

@@ -5,7 +5,7 @@
 #### Calculating the friend referral bonus
 
 The bonus is:
-- 20% of the price of field tasks completed by the friend and accepted by the requester within a month after registration, in these cities:
+- 20% of the price of field projects completed by the friend and accepted by the requester within a month after registration, in these cities:
 
    {% cut "List of cities" %}
 
@@ -650,9 +650,9 @@ The bonus is:
    {% endcut %}
 
 
-- 5% of the price of other tasks completed by the friend and accepted by the requester within a month after registration:
+- 5% of the price of other projects completed by the friend and accepted by the requester within a month after registration:
 - 5% of the bonus amount received by the friend within a month after registration, excluding the friend referral bonus.
-- For tasks in Vietnamese: $5 for a friend who completed tasks for a total of at least $5. A task is considered completed if the requester accepts it. The bonus is paid once for each friend of this type.
+- For projects in Vietnamese: $5 for a friend who completed projects for a total of at least $5. A project is considered completed if the requester accepts it. The bonus is paid once for each friend of this type.
    Bonuses for all friends are combined.
 
 {% note alert %}
@@ -663,11 +663,11 @@ We do not provide details of the bonus calculation.
 
 If you are banned for violating the [User Agreement]({{ user-agreement }}), the bonus is not given.
 
-A month after a friend registers, their completed tasks are excluded from the bonus calculation.
+A month after a friend registers, their completed projects are excluded from the bonus calculation.
 
 #### Awarding the friend referral bonus
 
-The bonus amount is credited to your [Toloka]({{ toloka }}) account no more than once a day for tasks completed by friends and accepted by the requester during the previous day.
+The bonus amount is credited to your [Toloka]({{ toloka }}) account no more than once a day for projects completed by friends and accepted by the requester during the previous day.
 
 The bonus is given with accuracy up to $0.01.
 
@@ -679,7 +679,7 @@ The bonus is given with accuracy up to $0.01.
 #### Calculating the friend referral bonus
 
 The bonus is:
-- 20% of the price of field tasks completed by the friend and accepted by the requester within a month after registration, in these cities:
+- 20% of the price of field projects completed by the friend and accepted by the requester within a month after registration, in these cities:
 
 
    {% cut "List of cities" %}
@@ -2356,7 +2356,7 @@ The bonus is:
    {% endcut %}
 
 
-- 5% of the price of other tasks completed by the friend and accepted by the requester within a month after registration:
+- 5% of the price of other projects completed by the friend and accepted by the requester within a month after registration:
 - 5% of the bonus amount received by the friend within a month after registration, excluding the friend referral bonus.
    Bonuses for all friends are combined.
 
@@ -2369,11 +2369,11 @@ We do not provide details of the bonus calculation.
 
 If you are banned for violating the [User Agreement]({{ user-agreement }}), the bonus is not given.
 
-A month after a friend registers, their completed tasks are excluded from the bonus calculation.
+A month after a friend registers, their completed projects are excluded from the bonus calculation.
 
 #### Awarding the friend referral bonus
 
-The bonus amount is credited to your [Toloka]({{ toloka }}) account no more than once a day for tasks completed by friends and accepted by the requester during the previous day.
+The bonus amount is credited to your [Toloka]({{ toloka }}) account no more than once a day for projects completed by friends and accepted by the requester during the previous day.
 
 The bonus is given with accuracy up to $0.01.
 
@@ -2384,7 +2384,7 @@ The bonus is given with accuracy up to $0.01.
 #### Calculating the friend referral bonus
 
 The bonus is 5% of:
-- Price of tasks completed by the friend and accepted by the requester within a month after registration.
+- Price of projects completed by the friend and accepted by the requester within a month after registration.
 - Bonus amount received by the friend within a month after registration.
    Bonuses for all friends are combined.
 
@@ -2397,11 +2397,11 @@ We do not provide details of the bonus calculation.
 
 If you are banned for violating the [User Agreement]({{ user-agreement }}), the bonus is not given.
 
-A month after a friend registers, their completed tasks are excluded from the bonus calculation.
+A month after a friend registers, their completed projects are excluded from the bonus calculation.
 
 #### Awarding the friend referral bonus
 
-The bonus amount is credited to your [Toloka]({{ toloka }}) account no more than once a day for tasks completed by friends and accepted by the requester during the previous day.
+The bonus amount is credited to your [Toloka]({{ toloka }}) account no more than once a day for projects completed by friends and accepted by the requester during the previous day.
 
 The bonus is given with accuracy up to $0.01.
 

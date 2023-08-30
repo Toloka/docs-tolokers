@@ -1,6 +1,6 @@
 # Awards
 
-The Awards section tracks your achievements for completing tasks and inviting friends.
+The Awards section tracks your achievements for completing projects and inviting friends.
 
 {% if platform == "web" %}
 
@@ -26,13 +26,13 @@ Click on the award icon to find out how to earn it.
 
 ## Types of awards {#section_qsd_fmr_r3b}
 
-- **For knowledge of Toloka.** Complete a training task, field task, or mobile task, earn your first money, and withdraw it from your Toloka account.
+- **For knowledge of Toloka.** Complete a training project, field project, or mobile project, earn your first money, and withdraw it from your Toloka account.
 - **For activity.** Users get these awards for performing different actions on the platform. Like turning on push notifications or inviting friends to Toloka.
 - **Multilevel awards** are given for reaching a certain skill level. With each new level, you get a new award.
 
    {% cut "Example" %}
 
-   The "In the know" Level 1 award is given for completing 10 training tasks. Level 2 is awarded for completing 100 training tasks, and so on. Level 5 is the highest.
+   The "In the know" Level 1 award is given for completing 10 training projects. Level 2 is awarded for completing 100 training projects, and so on. Level 5 is the highest.
 
    ![](assets/achievements/multilevel.png)
 

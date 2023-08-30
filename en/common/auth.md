@@ -19,7 +19,7 @@ You can register in Toloka through social networks:
 4. Enter the phone number and click **Send code**. We will send a text message with a confirmation code to this phone number.
 5. Enter the code from the text message and click **Submit**. If you haven't received the code or entered an incorrect one, click the **Resend code** link. You can request a new code in a minute.
 6. Fill in the information about yourself: first and last name, date of birth, country. Read the [User agreement]({{ user-agreement }}), confirm that you are 18 or older, and click **Continue**.
-7. After successful registration, you can start completing tasks.
+7. After successful registration, you can start completing projects.
 
 ## Authorization {#authorization}
 
@@ -28,7 +28,7 @@ You can register in Toloka through social networks:
 3. In the opened social network window, do one of the following:
    - Select the social media profile if you're already logged in.
    - Log in to the social network if you you aren't logged in.
-4. You can complete tasks.
+4. You can complete projects.
 
 ## FAQ {#faq}
 

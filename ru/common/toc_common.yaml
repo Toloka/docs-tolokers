@@ -19,18 +19,18 @@ items:
     when: platform == "ios" or platform == "android"
     hidden: true
   - href: task-select.md
-    name: Список заданий
+    name: Список проектов
     when: platform == "web"
   - href: captcha.md
     name: Ввод капчи
     when: platform == "web" or platform == "ios" or platform == "android"
   - href: task-select.md
-    name: Выбор задания
+    name: Выбор проекта
     when: platform == "ios" or platform == "android"
   - href: tasks.md
     name: Как быть успешным толокером
   - href: priemka.md
-    name: Задания на проверке
+    name: Сеты заданий на проверке
   - href: profile.md
     name: Профиль
   - href: messages.md
