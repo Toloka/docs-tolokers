@@ -3,14 +3,14 @@ default:
   locale: en-com
   platform: web
   toloka: https://toloka.ai/tolokers/en/
-  toloka-tasks: https://toloka.yandex.com/tasks
-  toloka-achievements: https://toloka.yandex.com/achievements
-  toloka-profile: http://toloka.yandex.com/profile
-  toloka-profile-history: https://toloka.yandex.com/profile/history
-  toloka-profile-money: https://toloka.yandex.ru/profile/money
-  toloka-messages: http://toloka.yandex.com/messages
-  toloka-referral: https://toloka.yandex.com/profile/referral
-  toloka-money: https://toloka.yandex.com/profile/money
+  toloka-tasks: https://we.toloka.ai/tasks
+  toloka-achievements: https://we.toloka.ai/achievements
+  toloka-profile: https://we.toloka.ai/profile
+  toloka-profile-history: https://we.toloka.ai/profile/history
+  toloka-profile-money: https://we.toloka.ai/profile/money
+  toloka-messages: https://we.toloka.ai/messages
+  toloka-referral: https://we.toloka.ai/profile/referral
+  toloka-money: https://we.toloka.ai/profile/money
   toloka-app-android: https://we.toloka.ai/docs/android/
   toloka-app-ios: https://we.toloka.ai/docs/ios/
   user-agreement: https://toloka.ai/tolokers/legal/user-agreement/
@@ -20,8 +20,8 @@ default:
   toloka-facebook: https://www.facebook.com/tolokaworldwide
   toloka-blog: https://join.toloka.ai/blog/
   passport: https://passport.yandex.com/
-  passport-reg-toloka: https://passport.yandex.com/registration?mode=register&amp;retpath=https://toloka.yandex.com/en
-  passport-auth-toloka: https://passport.yandex.com/passport?mode=auth&retpath=https://toloka.yandex.com
+  passport-reg-toloka: https://passport.yandex.com/registration?mode=register&amp;retpath=https://we.toloka.ai
+  passport-auth-toloka: https://passport.yandex.com/passport?mode=auth&retpath=https://we.toloka.ai
   passport-profile: https://passport.yandex.com/profile
   passport-restore: https://passport.yandex.com/passport?mode=restore
   passport-phones: https://passport.yandex.com/profile/phones
@@ -81,7 +81,7 @@ default:
   yoomoney-id-unistream: https://clck.ru/Sxwjc
   yoomoney-id-agents: https://clck.ru/SxwmG
   yoomoney-id-post: https://clck.ru/SxwsL
-  papara: http://www.papara.com/
+  papara: https://www.papara.com/
   papara-support: https://www.papara.com/#!/support
   privatbank: https://privatbank.ua/ru/
   bps-sberbank-offices: https://www.bps-sberbank.by/page/offices?categoriesMenu=individuals
@@ -98,7 +98,7 @@ default:
   nalog-npd-lk: https://lknpd.nalog.ru/auth/login
   nalog-support-online: https://www.nalog.ru/rn77/service/service_feedback/?service=3
   npd-pensioner: https://journal.tinkoff.ru/news/pensioner-na-npd/
-  pfrf: http://www.pfrf.ru/knopki/zhizn/
+  pfrf: https://www.pfrf.ru/knopki/zhizn/
   googleplay-toloka: https://play.google.com/store/apps/details?id=com.yandex.toloka.androidapp
   appgallery-toloka: https://appgallery.huawei.com/#/app/C101068701
   appstore-toloka: https://apps.apple.com/us/app/yandex-toloka/id1282350367

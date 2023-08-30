@@ -164,7 +164,7 @@ The list of projects displays all projects, including both field and non-field p
 
 {% endif %}
 
-Unavailable projects are marked with the ![](assets/lock.svg) icon. The condition for accessing the project is indicated next to it. Some projects can only be performed in the browser on the {% if locale == "en-com" %}[toloka.yandex.com]({{ toloka }}){% else %}[toloka.yandex.ru]({{ toloka }}){% endif %}.
+Unavailable projects are marked with the ![](assets/lock.svg) icon. The condition for accessing the project is indicated next to it. Some projects can only be performed in the browser on the [we.toloka.ai]({{ toloka }}).
 {% endif %} website.
 
 {% if platform == "android" or platform == "ios" %}
@@ -203,7 +203,7 @@ To choose which project information to display in the label:
    {% endif %}
 
 {% if platform == "web" %}
-Open the [Project](https://toloka.yandex.ru/tasks) page. By default, projects are displayed according to the **{{ ui_worker_tasks_page__sort_by_bookmarked_first }}** criteria. You can set a different sorting order in the row above:
+Open the [Project](https://we.toloka.ai/tasks) page. By default, projects are displayed according to the **{{ ui_worker_tasks_page__sort_by_bookmarked_first }}** criteria. You can set a different sorting order in the row above:
 
 - **{{ ui_worker_tasks_page__sort_by_new_to_old }}**
 - **{{ ui_worker_tasks_page__sort_by_price }}**

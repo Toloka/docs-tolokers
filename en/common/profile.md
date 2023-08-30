@@ -34,7 +34,7 @@ Go to [Managing your Yandex ID]({{ passport-profile }}) and click **Add a photo*
 
 Open the Notifications page and choose which notifications you want to receive and how you want to receive them.
 
-If notifications are disabled in your browser, enable them for {% if locale == "ru-com" %}toloka.yandex.ru{% elsif locale == "en-com"%}toloka.yandex.com{% endif %}:
+If notifications are disabled in your browser, enable them for `we.toloka.ai`:
 
 {% list tabs %}
 
@@ -44,7 +44,7 @@ If notifications are disabled in your browser, enable them for {% if locale == "
    1. On the left side of the **Settings** page, click **Websites**.
    1. In the **Notifications** block, click **Other sites**.
    1. In the **Allowed** tab, click **Add** at the top right.
-   1. Enter {% if locale == "ru-com" %}`toloka.yandex.ru`{% elsif locale == "en-com" %}`toloka.yandex.com`{% endif %}.
+   1. Enter `we.toloka.ai`.
    1. Click **Add**.
 
 - Chrome
@@ -54,7 +54,7 @@ If notifications are disabled in your browser, enable them for {% if locale == "
    1. In the **Privacy and security** section, click the **Content settings** button.
    1. Choose **Notifications**.
    1. Next to **Allow**, click **Add**.
-   1. Enter {% if locale == "ru-com" %}`toloka.yandex.ru`{% elsif locale == "en-com" %}`toloka.yandex.com`{% endif %}.
+   1. Enter `we.toloka.ai`.
    1. Choose **Add**.
 
 - Opera
@@ -62,7 +62,7 @@ If notifications are disabled in your browser, enable them for {% if locale == "
    1. Open the menu and choose **Settings**.
    1. Choose **Sites** in the list on the left.
    1. In the **Notifications** section, click the **Managing exceptions** button.
-   1. Enter {% if locale == "ru-com" %}`toloka.yandex.ru`{% elsif locale == "en-com" %}`toloka.yandex.com`{% endif %}.
+   1. Enter `we.toloka.ai`.
    1. Choose **Allow**.
    1. Click the **Save** button.
 
@@ -71,7 +71,7 @@ If notifications are disabled in your browser, enable them for {% if locale == "
    1. Click ![](assets/menu.svg) on the top right and then **Settings**.
    1. Choose **Privacy and protection** in the list on the left.
    1. In the **Permissions** section, click the **Parameters** button next to **Notifications**.
-   1. Next to the {% if locale == "ru-com" %}`toloka.yandex.ru`{% elsif locale == "en-com" %}`toloka.yandex.com`{% endif %} address, choose the **Allow** status.
+   1. Next to the `we.toloka.ai` address, choose the **Allow** status.
    1. Click the **Save** button.
 
 - Edge
@@ -79,7 +79,7 @@ If notifications are disabled in your browser, enable them for {% if locale == "
    1. Click ![](assets/dots_horizontal.svg) on the top right and then **Parameters**.
    1. At the bottom of the **Settings** page, click the **View advanced settings** button.
    1. In the **Website permissions** section, click the **Manage** button.
-   1. Choose Toloka {% if locale == "ru-com" %}`toloka.yandex.ru`{% elsif locale == "en-com" %}`toloka.yandex.com`{% endif %}.
+   1. Choose Toloka `we.toloka.ai`.
    1. Turn on notifications.
 
 {% endlist %}
